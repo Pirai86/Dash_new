@@ -1,0 +1,72 @@
+[
+  {
+    "Gene": "ADCY1",
+    "log2FoldChange": -2.6358,
+    "padj": 0.0113,
+    "ID": "WP4222",
+    "Term": "Phosphodiesterases in neuronal function"
+  },
+  {
+    "Gene": "ADCY8",
+    "log2FoldChange": -5.3181,
+    "padj": 0.077,
+    "ID": "WP4222",
+    "Term": "Phosphodiesterases in neuronal function"
+  },
+  {
+    "Gene": "PPP1R1B",
+    "log2FoldChange": -2.8863,
+    "padj": 0.0898,
+    "ID": "WP4222",
+    "Term": "Phosphodiesterases in neuronal function"
+  },
+  {
+    "Gene": "PDE5A",
+    "log2FoldChange": -1.2745,
+    "padj": 1,
+    "ID": "WP4222",
+    "Term": "Phosphodiesterases in neuronal function"
+  },
+  {
+    "Gene": "PRKG1",
+    "log2FoldChange": -0.5519,
+    "padj": 1,
+    "ID": "WP4222",
+    "Term": "Phosphodiesterases in neuronal function"
+  },
+  {
+    "Gene": "PDE7B",
+    "log2FoldChange": -0.2879,
+    "padj": 1,
+    "ID": "WP4222",
+    "Term": "Phosphodiesterases in neuronal function"
+  },
+  {
+    "Gene": "CREB1",
+    "log2FoldChange": -0.2789,
+    "padj": 1,
+    "ID": "WP4222",
+    "Term": "Phosphodiesterases in neuronal function"
+  },
+  {
+    "Gene": "GUCY1A1",
+    "log2FoldChange": -0.3092,
+    "padj": 1,
+    "ID": "WP4222",
+    "Term": "Phosphodiesterases in neuronal function"
+  },
+  {
+    "Gene": "ADCY4",
+    "log2FoldChange": -1.1193,
+    "padj": 1,
+    "ID": "WP4222",
+    "Term": "Phosphodiesterases in neuronal function"
+  },
+  {
+    "Gene": "GUCY1A2",
+    "log2FoldChange": -0.3751,
+    "padj": 1,
+    "ID": "WP4222",
+    "Term": "Phosphodiesterases in neuronal function"
+  }
+]

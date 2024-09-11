@@ -1,0 +1,662 @@
+[
+  {
+    "Gene": "CXCL12",
+    "padj": 5.5246e-81,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "POSTN",
+    "padj": 4.3412e-34,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "COL1A1",
+    "padj": 8.1578e-33,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "SUN2",
+    "padj": 2.6016e-32,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "ADAMTS1",
+    "padj": 3.8284e-30,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PDPN",
+    "padj": 1.0646e-24,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "FAM107A",
+    "padj": 1.452e-19,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "TGFBR2",
+    "padj": 1.8217e-18,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "HMOX1",
+    "padj": 1.899e-17,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PLPP3",
+    "padj": 3.605e-15,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "DAAM2",
+    "padj": 8.876e-15,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "VEGFA",
+    "padj": 3.1514e-14,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "IRS2",
+    "padj": 4.293e-14,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "LRRC15",
+    "padj": 5.6296e-12,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "EPHB2",
+    "padj": 2.1997e-11,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "MYADM",
+    "padj": 8.7859e-11,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "ARHGEF2",
+    "padj": 2.4086e-10,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "AKAP12",
+    "padj": 2.5123e-10,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "TWIST2",
+    "padj": 5.6572e-10,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "TNFAIP6",
+    "padj": 2.7773e-09,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PIK3R1",
+    "padj": 7.1081e-09,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "DAPK2",
+    "padj": 7.9598e-09,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "CARMIL1",
+    "padj": 8.9685e-08,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "NSMF",
+    "padj": 1.4623e-07,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "NEDD9",
+    "padj": 3.1084e-07,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PTN",
+    "padj": 3.5374e-07,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "ENPP2",
+    "padj": 4.0447e-07,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "SEMA6D",
+    "padj": 1.0268e-06,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "BDKRB1",
+    "padj": 1.5908e-06,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PIK3R3",
+    "padj": 1.7729e-06,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "SEMA3A",
+    "padj": 2.7927e-06,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PDGFC",
+    "padj": 3.1154e-06,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "HSPB1",
+    "padj": 4.8815e-06,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "RRAS",
+    "padj": 0,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "CCL11",
+    "padj": 0,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "ITGA2",
+    "padj": 0,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "HGF",
+    "padj": 0,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "RHOB",
+    "padj": 0,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "LAMB1",
+    "padj": 0,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "MDM2",
+    "padj": 0,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "S1PR1",
+    "padj": 0,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "CCBE1",
+    "padj": 0.0001,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "AGT",
+    "padj": 0.0001,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "NRP2",
+    "padj": 0.0001,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "FGF10",
+    "padj": 0.0001,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "ACTN4",
+    "padj": 0.0002,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "IL16",
+    "padj": 0.0002,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "RRAS2",
+    "padj": 0.0002,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "RHOJ",
+    "padj": 0.0002,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PRKCE",
+    "padj": 0.0003,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "ROCK2",
+    "padj": 0.0003,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "ACTA2",
+    "padj": 0.0003,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "NR4A3",
+    "padj": 0.0003,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PTP4A1",
+    "padj": 0.0005,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "CAV1",
+    "padj": 0.0005,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "HDAC7",
+    "padj": 0.0006,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "CAVIN1",
+    "padj": 0.0009,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "TGFB2",
+    "padj": 0.002,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PLK2",
+    "padj": 0.002,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "WNT5A",
+    "padj": 0.0023,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "ANGPT1",
+    "padj": 0.0024,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "FZD4",
+    "padj": 0.0024,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "IL6R",
+    "padj": 0.0031,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "NTN1",
+    "padj": 0.0032,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "SEMA5A",
+    "padj": 0.0036,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "MYO1C",
+    "padj": 0.0044,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PRKD1",
+    "padj": 0.0052,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "SMO",
+    "padj": 0.0053,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "VSIR",
+    "padj": 0.0057,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "DOCK5",
+    "padj": 0.0065,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "GPNMB",
+    "padj": 0.0069,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "SEMA3B",
+    "padj": 0.0069,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "SWAP70",
+    "padj": 0.0073,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "SOX9",
+    "padj": 0.0094,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "ADRA2A",
+    "padj": 0.0097,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "STAT5A",
+    "padj": 0.0149,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "JAK2",
+    "padj": 0.015,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "STAT3",
+    "padj": 0.0155,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "SPARC",
+    "padj": 0.017,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "TPBG",
+    "padj": 0.0174,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "MAPRE2",
+    "padj": 0.0191,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "ATOH8",
+    "padj": 0.0205,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "IL6",
+    "padj": 0.0246,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "GAS6",
+    "padj": 0.0303,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "ACTG1",
+    "padj": 0.0361,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "HIF1A",
+    "padj": 0.0416,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PTGS2",
+    "padj": 0.046,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PIK3CD",
+    "padj": 0.0532,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "IL34",
+    "padj": 0.0551,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "ANXA1",
+    "padj": 0.0579,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "CCN1",
+    "padj": 0.059,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "FERMT2",
+    "padj": 0.0628,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "MTOR",
+    "padj": 0.0636,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "FGF1",
+    "padj": 0.0636,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "LPAR1",
+    "padj": 0.069,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "KIT",
+    "padj": 0.0703,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "MAP2K3",
+    "padj": 0.0714,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "CAMK1D",
+    "padj": 0.0752,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "FLNA",
+    "padj": 0.0772,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "VEGFC",
+    "padj": 0.0772,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "MET",
+    "padj": 0.0869,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "IL12A",
+    "padj": 0.0903,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "MDK",
+    "padj": 0.0972,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PDGFRA",
+    "padj": 0.0986,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "SYDE1",
+    "padj": 0.1065,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "CCL7",
+    "padj": 0.1077,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "SNAI2",
+    "padj": 0.1168,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "PPM1F",
+    "padj": 0.1261,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "FGF7",
+    "padj": 0.1266,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  },
+  {
+    "Gene": "SMAD3",
+    "padj": 0.1279,
+    "ID": "GO:0040017",
+    "Term": "positive regulation of locomotion"
+  }
+]

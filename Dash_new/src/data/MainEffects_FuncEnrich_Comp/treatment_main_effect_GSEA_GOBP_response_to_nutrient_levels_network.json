@@ -1,0 +1,940 @@
+[
+  {
+    "data": {
+      "id": "response_to_nutrient_levels",
+      "label": "response to nutrient levels",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "IGFBP2",
+      "label": "IGFBP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "POSTN",
+      "label": "POSTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL1A1",
+      "label": "COL1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "INHBB",
+      "label": "INHBB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GLUL",
+      "label": "GLUL",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VCAM1",
+      "label": "VCAM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FOXO1",
+      "label": "FOXO1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNFRSF11B",
+      "label": "TNFRSF11B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FAM107A",
+      "label": "FAM107A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ACSL1",
+      "label": "ACSL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GDF15",
+      "label": "GDF15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC38A2",
+      "label": "SLC38A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FOXO3",
+      "label": "FOXO3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STC1",
+      "label": "STC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKAG2",
+      "label": "PRKAG2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLEC",
+      "label": "PLEC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LOC102724560",
+      "label": "LOC102724560",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RHEB",
+      "label": "RHEB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CDKN1A",
+      "label": "CDKN1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAP1LC3C",
+      "label": "MAP1LC3C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ULK2",
+      "label": "ULK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GCLM",
+      "label": "GCLM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ATF3",
+      "label": "ATF3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC7A5",
+      "label": "SLC7A5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AQP3",
+      "label": "AQP3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNC",
+      "label": "TNC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CDKN2B",
+      "label": "CDKN2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITGA2",
+      "label": "ITGA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKAA1",
+      "label": "PRKAA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "USP33",
+      "label": "USP33",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MDM2",
+      "label": "MDM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "WIPI1",
+      "label": "WIPI1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CBS",
+      "label": "CBS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAT",
+      "label": "CAT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AKR1C3",
+      "label": "AKR1C3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PPARG",
+      "label": "PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NQO1",
+      "label": "NQO1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADM",
+      "label": "ADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SRF",
+      "label": "SRF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAP1B",
+      "label": "MAP1B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TYMS",
+      "label": "TYMS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ASNS",
+      "label": "ASNS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LEP",
+      "label": "LEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SESN2",
+      "label": "SESN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CPT1A",
+      "label": "CPT1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GABARAPL1",
+      "label": "GABARAPL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "YARS1",
+      "label": "YARS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DDIT3",
+      "label": "DDIT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAP3K5",
+      "label": "MAP3K5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKD1",
+      "label": "PRKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NFKBIZ",
+      "label": "NFKBIZ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STC2",
+      "label": "STC2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NUAK1",
+      "label": "NUAK1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CYP24A1",
+      "label": "CYP24A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SESN3",
+      "label": "SESN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EHMT2",
+      "label": "EHMT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZEB1",
+      "label": "ZEB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MBD2",
+      "label": "MBD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GAS6",
+      "label": "GAS6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NONO",
+      "label": "NONO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTGS2",
+      "label": "PTGS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IFI16",
+      "label": "IFI16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "IGFBP2",
+      "label": "Edge from response to nutrient levels to IGFBP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "POSTN",
+      "label": "Edge from response to nutrient levels to POSTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "COL1A1",
+      "label": "Edge from response to nutrient levels to COL1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "INHBB",
+      "label": "Edge from response to nutrient levels to INHBB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "GLUL",
+      "label": "Edge from response to nutrient levels to GLUL",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "VCAM1",
+      "label": "Edge from response to nutrient levels to VCAM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "FOXO1",
+      "label": "Edge from response to nutrient levels to FOXO1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "TNFRSF11B",
+      "label": "Edge from response to nutrient levels to TNFRSF11B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "FAM107A",
+      "label": "Edge from response to nutrient levels to FAM107A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "ACSL1",
+      "label": "Edge from response to nutrient levels to ACSL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "GDF15",
+      "label": "Edge from response to nutrient levels to GDF15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "SLC38A2",
+      "label": "Edge from response to nutrient levels to SLC38A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "FOXO3",
+      "label": "Edge from response to nutrient levels to FOXO3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "STC1",
+      "label": "Edge from response to nutrient levels to STC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "PRKAG2",
+      "label": "Edge from response to nutrient levels to PRKAG2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "PLEC",
+      "label": "Edge from response to nutrient levels to PLEC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "LOC102724560",
+      "label": "Edge from response to nutrient levels to LOC102724560",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "RHEB",
+      "label": "Edge from response to nutrient levels to RHEB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "CDKN1A",
+      "label": "Edge from response to nutrient levels to CDKN1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "MAP1LC3C",
+      "label": "Edge from response to nutrient levels to MAP1LC3C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "ULK2",
+      "label": "Edge from response to nutrient levels to ULK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "GCLM",
+      "label": "Edge from response to nutrient levels to GCLM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "ATF3",
+      "label": "Edge from response to nutrient levels to ATF3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "SLC7A5",
+      "label": "Edge from response to nutrient levels to SLC7A5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "AQP3",
+      "label": "Edge from response to nutrient levels to AQP3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "TNC",
+      "label": "Edge from response to nutrient levels to TNC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "CDKN2B",
+      "label": "Edge from response to nutrient levels to CDKN2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "ITGA2",
+      "label": "Edge from response to nutrient levels to ITGA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "PRKAA1",
+      "label": "Edge from response to nutrient levels to PRKAA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "USP33",
+      "label": "Edge from response to nutrient levels to USP33",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "MDM2",
+      "label": "Edge from response to nutrient levels to MDM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "WIPI1",
+      "label": "Edge from response to nutrient levels to WIPI1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "CBS",
+      "label": "Edge from response to nutrient levels to CBS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "CAT",
+      "label": "Edge from response to nutrient levels to CAT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "AKR1C3",
+      "label": "Edge from response to nutrient levels to AKR1C3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "PPARG",
+      "label": "Edge from response to nutrient levels to PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "NQO1",
+      "label": "Edge from response to nutrient levels to NQO1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "ADM",
+      "label": "Edge from response to nutrient levels to ADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "SRF",
+      "label": "Edge from response to nutrient levels to SRF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "MAP1B",
+      "label": "Edge from response to nutrient levels to MAP1B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "TYMS",
+      "label": "Edge from response to nutrient levels to TYMS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "ASNS",
+      "label": "Edge from response to nutrient levels to ASNS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "LEP",
+      "label": "Edge from response to nutrient levels to LEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "SESN2",
+      "label": "Edge from response to nutrient levels to SESN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "CPT1A",
+      "label": "Edge from response to nutrient levels to CPT1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "GABARAPL1",
+      "label": "Edge from response to nutrient levels to GABARAPL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "YARS1",
+      "label": "Edge from response to nutrient levels to YARS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "DDIT3",
+      "label": "Edge from response to nutrient levels to DDIT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "MAP3K5",
+      "label": "Edge from response to nutrient levels to MAP3K5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "PRKD1",
+      "label": "Edge from response to nutrient levels to PRKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "NFKBIZ",
+      "label": "Edge from response to nutrient levels to NFKBIZ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "STC2",
+      "label": "Edge from response to nutrient levels to STC2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "NUAK1",
+      "label": "Edge from response to nutrient levels to NUAK1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "CYP24A1",
+      "label": "Edge from response to nutrient levels to CYP24A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "SESN3",
+      "label": "Edge from response to nutrient levels to SESN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "EHMT2",
+      "label": "Edge from response to nutrient levels to EHMT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "ZEB1",
+      "label": "Edge from response to nutrient levels to ZEB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "MBD2",
+      "label": "Edge from response to nutrient levels to MBD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "GAS6",
+      "label": "Edge from response to nutrient levels to GAS6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "NONO",
+      "label": "Edge from response to nutrient levels to NONO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "PTGS2",
+      "label": "Edge from response to nutrient levels to PTGS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "response_to_nutrient_levels",
+      "target": "IFI16",
+      "label": "Edge from response to nutrient levels to IFI16",
+      "degree": 10
+    }
+  }
+]

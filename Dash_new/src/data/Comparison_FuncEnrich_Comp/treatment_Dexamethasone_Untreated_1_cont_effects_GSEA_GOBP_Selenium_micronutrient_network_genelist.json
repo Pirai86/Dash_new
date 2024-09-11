@@ -1,0 +1,128 @@
+[
+  {
+    "Gene": "GPX3",
+    "log2FoldChange": 3.6317,
+    "padj": 1.8927e-22,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "SERPINA3",
+    "log2FoldChange": 3.1333,
+    "padj": 3.2901e-12,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "ALOX15B",
+    "log2FoldChange": 9.7727,
+    "padj": 1.6645e-06,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "TXNRD1",
+    "log2FoldChange": 1.2498,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "SELENOP",
+    "log2FoldChange": 0.3455,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "GPX1",
+    "log2FoldChange": 0.4434,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "SELENOF",
+    "log2FoldChange": 0.3,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "CAT",
+    "log2FoldChange": 0.5488,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "SELENOM",
+    "log2FoldChange": 0.3016,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "PTGS1",
+    "log2FoldChange": 0.8147,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "GSR",
+    "log2FoldChange": 0.4987,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "LDLR",
+    "log2FoldChange": 0.5481,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "SELENOS",
+    "log2FoldChange": 0.6518,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "DIO2",
+    "log2FoldChange": 1.626,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "SELENOO",
+    "log2FoldChange": 0.3898,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "MSRB1",
+    "log2FoldChange": 0.4791,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "CBS",
+    "log2FoldChange": 1.4021,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  },
+  {
+    "Gene": "APOB",
+    "log2FoldChange": 1.746,
+    "padj": 1,
+    "ID": "WP15",
+    "Term": "Selenium micronutrient network"
+  }
+]

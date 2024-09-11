@@ -1,0 +1,1936 @@
+[
+  {
+    "data": {
+      "id": "extracellular_matrix_organization",
+      "label": "extracellular matrix organization",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "extracellular_structure_organization",
+      "label": "extracellular structure organization",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "PTX3",
+      "label": "PTX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAMTS14",
+      "label": "ADAMTS14",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "POSTN",
+      "label": "POSTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL1A1",
+      "label": "COL1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAMTS1",
+      "label": "ADAMTS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LAMA2",
+      "label": "LAMA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDPN",
+      "label": "PDPN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNFRSF11B",
+      "label": "TNFRSF11B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANGPTL7",
+      "label": "ANGPTL7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CRISPLD2",
+      "label": "CRISPLD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MFAP4",
+      "label": "MFAP4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL11A1",
+      "label": "COL11A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPM6B",
+      "label": "GPM6B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LUM",
+      "label": "LUM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL4A1",
+      "label": "COL4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL7A1",
+      "label": "COL7A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANXA2",
+      "label": "ANXA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ELN",
+      "label": "ELN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAMTSL4",
+      "label": "ADAMTSL4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "OLFML2A",
+      "label": "OLFML2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL4A2",
+      "label": "COL4A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CFLAR",
+      "label": "CFLAR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYO1E",
+      "label": "MYO1E",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NTN4",
+      "label": "NTN4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAMTSL1",
+      "label": "ADAMTSL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MMP1",
+      "label": "MMP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LAMC1",
+      "label": "LAMC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SULF2",
+      "label": "SULF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL3A1",
+      "label": "COL3A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "THSD4",
+      "label": "THSD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL14A1",
+      "label": "COL14A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL15A1",
+      "label": "COL15A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CREB3L1",
+      "label": "CREB3L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EXT1",
+      "label": "EXT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LAMB1",
+      "label": "LAMB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL8A1",
+      "label": "COL8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL1A2",
+      "label": "COL1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAMTS15",
+      "label": "ADAMTS15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FLRT2",
+      "label": "FLRT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AGT",
+      "label": "AGT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LOXL2",
+      "label": "LOXL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITGA8",
+      "label": "ITGA8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL4A4",
+      "label": "COL4A4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL5A1",
+      "label": "COL5A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KAZALD1",
+      "label": "KAZALD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAMTS2",
+      "label": "ADAMTS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAV1",
+      "label": "CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL16A1",
+      "label": "COL16A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL5A3",
+      "label": "COL5A3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNXB",
+      "label": "TNXB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFB2",
+      "label": "TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "B4GALT1",
+      "label": "B4GALT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SERPINH1",
+      "label": "SERPINH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DPT",
+      "label": "DPT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNFRSF1B",
+      "label": "TNFRSF1B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL18A1",
+      "label": "COL18A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL4A5",
+      "label": "COL4A5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LOXL1",
+      "label": "LOXL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HMCN1",
+      "label": "HMCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SPINT2",
+      "label": "SPINT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOX9",
+      "label": "SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL27A1",
+      "label": "COL27A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAV2",
+      "label": "CAV2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IL6",
+      "label": "IL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MMP15",
+      "label": "MMP15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ENG",
+      "label": "ENG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GAS6",
+      "label": "GAS6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FBLN5",
+      "label": "FBLN5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FOXF2",
+      "label": "FOXF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LOX",
+      "label": "LOX",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CST3",
+      "label": "CST3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GREM1",
+      "label": "GREM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFBI",
+      "label": "TGFBI",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCN1",
+      "label": "CCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SULF1",
+      "label": "SULF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NID1",
+      "label": "NID1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SH3PXD2B",
+      "label": "SH3PXD2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PHLDB1",
+      "label": "PHLDB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CTSS",
+      "label": "CTSS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDGFRA",
+      "label": "PDGFRA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PHLDB2",
+      "label": "PHLDB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FSCN1",
+      "label": "FSCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "OLFML2B",
+      "label": "OLFML2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "PTX3",
+      "label": "Edge from extracellular matrix organization to PTX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "ADAMTS14",
+      "label": "Edge from extracellular matrix organization to ADAMTS14",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "POSTN",
+      "label": "Edge from extracellular matrix organization to POSTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL1A1",
+      "label": "Edge from extracellular matrix organization to COL1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "ADAMTS1",
+      "label": "Edge from extracellular matrix organization to ADAMTS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "LAMA2",
+      "label": "Edge from extracellular matrix organization to LAMA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "PDPN",
+      "label": "Edge from extracellular matrix organization to PDPN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "TNFRSF11B",
+      "label": "Edge from extracellular matrix organization to TNFRSF11B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "ANGPTL7",
+      "label": "Edge from extracellular matrix organization to ANGPTL7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "CRISPLD2",
+      "label": "Edge from extracellular matrix organization to CRISPLD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "MFAP4",
+      "label": "Edge from extracellular matrix organization to MFAP4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL11A1",
+      "label": "Edge from extracellular matrix organization to COL11A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "GPM6B",
+      "label": "Edge from extracellular matrix organization to GPM6B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "LUM",
+      "label": "Edge from extracellular matrix organization to LUM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL4A1",
+      "label": "Edge from extracellular matrix organization to COL4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL7A1",
+      "label": "Edge from extracellular matrix organization to COL7A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "ANXA2",
+      "label": "Edge from extracellular matrix organization to ANXA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "ELN",
+      "label": "Edge from extracellular matrix organization to ELN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "ADAMTSL4",
+      "label": "Edge from extracellular matrix organization to ADAMTSL4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "OLFML2A",
+      "label": "Edge from extracellular matrix organization to OLFML2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL4A2",
+      "label": "Edge from extracellular matrix organization to COL4A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "CFLAR",
+      "label": "Edge from extracellular matrix organization to CFLAR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "MYO1E",
+      "label": "Edge from extracellular matrix organization to MYO1E",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "NTN4",
+      "label": "Edge from extracellular matrix organization to NTN4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "ADAMTSL1",
+      "label": "Edge from extracellular matrix organization to ADAMTSL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "MMP1",
+      "label": "Edge from extracellular matrix organization to MMP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "LAMC1",
+      "label": "Edge from extracellular matrix organization to LAMC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "SULF2",
+      "label": "Edge from extracellular matrix organization to SULF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL3A1",
+      "label": "Edge from extracellular matrix organization to COL3A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "THSD4",
+      "label": "Edge from extracellular matrix organization to THSD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL14A1",
+      "label": "Edge from extracellular matrix organization to COL14A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL15A1",
+      "label": "Edge from extracellular matrix organization to COL15A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "CREB3L1",
+      "label": "Edge from extracellular matrix organization to CREB3L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "EXT1",
+      "label": "Edge from extracellular matrix organization to EXT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "LAMB1",
+      "label": "Edge from extracellular matrix organization to LAMB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL8A1",
+      "label": "Edge from extracellular matrix organization to COL8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL1A2",
+      "label": "Edge from extracellular matrix organization to COL1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "ADAMTS15",
+      "label": "Edge from extracellular matrix organization to ADAMTS15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "FLRT2",
+      "label": "Edge from extracellular matrix organization to FLRT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "AGT",
+      "label": "Edge from extracellular matrix organization to AGT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "LOXL2",
+      "label": "Edge from extracellular matrix organization to LOXL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "ITGA8",
+      "label": "Edge from extracellular matrix organization to ITGA8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL4A4",
+      "label": "Edge from extracellular matrix organization to COL4A4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL5A1",
+      "label": "Edge from extracellular matrix organization to COL5A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "KAZALD1",
+      "label": "Edge from extracellular matrix organization to KAZALD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "ADAMTS2",
+      "label": "Edge from extracellular matrix organization to ADAMTS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "CAV1",
+      "label": "Edge from extracellular matrix organization to CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL16A1",
+      "label": "Edge from extracellular matrix organization to COL16A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL5A3",
+      "label": "Edge from extracellular matrix organization to COL5A3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "TNXB",
+      "label": "Edge from extracellular matrix organization to TNXB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "TGFB2",
+      "label": "Edge from extracellular matrix organization to TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "B4GALT1",
+      "label": "Edge from extracellular matrix organization to B4GALT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "SERPINH1",
+      "label": "Edge from extracellular matrix organization to SERPINH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "DPT",
+      "label": "Edge from extracellular matrix organization to DPT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "TNFRSF1B",
+      "label": "Edge from extracellular matrix organization to TNFRSF1B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL18A1",
+      "label": "Edge from extracellular matrix organization to COL18A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL4A5",
+      "label": "Edge from extracellular matrix organization to COL4A5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "LOXL1",
+      "label": "Edge from extracellular matrix organization to LOXL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "HMCN1",
+      "label": "Edge from extracellular matrix organization to HMCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "SPINT2",
+      "label": "Edge from extracellular matrix organization to SPINT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "SOX9",
+      "label": "Edge from extracellular matrix organization to SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "COL27A1",
+      "label": "Edge from extracellular matrix organization to COL27A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "CAV2",
+      "label": "Edge from extracellular matrix organization to CAV2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "IL6",
+      "label": "Edge from extracellular matrix organization to IL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "MMP15",
+      "label": "Edge from extracellular matrix organization to MMP15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "ENG",
+      "label": "Edge from extracellular matrix organization to ENG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "GAS6",
+      "label": "Edge from extracellular matrix organization to GAS6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "FBLN5",
+      "label": "Edge from extracellular matrix organization to FBLN5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "FOXF2",
+      "label": "Edge from extracellular matrix organization to FOXF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "LOX",
+      "label": "Edge from extracellular matrix organization to LOX",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "CST3",
+      "label": "Edge from extracellular matrix organization to CST3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "GREM1",
+      "label": "Edge from extracellular matrix organization to GREM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "TGFBI",
+      "label": "Edge from extracellular matrix organization to TGFBI",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "CCN1",
+      "label": "Edge from extracellular matrix organization to CCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "SULF1",
+      "label": "Edge from extracellular matrix organization to SULF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "NID1",
+      "label": "Edge from extracellular matrix organization to NID1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "SH3PXD2B",
+      "label": "Edge from extracellular matrix organization to SH3PXD2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "PHLDB1",
+      "label": "Edge from extracellular matrix organization to PHLDB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "CTSS",
+      "label": "Edge from extracellular matrix organization to CTSS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "PDGFRA",
+      "label": "Edge from extracellular matrix organization to PDGFRA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "PHLDB2",
+      "label": "Edge from extracellular matrix organization to PHLDB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "FSCN1",
+      "label": "Edge from extracellular matrix organization to FSCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "OLFML2B",
+      "label": "Edge from extracellular matrix organization to OLFML2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "PTX3",
+      "label": "Edge from extracellular structure organization to PTX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "ADAMTS14",
+      "label": "Edge from extracellular structure organization to ADAMTS14",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "POSTN",
+      "label": "Edge from extracellular structure organization to POSTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL1A1",
+      "label": "Edge from extracellular structure organization to COL1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "ADAMTS1",
+      "label": "Edge from extracellular structure organization to ADAMTS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "LAMA2",
+      "label": "Edge from extracellular structure organization to LAMA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "PDPN",
+      "label": "Edge from extracellular structure organization to PDPN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "TNFRSF11B",
+      "label": "Edge from extracellular structure organization to TNFRSF11B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "ANGPTL7",
+      "label": "Edge from extracellular structure organization to ANGPTL7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "CRISPLD2",
+      "label": "Edge from extracellular structure organization to CRISPLD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "MFAP4",
+      "label": "Edge from extracellular structure organization to MFAP4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL11A1",
+      "label": "Edge from extracellular structure organization to COL11A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "GPM6B",
+      "label": "Edge from extracellular structure organization to GPM6B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "LUM",
+      "label": "Edge from extracellular structure organization to LUM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL4A1",
+      "label": "Edge from extracellular structure organization to COL4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL7A1",
+      "label": "Edge from extracellular structure organization to COL7A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "ANXA2",
+      "label": "Edge from extracellular structure organization to ANXA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "ELN",
+      "label": "Edge from extracellular structure organization to ELN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "ADAMTSL4",
+      "label": "Edge from extracellular structure organization to ADAMTSL4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "OLFML2A",
+      "label": "Edge from extracellular structure organization to OLFML2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL4A2",
+      "label": "Edge from extracellular structure organization to COL4A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "CFLAR",
+      "label": "Edge from extracellular structure organization to CFLAR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "MYO1E",
+      "label": "Edge from extracellular structure organization to MYO1E",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "NTN4",
+      "label": "Edge from extracellular structure organization to NTN4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "ADAMTSL1",
+      "label": "Edge from extracellular structure organization to ADAMTSL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "MMP1",
+      "label": "Edge from extracellular structure organization to MMP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "LAMC1",
+      "label": "Edge from extracellular structure organization to LAMC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "SULF2",
+      "label": "Edge from extracellular structure organization to SULF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL3A1",
+      "label": "Edge from extracellular structure organization to COL3A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "THSD4",
+      "label": "Edge from extracellular structure organization to THSD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL14A1",
+      "label": "Edge from extracellular structure organization to COL14A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL15A1",
+      "label": "Edge from extracellular structure organization to COL15A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "CREB3L1",
+      "label": "Edge from extracellular structure organization to CREB3L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "EXT1",
+      "label": "Edge from extracellular structure organization to EXT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "LAMB1",
+      "label": "Edge from extracellular structure organization to LAMB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL8A1",
+      "label": "Edge from extracellular structure organization to COL8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL1A2",
+      "label": "Edge from extracellular structure organization to COL1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "ADAMTS15",
+      "label": "Edge from extracellular structure organization to ADAMTS15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "FLRT2",
+      "label": "Edge from extracellular structure organization to FLRT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "AGT",
+      "label": "Edge from extracellular structure organization to AGT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "LOXL2",
+      "label": "Edge from extracellular structure organization to LOXL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "ITGA8",
+      "label": "Edge from extracellular structure organization to ITGA8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL4A4",
+      "label": "Edge from extracellular structure organization to COL4A4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL5A1",
+      "label": "Edge from extracellular structure organization to COL5A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "KAZALD1",
+      "label": "Edge from extracellular structure organization to KAZALD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "ADAMTS2",
+      "label": "Edge from extracellular structure organization to ADAMTS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "CAV1",
+      "label": "Edge from extracellular structure organization to CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL16A1",
+      "label": "Edge from extracellular structure organization to COL16A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL5A3",
+      "label": "Edge from extracellular structure organization to COL5A3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "TNXB",
+      "label": "Edge from extracellular structure organization to TNXB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "TGFB2",
+      "label": "Edge from extracellular structure organization to TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "B4GALT1",
+      "label": "Edge from extracellular structure organization to B4GALT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "SERPINH1",
+      "label": "Edge from extracellular structure organization to SERPINH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "DPT",
+      "label": "Edge from extracellular structure organization to DPT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "TNFRSF1B",
+      "label": "Edge from extracellular structure organization to TNFRSF1B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL18A1",
+      "label": "Edge from extracellular structure organization to COL18A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL4A5",
+      "label": "Edge from extracellular structure organization to COL4A5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "LOXL1",
+      "label": "Edge from extracellular structure organization to LOXL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "HMCN1",
+      "label": "Edge from extracellular structure organization to HMCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "SPINT2",
+      "label": "Edge from extracellular structure organization to SPINT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "SOX9",
+      "label": "Edge from extracellular structure organization to SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "COL27A1",
+      "label": "Edge from extracellular structure organization to COL27A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "CAV2",
+      "label": "Edge from extracellular structure organization to CAV2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "IL6",
+      "label": "Edge from extracellular structure organization to IL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "MMP15",
+      "label": "Edge from extracellular structure organization to MMP15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "ENG",
+      "label": "Edge from extracellular structure organization to ENG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "GAS6",
+      "label": "Edge from extracellular structure organization to GAS6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "FBLN5",
+      "label": "Edge from extracellular structure organization to FBLN5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "FOXF2",
+      "label": "Edge from extracellular structure organization to FOXF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "LOX",
+      "label": "Edge from extracellular structure organization to LOX",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "CST3",
+      "label": "Edge from extracellular structure organization to CST3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "GREM1",
+      "label": "Edge from extracellular structure organization to GREM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "TGFBI",
+      "label": "Edge from extracellular structure organization to TGFBI",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "CCN1",
+      "label": "Edge from extracellular structure organization to CCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "SULF1",
+      "label": "Edge from extracellular structure organization to SULF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "NID1",
+      "label": "Edge from extracellular structure organization to NID1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "SH3PXD2B",
+      "label": "Edge from extracellular structure organization to SH3PXD2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "PHLDB1",
+      "label": "Edge from extracellular structure organization to PHLDB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "CTSS",
+      "label": "Edge from extracellular structure organization to CTSS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "PDGFRA",
+      "label": "Edge from extracellular structure organization to PDGFRA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "PHLDB2",
+      "label": "Edge from extracellular structure organization to PHLDB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "FSCN1",
+      "label": "Edge from extracellular structure organization to FSCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_structure_organization",
+      "target": "OLFML2B",
+      "label": "Edge from extracellular structure organization to OLFML2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "extracellular_matrix_organization",
+      "target": "extracellular_structure_organization",
+      "label": "Edge from extracellular matrix organization to extracellular structure organization",
+      "degree": 10
+    },
+    "classes": "genesis"
+  }
+]

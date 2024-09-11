@@ -1,0 +1,13 @@
+{
+    "pathwayId": "R-HSA-5683826",
+    "genes": [
+        {
+            "gene": "GATA6",
+            "expression": 6.54
+        },
+        {
+            "gene": "SFTPC",
+            "expression": 0.34
+        }
+    ]
+}

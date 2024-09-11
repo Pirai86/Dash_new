@@ -1,0 +1,830 @@
+[
+  {
+    "Gene": "SOX4",
+    "padj": 1.0961e-56,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "GLUL",
+    "padj": 1.982e-30,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ADAMTS1",
+    "padj": 3.8284e-30,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ADAM12",
+    "padj": 2.1589e-29,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "CCN3",
+    "padj": 2.7977e-20,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "CITED2",
+    "padj": 9.3463e-19,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "TGFBR2",
+    "padj": 1.8217e-18,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "MFGE8",
+    "padj": 5.5591e-18,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "HMOX1",
+    "padj": 1.899e-17,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "VEGFA",
+    "padj": 3.1514e-14,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "COL4A1",
+    "padj": 3.8669e-13,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "HIF3A",
+    "padj": 4.2318e-12,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "EPHB2",
+    "padj": 2.1997e-11,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "WARS1",
+    "padj": 5.1079e-11,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "SGCD",
+    "padj": 7.1863e-11,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ANXA2",
+    "padj": 9.0369e-11,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ANPEP",
+    "padj": 2.9246e-10,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "AMOT",
+    "padj": 3.4778e-10,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "COL4A2",
+    "padj": 1.9509e-09,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "MYO1E",
+    "padj": 9.8024e-09,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "NPR3",
+    "padj": 3.4157e-08,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "CALD1",
+    "padj": 2.1307e-07,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "SAT1",
+    "padj": 4.6131e-07,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PLXDC1",
+    "padj": 7.534e-07,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "EPAS1",
+    "padj": 9.6284e-07,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "COL3A1",
+    "padj": 1.295e-06,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PIK3R3",
+    "padj": 1.7729e-06,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PRRX1",
+    "padj": 1.8856e-06,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "COL15A1",
+    "padj": 3.1203e-06,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PKD2",
+    "padj": 3.3468e-06,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "HSPB1",
+    "padj": 4.8815e-06,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "CREB3L1",
+    "padj": 5.1937e-06,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "AMOTL2",
+    "padj": 7.5577e-06,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "RRAS",
+    "padj": 0,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "BMPER",
+    "padj": 0,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ROBO1",
+    "padj": 0,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "RHOB",
+    "padj": 0,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "EPHB4",
+    "padj": 0,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "HEG1",
+    "padj": 0,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "COL8A1",
+    "padj": 0,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "S1PR1",
+    "padj": 0,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ACVRL1",
+    "padj": 0,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "FZD8",
+    "padj": 0.0001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "TYMP",
+    "padj": 0.0001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "CCBE1",
+    "padj": 0.0001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "EPHB3",
+    "padj": 0.0001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "RBPJ",
+    "padj": 0.0001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "CCN2",
+    "padj": 0.0001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "NRP2",
+    "padj": 0.0001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ITGB8",
+    "padj": 0.0001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "LOXL2",
+    "padj": 0.0001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "CLIC4",
+    "padj": 0.0001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "UNC5B",
+    "padj": 0.0001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "FGF10",
+    "padj": 0.0001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PTGIS",
+    "padj": 0.0002,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "DDAH1",
+    "padj": 0.0002,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "VSTM4",
+    "padj": 0.0002,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "RHOJ",
+    "padj": 0.0002,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ADM2",
+    "padj": 0.0003,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PPARG",
+    "padj": 0.0003,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ROCK2",
+    "padj": 0.0003,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "TNFAIP2",
+    "padj": 0.0003,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "KLF5",
+    "padj": 0.0003,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ADM",
+    "padj": 0.0005,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "CAV1",
+    "padj": 0.0005,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "HDAC7",
+    "padj": 0.0006,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "SRF",
+    "padj": 0.0006,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "HS6ST1",
+    "padj": 0.0007,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "MAPK7",
+    "padj": 0.0007,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "SHB",
+    "padj": 0.0008,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "NIBAN2",
+    "padj": 0.0008,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "TBX2",
+    "padj": 0.0009,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "LEP",
+    "padj": 0.001,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "NR2F2",
+    "padj": 0.0014,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "BRCA1",
+    "padj": 0.0019,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "TGFB2",
+    "padj": 0.002,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "B4GALT1",
+    "padj": 0.002,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PLK2",
+    "padj": 0.002,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "WNT5A",
+    "padj": 0.0023,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "CEMIP2",
+    "padj": 0.0023,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ANGPT1",
+    "padj": 0.0024,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "FZD4",
+    "padj": 0.0024,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "APOB",
+    "padj": 0.0028,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "COL18A1",
+    "padj": 0.0032,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "SEMA5A",
+    "padj": 0.0036,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ZFP36L1",
+    "padj": 0.0048,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PRKD1",
+    "padj": 0.0052,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "APOD",
+    "padj": 0.0053,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "SMO",
+    "padj": 0.0053,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "SMAD1",
+    "padj": 0.006,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "GPNMB",
+    "padj": 0.0069,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "EMP2",
+    "padj": 0.007,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "VASH2",
+    "padj": 0.0096,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "COL27A1",
+    "padj": 0.0104,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "CCL2",
+    "padj": 0.0107,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "STARD13",
+    "padj": 0.0111,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PARVA",
+    "padj": 0.012,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "STAT3",
+    "padj": 0.0155,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "SPARC",
+    "padj": 0.017,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "MTDH",
+    "padj": 0.017,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "IL6",
+    "padj": 0.0246,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ENG",
+    "padj": 0.0282,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PKM",
+    "padj": 0.0352,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ACTG1",
+    "padj": 0.0361,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "HIF1A",
+    "padj": 0.0416,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PTGS2",
+    "padj": 0.046,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "LOX",
+    "padj": 0.051,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "SARS1",
+    "padj": 0.0517,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PIK3CD",
+    "padj": 0.0532,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "FZD5",
+    "padj": 0.0565,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "GREM1",
+    "padj": 0.0568,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "TGFBI",
+    "padj": 0.0579,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ANXA1",
+    "padj": 0.0579,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "CCN1",
+    "padj": 0.059,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "SULF1",
+    "padj": 0.0601,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "FGF1",
+    "padj": 0.0636,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "NOTCH3",
+    "padj": 0.0676,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "FGFR2",
+    "padj": 0.071,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ADGRB2",
+    "padj": 0.073,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ZFPM2",
+    "padj": 0.0761,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "FLNA",
+    "padj": 0.0772,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "VEGFC",
+    "padj": 0.0772,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "TEAD2",
+    "padj": 0.0873,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "IL12A",
+    "padj": 0.0903,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ANG",
+    "padj": 0.0935,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "EGR3",
+    "padj": 0.0951,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "NFATC4",
+    "padj": 0.0962,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "MDK",
+    "padj": 0.0972,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PDGFRA",
+    "padj": 0.0986,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "SLC1A1",
+    "padj": 0.0999,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "NR4A1",
+    "padj": 0.1016,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "THBS2",
+    "padj": 0.1041,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ARHGAP22",
+    "padj": 0.1118,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "TIPARP",
+    "padj": 0.1199,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "GPX1",
+    "padj": 0.1221,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ZMIZ1",
+    "padj": 0.1254,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "PRDM1",
+    "padj": 0.1299,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  },
+  {
+    "Gene": "ANGPTL4",
+    "padj": 0.1341,
+    "ID": "GO:0048514",
+    "Term": "blood vessel morphogenesis"
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "data": {
+      "id": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "label": "Overview of proinflammatory and profibrotic mediators",
+      "degree": 12
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "TGFB1",
+      "label": "TGFB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IL33",
+      "label": "IL33",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NFKB1",
+      "label": "NFKB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CXCL16",
+      "label": "CXCL16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IL12A",
+      "label": "IL12A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCL11",
+      "label": "CCL11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VEGFA",
+      "label": "VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MMP1",
+      "label": "MMP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNFSF13B",
+      "label": "TNFSF13B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CXCL12",
+      "label": "CXCL12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LIF",
+      "label": "LIF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TSLP",
+      "label": "TSLP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "target": "TGFB1",
+      "label": "Edge from Overview of proinflammatory and profibrotic mediators to TGFB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "target": "IL33",
+      "label": "Edge from Overview of proinflammatory and profibrotic mediators to IL33",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "target": "NFKB1",
+      "label": "Edge from Overview of proinflammatory and profibrotic mediators to NFKB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "target": "CXCL16",
+      "label": "Edge from Overview of proinflammatory and profibrotic mediators to CXCL16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "target": "IL12A",
+      "label": "Edge from Overview of proinflammatory and profibrotic mediators to IL12A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "target": "CCL11",
+      "label": "Edge from Overview of proinflammatory and profibrotic mediators to CCL11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "target": "VEGFA",
+      "label": "Edge from Overview of proinflammatory and profibrotic mediators to VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "target": "MMP1",
+      "label": "Edge from Overview of proinflammatory and profibrotic mediators to MMP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "target": "TNFSF13B",
+      "label": "Edge from Overview of proinflammatory and profibrotic mediators to TNFSF13B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "target": "CXCL12",
+      "label": "Edge from Overview of proinflammatory and profibrotic mediators to CXCL12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "target": "LIF",
+      "label": "Edge from Overview of proinflammatory and profibrotic mediators to LIF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Overview_of_proinflammatory_and_profibrotic_mediators",
+      "target": "TSLP",
+      "label": "Edge from Overview of proinflammatory and profibrotic mediators to TSLP",
+      "degree": 10
+    }
+  }
+]

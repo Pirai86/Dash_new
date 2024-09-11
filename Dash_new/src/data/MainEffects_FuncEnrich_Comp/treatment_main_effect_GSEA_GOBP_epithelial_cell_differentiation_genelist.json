@@ -1,0 +1,578 @@
+[
+  {
+    "Gene": "SOX4",
+    "padj": 1.0961e-56,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "ERRFI1",
+    "padj": 6.9909e-41,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "KLF15",
+    "padj": 4.0041e-40,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "TJP2",
+    "padj": 3.3857e-33,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "FST",
+    "padj": 9.5728e-32,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "ANXA4",
+    "padj": 1.4659e-25,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "PDPN",
+    "padj": 1.0646e-24,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "ALOX15B",
+    "padj": 2.9309e-15,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "VEGFA",
+    "padj": 3.1514e-14,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "TUBB",
+    "padj": 5.9073e-14,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "COL4A1",
+    "padj": 3.8669e-13,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "STC1",
+    "padj": 5.4294e-12,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "LIF",
+    "padj": 1.6782e-11,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "MYADM",
+    "padj": 8.7859e-11,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "LBH",
+    "padj": 1.267e-10,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "MTSS1",
+    "padj": 1.3919e-10,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "PLEC",
+    "padj": 1.8922e-10,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "ADAMTSL4",
+    "padj": 5.0959e-10,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "VCL",
+    "padj": 2.8404e-09,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "CFLAR",
+    "padj": 3.0003e-09,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "NCOA3",
+    "padj": 3.3148e-09,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "SLC4A7",
+    "padj": 7.3793e-09,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "MYO1E",
+    "padj": 9.8024e-09,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "RHEB",
+    "padj": 1.8193e-08,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "CDKN1A",
+    "padj": 2.2786e-08,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "NF2",
+    "padj": 5.9593e-08,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "TAGLN",
+    "padj": 2.2575e-07,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "PALLD",
+    "padj": 4.4275e-07,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "EPAS1",
+    "padj": 9.6284e-07,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "AQP3",
+    "padj": 1.4301e-06,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "SLC7A11",
+    "padj": 1.4934e-06,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "CDKN2B",
+    "padj": 0,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "EXT1",
+    "padj": 0,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "ITGA2",
+    "padj": 0,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "SLITRK6",
+    "padj": 0,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "HEG1",
+    "padj": 0,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "MAFF",
+    "padj": 0,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "S1PR1",
+    "padj": 0,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "TST",
+    "padj": 0,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "ACVRL1",
+    "padj": 0,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "RBPJ",
+    "padj": 0.0001,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "GDF7",
+    "padj": 0.0001,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "CLIC4",
+    "padj": 0.0001,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "FGF10",
+    "padj": 0.0001,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "AKR1C3",
+    "padj": 0.0002,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "PPARG",
+    "padj": 0.0003,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "ROCK2",
+    "padj": 0.0003,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "ACTA2",
+    "padj": 0.0003,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "KLF5",
+    "padj": 0.0003,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "CDK6",
+    "padj": 0.0003,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "CAV1",
+    "padj": 0.0005,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "GDNF",
+    "padj": 0.0005,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "MAP1B",
+    "padj": 0.0006,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "TYMS",
+    "padj": 0.0007,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "KRT7",
+    "padj": 0.0014,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "NR2F2",
+    "padj": 0.0014,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "CPT1A",
+    "padj": 0.0018,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "B4GALT1",
+    "padj": 0.002,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "WNT5A",
+    "padj": 0.0023,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "TGFB1I1",
+    "padj": 0.0024,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "FZD4",
+    "padj": 0.0024,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "SIDT2",
+    "padj": 0.0026,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "COL18A1",
+    "padj": 0.0032,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "VIM",
+    "padj": 0.0046,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "ZFP36L1",
+    "padj": 0.0048,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "SMO",
+    "padj": 0.0053,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "NFKBIZ",
+    "padj": 0.0062,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "PLCB1",
+    "padj": 0.0067,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "SDC1",
+    "padj": 0.0077,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "SPINT2",
+    "padj": 0.0087,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "SOX9",
+    "padj": 0.0094,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "NRG1",
+    "padj": 0.0099,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "COL27A1",
+    "padj": 0.0104,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "MAF",
+    "padj": 0.0116,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "UGCG",
+    "padj": 0.0132,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "MAFB",
+    "padj": 0.0133,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "AKR1B1",
+    "padj": 0.0148,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "ATOH8",
+    "padj": 0.0205,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "FAM20C",
+    "padj": 0.0224,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "SFRP4",
+    "padj": 0.0227,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "ZEB1",
+    "padj": 0.0254,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "PCNA",
+    "padj": 0.0278,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "TBX3",
+    "padj": 0.0302,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "STAT5B",
+    "padj": 0.0397,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "HIF1A",
+    "padj": 0.0416,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "CNN3",
+    "padj": 0.0456,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "PTCH1",
+    "padj": 0.0466,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "IL31RA",
+    "padj": 0.0537,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "FZD5",
+    "padj": 0.0565,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "GREM1",
+    "padj": 0.0568,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "ANXA1",
+    "padj": 0.0579,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "FGFR2",
+    "padj": 0.071,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "OSR1",
+    "padj": 0.0716,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "FLNA",
+    "padj": 0.0772,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "FZD7",
+    "padj": 0.08,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  },
+  {
+    "Gene": "MET",
+    "padj": 0.0869,
+    "ID": "GO:0030855",
+    "Term": "epithelial cell differentiation"
+  }
+]

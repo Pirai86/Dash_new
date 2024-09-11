@@ -1,0 +1,3590 @@
+[
+  {
+    "data": {
+      "id": "blood_circulation",
+      "label": "blood circulation",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "circulatory_system_process",
+      "label": "circulatory system process",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "intracellular_chemical_homeostasis",
+      "label": "intracellular chemical homeostasis",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "CXCL12",
+      "label": "CXCL12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CACNB2",
+      "label": "CACNB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TBX18",
+      "label": "TBX18",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "POSTN",
+      "label": "POSTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TJP2",
+      "label": "TJP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADRA1B",
+      "label": "ADRA1B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDE5A",
+      "label": "PDE5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BDKRB2",
+      "label": "BDKRB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KCNK6",
+      "label": "KCNK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VEGFA",
+      "label": "VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STC1",
+      "label": "STC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NEDD4L",
+      "label": "NEDD4L",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SGCD",
+      "label": "SGCD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ELN",
+      "label": "ELN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLEC",
+      "label": "PLEC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AKAP12",
+      "label": "AKAP12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANK2",
+      "label": "ANK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LOC102724560",
+      "label": "LOC102724560",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NPR3",
+      "label": "NPR3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ATP2A2",
+      "label": "ATP2A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CELF2",
+      "label": "CELF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DMD",
+      "label": "DMD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GCLM",
+      "label": "GCLM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EPAS1",
+      "label": "EPAS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BDKRB1",
+      "label": "BDKRB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ABCC9",
+      "label": "ABCC9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CORO2B",
+      "label": "CORO2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ABAT",
+      "label": "ABAT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CHRM2",
+      "label": "CHRM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EXT1",
+      "label": "EXT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "OXTR",
+      "label": "OXTR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MDM2",
+      "label": "MDM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FGF13",
+      "label": "FGF13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AGTRAP",
+      "label": "AGTRAP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ACVRL1",
+      "label": "ACVRL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL1A2",
+      "label": "COL1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ATP1A2",
+      "label": "ATP1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KCNJ2",
+      "label": "KCNJ2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDE4B",
+      "label": "PDE4B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CLIC2",
+      "label": "CLIC2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CBS",
+      "label": "CBS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AGT",
+      "label": "AGT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SERPING1",
+      "label": "SERPING1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC8A1",
+      "label": "SLC8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DDAH1",
+      "label": "DDAH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VSTM4",
+      "label": "VSTM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GSN",
+      "label": "GSN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADM2",
+      "label": "ADM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PPARG",
+      "label": "PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ROCK2",
+      "label": "ROCK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ACTA2",
+      "label": "ACTA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CORIN",
+      "label": "CORIN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADM",
+      "label": "ADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAV1",
+      "label": "CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TBX2",
+      "label": "TBX2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LEP",
+      "label": "LEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTGS1",
+      "label": "PTGS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NR2F2",
+      "label": "NR2F2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFB2",
+      "label": "TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANGPT1",
+      "label": "ANGPT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RASL10B",
+      "label": "RASL10B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HRH1",
+      "label": "HRH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DOCK5",
+      "label": "DOCK5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EMP2",
+      "label": "EMP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TPM1",
+      "label": "TPM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITGA1",
+      "label": "ITGA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADRA2A",
+      "label": "ADRA2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKG1",
+      "label": "PRKG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TRPM4",
+      "label": "TRPM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DMPK",
+      "label": "DMPK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CACNA1C",
+      "label": "CACNA1C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IER3",
+      "label": "IER3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GAS6",
+      "label": "GAS6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SGK1",
+      "label": "SGK1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYOF",
+      "label": "MYOF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTGS2",
+      "label": "PTGS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FERMT2",
+      "label": "FERMT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MTOR",
+      "label": "MTOR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAP2K3",
+      "label": "MAP2K3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KCNE3",
+      "label": "KCNE3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KCND2",
+      "label": "KCND2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HSP90AA1",
+      "label": "HSP90AA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FLNA",
+      "label": "FLNA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VEGFC",
+      "label": "VEGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SRI",
+      "label": "SRI",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC1A1",
+      "label": "SLC1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ARHGAP42",
+      "label": "ARHGAP42",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PER2",
+      "label": "PER2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPX1",
+      "label": "GPX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KCNMA1",
+      "label": "KCNMA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMAD3",
+      "label": "SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPD1L",
+      "label": "GPD1L",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SREBF1",
+      "label": "SREBF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ID2",
+      "label": "ID2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NAV2",
+      "label": "NAV2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KCND3",
+      "label": "KCND3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CACNA1G",
+      "label": "CACNA1G",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CALM1",
+      "label": "CALM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LNPEP",
+      "label": "LNPEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOD2",
+      "label": "SOD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ATP1A1",
+      "label": "ATP1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC6A6",
+      "label": "SLC6A6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC6A9",
+      "label": "SLC6A9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC38A2",
+      "label": "SLC38A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC7A5",
+      "label": "SLC7A5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC16A12",
+      "label": "SLC16A12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HEG1",
+      "label": "HEG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC5A6",
+      "label": "SLC5A6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC38A5",
+      "label": "SLC38A5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC38A1",
+      "label": "SLC38A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SVEP1",
+      "label": "SVEP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC4A4",
+      "label": "SLC4A4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC1A5",
+      "label": "SLC1A5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AKAP13",
+      "label": "AKAP13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ABCC1",
+      "label": "ABCC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC16A2",
+      "label": "SLC16A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC7A8",
+      "label": "SLC7A8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ABCC3",
+      "label": "ABCC3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOX4",
+      "label": "SOX4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MT2A",
+      "label": "MT2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KLF15",
+      "label": "KLF15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STEAP2",
+      "label": "STEAP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FOXO1",
+      "label": "FOXO1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MT1E",
+      "label": "MT1E",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STEAP4",
+      "label": "STEAP4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANXA6",
+      "label": "ANXA6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HMOX1",
+      "label": "HMOX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MT1X",
+      "label": "MT1X",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IRS2",
+      "label": "IRS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TRPC6",
+      "label": "TRPC6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TRPA1",
+      "label": "TRPA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC39A10",
+      "label": "SLC39A10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PIK3R1",
+      "label": "PIK3R1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC4A7",
+      "label": "SLC4A7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ORMDL1",
+      "label": "ORMDL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HERPUD1",
+      "label": "HERPUD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC7A11",
+      "label": "SLC7A11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RAF1",
+      "label": "RAF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PKD2",
+      "label": "PKD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COX11",
+      "label": "COX11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GLS",
+      "label": "GLS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPR68",
+      "label": "GPR68",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCL11",
+      "label": "CCL11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKAA1",
+      "label": "PRKAA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STIM2",
+      "label": "STIM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADCY8",
+      "label": "ADCY8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "P2RX7",
+      "label": "P2RX7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FTL",
+      "label": "FTL",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CLIC4",
+      "label": "CLIC4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ENPP1",
+      "label": "ENPP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MT1M",
+      "label": "MT1M",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKCE",
+      "label": "PRKCE",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NADK",
+      "label": "NADK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SRF",
+      "label": "SRF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGM2",
+      "label": "TGM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYC",
+      "label": "MYC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "WNT5A",
+      "label": "WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "UBASH3B",
+      "label": "UBASH3B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SIDT2",
+      "label": "SIDT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DDIT3",
+      "label": "DDIT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC39A13",
+      "label": "SLC39A13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LRRC8D",
+      "label": "LRRC8D",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "WFS1",
+      "label": "WFS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TMEM165",
+      "label": "TMEM165",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKD1",
+      "label": "PRKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STC2",
+      "label": "STC2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLCB1",
+      "label": "PLCB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAV2",
+      "label": "CAV2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC26A6",
+      "label": "SLC26A6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STXBP4",
+      "label": "STXBP4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC9A7",
+      "label": "SLC9A7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZBED6",
+      "label": "ZBED6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HIF1A",
+      "label": "HIF1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "CXCL12",
+      "label": "Edge from blood circulation to CXCL12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "CACNB2",
+      "label": "Edge from blood circulation to CACNB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "TBX18",
+      "label": "Edge from blood circulation to TBX18",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "POSTN",
+      "label": "Edge from blood circulation to POSTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "TJP2",
+      "label": "Edge from blood circulation to TJP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ADRA1B",
+      "label": "Edge from blood circulation to ADRA1B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "PDE5A",
+      "label": "Edge from blood circulation to PDE5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "BDKRB2",
+      "label": "Edge from blood circulation to BDKRB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "KCNK6",
+      "label": "Edge from blood circulation to KCNK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "VEGFA",
+      "label": "Edge from blood circulation to VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "STC1",
+      "label": "Edge from blood circulation to STC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "NEDD4L",
+      "label": "Edge from blood circulation to NEDD4L",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "SGCD",
+      "label": "Edge from blood circulation to SGCD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ELN",
+      "label": "Edge from blood circulation to ELN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "PLEC",
+      "label": "Edge from blood circulation to PLEC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "AKAP12",
+      "label": "Edge from blood circulation to AKAP12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ANK2",
+      "label": "Edge from blood circulation to ANK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "LOC102724560",
+      "label": "Edge from blood circulation to LOC102724560",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "NPR3",
+      "label": "Edge from blood circulation to NPR3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ATP2A2",
+      "label": "Edge from blood circulation to ATP2A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "CELF2",
+      "label": "Edge from blood circulation to CELF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "DMD",
+      "label": "Edge from blood circulation to DMD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "GCLM",
+      "label": "Edge from blood circulation to GCLM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "EPAS1",
+      "label": "Edge from blood circulation to EPAS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "BDKRB1",
+      "label": "Edge from blood circulation to BDKRB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ABCC9",
+      "label": "Edge from blood circulation to ABCC9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "CORO2B",
+      "label": "Edge from blood circulation to CORO2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ABAT",
+      "label": "Edge from blood circulation to ABAT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "CHRM2",
+      "label": "Edge from blood circulation to CHRM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "EXT1",
+      "label": "Edge from blood circulation to EXT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "OXTR",
+      "label": "Edge from blood circulation to OXTR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "MDM2",
+      "label": "Edge from blood circulation to MDM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "FGF13",
+      "label": "Edge from blood circulation to FGF13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "AGTRAP",
+      "label": "Edge from blood circulation to AGTRAP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ACVRL1",
+      "label": "Edge from blood circulation to ACVRL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "COL1A2",
+      "label": "Edge from blood circulation to COL1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ATP1A2",
+      "label": "Edge from blood circulation to ATP1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "KCNJ2",
+      "label": "Edge from blood circulation to KCNJ2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "PDE4B",
+      "label": "Edge from blood circulation to PDE4B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "CLIC2",
+      "label": "Edge from blood circulation to CLIC2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "CBS",
+      "label": "Edge from blood circulation to CBS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "AGT",
+      "label": "Edge from blood circulation to AGT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "SERPING1",
+      "label": "Edge from blood circulation to SERPING1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "SLC8A1",
+      "label": "Edge from blood circulation to SLC8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "DDAH1",
+      "label": "Edge from blood circulation to DDAH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "VSTM4",
+      "label": "Edge from blood circulation to VSTM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "GSN",
+      "label": "Edge from blood circulation to GSN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ADM2",
+      "label": "Edge from blood circulation to ADM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "PPARG",
+      "label": "Edge from blood circulation to PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ROCK2",
+      "label": "Edge from blood circulation to ROCK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ACTA2",
+      "label": "Edge from blood circulation to ACTA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "CORIN",
+      "label": "Edge from blood circulation to CORIN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ADM",
+      "label": "Edge from blood circulation to ADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "CAV1",
+      "label": "Edge from blood circulation to CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "TBX2",
+      "label": "Edge from blood circulation to TBX2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "LEP",
+      "label": "Edge from blood circulation to LEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "PTGS1",
+      "label": "Edge from blood circulation to PTGS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "NR2F2",
+      "label": "Edge from blood circulation to NR2F2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "TGFB2",
+      "label": "Edge from blood circulation to TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ANGPT1",
+      "label": "Edge from blood circulation to ANGPT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "RASL10B",
+      "label": "Edge from blood circulation to RASL10B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "HRH1",
+      "label": "Edge from blood circulation to HRH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "DOCK5",
+      "label": "Edge from blood circulation to DOCK5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "EMP2",
+      "label": "Edge from blood circulation to EMP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "TPM1",
+      "label": "Edge from blood circulation to TPM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ITGA1",
+      "label": "Edge from blood circulation to ITGA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ADRA2A",
+      "label": "Edge from blood circulation to ADRA2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "PRKG1",
+      "label": "Edge from blood circulation to PRKG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "TRPM4",
+      "label": "Edge from blood circulation to TRPM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "DMPK",
+      "label": "Edge from blood circulation to DMPK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "CACNA1C",
+      "label": "Edge from blood circulation to CACNA1C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "IER3",
+      "label": "Edge from blood circulation to IER3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "GAS6",
+      "label": "Edge from blood circulation to GAS6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "SGK1",
+      "label": "Edge from blood circulation to SGK1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "MYOF",
+      "label": "Edge from blood circulation to MYOF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "PTGS2",
+      "label": "Edge from blood circulation to PTGS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "FERMT2",
+      "label": "Edge from blood circulation to FERMT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "MTOR",
+      "label": "Edge from blood circulation to MTOR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "MAP2K3",
+      "label": "Edge from blood circulation to MAP2K3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "KCNE3",
+      "label": "Edge from blood circulation to KCNE3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "KCND2",
+      "label": "Edge from blood circulation to KCND2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "HSP90AA1",
+      "label": "Edge from blood circulation to HSP90AA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "FLNA",
+      "label": "Edge from blood circulation to FLNA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "VEGFC",
+      "label": "Edge from blood circulation to VEGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "SRI",
+      "label": "Edge from blood circulation to SRI",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "SLC1A1",
+      "label": "Edge from blood circulation to SLC1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ARHGAP42",
+      "label": "Edge from blood circulation to ARHGAP42",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "PER2",
+      "label": "Edge from blood circulation to PER2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "GPX1",
+      "label": "Edge from blood circulation to GPX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "KCNMA1",
+      "label": "Edge from blood circulation to KCNMA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "SMAD3",
+      "label": "Edge from blood circulation to SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "GPD1L",
+      "label": "Edge from blood circulation to GPD1L",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "SREBF1",
+      "label": "Edge from blood circulation to SREBF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ID2",
+      "label": "Edge from blood circulation to ID2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "NAV2",
+      "label": "Edge from blood circulation to NAV2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "KCND3",
+      "label": "Edge from blood circulation to KCND3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "CACNA1G",
+      "label": "Edge from blood circulation to CACNA1G",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "CALM1",
+      "label": "Edge from blood circulation to CALM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "LNPEP",
+      "label": "Edge from blood circulation to LNPEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "SOD2",
+      "label": "Edge from blood circulation to SOD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "ATP1A1",
+      "label": "Edge from blood circulation to ATP1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "CXCL12",
+      "label": "Edge from circulatory system process to CXCL12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "CACNB2",
+      "label": "Edge from circulatory system process to CACNB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC6A6",
+      "label": "Edge from circulatory system process to SLC6A6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "TBX18",
+      "label": "Edge from circulatory system process to TBX18",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "POSTN",
+      "label": "Edge from circulatory system process to POSTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "TJP2",
+      "label": "Edge from circulatory system process to TJP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ADRA1B",
+      "label": "Edge from circulatory system process to ADRA1B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "PDE5A",
+      "label": "Edge from circulatory system process to PDE5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "BDKRB2",
+      "label": "Edge from circulatory system process to BDKRB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "KCNK6",
+      "label": "Edge from circulatory system process to KCNK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "VEGFA",
+      "label": "Edge from circulatory system process to VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC6A9",
+      "label": "Edge from circulatory system process to SLC6A9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC38A2",
+      "label": "Edge from circulatory system process to SLC38A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "STC1",
+      "label": "Edge from circulatory system process to STC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "NEDD4L",
+      "label": "Edge from circulatory system process to NEDD4L",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SGCD",
+      "label": "Edge from circulatory system process to SGCD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ELN",
+      "label": "Edge from circulatory system process to ELN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "PLEC",
+      "label": "Edge from circulatory system process to PLEC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "AKAP12",
+      "label": "Edge from circulatory system process to AKAP12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ANK2",
+      "label": "Edge from circulatory system process to ANK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "LOC102724560",
+      "label": "Edge from circulatory system process to LOC102724560",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "NPR3",
+      "label": "Edge from circulatory system process to NPR3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ATP2A2",
+      "label": "Edge from circulatory system process to ATP2A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "CELF2",
+      "label": "Edge from circulatory system process to CELF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "DMD",
+      "label": "Edge from circulatory system process to DMD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "GCLM",
+      "label": "Edge from circulatory system process to GCLM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "EPAS1",
+      "label": "Edge from circulatory system process to EPAS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC7A5",
+      "label": "Edge from circulatory system process to SLC7A5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "BDKRB1",
+      "label": "Edge from circulatory system process to BDKRB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ABCC9",
+      "label": "Edge from circulatory system process to ABCC9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "CORO2B",
+      "label": "Edge from circulatory system process to CORO2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ABAT",
+      "label": "Edge from circulatory system process to ABAT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "CHRM2",
+      "label": "Edge from circulatory system process to CHRM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "EXT1",
+      "label": "Edge from circulatory system process to EXT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC16A12",
+      "label": "Edge from circulatory system process to SLC16A12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "HEG1",
+      "label": "Edge from circulatory system process to HEG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "OXTR",
+      "label": "Edge from circulatory system process to OXTR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC5A6",
+      "label": "Edge from circulatory system process to SLC5A6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "MDM2",
+      "label": "Edge from circulatory system process to MDM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "FGF13",
+      "label": "Edge from circulatory system process to FGF13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "AGTRAP",
+      "label": "Edge from circulatory system process to AGTRAP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ACVRL1",
+      "label": "Edge from circulatory system process to ACVRL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "COL1A2",
+      "label": "Edge from circulatory system process to COL1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ATP1A2",
+      "label": "Edge from circulatory system process to ATP1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "KCNJ2",
+      "label": "Edge from circulatory system process to KCNJ2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "PDE4B",
+      "label": "Edge from circulatory system process to PDE4B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "CLIC2",
+      "label": "Edge from circulatory system process to CLIC2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "CBS",
+      "label": "Edge from circulatory system process to CBS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "AGT",
+      "label": "Edge from circulatory system process to AGT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SERPING1",
+      "label": "Edge from circulatory system process to SERPING1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC8A1",
+      "label": "Edge from circulatory system process to SLC8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "DDAH1",
+      "label": "Edge from circulatory system process to DDAH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "VSTM4",
+      "label": "Edge from circulatory system process to VSTM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "GSN",
+      "label": "Edge from circulatory system process to GSN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ADM2",
+      "label": "Edge from circulatory system process to ADM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "PPARG",
+      "label": "Edge from circulatory system process to PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ROCK2",
+      "label": "Edge from circulatory system process to ROCK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ACTA2",
+      "label": "Edge from circulatory system process to ACTA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "CORIN",
+      "label": "Edge from circulatory system process to CORIN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC38A5",
+      "label": "Edge from circulatory system process to SLC38A5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ADM",
+      "label": "Edge from circulatory system process to ADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "CAV1",
+      "label": "Edge from circulatory system process to CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "TBX2",
+      "label": "Edge from circulatory system process to TBX2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "LEP",
+      "label": "Edge from circulatory system process to LEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "PTGS1",
+      "label": "Edge from circulatory system process to PTGS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "NR2F2",
+      "label": "Edge from circulatory system process to NR2F2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "TGFB2",
+      "label": "Edge from circulatory system process to TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ANGPT1",
+      "label": "Edge from circulatory system process to ANGPT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "RASL10B",
+      "label": "Edge from circulatory system process to RASL10B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "HRH1",
+      "label": "Edge from circulatory system process to HRH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "DOCK5",
+      "label": "Edge from circulatory system process to DOCK5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "EMP2",
+      "label": "Edge from circulatory system process to EMP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC38A1",
+      "label": "Edge from circulatory system process to SLC38A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "TPM1",
+      "label": "Edge from circulatory system process to TPM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ITGA1",
+      "label": "Edge from circulatory system process to ITGA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ADRA2A",
+      "label": "Edge from circulatory system process to ADRA2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SVEP1",
+      "label": "Edge from circulatory system process to SVEP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "PRKG1",
+      "label": "Edge from circulatory system process to PRKG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC4A4",
+      "label": "Edge from circulatory system process to SLC4A4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "TRPM4",
+      "label": "Edge from circulatory system process to TRPM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "DMPK",
+      "label": "Edge from circulatory system process to DMPK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "CACNA1C",
+      "label": "Edge from circulatory system process to CACNA1C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC1A5",
+      "label": "Edge from circulatory system process to SLC1A5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "IER3",
+      "label": "Edge from circulatory system process to IER3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "GAS6",
+      "label": "Edge from circulatory system process to GAS6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SGK1",
+      "label": "Edge from circulatory system process to SGK1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "MYOF",
+      "label": "Edge from circulatory system process to MYOF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "PTGS2",
+      "label": "Edge from circulatory system process to PTGS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "AKAP13",
+      "label": "Edge from circulatory system process to AKAP13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "FERMT2",
+      "label": "Edge from circulatory system process to FERMT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "MTOR",
+      "label": "Edge from circulatory system process to MTOR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ABCC1",
+      "label": "Edge from circulatory system process to ABCC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "MAP2K3",
+      "label": "Edge from circulatory system process to MAP2K3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "KCNE3",
+      "label": "Edge from circulatory system process to KCNE3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC16A2",
+      "label": "Edge from circulatory system process to SLC16A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "KCND2",
+      "label": "Edge from circulatory system process to KCND2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "HSP90AA1",
+      "label": "Edge from circulatory system process to HSP90AA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "FLNA",
+      "label": "Edge from circulatory system process to FLNA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "VEGFC",
+      "label": "Edge from circulatory system process to VEGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SRI",
+      "label": "Edge from circulatory system process to SRI",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC1A1",
+      "label": "Edge from circulatory system process to SLC1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SLC7A8",
+      "label": "Edge from circulatory system process to SLC7A8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ARHGAP42",
+      "label": "Edge from circulatory system process to ARHGAP42",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "PER2",
+      "label": "Edge from circulatory system process to PER2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "GPX1",
+      "label": "Edge from circulatory system process to GPX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "KCNMA1",
+      "label": "Edge from circulatory system process to KCNMA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SMAD3",
+      "label": "Edge from circulatory system process to SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "GPD1L",
+      "label": "Edge from circulatory system process to GPD1L",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ABCC3",
+      "label": "Edge from circulatory system process to ABCC3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SREBF1",
+      "label": "Edge from circulatory system process to SREBF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ID2",
+      "label": "Edge from circulatory system process to ID2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "NAV2",
+      "label": "Edge from circulatory system process to NAV2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "KCND3",
+      "label": "Edge from circulatory system process to KCND3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "CACNA1G",
+      "label": "Edge from circulatory system process to CACNA1G",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "CALM1",
+      "label": "Edge from circulatory system process to CALM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "LNPEP",
+      "label": "Edge from circulatory system process to LNPEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "SOD2",
+      "label": "Edge from circulatory system process to SOD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "circulatory_system_process",
+      "target": "ATP1A1",
+      "label": "Edge from circulatory system process to ATP1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "CXCL12",
+      "label": "Edge from intracellular chemical homeostasis to CXCL12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "SOX4",
+      "label": "Edge from intracellular chemical homeostasis to SOX4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "MT2A",
+      "label": "Edge from intracellular chemical homeostasis to MT2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "CACNB2",
+      "label": "Edge from intracellular chemical homeostasis to CACNB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "KLF15",
+      "label": "Edge from intracellular chemical homeostasis to KLF15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "STEAP2",
+      "label": "Edge from intracellular chemical homeostasis to STEAP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "FOXO1",
+      "label": "Edge from intracellular chemical homeostasis to FOXO1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "MT1E",
+      "label": "Edge from intracellular chemical homeostasis to MT1E",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "STEAP4",
+      "label": "Edge from intracellular chemical homeostasis to STEAP4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "ANXA6",
+      "label": "Edge from intracellular chemical homeostasis to ANXA6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "HMOX1",
+      "label": "Edge from intracellular chemical homeostasis to HMOX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "MT1X",
+      "label": "Edge from intracellular chemical homeostasis to MT1X",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "IRS2",
+      "label": "Edge from intracellular chemical homeostasis to IRS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "STC1",
+      "label": "Edge from intracellular chemical homeostasis to STC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "TRPC6",
+      "label": "Edge from intracellular chemical homeostasis to TRPC6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "TRPA1",
+      "label": "Edge from intracellular chemical homeostasis to TRPA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "SLC39A10",
+      "label": "Edge from intracellular chemical homeostasis to SLC39A10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "ANK2",
+      "label": "Edge from intracellular chemical homeostasis to ANK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "PIK3R1",
+      "label": "Edge from intracellular chemical homeostasis to PIK3R1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "SLC4A7",
+      "label": "Edge from intracellular chemical homeostasis to SLC4A7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "ORMDL1",
+      "label": "Edge from intracellular chemical homeostasis to ORMDL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "ATP2A2",
+      "label": "Edge from intracellular chemical homeostasis to ATP2A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "DMD",
+      "label": "Edge from intracellular chemical homeostasis to DMD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "HERPUD1",
+      "label": "Edge from intracellular chemical homeostasis to HERPUD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "GCLM",
+      "label": "Edge from intracellular chemical homeostasis to GCLM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "SLC7A11",
+      "label": "Edge from intracellular chemical homeostasis to SLC7A11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "BDKRB1",
+      "label": "Edge from intracellular chemical homeostasis to BDKRB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "RAF1",
+      "label": "Edge from intracellular chemical homeostasis to RAF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "PKD2",
+      "label": "Edge from intracellular chemical homeostasis to PKD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "COX11",
+      "label": "Edge from intracellular chemical homeostasis to COX11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "GLS",
+      "label": "Edge from intracellular chemical homeostasis to GLS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "GPR68",
+      "label": "Edge from intracellular chemical homeostasis to GPR68",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "CCL11",
+      "label": "Edge from intracellular chemical homeostasis to CCL11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "PRKAA1",
+      "label": "Edge from intracellular chemical homeostasis to PRKAA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "STIM2",
+      "label": "Edge from intracellular chemical homeostasis to STIM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "ATP1A2",
+      "label": "Edge from intracellular chemical homeostasis to ATP1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "KCNJ2",
+      "label": "Edge from intracellular chemical homeostasis to KCNJ2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "CLIC2",
+      "label": "Edge from intracellular chemical homeostasis to CLIC2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "ADCY8",
+      "label": "Edge from intracellular chemical homeostasis to ADCY8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "P2RX7",
+      "label": "Edge from intracellular chemical homeostasis to P2RX7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "FTL",
+      "label": "Edge from intracellular chemical homeostasis to FTL",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "CLIC4",
+      "label": "Edge from intracellular chemical homeostasis to CLIC4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "ENPP1",
+      "label": "Edge from intracellular chemical homeostasis to ENPP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "SLC8A1",
+      "label": "Edge from intracellular chemical homeostasis to SLC8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "MT1M",
+      "label": "Edge from intracellular chemical homeostasis to MT1M",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "PRKCE",
+      "label": "Edge from intracellular chemical homeostasis to PRKCE",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "CAV1",
+      "label": "Edge from intracellular chemical homeostasis to CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "NADK",
+      "label": "Edge from intracellular chemical homeostasis to NADK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "SRF",
+      "label": "Edge from intracellular chemical homeostasis to SRF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "TGM2",
+      "label": "Edge from intracellular chemical homeostasis to TGM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "MYC",
+      "label": "Edge from intracellular chemical homeostasis to MYC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "WNT5A",
+      "label": "Edge from intracellular chemical homeostasis to WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "UBASH3B",
+      "label": "Edge from intracellular chemical homeostasis to UBASH3B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "SIDT2",
+      "label": "Edge from intracellular chemical homeostasis to SIDT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "DDIT3",
+      "label": "Edge from intracellular chemical homeostasis to DDIT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "SLC39A13",
+      "label": "Edge from intracellular chemical homeostasis to SLC39A13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "LRRC8D",
+      "label": "Edge from intracellular chemical homeostasis to LRRC8D",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "WFS1",
+      "label": "Edge from intracellular chemical homeostasis to WFS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "TMEM165",
+      "label": "Edge from intracellular chemical homeostasis to TMEM165",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "PRKD1",
+      "label": "Edge from intracellular chemical homeostasis to PRKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "STC2",
+      "label": "Edge from intracellular chemical homeostasis to STC2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "PLCB1",
+      "label": "Edge from intracellular chemical homeostasis to PLCB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "ADRA2A",
+      "label": "Edge from intracellular chemical homeostasis to ADRA2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "CAV2",
+      "label": "Edge from intracellular chemical homeostasis to CAV2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "SLC4A4",
+      "label": "Edge from intracellular chemical homeostasis to SLC4A4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "TRPM4",
+      "label": "Edge from intracellular chemical homeostasis to TRPM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "SLC26A6",
+      "label": "Edge from intracellular chemical homeostasis to SLC26A6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "DMPK",
+      "label": "Edge from intracellular chemical homeostasis to DMPK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "CACNA1C",
+      "label": "Edge from intracellular chemical homeostasis to CACNA1C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "GAS6",
+      "label": "Edge from intracellular chemical homeostasis to GAS6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "STXBP4",
+      "label": "Edge from intracellular chemical homeostasis to STXBP4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "SLC9A7",
+      "label": "Edge from intracellular chemical homeostasis to SLC9A7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "ZBED6",
+      "label": "Edge from intracellular chemical homeostasis to ZBED6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "intracellular_chemical_homeostasis",
+      "target": "HIF1A",
+      "label": "Edge from intracellular chemical homeostasis to HIF1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_circulation",
+      "target": "circulatory_system_process",
+      "label": "Edge from blood circulation to circulatory system process",
+      "degree": 10
+    },
+    "classes": "genesis"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "Gene": "TSLP",
+    "log2FoldChange": -2.8757,
+    "padj": 0.011,
+    "ID": "WP5095",
+    "Term": "Overview of proinflammatory and profibrotic mediators"
+  },
+  {
+    "Gene": "NFKB1",
+    "log2FoldChange": -0.2662,
+    "padj": 1,
+    "ID": "WP5095",
+    "Term": "Overview of proinflammatory and profibrotic mediators"
+  },
+  {
+    "Gene": "MMP1",
+    "log2FoldChange": -1.3204,
+    "padj": 1,
+    "ID": "WP5095",
+    "Term": "Overview of proinflammatory and profibrotic mediators"
+  },
+  {
+    "Gene": "CXCL16",
+    "log2FoldChange": -0.2835,
+    "padj": 1,
+    "ID": "WP5095",
+    "Term": "Overview of proinflammatory and profibrotic mediators"
+  },
+  {
+    "Gene": "TNFSF13B",
+    "log2FoldChange": -1.4294,
+    "padj": 1,
+    "ID": "WP5095",
+    "Term": "Overview of proinflammatory and profibrotic mediators"
+  },
+  {
+    "Gene": "IL12A",
+    "log2FoldChange": -0.3116,
+    "padj": 1,
+    "ID": "WP5095",
+    "Term": "Overview of proinflammatory and profibrotic mediators"
+  },
+  {
+    "Gene": "CXCL12",
+    "log2FoldChange": -2.074,
+    "padj": 1.4218e-14,
+    "ID": "WP5095",
+    "Term": "Overview of proinflammatory and profibrotic mediators"
+  },
+  {
+    "Gene": "LIF",
+    "log2FoldChange": -2.2137,
+    "padj": 0.1522,
+    "ID": "WP5095",
+    "Term": "Overview of proinflammatory and profibrotic mediators"
+  },
+  {
+    "Gene": "VEGFA",
+    "log2FoldChange": -1.0806,
+    "padj": 1,
+    "ID": "WP5095",
+    "Term": "Overview of proinflammatory and profibrotic mediators"
+  },
+  {
+    "Gene": "TGFB1",
+    "log2FoldChange": -0.2529,
+    "padj": 1,
+    "ID": "WP5095",
+    "Term": "Overview of proinflammatory and profibrotic mediators"
+  },
+  {
+    "Gene": "IL33",
+    "log2FoldChange": -0.258,
+    "padj": 1,
+    "ID": "WP5095",
+    "Term": "Overview of proinflammatory and profibrotic mediators"
+  },
+  {
+    "Gene": "CCL11",
+    "log2FoldChange": -0.631,
+    "padj": 1,
+    "ID": "WP5095",
+    "Term": "Overview of proinflammatory and profibrotic mediators"
+  }
+]

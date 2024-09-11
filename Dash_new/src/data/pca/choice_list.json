@@ -1,0 +1,6 @@
+{
+  "correction_list": ["corrected", "uncorrected"],
+  "gene_list": ["500", "1000"],
+  "covariate_list": [],
+  "plottype_list": ["no_loadings", "top_loadings"]
+}

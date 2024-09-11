@@ -1,0 +1,92 @@
+[
+  {
+    "Gene": "DNAH1",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "TTLL1",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "CFAP69",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "SPAG16",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "IQCG",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "TTC12",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "CFAP44",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "CEP131",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "TPGS1",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "SPEF2",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "ARMC2",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "MNS1",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "FSIP2",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "CFAP58",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  },
+  {
+    "Gene": "CFAP157",
+    "padj": 1,
+    "ID": "GO:0007288",
+    "Term": "sperm axoneme assembly"
+  }
+]

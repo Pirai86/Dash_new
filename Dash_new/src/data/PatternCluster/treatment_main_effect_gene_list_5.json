@@ -1,0 +1,380 @@
+[
+  {
+    "Gene": "EPAS1",
+    "baseMean": 21607.9801,
+    "stat": 38.5265,
+    "pvalue": 2.1865e-08,
+    "padj": 9.6284e-07
+  },
+  {
+    "Gene": "ITIH5",
+    "baseMean": 13683.5594,
+    "stat": 93.6459,
+    "pvalue": 3.6083e-20,
+    "padj": 6.1771e-18
+  },
+  {
+    "Gene": "CDKN1A",
+    "baseMean": 8024.128,
+    "stat": 46.732,
+    "pvalue": 3.9631e-10,
+    "padj": 2.2786e-08
+  },
+  {
+    "Gene": "PRSS23",
+    "baseMean": 7230.7763,
+    "stat": 33.0422,
+    "pvalue": 3.1553e-07,
+    "padj": 0
+  },
+  {
+    "Gene": "PCDH18",
+    "baseMean": 6612.0521,
+    "stat": 50.1744,
+    "pvalue": 7.3343e-11,
+    "padj": 4.5798e-09
+  },
+  {
+    "Gene": "SEMA5A",
+    "baseMean": 4317.6206,
+    "stat": 19.8169,
+    "pvalue": 0.0002,
+    "padj": 0.0036
+  },
+  {
+    "Gene": "ACSL4",
+    "baseMean": 3930.1154,
+    "stat": 23.0501,
+    "pvalue": 0,
+    "padj": 0.0009
+  },
+  {
+    "Gene": "B4GALT1",
+    "baseMean": 3382.9529,
+    "stat": 21.2016,
+    "pvalue": 0.0001,
+    "padj": 0.002
+  },
+  {
+    "Gene": "LOXL2",
+    "baseMean": 3103.0977,
+    "stat": 27.3341,
+    "pvalue": 5.0104e-06,
+    "padj": 0.0001
+  },
+  {
+    "Gene": "THSD4",
+    "baseMean": 3017.4424,
+    "stat": 37.2658,
+    "pvalue": 4.0426e-08,
+    "padj": 1.6968e-06
+  },
+  {
+    "Gene": "COL16A1",
+    "baseMean": 3002.7383,
+    "stat": 23.384,
+    "pvalue": 0,
+    "padj": 0.0008
+  },
+  {
+    "Gene": "BNC2",
+    "baseMean": 2844.9455,
+    "stat": 61.2241,
+    "pvalue": 3.2187e-13,
+    "padj": 2.6652e-11
+  },
+  {
+    "Gene": "MDM2",
+    "baseMean": 2764.5369,
+    "stat": 31.0221,
+    "pvalue": 8.41e-07,
+    "padj": 0
+  },
+  {
+    "Gene": "SULF2",
+    "baseMean": 2707.5429,
+    "stat": 39.8934,
+    "pvalue": 1.1224e-08,
+    "padj": 5.1822e-07
+  },
+  {
+    "Gene": "TBX18",
+    "baseMean": 2585.9815,
+    "stat": 181.1199,
+    "pvalue": 5.0536e-39,
+    "padj": 3.3477e-36
+  },
+  {
+    "Gene": "SIPA1L1",
+    "baseMean": 2251.5471,
+    "stat": 23.1202,
+    "pvalue": 0,
+    "padj": 0.0009
+  },
+  {
+    "Gene": "TTYH3",
+    "baseMean": 2203.8236,
+    "stat": 38.8537,
+    "pvalue": 1.864e-08,
+    "padj": 8.2559e-07
+  },
+  {
+    "Gene": "CIC",
+    "baseMean": 2037.8191,
+    "stat": 19.4179,
+    "pvalue": 0.0002,
+    "padj": 0.0042
+  },
+  {
+    "Gene": "ARHGEF40",
+    "baseMean": 2035.9295,
+    "stat": 56.2848,
+    "pvalue": 3.6523e-12,
+    "padj": 2.6003e-10
+  },
+  {
+    "Gene": "SMTN",
+    "baseMean": 1390.979,
+    "stat": 39.0992,
+    "pvalue": 1.6536e-08,
+    "padj": 7.4676e-07
+  },
+  {
+    "Gene": "NEDD4L",
+    "baseMean": 1326.2584,
+    "stat": 60.0378,
+    "pvalue": 5.77e-13,
+    "padj": 4.6269e-11
+  },
+  {
+    "Gene": "NCAM2",
+    "baseMean": 1282.3345,
+    "stat": 36.6101,
+    "pvalue": 5.5638e-08,
+    "padj": 2.2788e-06
+  },
+  {
+    "Gene": "ARRDC4",
+    "baseMean": 1269.3522,
+    "stat": 27.7806,
+    "pvalue": 4.0382e-06,
+    "padj": 0.0001
+  },
+  {
+    "Gene": "YARS1",
+    "baseMean": 1218.0575,
+    "stat": 20.34,
+    "pvalue": 0.0001,
+    "padj": 0.0029
+  },
+  {
+    "Gene": "PLEKHA4",
+    "baseMean": 1098.2471,
+    "stat": 17.3951,
+    "pvalue": 0.0006,
+    "padj": 0.0098
+  },
+  {
+    "Gene": "STK17A",
+    "baseMean": 1062.4672,
+    "stat": 18.661,
+    "pvalue": 0.0003,
+    "padj": 0.0058
+  },
+  {
+    "Gene": "PDGFC",
+    "baseMean": 1039.6048,
+    "stat": 35.908,
+    "pvalue": 7.8314e-08,
+    "padj": 3.1154e-06
+  },
+  {
+    "Gene": "ENC1",
+    "baseMean": 854.8763,
+    "stat": 26.0622,
+    "pvalue": 9.2557e-06,
+    "padj": 0.0002
+  },
+  {
+    "Gene": "TNFAIP2",
+    "baseMean": 838.3488,
+    "stat": 25.2872,
+    "pvalue": 0,
+    "padj": 0.0003
+  },
+  {
+    "Gene": "SLC6A6",
+    "baseMean": 842.3553,
+    "stat": 197.6909,
+    "pvalue": 1.3307e-42,
+    "padj": 9.6548e-40
+  },
+  {
+    "Gene": "TENM4",
+    "baseMean": 654.3242,
+    "stat": 54.2752,
+    "pvalue": 9.8019e-12,
+    "padj": 6.5501e-10
+  },
+  {
+    "Gene": "DDIT3",
+    "baseMean": 629.8873,
+    "stat": 20.2167,
+    "pvalue": 0.0002,
+    "padj": 0.003
+  },
+  {
+    "Gene": "PLEKHA6",
+    "baseMean": 592.4152,
+    "stat": 29.6557,
+    "pvalue": 1.6304e-06,
+    "padj": 0
+  },
+  {
+    "Gene": "ARHGEF3",
+    "baseMean": 543.792,
+    "stat": 23.8842,
+    "pvalue": 0,
+    "padj": 0.0006
+  },
+  {
+    "Gene": "TENT5A",
+    "baseMean": 508.4065,
+    "stat": 49.2529,
+    "pvalue": 1.1523e-10,
+    "padj": 7.1081e-09
+  },
+  {
+    "Gene": "PLK2",
+    "baseMean": 508.3132,
+    "stat": 21.1412,
+    "pvalue": 0.0001,
+    "padj": 0.002
+  },
+  {
+    "Gene": "CCL11",
+    "baseMean": 451.998,
+    "stat": 32.5596,
+    "pvalue": 3.9887e-07,
+    "padj": 0
+  },
+  {
+    "Gene": "GAS7",
+    "baseMean": 465.922,
+    "stat": 48.4675,
+    "pvalue": 1.6935e-10,
+    "padj": 1.0069e-08
+  },
+  {
+    "Gene": "ENSG00000285976",
+    "baseMean": 483.2984,
+    "stat": 24.866,
+    "pvalue": 0,
+    "padj": 0.0004
+  },
+  {
+    "Gene": "GDF5",
+    "baseMean": 416.1398,
+    "stat": 20.1187,
+    "pvalue": 0.0002,
+    "padj": 0.0031
+  },
+  {
+    "Gene": "ENTPD7",
+    "baseMean": 407.1446,
+    "stat": 21.6203,
+    "pvalue": 0.0001,
+    "padj": 0.0017
+  },
+  {
+    "Gene": "SHB",
+    "baseMean": 401.8393,
+    "stat": 23.266,
+    "pvalue": 0,
+    "padj": 0.0008
+  },
+  {
+    "Gene": "FHOD1",
+    "baseMean": 371.5163,
+    "stat": 18.2688,
+    "pvalue": 0.0004,
+    "padj": 0.0068
+  },
+  {
+    "Gene": "PELI2",
+    "baseMean": 368.7309,
+    "stat": 20.4905,
+    "pvalue": 0.0001,
+    "padj": 0.0027
+  },
+  {
+    "Gene": "WNT2",
+    "baseMean": 328.3029,
+    "stat": 126.0295,
+    "pvalue": 3.8781e-27,
+    "padj": 1.0187e-24
+  },
+  {
+    "Gene": "TRIB3",
+    "baseMean": 290.6733,
+    "stat": 18.6475,
+    "pvalue": 0.0003,
+    "padj": 0.0058
+  },
+  {
+    "Gene": "SHISAL1",
+    "baseMean": 229.4303,
+    "stat": 28.9378,
+    "pvalue": 2.3079e-06,
+    "padj": 0.0001
+  },
+  {
+    "Gene": "NEK11",
+    "baseMean": 180.8072,
+    "stat": 18.3797,
+    "pvalue": 0.0004,
+    "padj": 0.0065
+  },
+  {
+    "Gene": "CPA4",
+    "baseMean": 126.3728,
+    "stat": 53.1932,
+    "pvalue": 1.6675e-11,
+    "padj": 1.0951e-09
+  },
+  {
+    "Gene": "ADCY4",
+    "baseMean": 102.9287,
+    "stat": 17.638,
+    "pvalue": 0.0005,
+    "padj": 0.0089
+  },
+  {
+    "Gene": "TNFSF13B",
+    "baseMean": 65.8636,
+    "stat": 17.5025,
+    "pvalue": 0.0006,
+    "padj": 0.0094
+  },
+  {
+    "Gene": "ADM2",
+    "baseMean": 56.1789,
+    "stat": 25.85,
+    "pvalue": 0,
+    "padj": 0.0003
+  },
+  {
+    "Gene": "SLC14A1",
+    "baseMean": 49.5239,
+    "stat": 18.9794,
+    "pvalue": 0.0003,
+    "padj": 0.0051
+  },
+  {
+    "Gene": "LIMS4",
+    "baseMean": 41.3861,
+    "stat": 22.8275,
+    "pvalue": 0,
+    "padj": 0.001
+  }
+]

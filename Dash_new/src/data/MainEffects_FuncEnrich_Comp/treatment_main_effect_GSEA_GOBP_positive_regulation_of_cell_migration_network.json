@@ -1,0 +1,5215 @@
+[
+  {
+    "data": {
+      "id": "blood_vessel_morphogenesis",
+      "label": "blood vessel morphogenesis",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "positive_regulation_of_cell_migration",
+      "label": "positive regulation of cell migration",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "positive_regulation_of_cell_adhesion",
+      "label": "positive regulation of cell adhesion",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "positive_regulation_of_locomotion",
+      "label": "positive regulation of locomotion",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "SOX4",
+      "label": "SOX4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GLUL",
+      "label": "GLUL",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAMTS1",
+      "label": "ADAMTS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAM12",
+      "label": "ADAM12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCN3",
+      "label": "CCN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CITED2",
+      "label": "CITED2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFBR2",
+      "label": "TGFBR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MFGE8",
+      "label": "MFGE8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HMOX1",
+      "label": "HMOX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VEGFA",
+      "label": "VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL4A1",
+      "label": "COL4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HIF3A",
+      "label": "HIF3A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EPHB2",
+      "label": "EPHB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "WARS1",
+      "label": "WARS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SGCD",
+      "label": "SGCD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANXA2",
+      "label": "ANXA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANPEP",
+      "label": "ANPEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AMOT",
+      "label": "AMOT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL4A2",
+      "label": "COL4A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYO1E",
+      "label": "MYO1E",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NPR3",
+      "label": "NPR3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CALD1",
+      "label": "CALD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SAT1",
+      "label": "SAT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLXDC1",
+      "label": "PLXDC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EPAS1",
+      "label": "EPAS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL3A1",
+      "label": "COL3A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PIK3R3",
+      "label": "PIK3R3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRRX1",
+      "label": "PRRX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL15A1",
+      "label": "COL15A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PKD2",
+      "label": "PKD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HSPB1",
+      "label": "HSPB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CREB3L1",
+      "label": "CREB3L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AMOTL2",
+      "label": "AMOTL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RRAS",
+      "label": "RRAS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BMPER",
+      "label": "BMPER",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ROBO1",
+      "label": "ROBO1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RHOB",
+      "label": "RHOB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EPHB4",
+      "label": "EPHB4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HEG1",
+      "label": "HEG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL8A1",
+      "label": "COL8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "S1PR1",
+      "label": "S1PR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ACVRL1",
+      "label": "ACVRL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FZD8",
+      "label": "FZD8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TYMP",
+      "label": "TYMP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCBE1",
+      "label": "CCBE1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EPHB3",
+      "label": "EPHB3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RBPJ",
+      "label": "RBPJ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCN2",
+      "label": "CCN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NRP2",
+      "label": "NRP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITGB8",
+      "label": "ITGB8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LOXL2",
+      "label": "LOXL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CLIC4",
+      "label": "CLIC4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "UNC5B",
+      "label": "UNC5B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FGF10",
+      "label": "FGF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTGIS",
+      "label": "PTGIS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DDAH1",
+      "label": "DDAH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VSTM4",
+      "label": "VSTM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RHOJ",
+      "label": "RHOJ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADM2",
+      "label": "ADM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PPARG",
+      "label": "PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ROCK2",
+      "label": "ROCK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNFAIP2",
+      "label": "TNFAIP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KLF5",
+      "label": "KLF5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADM",
+      "label": "ADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAV1",
+      "label": "CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HDAC7",
+      "label": "HDAC7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SRF",
+      "label": "SRF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HS6ST1",
+      "label": "HS6ST1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAPK7",
+      "label": "MAPK7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SHB",
+      "label": "SHB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NIBAN2",
+      "label": "NIBAN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TBX2",
+      "label": "TBX2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LEP",
+      "label": "LEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NR2F2",
+      "label": "NR2F2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BRCA1",
+      "label": "BRCA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFB2",
+      "label": "TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "B4GALT1",
+      "label": "B4GALT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLK2",
+      "label": "PLK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "WNT5A",
+      "label": "WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CEMIP2",
+      "label": "CEMIP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANGPT1",
+      "label": "ANGPT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FZD4",
+      "label": "FZD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "APOB",
+      "label": "APOB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL18A1",
+      "label": "COL18A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SEMA5A",
+      "label": "SEMA5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZFP36L1",
+      "label": "ZFP36L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKD1",
+      "label": "PRKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "APOD",
+      "label": "APOD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMO",
+      "label": "SMO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMAD1",
+      "label": "SMAD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPNMB",
+      "label": "GPNMB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EMP2",
+      "label": "EMP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VASH2",
+      "label": "VASH2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL27A1",
+      "label": "COL27A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCL2",
+      "label": "CCL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STARD13",
+      "label": "STARD13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PARVA",
+      "label": "PARVA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STAT3",
+      "label": "STAT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SPARC",
+      "label": "SPARC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MTDH",
+      "label": "MTDH",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IL6",
+      "label": "IL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ENG",
+      "label": "ENG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PKM",
+      "label": "PKM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ACTG1",
+      "label": "ACTG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HIF1A",
+      "label": "HIF1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTGS2",
+      "label": "PTGS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LOX",
+      "label": "LOX",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SARS1",
+      "label": "SARS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PIK3CD",
+      "label": "PIK3CD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FZD5",
+      "label": "FZD5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GREM1",
+      "label": "GREM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFBI",
+      "label": "TGFBI",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANXA1",
+      "label": "ANXA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCN1",
+      "label": "CCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SULF1",
+      "label": "SULF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FGF1",
+      "label": "FGF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NOTCH3",
+      "label": "NOTCH3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FGFR2",
+      "label": "FGFR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADGRB2",
+      "label": "ADGRB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZFPM2",
+      "label": "ZFPM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FLNA",
+      "label": "FLNA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VEGFC",
+      "label": "VEGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TEAD2",
+      "label": "TEAD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IL12A",
+      "label": "IL12A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANG",
+      "label": "ANG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EGR3",
+      "label": "EGR3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NFATC4",
+      "label": "NFATC4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MDK",
+      "label": "MDK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDGFRA",
+      "label": "PDGFRA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC1A1",
+      "label": "SLC1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NR4A1",
+      "label": "NR4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "THBS2",
+      "label": "THBS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ARHGAP22",
+      "label": "ARHGAP22",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TIPARP",
+      "label": "TIPARP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPX1",
+      "label": "GPX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZMIZ1",
+      "label": "ZMIZ1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRDM1",
+      "label": "PRDM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANGPTL4",
+      "label": "ANGPTL4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CXCL12",
+      "label": "CXCL12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "POSTN",
+      "label": "POSTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL1A1",
+      "label": "COL1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SUN2",
+      "label": "SUN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDPN",
+      "label": "PDPN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FAM107A",
+      "label": "FAM107A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLPP3",
+      "label": "PLPP3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DAAM2",
+      "label": "DAAM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IRS2",
+      "label": "IRS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LRRC15",
+      "label": "LRRC15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYADM",
+      "label": "MYADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ARHGEF2",
+      "label": "ARHGEF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AKAP12",
+      "label": "AKAP12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TWIST2",
+      "label": "TWIST2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNFAIP6",
+      "label": "TNFAIP6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PIK3R1",
+      "label": "PIK3R1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DAPK2",
+      "label": "DAPK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CARMIL1",
+      "label": "CARMIL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NSMF",
+      "label": "NSMF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NEDD9",
+      "label": "NEDD9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTN",
+      "label": "PTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ENPP2",
+      "label": "ENPP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SEMA6D",
+      "label": "SEMA6D",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BDKRB1",
+      "label": "BDKRB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SEMA3A",
+      "label": "SEMA3A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDGFC",
+      "label": "PDGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCL11",
+      "label": "CCL11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITGA2",
+      "label": "ITGA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HGF",
+      "label": "HGF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LAMB1",
+      "label": "LAMB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MDM2",
+      "label": "MDM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AGT",
+      "label": "AGT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ACTN4",
+      "label": "ACTN4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RRAS2",
+      "label": "RRAS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKCE",
+      "label": "PRKCE",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ACTA2",
+      "label": "ACTA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NR4A3",
+      "label": "NR4A3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTP4A1",
+      "label": "PTP4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IL6R",
+      "label": "IL6R",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYO1C",
+      "label": "MYO1C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VSIR",
+      "label": "VSIR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DOCK5",
+      "label": "DOCK5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SEMA3B",
+      "label": "SEMA3B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SWAP70",
+      "label": "SWAP70",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOX9",
+      "label": "SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADRA2A",
+      "label": "ADRA2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STAT5A",
+      "label": "STAT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "JAK2",
+      "label": "JAK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAPRE2",
+      "label": "MAPRE2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ATOH8",
+      "label": "ATOH8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GAS6",
+      "label": "GAS6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IL34",
+      "label": "IL34",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FERMT2",
+      "label": "FERMT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MTOR",
+      "label": "MTOR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LPAR1",
+      "label": "LPAR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KIT",
+      "label": "KIT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAP2K3",
+      "label": "MAP2K3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAMK1D",
+      "label": "CAMK1D",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MET",
+      "label": "MET",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SYDE1",
+      "label": "SYDE1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCL7",
+      "label": "CCL7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SNAI2",
+      "label": "SNAI2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PPM1F",
+      "label": "PPM1F",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FGF7",
+      "label": "FGF7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMAD3",
+      "label": "SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZBTB16",
+      "label": "ZBTB16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IGFBP2",
+      "label": "IGFBP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LAMA2",
+      "label": "LAMA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VCAM1",
+      "label": "VCAM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FSTL3",
+      "label": "FSTL3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FOXO3",
+      "label": "FOXO3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LIF",
+      "label": "LIF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMARCD2",
+      "label": "SMARCD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CYTH3",
+      "label": "CYTH3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LAMC1",
+      "label": "LAMC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LIMS2",
+      "label": "LIMS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITPKB",
+      "label": "ITPKB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CDK6",
+      "label": "CDK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BCL6",
+      "label": "BCL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL16A1",
+      "label": "COL16A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGM2",
+      "label": "TGM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DUSP10",
+      "label": "DUSP10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NFKBIZ",
+      "label": "NFKBIZ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RSU1",
+      "label": "RSU1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TPM1",
+      "label": "TPM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNFSF13B",
+      "label": "TNFSF13B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLEKHA2",
+      "label": "PLEKHA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GLI2",
+      "label": "GLI2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FRMD5",
+      "label": "FRMD5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOCS1",
+      "label": "SOCS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAP3K8",
+      "label": "MAP3K8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GCNT1",
+      "label": "GCNT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IGF2",
+      "label": "IGF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STAT5B",
+      "label": "STAT5B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LIMS1",
+      "label": "LIMS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LDB1",
+      "label": "LDB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NID1",
+      "label": "NID1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PIK3R2",
+      "label": "PIK3R2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTPN11",
+      "label": "PTPN11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAM19",
+      "label": "ADAM19",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOCS5",
+      "label": "SOCS5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KIF26B",
+      "label": "KIF26B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GLI3",
+      "label": "GLI3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IL16",
+      "label": "IL16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAVIN1",
+      "label": "CAVIN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NTN1",
+      "label": "NTN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TPBG",
+      "label": "TPBG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "SOX4",
+      "label": "Edge from blood vessel morphogenesis to SOX4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "GLUL",
+      "label": "Edge from blood vessel morphogenesis to GLUL",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ADAMTS1",
+      "label": "Edge from blood vessel morphogenesis to ADAMTS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ADAM12",
+      "label": "Edge from blood vessel morphogenesis to ADAM12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "CCN3",
+      "label": "Edge from blood vessel morphogenesis to CCN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "CITED2",
+      "label": "Edge from blood vessel morphogenesis to CITED2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "TGFBR2",
+      "label": "Edge from blood vessel morphogenesis to TGFBR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "MFGE8",
+      "label": "Edge from blood vessel morphogenesis to MFGE8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "HMOX1",
+      "label": "Edge from blood vessel morphogenesis to HMOX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "VEGFA",
+      "label": "Edge from blood vessel morphogenesis to VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "COL4A1",
+      "label": "Edge from blood vessel morphogenesis to COL4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "HIF3A",
+      "label": "Edge from blood vessel morphogenesis to HIF3A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "EPHB2",
+      "label": "Edge from blood vessel morphogenesis to EPHB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "WARS1",
+      "label": "Edge from blood vessel morphogenesis to WARS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "SGCD",
+      "label": "Edge from blood vessel morphogenesis to SGCD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ANXA2",
+      "label": "Edge from blood vessel morphogenesis to ANXA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ANPEP",
+      "label": "Edge from blood vessel morphogenesis to ANPEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "AMOT",
+      "label": "Edge from blood vessel morphogenesis to AMOT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "COL4A2",
+      "label": "Edge from blood vessel morphogenesis to COL4A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "MYO1E",
+      "label": "Edge from blood vessel morphogenesis to MYO1E",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "NPR3",
+      "label": "Edge from blood vessel morphogenesis to NPR3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "CALD1",
+      "label": "Edge from blood vessel morphogenesis to CALD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "SAT1",
+      "label": "Edge from blood vessel morphogenesis to SAT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PLXDC1",
+      "label": "Edge from blood vessel morphogenesis to PLXDC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "EPAS1",
+      "label": "Edge from blood vessel morphogenesis to EPAS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "COL3A1",
+      "label": "Edge from blood vessel morphogenesis to COL3A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PIK3R3",
+      "label": "Edge from blood vessel morphogenesis to PIK3R3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PRRX1",
+      "label": "Edge from blood vessel morphogenesis to PRRX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "COL15A1",
+      "label": "Edge from blood vessel morphogenesis to COL15A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PKD2",
+      "label": "Edge from blood vessel morphogenesis to PKD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "HSPB1",
+      "label": "Edge from blood vessel morphogenesis to HSPB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "CREB3L1",
+      "label": "Edge from blood vessel morphogenesis to CREB3L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "AMOTL2",
+      "label": "Edge from blood vessel morphogenesis to AMOTL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "RRAS",
+      "label": "Edge from blood vessel morphogenesis to RRAS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "BMPER",
+      "label": "Edge from blood vessel morphogenesis to BMPER",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ROBO1",
+      "label": "Edge from blood vessel morphogenesis to ROBO1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "RHOB",
+      "label": "Edge from blood vessel morphogenesis to RHOB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "EPHB4",
+      "label": "Edge from blood vessel morphogenesis to EPHB4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "HEG1",
+      "label": "Edge from blood vessel morphogenesis to HEG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "COL8A1",
+      "label": "Edge from blood vessel morphogenesis to COL8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "S1PR1",
+      "label": "Edge from blood vessel morphogenesis to S1PR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ACVRL1",
+      "label": "Edge from blood vessel morphogenesis to ACVRL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "FZD8",
+      "label": "Edge from blood vessel morphogenesis to FZD8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "TYMP",
+      "label": "Edge from blood vessel morphogenesis to TYMP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "CCBE1",
+      "label": "Edge from blood vessel morphogenesis to CCBE1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "EPHB3",
+      "label": "Edge from blood vessel morphogenesis to EPHB3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "RBPJ",
+      "label": "Edge from blood vessel morphogenesis to RBPJ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "CCN2",
+      "label": "Edge from blood vessel morphogenesis to CCN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "NRP2",
+      "label": "Edge from blood vessel morphogenesis to NRP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ITGB8",
+      "label": "Edge from blood vessel morphogenesis to ITGB8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "LOXL2",
+      "label": "Edge from blood vessel morphogenesis to LOXL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "CLIC4",
+      "label": "Edge from blood vessel morphogenesis to CLIC4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "UNC5B",
+      "label": "Edge from blood vessel morphogenesis to UNC5B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "FGF10",
+      "label": "Edge from blood vessel morphogenesis to FGF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PTGIS",
+      "label": "Edge from blood vessel morphogenesis to PTGIS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "DDAH1",
+      "label": "Edge from blood vessel morphogenesis to DDAH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "VSTM4",
+      "label": "Edge from blood vessel morphogenesis to VSTM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "RHOJ",
+      "label": "Edge from blood vessel morphogenesis to RHOJ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ADM2",
+      "label": "Edge from blood vessel morphogenesis to ADM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PPARG",
+      "label": "Edge from blood vessel morphogenesis to PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ROCK2",
+      "label": "Edge from blood vessel morphogenesis to ROCK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "TNFAIP2",
+      "label": "Edge from blood vessel morphogenesis to TNFAIP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "KLF5",
+      "label": "Edge from blood vessel morphogenesis to KLF5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ADM",
+      "label": "Edge from blood vessel morphogenesis to ADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "CAV1",
+      "label": "Edge from blood vessel morphogenesis to CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "HDAC7",
+      "label": "Edge from blood vessel morphogenesis to HDAC7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "SRF",
+      "label": "Edge from blood vessel morphogenesis to SRF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "HS6ST1",
+      "label": "Edge from blood vessel morphogenesis to HS6ST1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "MAPK7",
+      "label": "Edge from blood vessel morphogenesis to MAPK7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "SHB",
+      "label": "Edge from blood vessel morphogenesis to SHB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "NIBAN2",
+      "label": "Edge from blood vessel morphogenesis to NIBAN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "TBX2",
+      "label": "Edge from blood vessel morphogenesis to TBX2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "LEP",
+      "label": "Edge from blood vessel morphogenesis to LEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "NR2F2",
+      "label": "Edge from blood vessel morphogenesis to NR2F2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "BRCA1",
+      "label": "Edge from blood vessel morphogenesis to BRCA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "TGFB2",
+      "label": "Edge from blood vessel morphogenesis to TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "B4GALT1",
+      "label": "Edge from blood vessel morphogenesis to B4GALT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PLK2",
+      "label": "Edge from blood vessel morphogenesis to PLK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "WNT5A",
+      "label": "Edge from blood vessel morphogenesis to WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "CEMIP2",
+      "label": "Edge from blood vessel morphogenesis to CEMIP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ANGPT1",
+      "label": "Edge from blood vessel morphogenesis to ANGPT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "FZD4",
+      "label": "Edge from blood vessel morphogenesis to FZD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "APOB",
+      "label": "Edge from blood vessel morphogenesis to APOB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "COL18A1",
+      "label": "Edge from blood vessel morphogenesis to COL18A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "SEMA5A",
+      "label": "Edge from blood vessel morphogenesis to SEMA5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ZFP36L1",
+      "label": "Edge from blood vessel morphogenesis to ZFP36L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PRKD1",
+      "label": "Edge from blood vessel morphogenesis to PRKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "APOD",
+      "label": "Edge from blood vessel morphogenesis to APOD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "SMO",
+      "label": "Edge from blood vessel morphogenesis to SMO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "SMAD1",
+      "label": "Edge from blood vessel morphogenesis to SMAD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "GPNMB",
+      "label": "Edge from blood vessel morphogenesis to GPNMB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "EMP2",
+      "label": "Edge from blood vessel morphogenesis to EMP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "VASH2",
+      "label": "Edge from blood vessel morphogenesis to VASH2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "COL27A1",
+      "label": "Edge from blood vessel morphogenesis to COL27A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "CCL2",
+      "label": "Edge from blood vessel morphogenesis to CCL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "STARD13",
+      "label": "Edge from blood vessel morphogenesis to STARD13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PARVA",
+      "label": "Edge from blood vessel morphogenesis to PARVA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "STAT3",
+      "label": "Edge from blood vessel morphogenesis to STAT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "SPARC",
+      "label": "Edge from blood vessel morphogenesis to SPARC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "MTDH",
+      "label": "Edge from blood vessel morphogenesis to MTDH",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "IL6",
+      "label": "Edge from blood vessel morphogenesis to IL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ENG",
+      "label": "Edge from blood vessel morphogenesis to ENG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PKM",
+      "label": "Edge from blood vessel morphogenesis to PKM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ACTG1",
+      "label": "Edge from blood vessel morphogenesis to ACTG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "HIF1A",
+      "label": "Edge from blood vessel morphogenesis to HIF1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PTGS2",
+      "label": "Edge from blood vessel morphogenesis to PTGS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "LOX",
+      "label": "Edge from blood vessel morphogenesis to LOX",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "SARS1",
+      "label": "Edge from blood vessel morphogenesis to SARS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PIK3CD",
+      "label": "Edge from blood vessel morphogenesis to PIK3CD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "FZD5",
+      "label": "Edge from blood vessel morphogenesis to FZD5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "GREM1",
+      "label": "Edge from blood vessel morphogenesis to GREM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "TGFBI",
+      "label": "Edge from blood vessel morphogenesis to TGFBI",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ANXA1",
+      "label": "Edge from blood vessel morphogenesis to ANXA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "CCN1",
+      "label": "Edge from blood vessel morphogenesis to CCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "SULF1",
+      "label": "Edge from blood vessel morphogenesis to SULF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "FGF1",
+      "label": "Edge from blood vessel morphogenesis to FGF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "NOTCH3",
+      "label": "Edge from blood vessel morphogenesis to NOTCH3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "FGFR2",
+      "label": "Edge from blood vessel morphogenesis to FGFR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ADGRB2",
+      "label": "Edge from blood vessel morphogenesis to ADGRB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ZFPM2",
+      "label": "Edge from blood vessel morphogenesis to ZFPM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "FLNA",
+      "label": "Edge from blood vessel morphogenesis to FLNA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "VEGFC",
+      "label": "Edge from blood vessel morphogenesis to VEGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "TEAD2",
+      "label": "Edge from blood vessel morphogenesis to TEAD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "IL12A",
+      "label": "Edge from blood vessel morphogenesis to IL12A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ANG",
+      "label": "Edge from blood vessel morphogenesis to ANG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "EGR3",
+      "label": "Edge from blood vessel morphogenesis to EGR3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "NFATC4",
+      "label": "Edge from blood vessel morphogenesis to NFATC4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "MDK",
+      "label": "Edge from blood vessel morphogenesis to MDK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PDGFRA",
+      "label": "Edge from blood vessel morphogenesis to PDGFRA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "SLC1A1",
+      "label": "Edge from blood vessel morphogenesis to SLC1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "NR4A1",
+      "label": "Edge from blood vessel morphogenesis to NR4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "THBS2",
+      "label": "Edge from blood vessel morphogenesis to THBS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ARHGAP22",
+      "label": "Edge from blood vessel morphogenesis to ARHGAP22",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "TIPARP",
+      "label": "Edge from blood vessel morphogenesis to TIPARP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "GPX1",
+      "label": "Edge from blood vessel morphogenesis to GPX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ZMIZ1",
+      "label": "Edge from blood vessel morphogenesis to ZMIZ1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "PRDM1",
+      "label": "Edge from blood vessel morphogenesis to PRDM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "ANGPTL4",
+      "label": "Edge from blood vessel morphogenesis to ANGPTL4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "CXCL12",
+      "label": "Edge from positive regulation of cell migration to CXCL12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "POSTN",
+      "label": "Edge from positive regulation of cell migration to POSTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "COL1A1",
+      "label": "Edge from positive regulation of cell migration to COL1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "SUN2",
+      "label": "Edge from positive regulation of cell migration to SUN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "ADAMTS1",
+      "label": "Edge from positive regulation of cell migration to ADAMTS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PDPN",
+      "label": "Edge from positive regulation of cell migration to PDPN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "FAM107A",
+      "label": "Edge from positive regulation of cell migration to FAM107A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "TGFBR2",
+      "label": "Edge from positive regulation of cell migration to TGFBR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "HMOX1",
+      "label": "Edge from positive regulation of cell migration to HMOX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PLPP3",
+      "label": "Edge from positive regulation of cell migration to PLPP3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "DAAM2",
+      "label": "Edge from positive regulation of cell migration to DAAM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "VEGFA",
+      "label": "Edge from positive regulation of cell migration to VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "IRS2",
+      "label": "Edge from positive regulation of cell migration to IRS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "LRRC15",
+      "label": "Edge from positive regulation of cell migration to LRRC15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "EPHB2",
+      "label": "Edge from positive regulation of cell migration to EPHB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "MYADM",
+      "label": "Edge from positive regulation of cell migration to MYADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "ARHGEF2",
+      "label": "Edge from positive regulation of cell migration to ARHGEF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "AKAP12",
+      "label": "Edge from positive regulation of cell migration to AKAP12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "TWIST2",
+      "label": "Edge from positive regulation of cell migration to TWIST2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "TNFAIP6",
+      "label": "Edge from positive regulation of cell migration to TNFAIP6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PIK3R1",
+      "label": "Edge from positive regulation of cell migration to PIK3R1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "DAPK2",
+      "label": "Edge from positive regulation of cell migration to DAPK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "CARMIL1",
+      "label": "Edge from positive regulation of cell migration to CARMIL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "NSMF",
+      "label": "Edge from positive regulation of cell migration to NSMF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "NEDD9",
+      "label": "Edge from positive regulation of cell migration to NEDD9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PTN",
+      "label": "Edge from positive regulation of cell migration to PTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "ENPP2",
+      "label": "Edge from positive regulation of cell migration to ENPP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "SEMA6D",
+      "label": "Edge from positive regulation of cell migration to SEMA6D",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "BDKRB1",
+      "label": "Edge from positive regulation of cell migration to BDKRB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PIK3R3",
+      "label": "Edge from positive regulation of cell migration to PIK3R3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "SEMA3A",
+      "label": "Edge from positive regulation of cell migration to SEMA3A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PDGFC",
+      "label": "Edge from positive regulation of cell migration to PDGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "HSPB1",
+      "label": "Edge from positive regulation of cell migration to HSPB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "RRAS",
+      "label": "Edge from positive regulation of cell migration to RRAS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "CCL11",
+      "label": "Edge from positive regulation of cell migration to CCL11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "ITGA2",
+      "label": "Edge from positive regulation of cell migration to ITGA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "HGF",
+      "label": "Edge from positive regulation of cell migration to HGF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "RHOB",
+      "label": "Edge from positive regulation of cell migration to RHOB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "LAMB1",
+      "label": "Edge from positive regulation of cell migration to LAMB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "MDM2",
+      "label": "Edge from positive regulation of cell migration to MDM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "S1PR1",
+      "label": "Edge from positive regulation of cell migration to S1PR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "CCBE1",
+      "label": "Edge from positive regulation of cell migration to CCBE1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "AGT",
+      "label": "Edge from positive regulation of cell migration to AGT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "NRP2",
+      "label": "Edge from positive regulation of cell migration to NRP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "FGF10",
+      "label": "Edge from positive regulation of cell migration to FGF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "ACTN4",
+      "label": "Edge from positive regulation of cell migration to ACTN4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "RRAS2",
+      "label": "Edge from positive regulation of cell migration to RRAS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "RHOJ",
+      "label": "Edge from positive regulation of cell migration to RHOJ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PRKCE",
+      "label": "Edge from positive regulation of cell migration to PRKCE",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "ROCK2",
+      "label": "Edge from positive regulation of cell migration to ROCK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "ACTA2",
+      "label": "Edge from positive regulation of cell migration to ACTA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "NR4A3",
+      "label": "Edge from positive regulation of cell migration to NR4A3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PTP4A1",
+      "label": "Edge from positive regulation of cell migration to PTP4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "CAV1",
+      "label": "Edge from positive regulation of cell migration to CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "HDAC7",
+      "label": "Edge from positive regulation of cell migration to HDAC7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "TGFB2",
+      "label": "Edge from positive regulation of cell migration to TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PLK2",
+      "label": "Edge from positive regulation of cell migration to PLK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "WNT5A",
+      "label": "Edge from positive regulation of cell migration to WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "ANGPT1",
+      "label": "Edge from positive regulation of cell migration to ANGPT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "FZD4",
+      "label": "Edge from positive regulation of cell migration to FZD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "IL6R",
+      "label": "Edge from positive regulation of cell migration to IL6R",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "SEMA5A",
+      "label": "Edge from positive regulation of cell migration to SEMA5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "MYO1C",
+      "label": "Edge from positive regulation of cell migration to MYO1C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PRKD1",
+      "label": "Edge from positive regulation of cell migration to PRKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "SMO",
+      "label": "Edge from positive regulation of cell migration to SMO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "VSIR",
+      "label": "Edge from positive regulation of cell migration to VSIR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "DOCK5",
+      "label": "Edge from positive regulation of cell migration to DOCK5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "GPNMB",
+      "label": "Edge from positive regulation of cell migration to GPNMB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "SEMA3B",
+      "label": "Edge from positive regulation of cell migration to SEMA3B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "SWAP70",
+      "label": "Edge from positive regulation of cell migration to SWAP70",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "SOX9",
+      "label": "Edge from positive regulation of cell migration to SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "ADRA2A",
+      "label": "Edge from positive regulation of cell migration to ADRA2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "STAT5A",
+      "label": "Edge from positive regulation of cell migration to STAT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "JAK2",
+      "label": "Edge from positive regulation of cell migration to JAK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "STAT3",
+      "label": "Edge from positive regulation of cell migration to STAT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "SPARC",
+      "label": "Edge from positive regulation of cell migration to SPARC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "MAPRE2",
+      "label": "Edge from positive regulation of cell migration to MAPRE2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "ATOH8",
+      "label": "Edge from positive regulation of cell migration to ATOH8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "IL6",
+      "label": "Edge from positive regulation of cell migration to IL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "GAS6",
+      "label": "Edge from positive regulation of cell migration to GAS6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "ACTG1",
+      "label": "Edge from positive regulation of cell migration to ACTG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "HIF1A",
+      "label": "Edge from positive regulation of cell migration to HIF1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PTGS2",
+      "label": "Edge from positive regulation of cell migration to PTGS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PIK3CD",
+      "label": "Edge from positive regulation of cell migration to PIK3CD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "IL34",
+      "label": "Edge from positive regulation of cell migration to IL34",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "ANXA1",
+      "label": "Edge from positive regulation of cell migration to ANXA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "CCN1",
+      "label": "Edge from positive regulation of cell migration to CCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "FERMT2",
+      "label": "Edge from positive regulation of cell migration to FERMT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "MTOR",
+      "label": "Edge from positive regulation of cell migration to MTOR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "FGF1",
+      "label": "Edge from positive regulation of cell migration to FGF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "LPAR1",
+      "label": "Edge from positive regulation of cell migration to LPAR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "KIT",
+      "label": "Edge from positive regulation of cell migration to KIT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "MAP2K3",
+      "label": "Edge from positive regulation of cell migration to MAP2K3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "CAMK1D",
+      "label": "Edge from positive regulation of cell migration to CAMK1D",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "FLNA",
+      "label": "Edge from positive regulation of cell migration to FLNA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "VEGFC",
+      "label": "Edge from positive regulation of cell migration to VEGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "MET",
+      "label": "Edge from positive regulation of cell migration to MET",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "IL12A",
+      "label": "Edge from positive regulation of cell migration to IL12A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "MDK",
+      "label": "Edge from positive regulation of cell migration to MDK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PDGFRA",
+      "label": "Edge from positive regulation of cell migration to PDGFRA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "SYDE1",
+      "label": "Edge from positive regulation of cell migration to SYDE1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "CCL7",
+      "label": "Edge from positive regulation of cell migration to CCL7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "SNAI2",
+      "label": "Edge from positive regulation of cell migration to SNAI2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "PPM1F",
+      "label": "Edge from positive regulation of cell migration to PPM1F",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "FGF7",
+      "label": "Edge from positive regulation of cell migration to FGF7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "SMAD3",
+      "label": "Edge from positive regulation of cell migration to SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "CXCL12",
+      "label": "Edge from positive regulation of cell adhesion to CXCL12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "ZBTB16",
+      "label": "Edge from positive regulation of cell adhesion to ZBTB16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "SOX4",
+      "label": "Edge from positive regulation of cell adhesion to SOX4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "IGFBP2",
+      "label": "Edge from positive regulation of cell adhesion to IGFBP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "LAMA2",
+      "label": "Edge from positive regulation of cell adhesion to LAMA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "VCAM1",
+      "label": "Edge from positive regulation of cell adhesion to VCAM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "FSTL3",
+      "label": "Edge from positive regulation of cell adhesion to FSTL3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "PDPN",
+      "label": "Edge from positive regulation of cell adhesion to PDPN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "CITED2",
+      "label": "Edge from positive regulation of cell adhesion to CITED2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "TGFBR2",
+      "label": "Edge from positive regulation of cell adhesion to TGFBR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "PLPP3",
+      "label": "Edge from positive regulation of cell adhesion to PLPP3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "VEGFA",
+      "label": "Edge from positive regulation of cell adhesion to VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "FOXO3",
+      "label": "Edge from positive regulation of cell adhesion to FOXO3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "LIF",
+      "label": "Edge from positive regulation of cell adhesion to LIF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "SMARCD2",
+      "label": "Edge from positive regulation of cell adhesion to SMARCD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "MYADM",
+      "label": "Edge from positive regulation of cell adhesion to MYADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "CYTH3",
+      "label": "Edge from positive regulation of cell adhesion to CYTH3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "CARMIL1",
+      "label": "Edge from positive regulation of cell adhesion to CARMIL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "NEDD9",
+      "label": "Edge from positive regulation of cell adhesion to NEDD9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "LAMC1",
+      "label": "Edge from positive regulation of cell adhesion to LAMC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "RRAS",
+      "label": "Edge from positive regulation of cell adhesion to RRAS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "LIMS2",
+      "label": "Edge from positive regulation of cell adhesion to LIMS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "ITGA2",
+      "label": "Edge from positive regulation of cell adhesion to ITGA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "LAMB1",
+      "label": "Edge from positive regulation of cell adhesion to LAMB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "COL8A1",
+      "label": "Edge from positive regulation of cell adhesion to COL8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "ITPKB",
+      "label": "Edge from positive regulation of cell adhesion to ITPKB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "PRKCE",
+      "label": "Edge from positive regulation of cell adhesion to PRKCE",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "NR4A3",
+      "label": "Edge from positive regulation of cell adhesion to NR4A3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "CDK6",
+      "label": "Edge from positive regulation of cell adhesion to CDK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "BCL6",
+      "label": "Edge from positive regulation of cell adhesion to BCL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "CAV1",
+      "label": "Edge from positive regulation of cell adhesion to CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "COL16A1",
+      "label": "Edge from positive regulation of cell adhesion to COL16A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "SHB",
+      "label": "Edge from positive regulation of cell adhesion to SHB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "LEP",
+      "label": "Edge from positive regulation of cell adhesion to LEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "TGM2",
+      "label": "Edge from positive regulation of cell adhesion to TGM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "TGFB2",
+      "label": "Edge from positive regulation of cell adhesion to TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "WNT5A",
+      "label": "Edge from positive regulation of cell adhesion to WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "ANGPT1",
+      "label": "Edge from positive regulation of cell adhesion to ANGPT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "DUSP10",
+      "label": "Edge from positive regulation of cell adhesion to DUSP10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "VSIR",
+      "label": "Edge from positive regulation of cell adhesion to VSIR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "NFKBIZ",
+      "label": "Edge from positive regulation of cell adhesion to NFKBIZ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "DOCK5",
+      "label": "Edge from positive regulation of cell adhesion to DOCK5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "EMP2",
+      "label": "Edge from positive regulation of cell adhesion to EMP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "RSU1",
+      "label": "Edge from positive regulation of cell adhesion to RSU1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "TPM1",
+      "label": "Edge from positive regulation of cell adhesion to TPM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "TNFSF13B",
+      "label": "Edge from positive regulation of cell adhesion to TNFSF13B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "PLEKHA2",
+      "label": "Edge from positive regulation of cell adhesion to PLEKHA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "CCL2",
+      "label": "Edge from positive regulation of cell adhesion to CCL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "GLI2",
+      "label": "Edge from positive regulation of cell adhesion to GLI2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "JAK2",
+      "label": "Edge from positive regulation of cell adhesion to JAK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "FRMD5",
+      "label": "Edge from positive regulation of cell adhesion to FRMD5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "SOCS1",
+      "label": "Edge from positive regulation of cell adhesion to SOCS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "IL6",
+      "label": "Edge from positive regulation of cell adhesion to IL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "MAP3K8",
+      "label": "Edge from positive regulation of cell adhesion to MAP3K8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "GCNT1",
+      "label": "Edge from positive regulation of cell adhesion to GCNT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "IGF2",
+      "label": "Edge from positive regulation of cell adhesion to IGF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "STAT5B",
+      "label": "Edge from positive regulation of cell adhesion to STAT5B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "LIMS1",
+      "label": "Edge from positive regulation of cell adhesion to LIMS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "ANXA1",
+      "label": "Edge from positive regulation of cell adhesion to ANXA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "CCN1",
+      "label": "Edge from positive regulation of cell adhesion to CCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "LDB1",
+      "label": "Edge from positive regulation of cell adhesion to LDB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "NID1",
+      "label": "Edge from positive regulation of cell adhesion to NID1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "FERMT2",
+      "label": "Edge from positive regulation of cell adhesion to FERMT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "MTOR",
+      "label": "Edge from positive regulation of cell adhesion to MTOR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "FLNA",
+      "label": "Edge from positive regulation of cell adhesion to FLNA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "PIK3R2",
+      "label": "Edge from positive regulation of cell adhesion to PIK3R2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "PTPN11",
+      "label": "Edge from positive regulation of cell adhesion to PTPN11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "IL12A",
+      "label": "Edge from positive regulation of cell adhesion to IL12A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "EGR3",
+      "label": "Edge from positive regulation of cell adhesion to EGR3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "ADAM19",
+      "label": "Edge from positive regulation of cell adhesion to ADAM19",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "MDK",
+      "label": "Edge from positive regulation of cell adhesion to MDK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "SOCS5",
+      "label": "Edge from positive regulation of cell adhesion to SOCS5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "KIF26B",
+      "label": "Edge from positive regulation of cell adhesion to KIF26B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "GLI3",
+      "label": "Edge from positive regulation of cell adhesion to GLI3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "ZMIZ1",
+      "label": "Edge from positive regulation of cell adhesion to ZMIZ1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "PPM1F",
+      "label": "Edge from positive regulation of cell adhesion to PPM1F",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_adhesion",
+      "target": "SMAD3",
+      "label": "Edge from positive regulation of cell adhesion to SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "CXCL12",
+      "label": "Edge from positive regulation of locomotion to CXCL12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "POSTN",
+      "label": "Edge from positive regulation of locomotion to POSTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "COL1A1",
+      "label": "Edge from positive regulation of locomotion to COL1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "SUN2",
+      "label": "Edge from positive regulation of locomotion to SUN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "ADAMTS1",
+      "label": "Edge from positive regulation of locomotion to ADAMTS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PDPN",
+      "label": "Edge from positive regulation of locomotion to PDPN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "FAM107A",
+      "label": "Edge from positive regulation of locomotion to FAM107A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "TGFBR2",
+      "label": "Edge from positive regulation of locomotion to TGFBR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "HMOX1",
+      "label": "Edge from positive regulation of locomotion to HMOX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PLPP3",
+      "label": "Edge from positive regulation of locomotion to PLPP3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "DAAM2",
+      "label": "Edge from positive regulation of locomotion to DAAM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "VEGFA",
+      "label": "Edge from positive regulation of locomotion to VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "IRS2",
+      "label": "Edge from positive regulation of locomotion to IRS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "LRRC15",
+      "label": "Edge from positive regulation of locomotion to LRRC15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "EPHB2",
+      "label": "Edge from positive regulation of locomotion to EPHB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "MYADM",
+      "label": "Edge from positive regulation of locomotion to MYADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "ARHGEF2",
+      "label": "Edge from positive regulation of locomotion to ARHGEF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "AKAP12",
+      "label": "Edge from positive regulation of locomotion to AKAP12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "TWIST2",
+      "label": "Edge from positive regulation of locomotion to TWIST2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "TNFAIP6",
+      "label": "Edge from positive regulation of locomotion to TNFAIP6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PIK3R1",
+      "label": "Edge from positive regulation of locomotion to PIK3R1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "DAPK2",
+      "label": "Edge from positive regulation of locomotion to DAPK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "CARMIL1",
+      "label": "Edge from positive regulation of locomotion to CARMIL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "NSMF",
+      "label": "Edge from positive regulation of locomotion to NSMF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "NEDD9",
+      "label": "Edge from positive regulation of locomotion to NEDD9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PTN",
+      "label": "Edge from positive regulation of locomotion to PTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "ENPP2",
+      "label": "Edge from positive regulation of locomotion to ENPP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "SEMA6D",
+      "label": "Edge from positive regulation of locomotion to SEMA6D",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "BDKRB1",
+      "label": "Edge from positive regulation of locomotion to BDKRB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PIK3R3",
+      "label": "Edge from positive regulation of locomotion to PIK3R3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "SEMA3A",
+      "label": "Edge from positive regulation of locomotion to SEMA3A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PDGFC",
+      "label": "Edge from positive regulation of locomotion to PDGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "HSPB1",
+      "label": "Edge from positive regulation of locomotion to HSPB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "RRAS",
+      "label": "Edge from positive regulation of locomotion to RRAS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "CCL11",
+      "label": "Edge from positive regulation of locomotion to CCL11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "ITGA2",
+      "label": "Edge from positive regulation of locomotion to ITGA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "HGF",
+      "label": "Edge from positive regulation of locomotion to HGF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "RHOB",
+      "label": "Edge from positive regulation of locomotion to RHOB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "LAMB1",
+      "label": "Edge from positive regulation of locomotion to LAMB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "MDM2",
+      "label": "Edge from positive regulation of locomotion to MDM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "S1PR1",
+      "label": "Edge from positive regulation of locomotion to S1PR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "CCBE1",
+      "label": "Edge from positive regulation of locomotion to CCBE1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "AGT",
+      "label": "Edge from positive regulation of locomotion to AGT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "NRP2",
+      "label": "Edge from positive regulation of locomotion to NRP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "FGF10",
+      "label": "Edge from positive regulation of locomotion to FGF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "ACTN4",
+      "label": "Edge from positive regulation of locomotion to ACTN4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "IL16",
+      "label": "Edge from positive regulation of locomotion to IL16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "RRAS2",
+      "label": "Edge from positive regulation of locomotion to RRAS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "RHOJ",
+      "label": "Edge from positive regulation of locomotion to RHOJ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PRKCE",
+      "label": "Edge from positive regulation of locomotion to PRKCE",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "ROCK2",
+      "label": "Edge from positive regulation of locomotion to ROCK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "ACTA2",
+      "label": "Edge from positive regulation of locomotion to ACTA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "NR4A3",
+      "label": "Edge from positive regulation of locomotion to NR4A3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PTP4A1",
+      "label": "Edge from positive regulation of locomotion to PTP4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "CAV1",
+      "label": "Edge from positive regulation of locomotion to CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "HDAC7",
+      "label": "Edge from positive regulation of locomotion to HDAC7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "CAVIN1",
+      "label": "Edge from positive regulation of locomotion to CAVIN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "TGFB2",
+      "label": "Edge from positive regulation of locomotion to TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PLK2",
+      "label": "Edge from positive regulation of locomotion to PLK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "WNT5A",
+      "label": "Edge from positive regulation of locomotion to WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "ANGPT1",
+      "label": "Edge from positive regulation of locomotion to ANGPT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "FZD4",
+      "label": "Edge from positive regulation of locomotion to FZD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "IL6R",
+      "label": "Edge from positive regulation of locomotion to IL6R",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "NTN1",
+      "label": "Edge from positive regulation of locomotion to NTN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "SEMA5A",
+      "label": "Edge from positive regulation of locomotion to SEMA5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "MYO1C",
+      "label": "Edge from positive regulation of locomotion to MYO1C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PRKD1",
+      "label": "Edge from positive regulation of locomotion to PRKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "SMO",
+      "label": "Edge from positive regulation of locomotion to SMO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "VSIR",
+      "label": "Edge from positive regulation of locomotion to VSIR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "DOCK5",
+      "label": "Edge from positive regulation of locomotion to DOCK5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "GPNMB",
+      "label": "Edge from positive regulation of locomotion to GPNMB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "SEMA3B",
+      "label": "Edge from positive regulation of locomotion to SEMA3B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "SWAP70",
+      "label": "Edge from positive regulation of locomotion to SWAP70",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "SOX9",
+      "label": "Edge from positive regulation of locomotion to SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "ADRA2A",
+      "label": "Edge from positive regulation of locomotion to ADRA2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "STAT5A",
+      "label": "Edge from positive regulation of locomotion to STAT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "JAK2",
+      "label": "Edge from positive regulation of locomotion to JAK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "STAT3",
+      "label": "Edge from positive regulation of locomotion to STAT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "SPARC",
+      "label": "Edge from positive regulation of locomotion to SPARC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "TPBG",
+      "label": "Edge from positive regulation of locomotion to TPBG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "MAPRE2",
+      "label": "Edge from positive regulation of locomotion to MAPRE2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "ATOH8",
+      "label": "Edge from positive regulation of locomotion to ATOH8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "IL6",
+      "label": "Edge from positive regulation of locomotion to IL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "GAS6",
+      "label": "Edge from positive regulation of locomotion to GAS6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "ACTG1",
+      "label": "Edge from positive regulation of locomotion to ACTG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "HIF1A",
+      "label": "Edge from positive regulation of locomotion to HIF1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PTGS2",
+      "label": "Edge from positive regulation of locomotion to PTGS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PIK3CD",
+      "label": "Edge from positive regulation of locomotion to PIK3CD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "IL34",
+      "label": "Edge from positive regulation of locomotion to IL34",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "ANXA1",
+      "label": "Edge from positive regulation of locomotion to ANXA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "CCN1",
+      "label": "Edge from positive regulation of locomotion to CCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "FERMT2",
+      "label": "Edge from positive regulation of locomotion to FERMT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "MTOR",
+      "label": "Edge from positive regulation of locomotion to MTOR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "FGF1",
+      "label": "Edge from positive regulation of locomotion to FGF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "LPAR1",
+      "label": "Edge from positive regulation of locomotion to LPAR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "KIT",
+      "label": "Edge from positive regulation of locomotion to KIT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "MAP2K3",
+      "label": "Edge from positive regulation of locomotion to MAP2K3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "CAMK1D",
+      "label": "Edge from positive regulation of locomotion to CAMK1D",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "FLNA",
+      "label": "Edge from positive regulation of locomotion to FLNA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "VEGFC",
+      "label": "Edge from positive regulation of locomotion to VEGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "MET",
+      "label": "Edge from positive regulation of locomotion to MET",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "IL12A",
+      "label": "Edge from positive regulation of locomotion to IL12A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "MDK",
+      "label": "Edge from positive regulation of locomotion to MDK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PDGFRA",
+      "label": "Edge from positive regulation of locomotion to PDGFRA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "SYDE1",
+      "label": "Edge from positive regulation of locomotion to SYDE1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "CCL7",
+      "label": "Edge from positive regulation of locomotion to CCL7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "SNAI2",
+      "label": "Edge from positive regulation of locomotion to SNAI2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "PPM1F",
+      "label": "Edge from positive regulation of locomotion to PPM1F",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "FGF7",
+      "label": "Edge from positive regulation of locomotion to FGF7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_locomotion",
+      "target": "SMAD3",
+      "label": "Edge from positive regulation of locomotion to SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "blood_vessel_morphogenesis",
+      "target": "positive_regulation_of_cell_migration",
+      "label": "Edge from blood vessel morphogenesis to positive regulation of cell migration",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "positive_regulation_of_cell_migration",
+      "target": "positive_regulation_of_locomotion",
+      "label": "Edge from positive regulation of cell migration to positive regulation of locomotion",
+      "degree": 10
+    },
+    "classes": "genesis"
+  }
+]

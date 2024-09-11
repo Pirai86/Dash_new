@@ -1,0 +1,578 @@
+[
+  {
+    "Gene": "ZBTB16",
+    "padj": 1.0131e-77,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "LRRC17",
+    "padj": 6.8111e-47,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "COL1A1",
+    "padj": 8.1578e-33,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "FST",
+    "padj": 9.5728e-32,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TNFRSF11B",
+    "padj": 1.5754e-23,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "DHRS3",
+    "padj": 2.6788e-22,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "CCN3",
+    "padj": 2.7977e-20,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "ANXA6",
+    "padj": 8.9707e-19,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "CITED2",
+    "padj": 9.3463e-19,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TGFBR2",
+    "padj": 1.8217e-18,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "COL11A1",
+    "padj": 1.4741e-15,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "FBN2",
+    "padj": 3.9267e-15,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "STC1",
+    "padj": 5.4294e-12,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "BNC2",
+    "padj": 2.6652e-11,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "ANXA2",
+    "padj": 9.0369e-11,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TMEM119",
+    "padj": 2.8978e-10,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "PLXNB1",
+    "padj": 1.6454e-08,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "NPR3",
+    "padj": 3.4157e-08,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "PKDCC",
+    "padj": 1.9699e-07,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "SULF2",
+    "padj": 5.1822e-07,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "OGN",
+    "padj": 7.5413e-07,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "RASSF2",
+    "padj": 9.7794e-07,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "COL3A1",
+    "padj": 1.295e-06,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "PRRX1",
+    "padj": 1.8856e-06,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "PDGFC",
+    "padj": 3.1154e-06,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "GPR68",
+    "padj": 6.5393e-06,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "EXT1",
+    "padj": 0,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "MTHFD1L",
+    "padj": 0,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TRIM45",
+    "padj": 0,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "DCHS1",
+    "padj": 0,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "ACVRL1",
+    "padj": 0,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "COL1A2",
+    "padj": 0,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "CCN2",
+    "padj": 0.0001,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "CBS",
+    "padj": 0.0001,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "P2RX7",
+    "padj": 0.0001,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TSKU",
+    "padj": 0.0001,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "ITGB8",
+    "padj": 0.0001,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "LOXL2",
+    "padj": 0.0001,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "PRKG2",
+    "padj": 0.0002,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "HAPLN1",
+    "padj": 0.0005,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "SRF",
+    "padj": 0.0006,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TYMS",
+    "padj": 0.0007,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "ZFAND5",
+    "padj": 0.001,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "LEP",
+    "padj": 0.001,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TGM2",
+    "padj": 0.001,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TGFB2",
+    "padj": 0.002,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "SERPINH1",
+    "padj": 0.0021,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "WNT5A",
+    "padj": 0.0023,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "GDF5",
+    "padj": 0.0031,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "CHRDL2",
+    "padj": 0.0031,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "COL18A1",
+    "padj": 0.0032,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "SMAD1",
+    "padj": 0.006,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "SOX9",
+    "padj": 0.0094,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "COL27A1",
+    "padj": 0.0104,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TLE5",
+    "padj": 0.0116,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "MAF",
+    "padj": 0.0116,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "GLI2",
+    "padj": 0.0121,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "HAPLN3",
+    "padj": 0.0149,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "BGN",
+    "padj": 0.0153,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "FAM20C",
+    "padj": 0.0224,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "SFRP4",
+    "padj": 0.0227,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "PKD1",
+    "padj": 0.0235,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "ZEB1",
+    "padj": 0.0254,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "RFLNB",
+    "padj": 0.0261,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "RSPO2",
+    "padj": 0.0267,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "ENG",
+    "padj": 0.0282,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TBX3",
+    "padj": 0.0302,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "MGP",
+    "padj": 0.0354,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "HIF1A",
+    "padj": 0.0416,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TIMP1",
+    "padj": 0.0451,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "AKAP13",
+    "padj": 0.0479,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "LOX",
+    "padj": 0.051,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "GREM1",
+    "padj": 0.0568,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TGFBI",
+    "padj": 0.0579,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "CCN1",
+    "padj": 0.059,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "SULF1",
+    "padj": 0.0601,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "NAB1",
+    "padj": 0.0668,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "FGFR2",
+    "padj": 0.071,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "OSR1",
+    "padj": 0.0716,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "SH3PXD2B",
+    "padj": 0.0717,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "CREB3L2",
+    "padj": 0.0808,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "PTPN11",
+    "padj": 0.0859,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "MDK",
+    "padj": 0.0972,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "PDGFRA",
+    "padj": 0.0986,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "PSEN1",
+    "padj": 0.1006,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "SNAI2",
+    "padj": 0.1168,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "TIPARP",
+    "padj": 0.1199,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "GLI3",
+    "padj": 0.1243,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "INSIG1",
+    "padj": 0.1243,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "AXIN2",
+    "padj": 0.127,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "SMAD3",
+    "padj": 0.1279,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "VCAN",
+    "padj": 0.1317,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "OSR2",
+    "padj": 0.1392,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "GDF10",
+    "padj": 0.1397,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "CCN4",
+    "padj": 0.1401,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  },
+  {
+    "Gene": "EYA1",
+    "padj": 0.1433,
+    "ID": "GO:0001501",
+    "Term": "skeletal system development"
+  }
+]

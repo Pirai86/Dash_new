@@ -1,0 +1,464 @@
+[
+  {
+    "Gene": "CXCL12",
+    "padj": 5.5246e-81,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "ZBTB16",
+    "padj": 1.0131e-77,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "SOX4",
+    "padj": 1.0961e-56,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "IGFBP2",
+    "padj": 6.5463e-42,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "LAMA2",
+    "padj": 8.4412e-30,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "VCAM1",
+    "padj": 4.3218e-28,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "FSTL3",
+    "padj": 6.2341e-25,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "PDPN",
+    "padj": 1.0646e-24,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "CITED2",
+    "padj": 9.3463e-19,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "TGFBR2",
+    "padj": 1.8217e-18,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "PLPP3",
+    "padj": 3.605e-15,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "VEGFA",
+    "padj": 3.1514e-14,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "FOXO3",
+    "padj": 1.6156e-12,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "LIF",
+    "padj": 1.6782e-11,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "SMARCD2",
+    "padj": 5.218e-11,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "MYADM",
+    "padj": 8.7859e-11,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "CYTH3",
+    "padj": 3.6268e-10,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "CARMIL1",
+    "padj": 8.9685e-08,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "NEDD9",
+    "padj": 3.1084e-07,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "LAMC1",
+    "padj": 4.4908e-07,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "RRAS",
+    "padj": 0,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "LIMS2",
+    "padj": 0,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "ITGA2",
+    "padj": 0,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "LAMB1",
+    "padj": 0,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "COL8A1",
+    "padj": 0,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "ITPKB",
+    "padj": 0,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "PRKCE",
+    "padj": 0.0003,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "NR4A3",
+    "padj": 0.0003,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "CDK6",
+    "padj": 0.0003,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "BCL6",
+    "padj": 0.0005,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "CAV1",
+    "padj": 0.0005,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "COL16A1",
+    "padj": 0.0008,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "SHB",
+    "padj": 0.0008,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "LEP",
+    "padj": 0.001,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "TGM2",
+    "padj": 0.001,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "TGFB2",
+    "padj": 0.002,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "WNT5A",
+    "padj": 0.0023,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "ANGPT1",
+    "padj": 0.0024,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "DUSP10",
+    "padj": 0.0043,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "VSIR",
+    "padj": 0.0057,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "NFKBIZ",
+    "padj": 0.0062,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "DOCK5",
+    "padj": 0.0065,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "EMP2",
+    "padj": 0.007,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "RSU1",
+    "padj": 0.0075,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "TPM1",
+    "padj": 0.0082,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "TNFSF13B",
+    "padj": 0.0094,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "PLEKHA2",
+    "padj": 0.0102,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "CCL2",
+    "padj": 0.0107,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "GLI2",
+    "padj": 0.0121,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "JAK2",
+    "padj": 0.015,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "FRMD5",
+    "padj": 0.0169,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "SOCS1",
+    "padj": 0.0223,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "IL6",
+    "padj": 0.0246,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "MAP3K8",
+    "padj": 0.0282,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "GCNT1",
+    "padj": 0.0304,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "IGF2",
+    "padj": 0.0316,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "STAT5B",
+    "padj": 0.0397,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "LIMS1",
+    "padj": 0.0552,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "ANXA1",
+    "padj": 0.0579,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "CCN1",
+    "padj": 0.059,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "LDB1",
+    "padj": 0.0615,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "NID1",
+    "padj": 0.0628,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "FERMT2",
+    "padj": 0.0628,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "MTOR",
+    "padj": 0.0636,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "FLNA",
+    "padj": 0.0772,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "PIK3R2",
+    "padj": 0.0815,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "PTPN11",
+    "padj": 0.0859,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "IL12A",
+    "padj": 0.0903,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "EGR3",
+    "padj": 0.0951,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "ADAM19",
+    "padj": 0.0961,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "MDK",
+    "padj": 0.0972,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "SOCS5",
+    "padj": 0.1077,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "KIF26B",
+    "padj": 0.1163,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "GLI3",
+    "padj": 0.1243,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "ZMIZ1",
+    "padj": 0.1254,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "PPM1F",
+    "padj": 0.1261,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  },
+  {
+    "Gene": "SMAD3",
+    "padj": 0.1279,
+    "ID": "GO:0045785",
+    "Term": "positive regulation of cell adhesion"
+  }
+]

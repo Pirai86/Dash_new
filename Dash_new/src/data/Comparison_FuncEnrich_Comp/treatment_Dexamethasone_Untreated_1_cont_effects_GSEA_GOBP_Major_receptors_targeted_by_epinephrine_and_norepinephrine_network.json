@@ -1,0 +1,216 @@
+[
+  {
+    "data": {
+      "id": "Phosphodiesterases_in_neuronal_function",
+      "label": "Phosphodiesterases in neuronal function",
+      "degree": 11
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "Major_receptors_targeted_by_epinephrine_and_norepinephrine",
+      "label": "Major receptors targeted by epinephrine and norepinephrine",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "CREB1",
+      "label": "CREB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDE7B",
+      "label": "PDE7B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GUCY1A1",
+      "label": "GUCY1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GUCY1A2",
+      "label": "GUCY1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKG1",
+      "label": "PRKG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADCY4",
+      "label": "ADCY4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDE5A",
+      "label": "PDE5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADCY1",
+      "label": "ADCY1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PPP1R1B",
+      "label": "PPP1R1B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADCY8",
+      "label": "ADCY8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADRA2A",
+      "label": "ADRA2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Phosphodiesterases_in_neuronal_function",
+      "target": "CREB1",
+      "label": "Edge from Phosphodiesterases in neuronal function to CREB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Phosphodiesterases_in_neuronal_function",
+      "target": "PDE7B",
+      "label": "Edge from Phosphodiesterases in neuronal function to PDE7B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Phosphodiesterases_in_neuronal_function",
+      "target": "GUCY1A1",
+      "label": "Edge from Phosphodiesterases in neuronal function to GUCY1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Phosphodiesterases_in_neuronal_function",
+      "target": "GUCY1A2",
+      "label": "Edge from Phosphodiesterases in neuronal function to GUCY1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Phosphodiesterases_in_neuronal_function",
+      "target": "PRKG1",
+      "label": "Edge from Phosphodiesterases in neuronal function to PRKG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Phosphodiesterases_in_neuronal_function",
+      "target": "ADCY4",
+      "label": "Edge from Phosphodiesterases in neuronal function to ADCY4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Phosphodiesterases_in_neuronal_function",
+      "target": "PDE5A",
+      "label": "Edge from Phosphodiesterases in neuronal function to PDE5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Phosphodiesterases_in_neuronal_function",
+      "target": "ADCY1",
+      "label": "Edge from Phosphodiesterases in neuronal function to ADCY1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Phosphodiesterases_in_neuronal_function",
+      "target": "PPP1R1B",
+      "label": "Edge from Phosphodiesterases in neuronal function to PPP1R1B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Phosphodiesterases_in_neuronal_function",
+      "target": "ADCY8",
+      "label": "Edge from Phosphodiesterases in neuronal function to ADCY8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Major_receptors_targeted_by_epinephrine_and_norepinephrine",
+      "target": "ADRA2A",
+      "label": "Edge from Major receptors targeted by epinephrine and norepinephrine to ADRA2A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Major_receptors_targeted_by_epinephrine_and_norepinephrine",
+      "target": "ADCY4",
+      "label": "Edge from Major receptors targeted by epinephrine and norepinephrine to ADCY4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Major_receptors_targeted_by_epinephrine_and_norepinephrine",
+      "target": "ADCY1",
+      "label": "Edge from Major receptors targeted by epinephrine and norepinephrine to ADCY1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Major_receptors_targeted_by_epinephrine_and_norepinephrine",
+      "target": "ADCY8",
+      "label": "Edge from Major receptors targeted by epinephrine and norepinephrine to ADCY8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Phosphodiesterases_in_neuronal_function",
+      "target": "Major_receptors_targeted_by_epinephrine_and_norepinephrine",
+      "label": "Edge from Phosphodiesterases in neuronal function to Major receptors targeted by epinephrine and norepinephrine",
+      "degree": 10
+    },
+    "classes": "genesis"
+  }
+]

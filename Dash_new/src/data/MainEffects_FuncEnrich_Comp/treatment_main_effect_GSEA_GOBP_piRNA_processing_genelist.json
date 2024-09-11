@@ -1,0 +1,56 @@
+[
+  {
+    "Gene": "PIWIL4",
+    "padj": 1,
+    "ID": "GO:0034587",
+    "Term": "piRNA processing"
+  },
+  {
+    "Gene": "GPAT2",
+    "padj": 1,
+    "ID": "GO:0034587",
+    "Term": "piRNA processing"
+  },
+  {
+    "Gene": "MOV10L1",
+    "padj": 1,
+    "ID": "GO:0034587",
+    "Term": "piRNA processing"
+  },
+  {
+    "Gene": "ANKRD34A",
+    "padj": 1,
+    "ID": "GO:0034587",
+    "Term": "piRNA processing"
+  },
+  {
+    "Gene": "TDRD6",
+    "padj": 1,
+    "ID": "GO:0034587",
+    "Term": "piRNA processing"
+  },
+  {
+    "Gene": "PLD6",
+    "padj": 1,
+    "ID": "GO:0034587",
+    "Term": "piRNA processing"
+  },
+  {
+    "Gene": "HENMT1",
+    "padj": 1,
+    "ID": "GO:0034587",
+    "Term": "piRNA processing"
+  },
+  {
+    "Gene": "TDRKH",
+    "padj": 1,
+    "ID": "GO:0034587",
+    "Term": "piRNA processing"
+  },
+  {
+    "Gene": "TDRD9",
+    "padj": 1,
+    "ID": "GO:0034587",
+    "Term": "piRNA processing"
+  }
+]

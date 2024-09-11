@@ -1,0 +1,340 @@
+[
+  {
+    "data": {
+      "id": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "label": "mitochondrial cytochrome c oxidase assembly",
+      "degree": 22
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "COX16",
+      "label": "COX16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COA3",
+      "label": "COA3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMIM20",
+      "label": "SMIM20",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SURF1",
+      "label": "SURF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COA1",
+      "label": "COA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COA8",
+      "label": "COA8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COA5",
+      "label": "COA5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COA4",
+      "label": "COA4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COX14",
+      "label": "COX14",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BCS1L",
+      "label": "BCS1L",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TIMM21",
+      "label": "TIMM21",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PET100",
+      "label": "PET100",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TACO1",
+      "label": "TACO1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COX18",
+      "label": "COX18",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COX19",
+      "label": "COX19",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TMEM223",
+      "label": "TMEM223",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SCO2",
+      "label": "SCO2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COX17",
+      "label": "COX17",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FASTKD3",
+      "label": "FASTKD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "UQCC6",
+      "label": "UQCC6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "UQCC5",
+      "label": "UQCC5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PET117",
+      "label": "PET117",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "COX16",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to COX16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "COA3",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to COA3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "SMIM20",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to SMIM20",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "SURF1",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to SURF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "COA1",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to COA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "COA8",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to COA8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "COA5",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to COA5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "COA4",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to COA4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "COX14",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to COX14",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "BCS1L",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to BCS1L",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "TIMM21",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to TIMM21",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "PET100",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to PET100",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "TACO1",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to TACO1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "COX18",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to COX18",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "COX19",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to COX19",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "TMEM223",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to TMEM223",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "SCO2",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to SCO2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "COX17",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to COX17",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "FASTKD3",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to FASTKD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "UQCC6",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to UQCC6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "UQCC5",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to UQCC5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitochondrial_cytochrome_c_oxidase_assembly",
+      "target": "PET117",
+      "label": "Edge from mitochondrial cytochrome c oxidase assembly to PET117",
+      "degree": 10
+    }
+  }
+]

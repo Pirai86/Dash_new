@@ -1,0 +1,566 @@
+[
+  {
+    "Gene": "ZBTB16",
+    "padj": 1.0131e-77,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "COL1A1",
+    "padj": 8.1578e-33,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "SORT1",
+    "padj": 2.6016e-32,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "FSTL3",
+    "padj": 6.2341e-25,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "DHRS3",
+    "padj": 2.6788e-22,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "IGSF10",
+    "padj": 6.5338e-20,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "ITGA11",
+    "padj": 8.0171e-20,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CEBPD",
+    "padj": 3.2453e-16,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "COL11A1",
+    "padj": 1.4741e-15,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "FBN2",
+    "padj": 3.9267e-15,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "GPM6B",
+    "padj": 3.9801e-15,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "ZHX3",
+    "padj": 8.998e-15,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "STC1",
+    "padj": 5.4294e-12,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "TMEM119",
+    "padj": 2.8978e-10,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "TWIST2",
+    "padj": 5.6572e-10,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "TNFAIP6",
+    "padj": 2.7773e-09,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "TENT5A",
+    "padj": 7.1081e-09,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "PLXNB1",
+    "padj": 1.6454e-08,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "TPM4",
+    "padj": 1.6635e-07,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "PKDCC",
+    "padj": 1.9699e-07,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "PTN",
+    "padj": 3.5374e-07,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "RASSF2",
+    "padj": 9.7794e-07,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "TNC",
+    "padj": 3.7197e-06,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CREB3L1",
+    "padj": 5.1937e-06,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "EXT1",
+    "padj": 0,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "HGF",
+    "padj": 0,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "S1PR1",
+    "padj": 0,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CRIM1",
+    "padj": 0,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "DCHS1",
+    "padj": 0,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "COL1A2",
+    "padj": 0,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "RBPJ",
+    "padj": 0.0001,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CCN2",
+    "padj": 0.0001,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CBS",
+    "padj": 0.0001,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "P2RX7",
+    "padj": 0.0001,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "ENPP1",
+    "padj": 0.0001,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CAT",
+    "padj": 0.0002,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "SLC8A1",
+    "padj": 0.0002,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "RRAS2",
+    "padj": 0.0002,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "PPARG",
+    "padj": 0.0003,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CDK6",
+    "padj": 0.0003,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "KAZALD1",
+    "padj": 0.0004,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "HDAC7",
+    "padj": 0.0006,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "LEP",
+    "padj": 0.001,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "WNT5A",
+    "padj": 0.0023,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "PDLIM7",
+    "padj": 0.0028,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "IL6R",
+    "padj": 0.0031,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "GDF5",
+    "padj": 0.0031,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CHRDL2",
+    "padj": 0.0031,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "PRKD1",
+    "padj": 0.0052,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "SMO",
+    "padj": 0.0053,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "RBMX",
+    "padj": 0.0057,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "SMAD1",
+    "padj": 0.006,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "LGR4",
+    "padj": 0.0078,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "SOX9",
+    "padj": 0.0094,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CYP24A1",
+    "padj": 0.0096,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "EGR2",
+    "padj": 0.0105,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "GLI2",
+    "padj": 0.0121,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "IARS1",
+    "padj": 0.0131,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "TRPM4",
+    "padj": 0.0152,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "FAM20C",
+    "padj": 0.0224,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "IL6",
+    "padj": 0.0246,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "RFLNB",
+    "padj": 0.0261,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "RSPO2",
+    "padj": 0.0267,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "IGF2",
+    "padj": 0.0316,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "MGP",
+    "padj": 0.0354,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "HIF1A",
+    "padj": 0.0416,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "DNAI3",
+    "padj": 0.0458,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "PTGS2",
+    "padj": 0.046,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "PTCH1",
+    "padj": 0.0466,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "LOX",
+    "padj": 0.051,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "GREM1",
+    "padj": 0.0568,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CTHRC1",
+    "padj": 0.0583,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CCN1",
+    "padj": 0.059,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "FERMT2",
+    "padj": 0.0628,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "NAB1",
+    "padj": 0.0668,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "FGFR2",
+    "padj": 0.071,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "OSR1",
+    "padj": 0.0716,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CHRDL1",
+    "padj": 0.0772,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "VEGFC",
+    "padj": 0.0772,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "PTPN11",
+    "padj": 0.0859,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "MDK",
+    "padj": 0.0972,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "SNAI2",
+    "padj": 0.1168,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "GLI3",
+    "padj": 0.1243,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "AXIN2",
+    "padj": 0.127,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "SMAD3",
+    "padj": 0.1279,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "VCAN",
+    "padj": 0.1317,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "TMEM64",
+    "padj": 0.1321,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "OSR2",
+    "padj": 0.1392,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "GDF10",
+    "padj": 0.1397,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "CCN4",
+    "padj": 0.1401,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "GIT1",
+    "padj": 0.1628,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "SFRP2",
+    "padj": 0.1629,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "SBDS",
+    "padj": 0.1642,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  },
+  {
+    "Gene": "FHL2",
+    "padj": 0.1708,
+    "ID": "GO:0001503",
+    "Term": "ossification"
+  }
+]

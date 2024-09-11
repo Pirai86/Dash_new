@@ -1,0 +1,746 @@
+[
+  {
+    "Gene": "SOX4",
+    "padj": 1.0961e-56,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "TBX18",
+    "padj": 3.3477e-36,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SORT1",
+    "padj": 2.6016e-32,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ADARB1",
+    "padj": 8.6655e-32,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "LAMA2",
+    "padj": 8.4412e-30,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ADAM12",
+    "padj": 2.1589e-29,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "WNT2",
+    "padj": 1.0187e-24,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "CCN3",
+    "padj": 2.7977e-20,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ITGA11",
+    "padj": 8.0171e-20,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "CITED2",
+    "padj": 9.3463e-19,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "LMOD1",
+    "padj": 3.8069e-17,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "COL11A1",
+    "padj": 1.4741e-15,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "VEGFA",
+    "padj": 3.1514e-14,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "GDF15",
+    "padj": 2.2991e-13,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "MORF4L2",
+    "padj": 2.8772e-13,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "LIF",
+    "padj": 1.6782e-11,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SMARCD2",
+    "padj": 5.218e-11,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SGCD",
+    "padj": 7.1863e-11,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "PDLIM5",
+    "padj": 8.7732e-11,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ELN",
+    "padj": 1.609e-10,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "PLEC",
+    "padj": 1.8922e-10,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "TMEM119",
+    "padj": 2.8978e-10,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ANK2",
+    "padj": 3.3789e-10,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "CFLAR",
+    "padj": 3.0003e-09,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ATP2A2",
+    "padj": 9.4112e-08,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "NR1D2",
+    "padj": 1.5099e-07,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "TAGLN",
+    "padj": 2.2575e-07,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "LAMC1",
+    "padj": 4.4908e-07,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "DMD",
+    "padj": 4.4908e-07,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "PTGFRN",
+    "padj": 4.5811e-07,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SMTN",
+    "padj": 7.4676e-07,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "EPAS1",
+    "padj": 9.6284e-07,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ATF3",
+    "padj": 9.8719e-07,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "COL3A1",
+    "padj": 1.295e-06,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "MYL6",
+    "padj": 4.6728e-06,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "MBNL1",
+    "padj": 0,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "PRKAA1",
+    "padj": 0,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "HEG1",
+    "padj": 0,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "MAFF",
+    "padj": 0,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "LAMB1",
+    "padj": 0,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "MDM2",
+    "padj": 0,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "S1PR1",
+    "padj": 0,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "NKD1",
+    "padj": 0,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "RBPJ",
+    "padj": 0.0001,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ADAMTS15",
+    "padj": 0.0001,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "PDCD4",
+    "padj": 0.0001,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ITGA8",
+    "padj": 0.0001,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "FGF10",
+    "padj": 0.0001,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ACTN4",
+    "padj": 0.0002,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "CDON",
+    "padj": 0.0002,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SLC8A1",
+    "padj": 0.0002,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "WDR1",
+    "padj": 0.0003,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "KLF5",
+    "padj": 0.0003,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ADM",
+    "padj": 0.0005,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "CAV1",
+    "padj": 0.0005,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SRF",
+    "padj": 0.0006,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "NIBAN2",
+    "padj": 0.0008,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "TBX2",
+    "padj": 0.0009,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "MYL9",
+    "padj": 0.0012,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ITGA7",
+    "padj": 0.0013,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "NR2F2",
+    "padj": 0.0014,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "FHL1",
+    "padj": 0.0016,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "CNTNAP1",
+    "padj": 0.0019,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "TGFB2",
+    "padj": 0.002,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "WNT5A",
+    "padj": 0.0023,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "PDLIM7",
+    "padj": 0.0028,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "DDIT3",
+    "padj": 0.003,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "MAP3K5",
+    "padj": 0.0041,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ZFP36L1",
+    "padj": 0.0048,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "PRKD1",
+    "padj": 0.0052,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SMO",
+    "padj": 0.0053,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SVIL",
+    "padj": 0.0053,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SMAD1",
+    "padj": 0.006,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "BOC",
+    "padj": 0.0064,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "DOCK5",
+    "padj": 0.0065,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "PLCB1",
+    "padj": 0.0067,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SDC1",
+    "padj": 0.0077,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "TPM1",
+    "padj": 0.0082,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SOX9",
+    "padj": 0.0094,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "NRG1",
+    "padj": 0.0099,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "EGR2",
+    "padj": 0.0105,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "CAV2",
+    "padj": 0.0108,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "PRKG1",
+    "padj": 0.0138,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "HLF",
+    "padj": 0.019,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "DMPK",
+    "padj": 0.0192,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ALPK3",
+    "padj": 0.0212,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "PDLIM1",
+    "padj": 0.0251,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ZEB1",
+    "padj": 0.0254,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ENG",
+    "padj": 0.0282,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "TBX3",
+    "padj": 0.0302,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "IGF2",
+    "padj": 0.0316,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "EGR1",
+    "padj": 0.0324,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SGCB",
+    "padj": 0.0357,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ACTG1",
+    "padj": 0.0361,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "BDNF",
+    "padj": 0.0364,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ZBED6",
+    "padj": 0.0384,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "CD9",
+    "padj": 0.0422,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "AKAP13",
+    "padj": 0.0479,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "LOX",
+    "padj": 0.051,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "TANC1",
+    "padj": 0.0554,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "GREM1",
+    "padj": 0.0568,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "COL6A3",
+    "padj": 0.0613,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "NID1",
+    "padj": 0.0628,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "MTOR",
+    "padj": 0.0636,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SAP30",
+    "padj": 0.0677,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "KIT",
+    "padj": 0.0703,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "FGFR2",
+    "padj": 0.071,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "NLN",
+    "padj": 0.0721,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ZFPM2",
+    "padj": 0.0761,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "FZD7",
+    "padj": 0.08,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SRI",
+    "padj": 0.0836,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "COPRS",
+    "padj": 0.0893,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "EGR3",
+    "padj": 0.0951,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "NFATC4",
+    "padj": 0.0962,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "PDGFRA",
+    "padj": 0.0986,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "DPF3",
+    "padj": 0.1005,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "NR4A1",
+    "padj": 0.1016,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "CSRP1",
+    "padj": 0.105,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "TMEM204",
+    "padj": 0.1052,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "RCAN1",
+    "padj": 0.1143,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "ADAMTS5",
+    "padj": 0.1172,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "GPX1",
+    "padj": 0.1221,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "SMAD3",
+    "padj": 0.1279,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  },
+  {
+    "Gene": "MYOZ2",
+    "padj": 0.1332,
+    "ID": "GO:0061061",
+    "Term": "muscle structure development"
+  }
+]

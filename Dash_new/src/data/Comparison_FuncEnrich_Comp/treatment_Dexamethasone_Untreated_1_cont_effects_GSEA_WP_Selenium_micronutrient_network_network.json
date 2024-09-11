@@ -1,0 +1,295 @@
+[
+  {
+    "data": {
+      "id": "Selenium_micronutrient_network",
+      "label": "Selenium micronutrient network",
+      "degree": 19
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "ALOX15B",
+      "label": "ALOX15B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPX3",
+      "label": "GPX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SERPINA3",
+      "label": "SERPINA3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "APOB",
+      "label": "APOB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DIO2",
+      "label": "DIO2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CBS",
+      "label": "CBS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TXNRD1",
+      "label": "TXNRD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LOC102724560",
+      "label": "LOC102724560",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTGS1",
+      "label": "PTGS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SELENOS",
+      "label": "SELENOS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAT",
+      "label": "CAT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LDLR",
+      "label": "LDLR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GSR",
+      "label": "GSR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MSRB1",
+      "label": "MSRB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPX1",
+      "label": "GPX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SELENOO",
+      "label": "SELENOO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SELENOP",
+      "label": "SELENOP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SELENOM",
+      "label": "SELENOM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SELENOF",
+      "label": "SELENOF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "ALOX15B",
+      "label": "Edge from Selenium micronutrient network to ALOX15B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "GPX3",
+      "label": "Edge from Selenium micronutrient network to GPX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "SERPINA3",
+      "label": "Edge from Selenium micronutrient network to SERPINA3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "APOB",
+      "label": "Edge from Selenium micronutrient network to APOB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "DIO2",
+      "label": "Edge from Selenium micronutrient network to DIO2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "CBS",
+      "label": "Edge from Selenium micronutrient network to CBS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "TXNRD1",
+      "label": "Edge from Selenium micronutrient network to TXNRD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "LOC102724560",
+      "label": "Edge from Selenium micronutrient network to LOC102724560",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "PTGS1",
+      "label": "Edge from Selenium micronutrient network to PTGS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "SELENOS",
+      "label": "Edge from Selenium micronutrient network to SELENOS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "CAT",
+      "label": "Edge from Selenium micronutrient network to CAT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "LDLR",
+      "label": "Edge from Selenium micronutrient network to LDLR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "GSR",
+      "label": "Edge from Selenium micronutrient network to GSR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "MSRB1",
+      "label": "Edge from Selenium micronutrient network to MSRB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "GPX1",
+      "label": "Edge from Selenium micronutrient network to GPX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "SELENOO",
+      "label": "Edge from Selenium micronutrient network to SELENOO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "SELENOP",
+      "label": "Edge from Selenium micronutrient network to SELENOP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "SELENOM",
+      "label": "Edge from Selenium micronutrient network to SELENOM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "Selenium_micronutrient_network",
+      "target": "SELENOF",
+      "label": "Edge from Selenium micronutrient network to SELENOF",
+      "degree": 10
+    }
+  }
+]

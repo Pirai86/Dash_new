@@ -1,0 +1,3129 @@
+[
+  {
+    "data": {
+      "id": "epithelial_cell_differentiation",
+      "label": "epithelial cell differentiation",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "muscle_structure_development",
+      "label": "muscle structure development",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "SOX4",
+      "label": "SOX4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ERRFI1",
+      "label": "ERRFI1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KLF15",
+      "label": "KLF15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TJP2",
+      "label": "TJP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FST",
+      "label": "FST",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANXA4",
+      "label": "ANXA4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDPN",
+      "label": "PDPN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ALOX15B",
+      "label": "ALOX15B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VEGFA",
+      "label": "VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TUBB",
+      "label": "TUBB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL4A1",
+      "label": "COL4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STC1",
+      "label": "STC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LIF",
+      "label": "LIF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYADM",
+      "label": "MYADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LBH",
+      "label": "LBH",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MTSS1",
+      "label": "MTSS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLEC",
+      "label": "PLEC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAMTSL4",
+      "label": "ADAMTSL4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VCL",
+      "label": "VCL",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CFLAR",
+      "label": "CFLAR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NCOA3",
+      "label": "NCOA3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC4A7",
+      "label": "SLC4A7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYO1E",
+      "label": "MYO1E",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RHEB",
+      "label": "RHEB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CDKN1A",
+      "label": "CDKN1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NF2",
+      "label": "NF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TAGLN",
+      "label": "TAGLN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PALLD",
+      "label": "PALLD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EPAS1",
+      "label": "EPAS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AQP3",
+      "label": "AQP3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC7A11",
+      "label": "SLC7A11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CDKN2B",
+      "label": "CDKN2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EXT1",
+      "label": "EXT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITGA2",
+      "label": "ITGA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLITRK6",
+      "label": "SLITRK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HEG1",
+      "label": "HEG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAFF",
+      "label": "MAFF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "S1PR1",
+      "label": "S1PR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TST",
+      "label": "TST",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ACVRL1",
+      "label": "ACVRL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RBPJ",
+      "label": "RBPJ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GDF7",
+      "label": "GDF7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CLIC4",
+      "label": "CLIC4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FGF10",
+      "label": "FGF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AKR1C3",
+      "label": "AKR1C3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PPARG",
+      "label": "PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ROCK2",
+      "label": "ROCK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ACTA2",
+      "label": "ACTA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KLF5",
+      "label": "KLF5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CDK6",
+      "label": "CDK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAV1",
+      "label": "CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GDNF",
+      "label": "GDNF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAP1B",
+      "label": "MAP1B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TYMS",
+      "label": "TYMS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KRT7",
+      "label": "KRT7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NR2F2",
+      "label": "NR2F2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CPT1A",
+      "label": "CPT1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "B4GALT1",
+      "label": "B4GALT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "WNT5A",
+      "label": "WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFB1I1",
+      "label": "TGFB1I1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FZD4",
+      "label": "FZD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SIDT2",
+      "label": "SIDT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL18A1",
+      "label": "COL18A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VIM",
+      "label": "VIM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZFP36L1",
+      "label": "ZFP36L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMO",
+      "label": "SMO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NFKBIZ",
+      "label": "NFKBIZ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLCB1",
+      "label": "PLCB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SDC1",
+      "label": "SDC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SPINT2",
+      "label": "SPINT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOX9",
+      "label": "SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NRG1",
+      "label": "NRG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL27A1",
+      "label": "COL27A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAF",
+      "label": "MAF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "UGCG",
+      "label": "UGCG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAFB",
+      "label": "MAFB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AKR1B1",
+      "label": "AKR1B1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ATOH8",
+      "label": "ATOH8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FAM20C",
+      "label": "FAM20C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SFRP4",
+      "label": "SFRP4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZEB1",
+      "label": "ZEB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PCNA",
+      "label": "PCNA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TBX3",
+      "label": "TBX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STAT5B",
+      "label": "STAT5B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HIF1A",
+      "label": "HIF1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CNN3",
+      "label": "CNN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTCH1",
+      "label": "PTCH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IL31RA",
+      "label": "IL31RA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FZD5",
+      "label": "FZD5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GREM1",
+      "label": "GREM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANXA1",
+      "label": "ANXA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FGFR2",
+      "label": "FGFR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "OSR1",
+      "label": "OSR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FLNA",
+      "label": "FLNA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FZD7",
+      "label": "FZD7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MET",
+      "label": "MET",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TBX18",
+      "label": "TBX18",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SORT1",
+      "label": "SORT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADARB1",
+      "label": "ADARB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LAMA2",
+      "label": "LAMA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAM12",
+      "label": "ADAM12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "WNT2",
+      "label": "WNT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCN3",
+      "label": "CCN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITGA11",
+      "label": "ITGA11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CITED2",
+      "label": "CITED2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LMOD1",
+      "label": "LMOD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL11A1",
+      "label": "COL11A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GDF15",
+      "label": "GDF15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MORF4L2",
+      "label": "MORF4L2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMARCD2",
+      "label": "SMARCD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SGCD",
+      "label": "SGCD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDLIM5",
+      "label": "PDLIM5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ELN",
+      "label": "ELN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TMEM119",
+      "label": "TMEM119",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANK2",
+      "label": "ANK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ATP2A2",
+      "label": "ATP2A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NR1D2",
+      "label": "NR1D2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LAMC1",
+      "label": "LAMC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DMD",
+      "label": "DMD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTGFRN",
+      "label": "PTGFRN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMTN",
+      "label": "SMTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ATF3",
+      "label": "ATF3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL3A1",
+      "label": "COL3A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYL6",
+      "label": "MYL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MBNL1",
+      "label": "MBNL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKAA1",
+      "label": "PRKAA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LAMB1",
+      "label": "LAMB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MDM2",
+      "label": "MDM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NKD1",
+      "label": "NKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAMTS15",
+      "label": "ADAMTS15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDCD4",
+      "label": "PDCD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITGA8",
+      "label": "ITGA8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ACTN4",
+      "label": "ACTN4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CDON",
+      "label": "CDON",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC8A1",
+      "label": "SLC8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "WDR1",
+      "label": "WDR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADM",
+      "label": "ADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SRF",
+      "label": "SRF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NIBAN2",
+      "label": "NIBAN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TBX2",
+      "label": "TBX2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYL9",
+      "label": "MYL9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITGA7",
+      "label": "ITGA7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FHL1",
+      "label": "FHL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CNTNAP1",
+      "label": "CNTNAP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFB2",
+      "label": "TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDLIM7",
+      "label": "PDLIM7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DDIT3",
+      "label": "DDIT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAP3K5",
+      "label": "MAP3K5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKD1",
+      "label": "PRKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SVIL",
+      "label": "SVIL",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMAD1",
+      "label": "SMAD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BOC",
+      "label": "BOC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DOCK5",
+      "label": "DOCK5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TPM1",
+      "label": "TPM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EGR2",
+      "label": "EGR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAV2",
+      "label": "CAV2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKG1",
+      "label": "PRKG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HLF",
+      "label": "HLF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DMPK",
+      "label": "DMPK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ALPK3",
+      "label": "ALPK3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDLIM1",
+      "label": "PDLIM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ENG",
+      "label": "ENG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IGF2",
+      "label": "IGF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EGR1",
+      "label": "EGR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SGCB",
+      "label": "SGCB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ACTG1",
+      "label": "ACTG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BDNF",
+      "label": "BDNF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZBED6",
+      "label": "ZBED6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CD9",
+      "label": "CD9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AKAP13",
+      "label": "AKAP13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LOX",
+      "label": "LOX",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TANC1",
+      "label": "TANC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL6A3",
+      "label": "COL6A3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NID1",
+      "label": "NID1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MTOR",
+      "label": "MTOR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SAP30",
+      "label": "SAP30",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KIT",
+      "label": "KIT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NLN",
+      "label": "NLN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZFPM2",
+      "label": "ZFPM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SRI",
+      "label": "SRI",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COPRS",
+      "label": "COPRS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EGR3",
+      "label": "EGR3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NFATC4",
+      "label": "NFATC4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDGFRA",
+      "label": "PDGFRA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DPF3",
+      "label": "DPF3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NR4A1",
+      "label": "NR4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CSRP1",
+      "label": "CSRP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TMEM204",
+      "label": "TMEM204",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RCAN1",
+      "label": "RCAN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAMTS5",
+      "label": "ADAMTS5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPX1",
+      "label": "GPX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMAD3",
+      "label": "SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYOZ2",
+      "label": "MYOZ2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "SOX4",
+      "label": "Edge from epithelial cell differentiation to SOX4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "ERRFI1",
+      "label": "Edge from epithelial cell differentiation to ERRFI1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "KLF15",
+      "label": "Edge from epithelial cell differentiation to KLF15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "TJP2",
+      "label": "Edge from epithelial cell differentiation to TJP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "FST",
+      "label": "Edge from epithelial cell differentiation to FST",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "ANXA4",
+      "label": "Edge from epithelial cell differentiation to ANXA4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "PDPN",
+      "label": "Edge from epithelial cell differentiation to PDPN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "ALOX15B",
+      "label": "Edge from epithelial cell differentiation to ALOX15B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "VEGFA",
+      "label": "Edge from epithelial cell differentiation to VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "TUBB",
+      "label": "Edge from epithelial cell differentiation to TUBB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "COL4A1",
+      "label": "Edge from epithelial cell differentiation to COL4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "STC1",
+      "label": "Edge from epithelial cell differentiation to STC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "LIF",
+      "label": "Edge from epithelial cell differentiation to LIF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "MYADM",
+      "label": "Edge from epithelial cell differentiation to MYADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "LBH",
+      "label": "Edge from epithelial cell differentiation to LBH",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "MTSS1",
+      "label": "Edge from epithelial cell differentiation to MTSS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "PLEC",
+      "label": "Edge from epithelial cell differentiation to PLEC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "ADAMTSL4",
+      "label": "Edge from epithelial cell differentiation to ADAMTSL4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "VCL",
+      "label": "Edge from epithelial cell differentiation to VCL",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "CFLAR",
+      "label": "Edge from epithelial cell differentiation to CFLAR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "NCOA3",
+      "label": "Edge from epithelial cell differentiation to NCOA3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "SLC4A7",
+      "label": "Edge from epithelial cell differentiation to SLC4A7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "MYO1E",
+      "label": "Edge from epithelial cell differentiation to MYO1E",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "RHEB",
+      "label": "Edge from epithelial cell differentiation to RHEB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "CDKN1A",
+      "label": "Edge from epithelial cell differentiation to CDKN1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "NF2",
+      "label": "Edge from epithelial cell differentiation to NF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "TAGLN",
+      "label": "Edge from epithelial cell differentiation to TAGLN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "PALLD",
+      "label": "Edge from epithelial cell differentiation to PALLD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "EPAS1",
+      "label": "Edge from epithelial cell differentiation to EPAS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "AQP3",
+      "label": "Edge from epithelial cell differentiation to AQP3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "SLC7A11",
+      "label": "Edge from epithelial cell differentiation to SLC7A11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "CDKN2B",
+      "label": "Edge from epithelial cell differentiation to CDKN2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "EXT1",
+      "label": "Edge from epithelial cell differentiation to EXT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "ITGA2",
+      "label": "Edge from epithelial cell differentiation to ITGA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "SLITRK6",
+      "label": "Edge from epithelial cell differentiation to SLITRK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "HEG1",
+      "label": "Edge from epithelial cell differentiation to HEG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "MAFF",
+      "label": "Edge from epithelial cell differentiation to MAFF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "S1PR1",
+      "label": "Edge from epithelial cell differentiation to S1PR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "TST",
+      "label": "Edge from epithelial cell differentiation to TST",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "ACVRL1",
+      "label": "Edge from epithelial cell differentiation to ACVRL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "RBPJ",
+      "label": "Edge from epithelial cell differentiation to RBPJ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "GDF7",
+      "label": "Edge from epithelial cell differentiation to GDF7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "CLIC4",
+      "label": "Edge from epithelial cell differentiation to CLIC4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "FGF10",
+      "label": "Edge from epithelial cell differentiation to FGF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "AKR1C3",
+      "label": "Edge from epithelial cell differentiation to AKR1C3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "PPARG",
+      "label": "Edge from epithelial cell differentiation to PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "ROCK2",
+      "label": "Edge from epithelial cell differentiation to ROCK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "ACTA2",
+      "label": "Edge from epithelial cell differentiation to ACTA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "KLF5",
+      "label": "Edge from epithelial cell differentiation to KLF5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "CDK6",
+      "label": "Edge from epithelial cell differentiation to CDK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "CAV1",
+      "label": "Edge from epithelial cell differentiation to CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "GDNF",
+      "label": "Edge from epithelial cell differentiation to GDNF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "MAP1B",
+      "label": "Edge from epithelial cell differentiation to MAP1B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "TYMS",
+      "label": "Edge from epithelial cell differentiation to TYMS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "KRT7",
+      "label": "Edge from epithelial cell differentiation to KRT7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "NR2F2",
+      "label": "Edge from epithelial cell differentiation to NR2F2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "CPT1A",
+      "label": "Edge from epithelial cell differentiation to CPT1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "B4GALT1",
+      "label": "Edge from epithelial cell differentiation to B4GALT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "WNT5A",
+      "label": "Edge from epithelial cell differentiation to WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "TGFB1I1",
+      "label": "Edge from epithelial cell differentiation to TGFB1I1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "FZD4",
+      "label": "Edge from epithelial cell differentiation to FZD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "SIDT2",
+      "label": "Edge from epithelial cell differentiation to SIDT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "COL18A1",
+      "label": "Edge from epithelial cell differentiation to COL18A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "VIM",
+      "label": "Edge from epithelial cell differentiation to VIM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "ZFP36L1",
+      "label": "Edge from epithelial cell differentiation to ZFP36L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "SMO",
+      "label": "Edge from epithelial cell differentiation to SMO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "NFKBIZ",
+      "label": "Edge from epithelial cell differentiation to NFKBIZ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "PLCB1",
+      "label": "Edge from epithelial cell differentiation to PLCB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "SDC1",
+      "label": "Edge from epithelial cell differentiation to SDC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "SPINT2",
+      "label": "Edge from epithelial cell differentiation to SPINT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "SOX9",
+      "label": "Edge from epithelial cell differentiation to SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "NRG1",
+      "label": "Edge from epithelial cell differentiation to NRG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "COL27A1",
+      "label": "Edge from epithelial cell differentiation to COL27A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "MAF",
+      "label": "Edge from epithelial cell differentiation to MAF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "UGCG",
+      "label": "Edge from epithelial cell differentiation to UGCG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "MAFB",
+      "label": "Edge from epithelial cell differentiation to MAFB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "AKR1B1",
+      "label": "Edge from epithelial cell differentiation to AKR1B1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "ATOH8",
+      "label": "Edge from epithelial cell differentiation to ATOH8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "FAM20C",
+      "label": "Edge from epithelial cell differentiation to FAM20C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "SFRP4",
+      "label": "Edge from epithelial cell differentiation to SFRP4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "ZEB1",
+      "label": "Edge from epithelial cell differentiation to ZEB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "PCNA",
+      "label": "Edge from epithelial cell differentiation to PCNA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "TBX3",
+      "label": "Edge from epithelial cell differentiation to TBX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "STAT5B",
+      "label": "Edge from epithelial cell differentiation to STAT5B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "HIF1A",
+      "label": "Edge from epithelial cell differentiation to HIF1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "CNN3",
+      "label": "Edge from epithelial cell differentiation to CNN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "PTCH1",
+      "label": "Edge from epithelial cell differentiation to PTCH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "IL31RA",
+      "label": "Edge from epithelial cell differentiation to IL31RA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "FZD5",
+      "label": "Edge from epithelial cell differentiation to FZD5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "GREM1",
+      "label": "Edge from epithelial cell differentiation to GREM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "ANXA1",
+      "label": "Edge from epithelial cell differentiation to ANXA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "FGFR2",
+      "label": "Edge from epithelial cell differentiation to FGFR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "OSR1",
+      "label": "Edge from epithelial cell differentiation to OSR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "FLNA",
+      "label": "Edge from epithelial cell differentiation to FLNA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "FZD7",
+      "label": "Edge from epithelial cell differentiation to FZD7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "epithelial_cell_differentiation",
+      "target": "MET",
+      "label": "Edge from epithelial cell differentiation to MET",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SOX4",
+      "label": "Edge from muscle structure development to SOX4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "TBX18",
+      "label": "Edge from muscle structure development to TBX18",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SORT1",
+      "label": "Edge from muscle structure development to SORT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ADARB1",
+      "label": "Edge from muscle structure development to ADARB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "LAMA2",
+      "label": "Edge from muscle structure development to LAMA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ADAM12",
+      "label": "Edge from muscle structure development to ADAM12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "WNT2",
+      "label": "Edge from muscle structure development to WNT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "CCN3",
+      "label": "Edge from muscle structure development to CCN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ITGA11",
+      "label": "Edge from muscle structure development to ITGA11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "CITED2",
+      "label": "Edge from muscle structure development to CITED2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "LMOD1",
+      "label": "Edge from muscle structure development to LMOD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "COL11A1",
+      "label": "Edge from muscle structure development to COL11A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "VEGFA",
+      "label": "Edge from muscle structure development to VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "GDF15",
+      "label": "Edge from muscle structure development to GDF15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "MORF4L2",
+      "label": "Edge from muscle structure development to MORF4L2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "LIF",
+      "label": "Edge from muscle structure development to LIF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SMARCD2",
+      "label": "Edge from muscle structure development to SMARCD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SGCD",
+      "label": "Edge from muscle structure development to SGCD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "PDLIM5",
+      "label": "Edge from muscle structure development to PDLIM5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ELN",
+      "label": "Edge from muscle structure development to ELN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "PLEC",
+      "label": "Edge from muscle structure development to PLEC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "TMEM119",
+      "label": "Edge from muscle structure development to TMEM119",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ANK2",
+      "label": "Edge from muscle structure development to ANK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "CFLAR",
+      "label": "Edge from muscle structure development to CFLAR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ATP2A2",
+      "label": "Edge from muscle structure development to ATP2A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "NR1D2",
+      "label": "Edge from muscle structure development to NR1D2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "TAGLN",
+      "label": "Edge from muscle structure development to TAGLN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "LAMC1",
+      "label": "Edge from muscle structure development to LAMC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "DMD",
+      "label": "Edge from muscle structure development to DMD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "PTGFRN",
+      "label": "Edge from muscle structure development to PTGFRN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SMTN",
+      "label": "Edge from muscle structure development to SMTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "EPAS1",
+      "label": "Edge from muscle structure development to EPAS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ATF3",
+      "label": "Edge from muscle structure development to ATF3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "COL3A1",
+      "label": "Edge from muscle structure development to COL3A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "MYL6",
+      "label": "Edge from muscle structure development to MYL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "MBNL1",
+      "label": "Edge from muscle structure development to MBNL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "PRKAA1",
+      "label": "Edge from muscle structure development to PRKAA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "HEG1",
+      "label": "Edge from muscle structure development to HEG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "MAFF",
+      "label": "Edge from muscle structure development to MAFF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "LAMB1",
+      "label": "Edge from muscle structure development to LAMB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "MDM2",
+      "label": "Edge from muscle structure development to MDM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "S1PR1",
+      "label": "Edge from muscle structure development to S1PR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "NKD1",
+      "label": "Edge from muscle structure development to NKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "RBPJ",
+      "label": "Edge from muscle structure development to RBPJ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ADAMTS15",
+      "label": "Edge from muscle structure development to ADAMTS15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "PDCD4",
+      "label": "Edge from muscle structure development to PDCD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ITGA8",
+      "label": "Edge from muscle structure development to ITGA8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "FGF10",
+      "label": "Edge from muscle structure development to FGF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ACTN4",
+      "label": "Edge from muscle structure development to ACTN4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "CDON",
+      "label": "Edge from muscle structure development to CDON",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SLC8A1",
+      "label": "Edge from muscle structure development to SLC8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "WDR1",
+      "label": "Edge from muscle structure development to WDR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "KLF5",
+      "label": "Edge from muscle structure development to KLF5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ADM",
+      "label": "Edge from muscle structure development to ADM",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "CAV1",
+      "label": "Edge from muscle structure development to CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SRF",
+      "label": "Edge from muscle structure development to SRF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "NIBAN2",
+      "label": "Edge from muscle structure development to NIBAN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "TBX2",
+      "label": "Edge from muscle structure development to TBX2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "MYL9",
+      "label": "Edge from muscle structure development to MYL9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ITGA7",
+      "label": "Edge from muscle structure development to ITGA7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "NR2F2",
+      "label": "Edge from muscle structure development to NR2F2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "FHL1",
+      "label": "Edge from muscle structure development to FHL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "CNTNAP1",
+      "label": "Edge from muscle structure development to CNTNAP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "TGFB2",
+      "label": "Edge from muscle structure development to TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "WNT5A",
+      "label": "Edge from muscle structure development to WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "PDLIM7",
+      "label": "Edge from muscle structure development to PDLIM7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "DDIT3",
+      "label": "Edge from muscle structure development to DDIT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "MAP3K5",
+      "label": "Edge from muscle structure development to MAP3K5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ZFP36L1",
+      "label": "Edge from muscle structure development to ZFP36L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "PRKD1",
+      "label": "Edge from muscle structure development to PRKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SMO",
+      "label": "Edge from muscle structure development to SMO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SVIL",
+      "label": "Edge from muscle structure development to SVIL",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SMAD1",
+      "label": "Edge from muscle structure development to SMAD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "BOC",
+      "label": "Edge from muscle structure development to BOC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "DOCK5",
+      "label": "Edge from muscle structure development to DOCK5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "PLCB1",
+      "label": "Edge from muscle structure development to PLCB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SDC1",
+      "label": "Edge from muscle structure development to SDC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "TPM1",
+      "label": "Edge from muscle structure development to TPM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SOX9",
+      "label": "Edge from muscle structure development to SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "NRG1",
+      "label": "Edge from muscle structure development to NRG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "EGR2",
+      "label": "Edge from muscle structure development to EGR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "CAV2",
+      "label": "Edge from muscle structure development to CAV2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "PRKG1",
+      "label": "Edge from muscle structure development to PRKG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "HLF",
+      "label": "Edge from muscle structure development to HLF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "DMPK",
+      "label": "Edge from muscle structure development to DMPK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ALPK3",
+      "label": "Edge from muscle structure development to ALPK3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "PDLIM1",
+      "label": "Edge from muscle structure development to PDLIM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ZEB1",
+      "label": "Edge from muscle structure development to ZEB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ENG",
+      "label": "Edge from muscle structure development to ENG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "TBX3",
+      "label": "Edge from muscle structure development to TBX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "IGF2",
+      "label": "Edge from muscle structure development to IGF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "EGR1",
+      "label": "Edge from muscle structure development to EGR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SGCB",
+      "label": "Edge from muscle structure development to SGCB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ACTG1",
+      "label": "Edge from muscle structure development to ACTG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "BDNF",
+      "label": "Edge from muscle structure development to BDNF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ZBED6",
+      "label": "Edge from muscle structure development to ZBED6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "CD9",
+      "label": "Edge from muscle structure development to CD9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "AKAP13",
+      "label": "Edge from muscle structure development to AKAP13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "LOX",
+      "label": "Edge from muscle structure development to LOX",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "TANC1",
+      "label": "Edge from muscle structure development to TANC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "GREM1",
+      "label": "Edge from muscle structure development to GREM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "COL6A3",
+      "label": "Edge from muscle structure development to COL6A3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "NID1",
+      "label": "Edge from muscle structure development to NID1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "MTOR",
+      "label": "Edge from muscle structure development to MTOR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SAP30",
+      "label": "Edge from muscle structure development to SAP30",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "KIT",
+      "label": "Edge from muscle structure development to KIT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "FGFR2",
+      "label": "Edge from muscle structure development to FGFR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "NLN",
+      "label": "Edge from muscle structure development to NLN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ZFPM2",
+      "label": "Edge from muscle structure development to ZFPM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "FZD7",
+      "label": "Edge from muscle structure development to FZD7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SRI",
+      "label": "Edge from muscle structure development to SRI",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "COPRS",
+      "label": "Edge from muscle structure development to COPRS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "EGR3",
+      "label": "Edge from muscle structure development to EGR3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "NFATC4",
+      "label": "Edge from muscle structure development to NFATC4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "PDGFRA",
+      "label": "Edge from muscle structure development to PDGFRA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "DPF3",
+      "label": "Edge from muscle structure development to DPF3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "NR4A1",
+      "label": "Edge from muscle structure development to NR4A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "CSRP1",
+      "label": "Edge from muscle structure development to CSRP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "TMEM204",
+      "label": "Edge from muscle structure development to TMEM204",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "RCAN1",
+      "label": "Edge from muscle structure development to RCAN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "ADAMTS5",
+      "label": "Edge from muscle structure development to ADAMTS5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "GPX1",
+      "label": "Edge from muscle structure development to GPX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "SMAD3",
+      "label": "Edge from muscle structure development to SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "muscle_structure_development",
+      "target": "MYOZ2",
+      "label": "Edge from muscle structure development to MYOZ2",
+      "degree": 10
+    }
+  }
+]

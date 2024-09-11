@@ -1,0 +1,235 @@
+[
+  {
+    "data": {
+      "id": "sperm_axoneme_assembly",
+      "label": "sperm axoneme assembly",
+      "degree": 15
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "DNAH1",
+      "label": "DNAH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TTLL1",
+      "label": "TTLL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CFAP69",
+      "label": "CFAP69",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SPAG16",
+      "label": "SPAG16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IQCG",
+      "label": "IQCG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TTC12",
+      "label": "TTC12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CFAP44",
+      "label": "CFAP44",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CEP131",
+      "label": "CEP131",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TPGS1",
+      "label": "TPGS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SPEF2",
+      "label": "SPEF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ARMC2",
+      "label": "ARMC2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MNS1",
+      "label": "MNS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FSIP2",
+      "label": "FSIP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CFAP58",
+      "label": "CFAP58",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CFAP157",
+      "label": "CFAP157",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "DNAH1",
+      "label": "Edge from sperm axoneme assembly to DNAH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "TTLL1",
+      "label": "Edge from sperm axoneme assembly to TTLL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "CFAP69",
+      "label": "Edge from sperm axoneme assembly to CFAP69",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "SPAG16",
+      "label": "Edge from sperm axoneme assembly to SPAG16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "IQCG",
+      "label": "Edge from sperm axoneme assembly to IQCG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "TTC12",
+      "label": "Edge from sperm axoneme assembly to TTC12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "CFAP44",
+      "label": "Edge from sperm axoneme assembly to CFAP44",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "CEP131",
+      "label": "Edge from sperm axoneme assembly to CEP131",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "TPGS1",
+      "label": "Edge from sperm axoneme assembly to TPGS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "SPEF2",
+      "label": "Edge from sperm axoneme assembly to SPEF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "ARMC2",
+      "label": "Edge from sperm axoneme assembly to ARMC2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "MNS1",
+      "label": "Edge from sperm axoneme assembly to MNS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "FSIP2",
+      "label": "Edge from sperm axoneme assembly to FSIP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "CFAP58",
+      "label": "Edge from sperm axoneme assembly to CFAP58",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "sperm_axoneme_assembly",
+      "target": "CFAP157",
+      "label": "Edge from sperm axoneme assembly to CFAP157",
+      "degree": 10
+    }
+  }
+]

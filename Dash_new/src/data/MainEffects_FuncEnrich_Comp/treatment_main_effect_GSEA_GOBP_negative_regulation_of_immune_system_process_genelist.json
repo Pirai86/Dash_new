@@ -1,0 +1,260 @@
+[
+  {
+    "Gene": "SAMHD1",
+    "padj": 8.5905e-103,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "DUSP1",
+    "padj": 8.5905e-103,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "CXCL12",
+    "padj": 5.5246e-81,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "LRRC17",
+    "padj": 6.8111e-47,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "TSC22D3",
+    "padj": 2.6016e-32,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "FSTL3",
+    "padj": 6.2341e-25,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "TNFRSF11B",
+    "padj": 1.5754e-23,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "PDE5A",
+    "padj": 7.7815e-23,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "CCN3",
+    "padj": 2.7977e-20,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "HMOX1",
+    "padj": 1.899e-17,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "TSC22D1",
+    "padj": 1.676e-11,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "TNFAIP6",
+    "padj": 2.7773e-09,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "PIK3R1",
+    "padj": 7.1081e-09,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "RAB7B",
+    "padj": 8.7335e-09,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "NBL1",
+    "padj": 2.4273e-08,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "COL3A1",
+    "padj": 1.295e-06,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "GRAMD4",
+    "padj": 2.4454e-06,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "ELF1",
+    "padj": 5.5605e-06,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "GPR68",
+    "padj": 6.5393e-06,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "SERPING1",
+    "padj": 0.0001,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "CNN2",
+    "padj": 0.0002,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "PPARG",
+    "padj": 0.0003,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "CDK6",
+    "padj": 0.0003,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "BCL6",
+    "padj": 0.0005,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "TGFB2",
+    "padj": 0.002,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "PLK2",
+    "padj": 0.002,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "MYC",
+    "padj": 0.002,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "ANGPT1",
+    "padj": 0.0024,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "UBASH3B",
+    "padj": 0.0024,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "DUSP10",
+    "padj": 0.0043,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "APOD",
+    "padj": 0.0053,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "VSIR",
+    "padj": 0.0057,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "SELENOS",
+    "padj": 0.0063,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "PLCB1",
+    "padj": 0.0067,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "GPNMB",
+    "padj": 0.0069,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "LGR4",
+    "padj": 0.0078,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "SOX9",
+    "padj": 0.0094,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "CCL2",
+    "padj": 0.0107,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "INHBA",
+    "padj": 0.0113,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "SVEP1",
+    "padj": 0.0119,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "MAFB",
+    "padj": 0.0133,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "LRCH1",
+    "padj": 0.0147,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  },
+  {
+    "Gene": "IRAK3",
+    "padj": 0.0153,
+    "ID": "GO:0002683",
+    "Term": "negative regulation of immune system process"
+  }
+]

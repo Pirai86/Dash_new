@@ -1,0 +1,500 @@
+[
+  {
+    "Gene": "PTX3",
+    "padj": 2.2512e-49,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "ADAMTS14",
+    "padj": 2.8545e-42,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "POSTN",
+    "padj": 4.3412e-34,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL1A1",
+    "padj": 8.1578e-33,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "ADAMTS1",
+    "padj": 3.8284e-30,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "LAMA2",
+    "padj": 8.4412e-30,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "PDPN",
+    "padj": 1.0646e-24,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "TNFRSF11B",
+    "padj": 1.5754e-23,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "ANGPTL7",
+    "padj": 1.4733e-18,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "CRISPLD2",
+    "padj": 1.5913e-16,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "MFAP4",
+    "padj": 2.0429e-16,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL11A1",
+    "padj": 1.4741e-15,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "GPM6B",
+    "padj": 3.9801e-15,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "LUM",
+    "padj": 2.4724e-13,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL4A1",
+    "padj": 3.8669e-13,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL7A1",
+    "padj": 6.4012e-12,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "ANXA2",
+    "padj": 9.0369e-11,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "ELN",
+    "padj": 1.609e-10,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "ADAMTSL4",
+    "padj": 5.0959e-10,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "OLFML2A",
+    "padj": 9.8758e-10,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL4A2",
+    "padj": 1.9509e-09,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "CFLAR",
+    "padj": 3.0003e-09,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "MYO1E",
+    "padj": 9.8024e-09,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "NTN4",
+    "padj": 8.8837e-08,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "ADAMTSL1",
+    "padj": 1.3169e-07,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "MMP1",
+    "padj": 3.7262e-07,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "LAMC1",
+    "padj": 4.4908e-07,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "SULF2",
+    "padj": 5.1822e-07,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL3A1",
+    "padj": 1.295e-06,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "THSD4",
+    "padj": 1.6968e-06,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL14A1",
+    "padj": 2.1566e-06,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL15A1",
+    "padj": 3.1203e-06,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "CREB3L1",
+    "padj": 5.1937e-06,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "EXT1",
+    "padj": 0,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "LAMB1",
+    "padj": 0,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL8A1",
+    "padj": 0,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL1A2",
+    "padj": 0,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "ADAMTS15",
+    "padj": 0.0001,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "FLRT2",
+    "padj": 0.0001,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "AGT",
+    "padj": 0.0001,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "LOXL2",
+    "padj": 0.0001,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "ITGA8",
+    "padj": 0.0001,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL4A4",
+    "padj": 0.0002,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL5A1",
+    "padj": 0.0003,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "KAZALD1",
+    "padj": 0.0004,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "ADAMTS2",
+    "padj": 0.0004,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "CAV1",
+    "padj": 0.0005,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL16A1",
+    "padj": 0.0008,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL5A3",
+    "padj": 0.0008,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "TNXB",
+    "padj": 0.0009,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "TGFB2",
+    "padj": 0.002,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "B4GALT1",
+    "padj": 0.002,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "SERPINH1",
+    "padj": 0.0021,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "DPT",
+    "padj": 0.0024,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "TNFRSF1B",
+    "padj": 0.0031,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL18A1",
+    "padj": 0.0032,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL4A5",
+    "padj": 0.0035,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "LOXL1",
+    "padj": 0.004,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "HMCN1",
+    "padj": 0.0061,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "SPINT2",
+    "padj": 0.0087,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "SOX9",
+    "padj": 0.0094,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "COL27A1",
+    "padj": 0.0104,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "CAV2",
+    "padj": 0.0108,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "IL6",
+    "padj": 0.0246,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "MMP15",
+    "padj": 0.0265,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "ENG",
+    "padj": 0.0282,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "GAS6",
+    "padj": 0.0303,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "FBLN5",
+    "padj": 0.0329,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "FOXF2",
+    "padj": 0.0371,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "LOX",
+    "padj": 0.051,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "CST3",
+    "padj": 0.052,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "GREM1",
+    "padj": 0.0568,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "TGFBI",
+    "padj": 0.0579,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "CCN1",
+    "padj": 0.059,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "SULF1",
+    "padj": 0.0601,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "NID1",
+    "padj": 0.0628,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "SH3PXD2B",
+    "padj": 0.0717,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "PHLDB1",
+    "padj": 0.0925,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "CTSS",
+    "padj": 0.0946,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "PDGFRA",
+    "padj": 0.0986,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "PHLDB2",
+    "padj": 0.1026,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "FSCN1",
+    "padj": 0.105,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  },
+  {
+    "Gene": "OLFML2B",
+    "padj": 0.106,
+    "ID": "GO:0030198",
+    "Term": "extracellular matrix organization"
+  }
+]

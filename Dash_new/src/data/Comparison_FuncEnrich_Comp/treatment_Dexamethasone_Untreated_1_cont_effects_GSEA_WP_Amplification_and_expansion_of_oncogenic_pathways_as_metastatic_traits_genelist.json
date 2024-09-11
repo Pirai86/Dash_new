@@ -1,0 +1,65 @@
+[
+  {
+    "Gene": "VCAM1",
+    "log2FoldChange": -3.8683,
+    "padj": 1.2294e-11,
+    "ID": "WP3678",
+    "Term": "Amplification and expansion of oncogenic pathways as metastatic traits"
+  },
+  {
+    "Gene": "POSTN",
+    "log2FoldChange": -1.666,
+    "padj": 0.004,
+    "ID": "WP3678",
+    "Term": "Amplification and expansion of oncogenic pathways as metastatic traits"
+  },
+  {
+    "Gene": "EPAS1",
+    "log2FoldChange": -0.6326,
+    "padj": 1,
+    "ID": "WP3678",
+    "Term": "Amplification and expansion of oncogenic pathways as metastatic traits"
+  },
+  {
+    "Gene": "TNC",
+    "log2FoldChange": -0.8197,
+    "padj": 1,
+    "ID": "WP3678",
+    "Term": "Amplification and expansion of oncogenic pathways as metastatic traits"
+  },
+  {
+    "Gene": "JAG1",
+    "log2FoldChange": -0.2752,
+    "padj": 1,
+    "ID": "WP3678",
+    "Term": "Amplification and expansion of oncogenic pathways as metastatic traits"
+  },
+  {
+    "Gene": "TCF7L1",
+    "log2FoldChange": -0.2471,
+    "padj": 1,
+    "ID": "WP3678",
+    "Term": "Amplification and expansion of oncogenic pathways as metastatic traits"
+  },
+  {
+    "Gene": "WNT2",
+    "log2FoldChange": -2.9687,
+    "padj": 8.1717e-07,
+    "ID": "WP3678",
+    "Term": "Amplification and expansion of oncogenic pathways as metastatic traits"
+  },
+  {
+    "Gene": "VEGFA",
+    "log2FoldChange": -1.0806,
+    "padj": 1,
+    "ID": "WP3678",
+    "Term": "Amplification and expansion of oncogenic pathways as metastatic traits"
+  },
+  {
+    "Gene": "NOTCH1",
+    "log2FoldChange": -0.5495,
+    "padj": 1,
+    "ID": "WP3678",
+    "Term": "Amplification and expansion of oncogenic pathways as metastatic traits"
+  }
+]

@@ -1,0 +1,368 @@
+[
+  {
+    "Gene": "IGFBP2",
+    "padj": 6.5463e-42,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "POSTN",
+    "padj": 4.3412e-34,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "COL1A1",
+    "padj": 8.1578e-33,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "INHBB",
+    "padj": 3.7577e-31,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "GLUL",
+    "padj": 1.982e-30,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "VCAM1",
+    "padj": 4.3218e-28,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "FOXO1",
+    "padj": 5.7829e-24,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "TNFRSF11B",
+    "padj": 1.5754e-23,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "FAM107A",
+    "padj": 1.452e-19,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "ACSL1",
+    "padj": 4.335e-18,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "GDF15",
+    "padj": 2.2991e-13,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "SLC38A2",
+    "padj": 4.4282e-13,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "FOXO3",
+    "padj": 1.6156e-12,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "STC1",
+    "padj": 5.4294e-12,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "PRKAG2",
+    "padj": 1.4446e-11,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "PLEC",
+    "padj": 1.8922e-10,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "RHEB",
+    "padj": 1.8193e-08,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "CDKN1A",
+    "padj": 2.2786e-08,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "MAP1LC3C",
+    "padj": 1.4856e-07,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "ULK2",
+    "padj": 1.9065e-07,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "GCLM",
+    "padj": 7.9126e-07,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "ATF3",
+    "padj": 9.8719e-07,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "SLC7A5",
+    "padj": 1.2546e-06,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "AQP3",
+    "padj": 1.4301e-06,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "TNC",
+    "padj": 3.7197e-06,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "CDKN2B",
+    "padj": 0,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "ITGA2",
+    "padj": 0,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "PRKAA1",
+    "padj": 0,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "USP33",
+    "padj": 0,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "MDM2",
+    "padj": 0,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "WIPI1",
+    "padj": 0.0001,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "CBS",
+    "padj": 0.0001,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "CAT",
+    "padj": 0.0002,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "AKR1C3",
+    "padj": 0.0002,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "PPARG",
+    "padj": 0.0003,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "NQO1",
+    "padj": 0.0003,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "ADM",
+    "padj": 0.0005,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "SRF",
+    "padj": 0.0006,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "MAP1B",
+    "padj": 0.0006,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "TYMS",
+    "padj": 0.0007,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "ASNS",
+    "padj": 0.0009,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "LEP",
+    "padj": 0.001,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "SESN2",
+    "padj": 0.001,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "CPT1A",
+    "padj": 0.0018,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "GABARAPL1",
+    "padj": 0.002,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "YARS1",
+    "padj": 0.0029,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "DDIT3",
+    "padj": 0.003,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "MAP3K5",
+    "padj": 0.0041,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "PRKD1",
+    "padj": 0.0052,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "NFKBIZ",
+    "padj": 0.0062,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "STC2",
+    "padj": 0.0064,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "NUAK1",
+    "padj": 0.0073,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "CYP24A1",
+    "padj": 0.0096,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "SESN3",
+    "padj": 0.0116,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "EHMT2",
+    "padj": 0.0253,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "ZEB1",
+    "padj": 0.0254,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "MBD2",
+    "padj": 0.0296,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "GAS6",
+    "padj": 0.0303,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "NONO",
+    "padj": 0.0443,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "PTGS2",
+    "padj": 0.046,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  },
+  {
+    "Gene": "IFI16",
+    "padj": 0.0496,
+    "ID": "GO:0031667",
+    "Term": "response to nutrient levels"
+  }
+]

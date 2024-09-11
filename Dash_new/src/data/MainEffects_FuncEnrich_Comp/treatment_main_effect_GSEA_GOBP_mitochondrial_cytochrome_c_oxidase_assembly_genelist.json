@@ -1,0 +1,122 @@
+[
+  {
+    "Gene": "COX16",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "COA3",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "SMIM20",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "SURF1",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "COA1",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "COA8",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "COA5",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "COA4",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "COX14",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "BCS1L",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "TIMM21",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "PET100",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "TACO1",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "COX18",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "COX19",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "TMEM223",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "SCO2",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "COX17",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "FASTKD3",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  },
+  {
+    "Gene": "PET117",
+    "padj": 1,
+    "ID": "GO:0033617",
+    "Term": "mitochondrial cytochrome c oxidase assembly"
+  }
+]

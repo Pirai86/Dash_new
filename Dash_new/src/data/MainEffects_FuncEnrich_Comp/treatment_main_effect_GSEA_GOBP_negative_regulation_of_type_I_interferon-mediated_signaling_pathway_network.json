@@ -1,0 +1,25 @@
+[
+  {
+    "data": {
+      "id": "negative_regulation_of_type_I_interferon-mediated_signaling_pathway",
+      "label": "negative regulation of type I interferon-mediated signaling pathway",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "SAMHD1",
+      "label": "SAMHD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_type_I_interferon-mediated_signaling_pathway",
+      "target": "SAMHD1",
+      "label": "Edge from negative regulation of type I interferon-mediated signaling pathway to SAMHD1",
+      "degree": 10
+    }
+  }
+]

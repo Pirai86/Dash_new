@@ -1,0 +1,30 @@
+[
+  {
+    "Gene": "ADCY1",
+    "log2FoldChange": -2.6358,
+    "padj": 0.0113,
+    "ID": "WP4589",
+    "Term": "Major receptors targeted by epinephrine and norepinephrine"
+  },
+  {
+    "Gene": "ADCY8",
+    "log2FoldChange": -5.3181,
+    "padj": 0.077,
+    "ID": "WP4589",
+    "Term": "Major receptors targeted by epinephrine and norepinephrine"
+  },
+  {
+    "Gene": "ADCY4",
+    "log2FoldChange": -1.1193,
+    "padj": 1,
+    "ID": "WP4589",
+    "Term": "Major receptors targeted by epinephrine and norepinephrine"
+  },
+  {
+    "Gene": "ADRA2A",
+    "log2FoldChange": -0.1959,
+    "padj": 1,
+    "ID": "WP4589",
+    "Term": "Major receptors targeted by epinephrine and norepinephrine"
+  }
+]

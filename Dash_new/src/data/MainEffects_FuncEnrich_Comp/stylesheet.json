@@ -1,0 +1,111 @@
+[
+  {
+    "selector": "node",
+    "style": {
+      "width": "data(degree)",
+      "height": "data(degree)",
+      "background-color": "rgba(146, 219, 219, 0.8)",
+      "label": "data(label)",
+      "text-valign": "bottom",
+      "text-halign": "center",
+      "color": "black",
+      "font-size": "4px",
+      "text-opacity": 1,
+      "shape": "ellipse",
+      "font-family": "Helvetica",
+      "text-wrap": "wrap",
+      "text-max-width": 20
+    }
+  },
+  {
+    "selector": "node.genesis",
+    "style": {
+      "width": "data(degree)",
+      "height": "data(degree)",
+      "background-color": "rgba(255, 137, 107, 0.8)",
+      "label": "data(label)",
+      "text-valign": "bottom",
+      "text-halign": "center",
+      "color": "brown",
+      "font-size": "6px",
+      "text-opacity": 1,
+      "shape": "round-rectangle",
+      "font-family": "Helvetica",
+      "text-wrap": "wrap",
+      "text-max-width": 40,
+      "border-color": "black",
+      "border-width": 1,
+      "border-opacity": 1
+    }
+  },
+  {
+    "selector": "node.childrenNode",
+    "style": {
+      "width": "data(degree)",
+      "height": "data(degree)",
+      "background-color": "rgba(146, 219, 219, 0.8)",
+      "label": "data(label)",
+      "text-valign": "bottom",
+      "text-halign": "center",
+      "color": "black",
+      "font-size": "4px",
+      "text-opacity": 1,
+      "shape": "ellipse",
+      "font-family": "Helvetica",
+      "text-wrap": "wrap",
+      "text-max-width": 20
+    }
+  },
+  {
+    "selector": "edge",
+    "style": {
+      "width": 0.75,
+      "line-color": "#bbb",
+      "target-arrow-color": "#bbb",
+      "target-arrow-shape": "triangle",
+      "curve-style": "bezier"
+    }
+  },
+  {
+    "selector": "edge.genesis",
+    "style": {
+      "width": 3,
+      "line-color": "black",
+      "target-arrow-shape": "none",
+      "curve-style": "bezier"
+    }
+  },
+  {
+    "selector": "edge.childrenEdge",
+    "style": {
+      "width": 0.75,
+      "line-color": "#bbb",
+      "target-arrow-color": "#bbb",
+      "target-arrow-shape": "vee",
+      "curve-style": "bezier"
+    }
+  },
+  {
+    "selector": "node.hovered",
+    "style": {
+      "z-index": 9999,
+      "border-width": 1,
+      "border-color": "red"
+    }
+  },
+  {
+    "selector": "edge.highlighted",
+    "style": {
+      "line-color": "data(color)",
+      "width": 1
+    }
+  },
+  {
+    "selector": "node.selected",
+    "style": {
+      "border-color": "red",
+      "border-width": 1,
+      "border-opacity": 1
+    }
+  }
+]

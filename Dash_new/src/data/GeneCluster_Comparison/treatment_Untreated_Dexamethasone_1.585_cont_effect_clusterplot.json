@@ -1,0 +1,289 @@
+{
+  "data": [
+    {
+      "x": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+      "y": [-1.3779891056320575, -1.4281251956580669, -1.4560352117833055, -1.2567477286268602, -1.4741381462186591, -1.4891106597544856, -1.416401981366052, -1.49497181748583, -1.4549724958039862, -1.4745969904241016, -1.4895682675497701, -1.4320924806920359, -1.4716464402221061, -1.4463257459225756, -1.4723507853776128, -1.4606311573301411, -1.4661381315955599, -0.95461312605051951, -1.4971631607748632, -1.4823961414671971, -1.3436855621488446, -1.4856648967697275, -1.2395942861491898, -1.3811425792915848, 0.45164279664944712, 0.54371521539971646, 0.51287197167828047, 1.0043195233876132, 0.42994175723886918, 0.64310970657978872, 0.46235435341948855, 0.5310702939219869, 0.3661212355362401, 0.6341227953071138, 0.66050634832061728, 0.79918306318383414, 0.3874989026544724, 0.53080271952453484, 0.53995269933980361, 0.77999864160616339, 0.36588273518066633, 0.21151391256409585, 0.52894712420651391, 0.34335430295470348, 1.0193433505834852, 0.55371397637059339, 0.55461726877153528, 0.48809406665683747, -0.020617123889301803, 0.072244395282125146, 0.17820016701630279, -0.30971447073474534, 0.30199167270311789, 0.34850033590904322, 0.073954067613459823, 0.38585046450772875, 0.26495135238186318, 0.23281570073398503, 0.38957192138213326, 0.081794962653335718, 0.3225135107494953, 0.13581500856327125, 0.23603480616823874, 0.22514588276801492, 0.31423806881676691, -0.56863054190432738, 0.41341055341373828, 0.43554079486330272, -0.064598941393339576, 0.304832064645079, -0.33618996222316411, -0.030676715392980471, 0.94696343287191465, 0.81216558497622104, 0.76496307308872036, 0.56214267597399248, 0.74220471627667595, 0.49750061726564954, 0.88009356033310016, 0.57805105905611698, 0.82389990788587775, 0.60765849438300279, 0.43948999784701953, 0.55111445485486377, 0.76163402681814196, 0.77970801783476751, 0.69636327986957236, 0.45548663295596681, 0.78601732759812837, 1.3117297553907488, 0.5548054831546152, 0.70350104364918842, 0.38894115295869308, 0.62711885575405779, 1.0211669796008243, 0.92372522802772772],
+      "hoverinfo": "y",
+      "type": "box",
+      "fillcolor": "rgba(248,118,109,0)",
+      "marker": {
+        "opacity": null,
+        "outliercolor": "rgba(0,0,0,1)",
+        "line": {
+          "width": 1.8897637795275593,
+          "color": "rgba(0,0,0,1)"
+        },
+        "size": 5.6692913385826778
+      },
+      "line": {
+        "color": "rgba(248,118,109,1)",
+        "width": 1.8897637795275593
+      },
+      "legendgroup": "",
+      "showlegend": true,
+      "xaxis": "x",
+      "yaxis": "y",
+      "frame": null
+    },
+    {
+      "x": [4.1420663479715589, 3.9681616783142091, 3.947947277408093, 3.8213022378273309, 4.1989940425381063, 3.885858347080648, 4.0595141892321411, 3.8762103100307286, 3.9175590335391464, 4.0256384424865246, 3.9500460673123596, 4.1223573815077543, 3.8585230408236386, 4.1668174761347476, 3.8625311682000758, 3.9171542186290025, 3.9050180282443763, 3.8851117338985204, 4.1508789623156188, 4.0099931403063236, 3.8204567027278244, 3.9383100219070912, 4.0324225621297956, 3.8122348097153007, 2.8156669492833317, 2.9557379697449506, 3.0011025909334421, 3.0588038259185852, 2.802477913349867, 3.1460189887322487, 3.1738241312094031, 2.9886853964067996, 2.9156508506275713, 3.000244967173785, 3.0612306935712694, 3.0882760510779916, 3.0914562813937665, 3.119958825223148, 2.9178797896020114, 3.1965837656520306, 2.9208443610928954, 2.8749140320345759, 3.1676905067637562, 2.9307804672047495, 2.9038385554216801, 2.9851198958233001, 2.9872596826404334, 3.0446235612034798, 0.97730432385578747, 0.97076734369620676, 0.86415084414184096, 1.0047801075503231, 1.1159232293255628, 1.1165830629877747, 0.80005378657951953, 0.86485386295244093, 1.0195104435086251, 1.0479869050905108, 0.88686572210863235, 1.0619570925831794, 1.0494268922135235, 1.1244485229253769, 1.1442221004515887, 1.0755871786735951, 0.80946171069517736, 0.8431953679770231, 0.83495950484648351, 1.0663463919423521, 1.1396181203424931, 1.0472152600064875, 1.1427043485455215, 1.0038084400817753, 1.9241500224918127, 2.1377154906280338, 1.981407258566469, 1.8506171904504298, 1.9966835440136492, 1.8832151634618639, 1.8778449521400034, 2.1461187106557191, 1.9555878994986415, 1.8372376513667406, 2.002010409999639, 1.8255288567394019, 2.0830220083706079, 1.9625175141729414, 2.1343570646829901, 1.8879601753316819, 1.8533370588906108, 1.8300112293101847, 1.9504755067639052, 1.8567381840199233, 1.8606017540208994, 2.1041827801615001, 1.9781390865333379, 1.9367022190243006],
+      "y": [-1.3779891056320575, -1.4281251956580669, -1.4560352117833055, -1.2567477286268602, -1.4741381462186591, -1.4891106597544856, -1.416401981366052, -1.49497181748583, -1.4549724958039862, -1.4745969904241016, -1.4895682675497701, -1.4320924806920359, -1.4716464402221061, -1.4463257459225756, -1.4723507853776128, -1.4606311573301411, -1.4661381315955599, -0.95461312605051951, -1.4971631607748632, -1.4823961414671971, -1.3436855621488446, -1.4856648967697275, -1.2395942861491898, -1.3811425792915848, 0.45164279664944712, 0.54371521539971646, 0.51287197167828047, 1.0043195233876132, 0.42994175723886918, 0.64310970657978872, 0.46235435341948855, 0.5310702939219869, 0.3661212355362401, 0.6341227953071138, 0.66050634832061728, 0.79918306318383414, 0.3874989026544724, 0.53080271952453484, 0.53995269933980361, 0.77999864160616339, 0.36588273518066633, 0.21151391256409585, 0.52894712420651391, 0.34335430295470348, 1.0193433505834852, 0.55371397637059339, 0.55461726877153528, 0.48809406665683747, -0.020617123889301803, 0.072244395282125146, 0.17820016701630279, -0.30971447073474534, 0.30199167270311789, 0.34850033590904322, 0.073954067613459823, 0.38585046450772875, 0.26495135238186318, 0.23281570073398503, 0.38957192138213326, 0.081794962653335718, 0.3225135107494953, 0.13581500856327125, 0.23603480616823874, 0.22514588276801492, 0.31423806881676691, -0.56863054190432738, 0.41341055341373828, 0.43554079486330272, -0.064598941393339576, 0.304832064645079, -0.33618996222316411, -0.030676715392980471, 0.94696343287191465, 0.81216558497622104, 0.76496307308872036, 0.56214267597399248, 0.74220471627667595, 0.49750061726564954, 0.88009356033310016, 0.57805105905611698, 0.82389990788587775, 0.60765849438300279, 0.43948999784701953, 0.55111445485486377, 0.76163402681814196, 0.77970801783476751, 0.69636327986957236, 0.45548663295596681, 0.78601732759812837, 1.3117297553907488, 0.5548054831546152, 0.70350104364918842, 0.38894115295869308, 0.62711885575405779, 1.0211669796008243, 0.92372522802772772],
+      "text": ["Group: 1<br />treatment: Untreated<br />value: -1.37798911", "Group: 1<br />treatment: Untreated<br />value: -1.42812520", "Group: 1<br />treatment: Untreated<br />value: -1.45603521", "Group: 1<br />treatment: Untreated<br />value: -1.25674773", "Group: 1<br />treatment: Untreated<br />value: -1.47413815", "Group: 1<br />treatment: Untreated<br />value: -1.48911066", "Group: 1<br />treatment: Untreated<br />value: -1.41640198", "Group: 1<br />treatment: Untreated<br />value: -1.49497182", "Group: 1<br />treatment: Untreated<br />value: -1.45497250", "Group: 1<br />treatment: Untreated<br />value: -1.47459699", "Group: 1<br />treatment: Untreated<br />value: -1.48956827", "Group: 1<br />treatment: Untreated<br />value: -1.43209248", "Group: 1<br />treatment: Untreated<br />value: -1.47164644", "Group: 1<br />treatment: Untreated<br />value: -1.44632575", "Group: 1<br />treatment: Untreated<br />value: -1.47235079", "Group: 1<br />treatment: Untreated<br />value: -1.46063116", "Group: 1<br />treatment: Untreated<br />value: -1.46613813", "Group: 1<br />treatment: Untreated<br />value: -0.95461313", "Group: 1<br />treatment: Untreated<br />value: -1.49716316", "Group: 1<br />treatment: Untreated<br />value: -1.48239614", "Group: 1<br />treatment: Untreated<br />value: -1.34368556", "Group: 1<br />treatment: Untreated<br />value: -1.48566490", "Group: 1<br />treatment: Untreated<br />value: -1.23959429", "Group: 1<br />treatment: Untreated<br />value: -1.38114258", "Group: 1<br />treatment: Dexamethasone<br />value:  0.45164280", "Group: 1<br />treatment: Dexamethasone<br />value:  0.54371522", "Group: 1<br />treatment: Dexamethasone<br />value:  0.51287197", "Group: 1<br />treatment: Dexamethasone<br />value:  1.00431952", "Group: 1<br />treatment: Dexamethasone<br />value:  0.42994176", "Group: 1<br />treatment: Dexamethasone<br />value:  0.64310971", "Group: 1<br />treatment: Dexamethasone<br />value:  0.46235435", "Group: 1<br />treatment: Dexamethasone<br />value:  0.53107029", "Group: 1<br />treatment: Dexamethasone<br />value:  0.36612124", "Group: 1<br />treatment: Dexamethasone<br />value:  0.63412280", "Group: 1<br />treatment: Dexamethasone<br />value:  0.66050635", "Group: 1<br />treatment: Dexamethasone<br />value:  0.79918306", "Group: 1<br />treatment: Dexamethasone<br />value:  0.38749890", "Group: 1<br />treatment: Dexamethasone<br />value:  0.53080272", "Group: 1<br />treatment: Dexamethasone<br />value:  0.53995270", "Group: 1<br />treatment: Dexamethasone<br />value:  0.77999864", "Group: 1<br />treatment: Dexamethasone<br />value:  0.36588274", "Group: 1<br />treatment: Dexamethasone<br />value:  0.21151391", "Group: 1<br />treatment: Dexamethasone<br />value:  0.52894712", "Group: 1<br />treatment: Dexamethasone<br />value:  0.34335430", "Group: 1<br />treatment: Dexamethasone<br />value:  1.01934335", "Group: 1<br />treatment: Dexamethasone<br />value:  0.55371398", "Group: 1<br />treatment: Dexamethasone<br />value:  0.55461727", "Group: 1<br />treatment: Dexamethasone<br />value:  0.48809407", "Group: 1<br />treatment: Albuterol<br />value: -0.02061712", "Group: 1<br />treatment: Albuterol<br />value:  0.07224440", "Group: 1<br />treatment: Albuterol<br />value:  0.17820017", "Group: 1<br />treatment: Albuterol<br />value: -0.30971447", "Group: 1<br />treatment: Albuterol<br />value:  0.30199167", "Group: 1<br />treatment: Albuterol<br />value:  0.34850034", "Group: 1<br />treatment: Albuterol<br />value:  0.07395407", "Group: 1<br />treatment: Albuterol<br />value:  0.38585046", "Group: 1<br />treatment: Albuterol<br />value:  0.26495135", "Group: 1<br />treatment: Albuterol<br />value:  0.23281570", "Group: 1<br />treatment: Albuterol<br />value:  0.38957192", "Group: 1<br />treatment: Albuterol<br />value:  0.08179496", "Group: 1<br />treatment: Albuterol<br />value:  0.32251351", "Group: 1<br />treatment: Albuterol<br />value:  0.13581501", "Group: 1<br />treatment: Albuterol<br />value:  0.23603481", "Group: 1<br />treatment: Albuterol<br />value:  0.22514588", "Group: 1<br />treatment: Albuterol<br />value:  0.31423807", "Group: 1<br />treatment: Albuterol<br />value: -0.56863054", "Group: 1<br />treatment: Albuterol<br />value:  0.41341055", "Group: 1<br />treatment: Albuterol<br />value:  0.43554079", "Group: 1<br />treatment: Albuterol<br />value: -0.06459894", "Group: 1<br />treatment: Albuterol<br />value:  0.30483206", "Group: 1<br />treatment: Albuterol<br />value: -0.33618996", "Group: 1<br />treatment: Albuterol<br />value: -0.03067672", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.94696343", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.81216558", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.76496307", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.56214268", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.74220472", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.49750062", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.88009356", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.57805106", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.82389991", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.60765849", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.43949000", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.55111445", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.76163403", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.77970802", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.69636328", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.45548663", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.78601733", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  1.31172976", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.55480548", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.70350104", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.38894115", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.62711886", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  1.02116698", "Group: 1<br />treatment: Albuterol_Dexamethasone<br />value:  0.92372523"],
+      "type": "scatter",
+      "mode": "markers",
+      "marker": {
+        "autocolorscale": false,
+        "color": "rgba(248,118,109,1)",
+        "opacity": 0.40000000000000002,
+        "size": 3.7795275590551185,
+        "symbol": "circle",
+        "line": {
+          "width": 1.8897637795275593,
+          "color": "rgba(248,118,109,1)"
+        }
+      },
+      "hoveron": "points",
+      "legendgroup": "",
+      "showlegend": false,
+      "xaxis": "x",
+      "yaxis": "y",
+      "hoverinfo": "text",
+      "frame": null
+    },
+    {
+      "x": [1, 1.0379746835443038, 1.0759493670886076, 1.1139240506329113, 1.1518987341772151, 1.1898734177215191, 1.2278481012658227, 1.2658227848101267, 1.3037974683544304, 1.3417721518987342, 1.379746835443038, 1.4177215189873418, 1.4556962025316456, 1.4936708860759493, 1.5316455696202533, 1.5696202531645569, 1.6075949367088609, 1.6455696202531644, 1.6835443037974684, 1.7215189873417722, 1.759493670886076, 1.7974683544303798, 1.8354430379746836, 1.8734177215189873, 1.9113924050632911, 1.9493670886075951, 1.9873417721518987, 2.0253164556962027, 2.0632911392405067, 2.1012658227848102, 2.1392405063291138, 2.1772151898734178, 2.2151898734177218, 2.2531645569620253, 2.2911392405063289, 2.3291139240506329, 2.3670886075949369, 2.4050632911392404, 2.4430379746835444, 2.481012658227848, 2.518987341772152, 2.556962025316456, 2.5949367088607596, 2.6329113924050631, 2.6708860759493671, 2.7088607594936711, 2.7468354430379747, 2.7848101265822782, 2.8227848101265822, 2.8607594936708862, 2.8987341772151902, 2.9367088607594938, 2.9746835443037973, 3.0126582278481013, 3.0506329113924053, 3.0886075949367089, 3.1265822784810129, 3.1645569620253164, 3.2025316455696204, 3.240506329113924, 3.278481012658228, 3.3164556962025316, 3.3544303797468356, 3.3924050632911391, 3.4303797468354431, 3.4683544303797471, 3.5063291139240507, 3.5443037974683547, 3.5822784810126582, 3.6202531645569622, 3.6582278481012658, 3.6962025316455698, 3.7341772151898733, 3.7721518987341773, 3.8101265822784809, 3.8481012658227849, 3.8860759493670889, 3.9240506329113924, 3.9620253164556964, 4],
+      "y": [0.1411240822763814, 0.16368163327068441, 0.18666172169344519, 0.21000567925917135, 0.23365483768236961, 0.2575505286775473, 0.2816340839592108, 0.3058468352418684, 0.33013011424002625, 0.35442525266819186, 0.37867358224087222, 0.40281643467257444, 0.42679514167780569, 0.45055103497107307, 0.47402544626688381, 0.49715970727974457, 0.51989514972416306, 0.5421731053146458, 0.56393490576570049, 0.58512188279183375, 0.60567536810755296, 0.62553669342736495, 0.64464719046577712, 0.66294819093729651, 0.68038102655643018, 0.69688702903768518, 0.71240753009556856, 0.72688386144458783, 0.7402573547992497, 0.75246934187406123, 0.76346115438352979, 0.77317412404216235, 0.78154958256446616, 0.78852886166494796, 0.79405329305811534, 0.79806420845847514, 0.80050293958053431, 0.80131081813880023, 0.80042917584777984, 0.79779934442198053, 0.79336265557590913, 0.78706044102407269, 0.7788340324809786, 0.76862476166113392, 0.75637396027904547, 0.74202296004922041, 0.72551309268616615, 0.70678568990438972, 0.68578208341839786, 0.66244360494269816, 0.63671158619179713, 0.6085273588802026, 0.57783225472242128, 0.54456760543296046, 0.50867474272632662, 0.47009499831702783, 0.42876970391957037, 0.38464019124846222, 0.33764779201820938, 0.28773383794332008, 0.23483966073830045, 0.17890659211765844, 0.11987596379590026, 0.057689107487534141, -0.0077126450929341506, -0.076387962230996809, -0.14839551221214609, -0.22379396332187618, -0.30264198384567853, -0.38499824206904748, -0.47092140627747453, -0.56047014475645429, -0.6537031257914776, -0.75067901766803935, -0.85145648867163071, -0.95609420708774617, -1.0646508412018783, -1.1771850592995179, -1.2937555296661607, -1.4144209205872973],
+      "text": ["Group: 1<br />treatment: 1.000000<br />value:  0.141124082<br />dummy: ", "Group: 1<br />treatment: 1.037975<br />value:  0.163681633<br />dummy: ", "Group: 1<br />treatment: 1.075949<br />value:  0.186661722<br />dummy: ", "Group: 1<br />treatment: 1.113924<br />value:  0.210005679<br />dummy: ", "Group: 1<br />treatment: 1.151899<br />value:  0.233654838<br />dummy: ", "Group: 1<br />treatment: 1.189873<br />value:  0.257550529<br />dummy: ", "Group: 1<br />treatment: 1.227848<br />value:  0.281634084<br />dummy: ", "Group: 1<br />treatment: 1.265823<br />value:  0.305846835<br />dummy: ", "Group: 1<br />treatment: 1.303797<br />value:  0.330130114<br />dummy: ", "Group: 1<br />treatment: 1.341772<br />value:  0.354425253<br />dummy: ", "Group: 1<br />treatment: 1.379747<br />value:  0.378673582<br />dummy: ", "Group: 1<br />treatment: 1.417722<br />value:  0.402816435<br />dummy: ", "Group: 1<br />treatment: 1.455696<br />value:  0.426795142<br />dummy: ", "Group: 1<br />treatment: 1.493671<br />value:  0.450551035<br />dummy: ", "Group: 1<br />treatment: 1.531646<br />value:  0.474025446<br />dummy: ", "Group: 1<br />treatment: 1.569620<br />value:  0.497159707<br />dummy: ", "Group: 1<br />treatment: 1.607595<br />value:  0.519895150<br />dummy: ", "Group: 1<br />treatment: 1.645570<br />value:  0.542173105<br />dummy: ", "Group: 1<br />treatment: 1.683544<br />value:  0.563934906<br />dummy: ", "Group: 1<br />treatment: 1.721519<br />value:  0.585121883<br />dummy: ", "Group: 1<br />treatment: 1.759494<br />value:  0.605675368<br />dummy: ", "Group: 1<br />treatment: 1.797468<br />value:  0.625536693<br />dummy: ", "Group: 1<br />treatment: 1.835443<br />value:  0.644647190<br />dummy: ", "Group: 1<br />treatment: 1.873418<br />value:  0.662948191<br />dummy: ", "Group: 1<br />treatment: 1.911392<br />value:  0.680381027<br />dummy: ", "Group: 1<br />treatment: 1.949367<br />value:  0.696887029<br />dummy: ", "Group: 1<br />treatment: 1.987342<br />value:  0.712407530<br />dummy: ", "Group: 1<br />treatment: 2.025316<br />value:  0.726883861<br />dummy: ", "Group: 1<br />treatment: 2.063291<br />value:  0.740257355<br />dummy: ", "Group: 1<br />treatment: 2.101266<br />value:  0.752469342<br />dummy: ", "Group: 1<br />treatment: 2.139241<br />value:  0.763461154<br />dummy: ", "Group: 1<br />treatment: 2.177215<br />value:  0.773174124<br />dummy: ", "Group: 1<br />treatment: 2.215190<br />value:  0.781549583<br />dummy: ", "Group: 1<br />treatment: 2.253165<br />value:  0.788528862<br />dummy: ", "Group: 1<br />treatment: 2.291139<br />value:  0.794053293<br />dummy: ", "Group: 1<br />treatment: 2.329114<br />value:  0.798064208<br />dummy: ", "Group: 1<br />treatment: 2.367089<br />value:  0.800502940<br />dummy: ", "Group: 1<br />treatment: 2.405063<br />value:  0.801310818<br />dummy: ", "Group: 1<br />treatment: 2.443038<br />value:  0.800429176<br />dummy: ", "Group: 1<br />treatment: 2.481013<br />value:  0.797799344<br />dummy: ", "Group: 1<br />treatment: 2.518987<br />value:  0.793362656<br />dummy: ", "Group: 1<br />treatment: 2.556962<br />value:  0.787060441<br />dummy: ", "Group: 1<br />treatment: 2.594937<br />value:  0.778834032<br />dummy: ", "Group: 1<br />treatment: 2.632911<br />value:  0.768624762<br />dummy: ", "Group: 1<br />treatment: 2.670886<br />value:  0.756373960<br />dummy: ", "Group: 1<br />treatment: 2.708861<br />value:  0.742022960<br />dummy: ", "Group: 1<br />treatment: 2.746835<br />value:  0.725513093<br />dummy: ", "Group: 1<br />treatment: 2.784810<br />value:  0.706785690<br />dummy: ", "Group: 1<br />treatment: 2.822785<br />value:  0.685782083<br />dummy: ", "Group: 1<br />treatment: 2.860759<br />value:  0.662443605<br />dummy: ", "Group: 1<br />treatment: 2.898734<br />value:  0.636711586<br />dummy: ", "Group: 1<br />treatment: 2.936709<br />value:  0.608527359<br />dummy: ", "Group: 1<br />treatment: 2.974684<br />value:  0.577832255<br />dummy: ", "Group: 1<br />treatment: 3.012658<br />value:  0.544567605<br />dummy: ", "Group: 1<br />treatment: 3.050633<br />value:  0.508674743<br />dummy: ", "Group: 1<br />treatment: 3.088608<br />value:  0.470094998<br />dummy: ", "Group: 1<br />treatment: 3.126582<br />value:  0.428769704<br />dummy: ", "Group: 1<br />treatment: 3.164557<br />value:  0.384640191<br />dummy: ", "Group: 1<br />treatment: 3.202532<br />value:  0.337647792<br />dummy: ", "Group: 1<br />treatment: 3.240506<br />value:  0.287733838<br />dummy: ", "Group: 1<br />treatment: 3.278481<br />value:  0.234839661<br />dummy: ", "Group: 1<br />treatment: 3.316456<br />value:  0.178906592<br />dummy: ", "Group: 1<br />treatment: 3.354430<br />value:  0.119875964<br />dummy: ", "Group: 1<br />treatment: 3.392405<br />value:  0.057689107<br />dummy: ", "Group: 1<br />treatment: 3.430380<br />value: -0.007712645<br />dummy: ", "Group: 1<br />treatment: 3.468354<br />value: -0.076387962<br />dummy: ", "Group: 1<br />treatment: 3.506329<br />value: -0.148395512<br />dummy: ", "Group: 1<br />treatment: 3.544304<br />value: -0.223793963<br />dummy: ", "Group: 1<br />treatment: 3.582278<br />value: -0.302641984<br />dummy: ", "Group: 1<br />treatment: 3.620253<br />value: -0.384998242<br />dummy: ", "Group: 1<br />treatment: 3.658228<br />value: -0.470921406<br />dummy: ", "Group: 1<br />treatment: 3.696203<br />value: -0.560470145<br />dummy: ", "Group: 1<br />treatment: 3.734177<br />value: -0.653703126<br />dummy: ", "Group: 1<br />treatment: 3.772152<br />value: -0.750679018<br />dummy: ", "Group: 1<br />treatment: 3.810127<br />value: -0.851456489<br />dummy: ", "Group: 1<br />treatment: 3.848101<br />value: -0.956094207<br />dummy: ", "Group: 1<br />treatment: 3.886076<br />value: -1.064650841<br />dummy: ", "Group: 1<br />treatment: 3.924051<br />value: -1.177185059<br />dummy: ", "Group: 1<br />treatment: 3.962025<br />value: -1.293755530<br />dummy: ", "Group: 1<br />treatment: 4.000000<br />value: -1.414420921<br />dummy: "],
+      "type": "scatter",
+      "mode": "lines",
+      "line": {
+        "width": 3.7795275590551185,
+        "color": "rgba(248,118,109,1)",
+        "dash": "solid"
+      },
+      "hoveron": "points",
+      "legendgroup": "",
+      "showlegend": false,
+      "xaxis": "x",
+      "yaxis": "y",
+      "hoverinfo": "text",
+      "frame": null
+    }
+  ],
+  "layout": {
+    "margin": {
+      "t": 34.995433789954348,
+      "r": 7.3059360730593621,
+      "b": 145.38812785388131,
+      "l": 48.949771689497723
+    },
+    "plot_bgcolor": "rgba(235,235,235,1)",
+    "paper_bgcolor": "rgba(255,255,255,1)",
+    "font": {
+      "color": "rgba(0,0,0,1)",
+      "family": "",
+      "size": 14.611872146118724
+    },
+    "xaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "type": "linear",
+      "autorange": false,
+      "range": [0.36128127248957753, 4.62923073284328],
+      "tickmode": "array",
+      "ticktext": ["Albuterol", "Albuterol_Dexamethasone", "Dexamethasone", "Untreated"],
+      "tickvals": [1, 2, 3, 4],
+      "categoryorder": "array",
+      "categoryarray": ["Albuterol", "Albuterol_Dexamethasone", "Dexamethasone", "Untreated"],
+      "nticks": null,
+      "ticks": "outside",
+      "tickcolor": "rgba(51,51,51,1)",
+      "ticklen": 3.6529680365296811,
+      "tickwidth": 0.66417600664176002,
+      "showticklabels": true,
+      "tickfont": {
+        "color": "rgba(77,77,77,1)",
+        "family": "",
+        "size": 11.68949771689498
+      },
+      "tickangle": -90,
+      "showline": false,
+      "linecolor": null,
+      "linewidth": 0,
+      "showgrid": true,
+      "gridcolor": "rgba(255,255,255,1)",
+      "gridwidth": 0.66417600664176002,
+      "zeroline": false,
+      "anchor": "y",
+      "title": "",
+      "hoverformat": ".2f"
+    },
+    "yaxis": {
+      "domain": [0, 1],
+      "automargin": true,
+      "type": "linear",
+      "autorange": false,
+      "range": [-1.6376078065831439, 1.4521744011990294],
+      "tickmode": "array",
+      "ticktext": ["-1.5", "-1.0", "-0.5", "0.0", "0.5", "1.0"],
+      "tickvals": [-1.5, -1, -0.5, 0, 0.5, 1],
+      "categoryorder": "array",
+      "categoryarray": ["-1.5", "-1.0", "-0.5", "0.0", "0.5", "1.0"],
+      "nticks": null,
+      "ticks": "outside",
+      "tickcolor": "rgba(51,51,51,1)",
+      "ticklen": 3.6529680365296811,
+      "tickwidth": 0.66417600664176002,
+      "showticklabels": true,
+      "tickfont": {
+        "color": "rgba(77,77,77,1)",
+        "family": "",
+        "size": 11.68949771689498
+      },
+      "tickangle": -0,
+      "showline": false,
+      "linecolor": null,
+      "linewidth": 0,
+      "showgrid": true,
+      "gridcolor": "rgba(255,255,255,1)",
+      "gridwidth": 0.66417600664176002,
+      "zeroline": false,
+      "anchor": "x",
+      "title": "",
+      "hoverformat": ".2f"
+    },
+    "annotations": [
+      {
+        "text": "Z-score of gene abundance",
+        "x": 0,
+        "y": 0.5,
+        "showarrow": false,
+        "ax": 0,
+        "ay": 0,
+        "font": {
+          "color": "rgba(0,0,0,1)",
+          "family": "",
+          "size": 14.611872146118724
+        },
+        "xref": "paper",
+        "yref": "paper",
+        "textangle": -90,
+        "xanchor": "right",
+        "yanchor": "center",
+        "annotationType": "axis",
+        "xshift": -33.607305936073068
+      },
+      {
+        "text": "Group:  3 - genes: 24",
+        "x": 0.5,
+        "y": 1,
+        "showarrow": false,
+        "ax": 0,
+        "ay": 0,
+        "font": {
+          "color": "rgba(26,26,26,1)",
+          "family": "",
+          "size": 11.68949771689498
+        },
+        "xref": "paper",
+        "yref": "paper",
+        "textangle": -0,
+        "xanchor": "center",
+        "yanchor": "bottom"
+      }
+    ],
+    "shapes": [
+      {
+        "type": "rect",
+        "fillcolor": null,
+        "line": {
+          "color": null,
+          "width": 0,
+          "linetype": []
+        },
+        "yref": "paper",
+        "xref": "paper",
+        "x0": 0,
+        "x1": 1,
+        "y0": 0,
+        "y1": 1
+      },
+      {
+        "type": "rect",
+        "fillcolor": "rgba(217,217,217,1)",
+        "line": {
+          "color": "transparent",
+          "width": 0.66417600664176002,
+          "linetype": "solid"
+        },
+        "yref": "paper",
+        "xref": "paper",
+        "x0": 0,
+        "x1": 1,
+        "y0": 0,
+        "y1": 23.37899543378996,
+        "yanchor": 1,
+        "ysizemode": "pixel"
+      }
+    ],
+    "showlegend": false,
+    "legend": {
+      "bgcolor": "rgba(255,255,255,1)",
+      "bordercolor": "transparent",
+      "borderwidth": 1.8897637795275593,
+      "font": {
+        "color": "rgba(0,0,0,1)",
+        "family": "",
+        "size": 11.68949771689498
+      }
+    },
+    "hovermode": "closest",
+    "barmode": "relative"
+  },
+  "config": {
+    "doubleClick": "reset",
+    "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"],
+    "showSendToCloud": false
+  },
+  "source": "A",
+  "attrs": {
+    "fe2665e78ece2": {
+      "fill": {},
+      "colour": {},
+      "x": {},
+      "y": {},
+      "type": "box"
+    },
+    "fe2667851cbdf": {
+      "fill": {},
+      "colour": {},
+      "x": {},
+      "y": {}
+    },
+    "fe26638a7f9bd": {
+      "fill": {},
+      "colour": {},
+      "x": {},
+      "y": {}
+    }
+  },
+  "cur_data": "fe2665e78ece2",
+  "visdat": {
+    "fe2665e78ece2": ["function (y) ", "x"],
+    "fe2667851cbdf": ["function (y) ", "x"],
+    "fe26638a7f9bd": ["function (y) ", "x"]
+  },
+  "highlight": {
+    "on": "plotly_click",
+    "persistent": false,
+    "dynamic": false,
+    "selectize": false,
+    "opacityDim": 0.20000000000000001,
+    "selected": {
+      "opacity": 1
+    },
+    "debounce": 0
+  },
+  "shinyEvents": ["plotly_hover", "plotly_click", "plotly_selected", "plotly_relayout", "plotly_brushed", "plotly_brushing", "plotly_clickannotation", "plotly_doubleclick", "plotly_deselect", "plotly_afterplot", "plotly_sunburstclick"],
+  "base_url": "https://plot.ly"
+} 

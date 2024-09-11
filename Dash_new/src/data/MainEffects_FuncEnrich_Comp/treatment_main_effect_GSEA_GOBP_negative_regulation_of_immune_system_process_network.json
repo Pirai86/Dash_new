@@ -1,0 +1,655 @@
+[
+  {
+    "data": {
+      "id": "negative_regulation_of_immune_system_process",
+      "label": "negative regulation of immune system process",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "SAMHD1",
+      "label": "SAMHD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DUSP1",
+      "label": "DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CXCL12",
+      "label": "CXCL12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LRRC17",
+      "label": "LRRC17",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TSC22D3",
+      "label": "TSC22D3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FSTL3",
+      "label": "FSTL3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNFRSF11B",
+      "label": "TNFRSF11B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDE5A",
+      "label": "PDE5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCN3",
+      "label": "CCN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HMOX1",
+      "label": "HMOX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TSC22D1",
+      "label": "TSC22D1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNFAIP6",
+      "label": "TNFAIP6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PIK3R1",
+      "label": "PIK3R1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RAB7B",
+      "label": "RAB7B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NBL1",
+      "label": "NBL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL3A1",
+      "label": "COL3A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GRAMD4",
+      "label": "GRAMD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ELF1",
+      "label": "ELF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPR68",
+      "label": "GPR68",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SERPING1",
+      "label": "SERPING1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CNN2",
+      "label": "CNN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PPARG",
+      "label": "PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CDK6",
+      "label": "CDK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BCL6",
+      "label": "BCL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFB2",
+      "label": "TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLK2",
+      "label": "PLK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYC",
+      "label": "MYC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANGPT1",
+      "label": "ANGPT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "UBASH3B",
+      "label": "UBASH3B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DUSP10",
+      "label": "DUSP10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "APOD",
+      "label": "APOD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VSIR",
+      "label": "VSIR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SELENOS",
+      "label": "SELENOS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLCB1",
+      "label": "PLCB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPNMB",
+      "label": "GPNMB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LGR4",
+      "label": "LGR4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOX9",
+      "label": "SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCL2",
+      "label": "CCL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "INHBA",
+      "label": "INHBA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SVEP1",
+      "label": "SVEP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAFB",
+      "label": "MAFB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LRCH1",
+      "label": "LRCH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IRAK3",
+      "label": "IRAK3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "SAMHD1",
+      "label": "Edge from negative regulation of immune system process to SAMHD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "DUSP1",
+      "label": "Edge from negative regulation of immune system process to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "CXCL12",
+      "label": "Edge from negative regulation of immune system process to CXCL12",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "LRRC17",
+      "label": "Edge from negative regulation of immune system process to LRRC17",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "TSC22D3",
+      "label": "Edge from negative regulation of immune system process to TSC22D3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "FSTL3",
+      "label": "Edge from negative regulation of immune system process to FSTL3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "TNFRSF11B",
+      "label": "Edge from negative regulation of immune system process to TNFRSF11B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "PDE5A",
+      "label": "Edge from negative regulation of immune system process to PDE5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "CCN3",
+      "label": "Edge from negative regulation of immune system process to CCN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "HMOX1",
+      "label": "Edge from negative regulation of immune system process to HMOX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "TSC22D1",
+      "label": "Edge from negative regulation of immune system process to TSC22D1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "TNFAIP6",
+      "label": "Edge from negative regulation of immune system process to TNFAIP6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "PIK3R1",
+      "label": "Edge from negative regulation of immune system process to PIK3R1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "RAB7B",
+      "label": "Edge from negative regulation of immune system process to RAB7B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "NBL1",
+      "label": "Edge from negative regulation of immune system process to NBL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "COL3A1",
+      "label": "Edge from negative regulation of immune system process to COL3A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "GRAMD4",
+      "label": "Edge from negative regulation of immune system process to GRAMD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "ELF1",
+      "label": "Edge from negative regulation of immune system process to ELF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "GPR68",
+      "label": "Edge from negative regulation of immune system process to GPR68",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "SERPING1",
+      "label": "Edge from negative regulation of immune system process to SERPING1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "CNN2",
+      "label": "Edge from negative regulation of immune system process to CNN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "PPARG",
+      "label": "Edge from negative regulation of immune system process to PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "CDK6",
+      "label": "Edge from negative regulation of immune system process to CDK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "BCL6",
+      "label": "Edge from negative regulation of immune system process to BCL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "TGFB2",
+      "label": "Edge from negative regulation of immune system process to TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "PLK2",
+      "label": "Edge from negative regulation of immune system process to PLK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "MYC",
+      "label": "Edge from negative regulation of immune system process to MYC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "ANGPT1",
+      "label": "Edge from negative regulation of immune system process to ANGPT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "UBASH3B",
+      "label": "Edge from negative regulation of immune system process to UBASH3B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "DUSP10",
+      "label": "Edge from negative regulation of immune system process to DUSP10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "APOD",
+      "label": "Edge from negative regulation of immune system process to APOD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "VSIR",
+      "label": "Edge from negative regulation of immune system process to VSIR",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "SELENOS",
+      "label": "Edge from negative regulation of immune system process to SELENOS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "PLCB1",
+      "label": "Edge from negative regulation of immune system process to PLCB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "GPNMB",
+      "label": "Edge from negative regulation of immune system process to GPNMB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "LGR4",
+      "label": "Edge from negative regulation of immune system process to LGR4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "SOX9",
+      "label": "Edge from negative regulation of immune system process to SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "CCL2",
+      "label": "Edge from negative regulation of immune system process to CCL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "INHBA",
+      "label": "Edge from negative regulation of immune system process to INHBA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "SVEP1",
+      "label": "Edge from negative regulation of immune system process to SVEP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "MAFB",
+      "label": "Edge from negative regulation of immune system process to MAFB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "LRCH1",
+      "label": "Edge from negative regulation of immune system process to LRCH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_immune_system_process",
+      "target": "IRAK3",
+      "label": "Edge from negative regulation of immune system process to IRAK3",
+      "degree": 10
+    }
+  }
+]

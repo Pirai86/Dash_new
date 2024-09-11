@@ -1,0 +1,734 @@
+[
+  {
+    "Gene": "ZBTB16",
+    "padj": 1.0131e-77,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SOX4",
+    "padj": 1.0961e-56,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "LRRC17",
+    "padj": 6.8111e-47,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SORT1",
+    "padj": 2.6016e-32,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "FST",
+    "padj": 9.5728e-32,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "FSTL3",
+    "padj": 6.2341e-25,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "FOXO1",
+    "padj": 5.7829e-24,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TNFRSF11B",
+    "padj": 1.5754e-23,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "CCN3",
+    "padj": 2.7977e-20,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "DAAM2",
+    "padj": 8.876e-15,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "VEGFA",
+    "padj": 3.1514e-14,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TSC22D1",
+    "padj": 1.676e-11,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "EPHB2",
+    "padj": 2.1997e-11,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "LBH",
+    "padj": 1.267e-10,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TMEM119",
+    "padj": 2.8978e-10,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TWIST2",
+    "padj": 5.6572e-10,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TNFAIP6",
+    "padj": 2.7773e-09,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "PIK3R1",
+    "padj": 7.1081e-09,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "NF2",
+    "padj": 5.9593e-08,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "KLF13",
+    "padj": 6.5732e-08,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ULK2",
+    "padj": 1.9065e-07,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "PTN",
+    "padj": 3.5374e-07,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SEMA6D",
+    "padj": 1.0268e-06,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SEMA3A",
+    "padj": 2.7927e-06,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "GPR68",
+    "padj": 6.5393e-06,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TENT5C",
+    "padj": 0,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "CDKN2B",
+    "padj": 0,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "CCL11",
+    "padj": 0,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "FGF13",
+    "padj": 0,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "CRIM1",
+    "padj": 0,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ITPKB",
+    "padj": 0,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ACVRL1",
+    "padj": 0,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "RBPJ",
+    "padj": 0.0001,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TSKU",
+    "padj": 0.0001,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "PDCD4",
+    "padj": 0.0001,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ENPP1",
+    "padj": 0.0001,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "FGF10",
+    "padj": 0.0001,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "COL5A1",
+    "padj": 0.0003,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "PPARG",
+    "padj": 0.0003,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "CDK6",
+    "padj": 0.0003,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "BCL6",
+    "padj": 0.0005,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "CAV1",
+    "padj": 0.0005,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "HDAC7",
+    "padj": 0.0006,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SHB",
+    "padj": 0.0008,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TGFB2",
+    "padj": 0.002,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "MYC",
+    "padj": 0.002,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "WNT5A",
+    "padj": 0.0023,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "UBASH3B",
+    "padj": 0.0024,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TGFB1I1",
+    "padj": 0.0024,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "H4C15",
+    "padj": 0.0029,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ZFP36L2",
+    "padj": 0.0029,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "DDIT3",
+    "padj": 0.003,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "GDF5",
+    "padj": 0.0031,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "NTN1",
+    "padj": 0.0032,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SEMA5A",
+    "padj": 0.0036,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "DUSP10",
+    "padj": 0.0043,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ZFP36L1",
+    "padj": 0.0048,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "MEIS2",
+    "padj": 0.0053,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SMO",
+    "padj": 0.0053,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TRIB3",
+    "padj": 0.0058,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SMAD1",
+    "padj": 0.006,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SEMA3B",
+    "padj": 0.0069,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "NFKBIA",
+    "padj": 0.0086,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SOX9",
+    "padj": 0.0094,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "INHBA",
+    "padj": 0.0113,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "MAFB",
+    "padj": 0.0133,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TRPM4",
+    "padj": 0.0152,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "STAT3",
+    "padj": 0.0155,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SOCS1",
+    "padj": 0.0223,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "IL17RD",
+    "padj": 0.0243,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "IL6",
+    "padj": 0.0246,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ZEB1",
+    "padj": 0.0254,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "RFLNB",
+    "padj": 0.0261,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TBX3",
+    "padj": 0.0302,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "IGF2",
+    "padj": 0.0316,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "BDNF",
+    "padj": 0.0364,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ZBED6",
+    "padj": 0.0384,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "STAT5B",
+    "padj": 0.0397,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "PTCH1",
+    "padj": 0.0466,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "PTEN",
+    "padj": 0.0468,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "GREM1",
+    "padj": 0.0568,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ANXA1",
+    "padj": 0.0579,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "LDB1",
+    "padj": 0.0615,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "FERMT2",
+    "padj": 0.0628,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "NOTCH3",
+    "padj": 0.0676,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "OSR1",
+    "padj": 0.0716,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ZFPM2",
+    "padj": 0.0761,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "VEGFC",
+    "padj": 0.0772,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "FZD7",
+    "padj": 0.08,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "PTPN11",
+    "padj": 0.0859,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "GORASP1",
+    "padj": 0.0898,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "NFATC4",
+    "padj": 0.0962,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ZFP36",
+    "padj": 0.0963,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "MDK",
+    "padj": 0.0972,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "PSEN1",
+    "padj": 0.1006,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ZHX2",
+    "padj": 0.1063,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SOCS5",
+    "padj": 0.1077,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TCTA",
+    "padj": 0.1109,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SNAI2",
+    "padj": 0.1168,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "GLI3",
+    "padj": 0.1243,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "INSIG1",
+    "padj": 0.1243,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "AXIN2",
+    "padj": 0.127,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SMAD3",
+    "padj": 0.1279,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TMEM64",
+    "padj": 0.1321,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "CCN4",
+    "padj": 0.1401,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ID2",
+    "padj": 0.1512,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SFRP2",
+    "padj": 0.1629,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SOD2",
+    "padj": 0.1782,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TMEM131L",
+    "padj": 0.1797,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TP53INP1",
+    "padj": 0.1833,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TRIB2",
+    "padj": 0.1978,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "RUNX1",
+    "padj": 0.2004,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "TP53",
+    "padj": 0.2089,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ZBTB46",
+    "padj": 0.2133,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ITGB1",
+    "padj": 0.2168,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SPRED2",
+    "padj": 0.2326,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "FOXP1",
+    "padj": 0.2331,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "SEMA4C",
+    "padj": 0.2367,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "ADAMTS7",
+    "padj": 0.2385,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "HDAC5",
+    "padj": 0.2387,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "EPHA4",
+    "padj": 0.2411,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  },
+  {
+    "Gene": "NOTCH1",
+    "padj": 0.2437,
+    "ID": "GO:0045596",
+    "Term": "negative regulation of cell differentiation"
+  }
+]

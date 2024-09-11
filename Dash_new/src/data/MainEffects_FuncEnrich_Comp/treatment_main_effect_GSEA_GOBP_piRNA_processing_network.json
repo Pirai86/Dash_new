@@ -1,0 +1,145 @@
+[
+  {
+    "data": {
+      "id": "piRNA_processing",
+      "label": "piRNA processing",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "PIWIL4",
+      "label": "PIWIL4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPAT2",
+      "label": "GPAT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MOV10L1",
+      "label": "MOV10L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANKRD34A",
+      "label": "ANKRD34A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TDRD6",
+      "label": "TDRD6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLD6",
+      "label": "PLD6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HENMT1",
+      "label": "HENMT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TDRKH",
+      "label": "TDRKH",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TDRD9",
+      "label": "TDRD9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "piRNA_processing",
+      "target": "PIWIL4",
+      "label": "Edge from piRNA processing to PIWIL4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "piRNA_processing",
+      "target": "GPAT2",
+      "label": "Edge from piRNA processing to GPAT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "piRNA_processing",
+      "target": "MOV10L1",
+      "label": "Edge from piRNA processing to MOV10L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "piRNA_processing",
+      "target": "ANKRD34A",
+      "label": "Edge from piRNA processing to ANKRD34A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "piRNA_processing",
+      "target": "TDRD6",
+      "label": "Edge from piRNA processing to TDRD6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "piRNA_processing",
+      "target": "PLD6",
+      "label": "Edge from piRNA processing to PLD6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "piRNA_processing",
+      "target": "HENMT1",
+      "label": "Edge from piRNA processing to HENMT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "piRNA_processing",
+      "target": "TDRKH",
+      "label": "Edge from piRNA processing to TDRKH",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "piRNA_processing",
+      "target": "TDRD9",
+      "label": "Edge from piRNA processing to TDRD9",
+      "degree": 10
+    }
+  }
+]

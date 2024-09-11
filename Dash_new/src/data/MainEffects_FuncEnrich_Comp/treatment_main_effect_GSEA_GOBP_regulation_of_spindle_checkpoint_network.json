@@ -1,0 +1,1674 @@
+[
+  {
+    "data": {
+      "id": "regulation_of_spindle_checkpoint",
+      "label": "regulation of spindle checkpoint",
+      "degree": 18
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "label": "regulation of mitotic cell cycle spindle assembly checkpoint",
+      "degree": 17
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "regulation_of_mitotic_spindle_checkpoint",
+      "label": "regulation of mitotic spindle checkpoint",
+      "degree": 16
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "mitotic_spindle_assembly_checkpoint_signaling",
+      "label": "mitotic spindle assembly checkpoint signaling",
+      "degree": 15
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "spindle_assembly_checkpoint_signaling",
+      "label": "spindle assembly checkpoint signaling",
+      "degree": 14
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "mitotic_spindle_checkpoint_signaling",
+      "label": "mitotic spindle checkpoint signaling",
+      "degree": 13
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "spindle_checkpoint_signaling",
+      "label": "spindle checkpoint signaling",
+      "degree": 12
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "negative_regulation_of_sister_chromatid_segregation",
+      "label": "negative regulation of sister chromatid segregation",
+      "degree": 11
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "label": "negative regulation of mitotic sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "label": "negative regulation of mitotic metaphase/anaphase transition",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "label": "negative regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "negative_regulation_of_chromosome_segregation",
+      "label": "negative regulation of chromosome segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "negative_regulation_of_chromosome_separation",
+      "label": "negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "mitotic_sister_chromatid_separation",
+      "label": "mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "chromosome_separation",
+      "label": "chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "DUSP1",
+      "label": "DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "DUSP1",
+      "label": "Edge from regulation of spindle checkpoint to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "DUSP1",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "DUSP1",
+      "label": "Edge from regulation of mitotic spindle checkpoint to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "DUSP1",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "DUSP1",
+      "label": "Edge from spindle assembly checkpoint signaling to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "DUSP1",
+      "label": "Edge from mitotic spindle checkpoint signaling to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "spindle_checkpoint_signaling",
+      "target": "DUSP1",
+      "label": "Edge from spindle checkpoint signaling to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_sister_chromatid_segregation",
+      "target": "DUSP1",
+      "label": "Edge from negative regulation of sister chromatid segregation to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "target": "DUSP1",
+      "label": "Edge from negative regulation of mitotic sister chromatid segregation to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "target": "DUSP1",
+      "label": "Edge from negative regulation of mitotic metaphase/anaphase transition to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "target": "DUSP1",
+      "label": "Edge from negative regulation of mitotic sister chromatid separation to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_chromosome_segregation",
+      "target": "DUSP1",
+      "label": "Edge from negative regulation of chromosome segregation to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "target": "DUSP1",
+      "label": "Edge from negative regulation of metaphase/anaphase transition of cell cycle to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_chromosome_separation",
+      "target": "DUSP1",
+      "label": "Edge from negative regulation of chromosome separation to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_sister_chromatid_separation",
+      "target": "DUSP1",
+      "label": "Edge from regulation of mitotic sister chromatid separation to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "mitotic_sister_chromatid_separation",
+      "target": "DUSP1",
+      "label": "Edge from mitotic sister chromatid separation to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_nuclear_division",
+      "target": "DUSP1",
+      "label": "Edge from negative regulation of mitotic nuclear division to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "chromosome_separation",
+      "target": "DUSP1",
+      "label": "Edge from chromosome separation to DUSP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "label": "Edge from regulation of spindle checkpoint to regulation of mitotic cell cycle spindle assembly checkpoint",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "regulation_of_mitotic_spindle_checkpoint",
+      "label": "Edge from regulation of spindle checkpoint to regulation of mitotic spindle checkpoint",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "mitotic_spindle_assembly_checkpoint_signaling",
+      "label": "Edge from regulation of spindle checkpoint to mitotic spindle assembly checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "spindle_assembly_checkpoint_signaling",
+      "label": "Edge from regulation of spindle checkpoint to spindle assembly checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "mitotic_spindle_checkpoint_signaling",
+      "label": "Edge from regulation of spindle checkpoint to mitotic spindle checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "spindle_checkpoint_signaling",
+      "label": "Edge from regulation of spindle checkpoint to spindle checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "negative_regulation_of_sister_chromatid_segregation",
+      "label": "Edge from regulation of spindle checkpoint to negative regulation of sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "label": "Edge from regulation of spindle checkpoint to negative regulation of mitotic sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "label": "Edge from regulation of spindle checkpoint to negative regulation of mitotic metaphase/anaphase transition",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from regulation of spindle checkpoint to negative regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "negative_regulation_of_chromosome_segregation",
+      "label": "Edge from regulation of spindle checkpoint to negative regulation of chromosome segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "Edge from regulation of spindle checkpoint to negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from regulation of spindle checkpoint to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from regulation of spindle checkpoint to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from regulation of spindle checkpoint to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from regulation of spindle checkpoint to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_spindle_checkpoint",
+      "target": "chromosome_separation",
+      "label": "Edge from regulation of spindle checkpoint to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "regulation_of_mitotic_spindle_checkpoint",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to regulation of mitotic spindle checkpoint",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "mitotic_spindle_assembly_checkpoint_signaling",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to mitotic spindle assembly checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "spindle_assembly_checkpoint_signaling",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to spindle assembly checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "mitotic_spindle_checkpoint_signaling",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to mitotic spindle checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "spindle_checkpoint_signaling",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to spindle checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "negative_regulation_of_sister_chromatid_segregation",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to negative regulation of sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to negative regulation of mitotic sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to negative regulation of mitotic metaphase/anaphase transition",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to negative regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "negative_regulation_of_chromosome_segregation",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to negative regulation of chromosome segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_cell_cycle_spindle_assembly_checkpoint",
+      "target": "chromosome_separation",
+      "label": "Edge from regulation of mitotic cell cycle spindle assembly checkpoint to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "mitotic_spindle_assembly_checkpoint_signaling",
+      "label": "Edge from regulation of mitotic spindle checkpoint to mitotic spindle assembly checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "spindle_assembly_checkpoint_signaling",
+      "label": "Edge from regulation of mitotic spindle checkpoint to spindle assembly checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "mitotic_spindle_checkpoint_signaling",
+      "label": "Edge from regulation of mitotic spindle checkpoint to mitotic spindle checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "spindle_checkpoint_signaling",
+      "label": "Edge from regulation of mitotic spindle checkpoint to spindle checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "negative_regulation_of_sister_chromatid_segregation",
+      "label": "Edge from regulation of mitotic spindle checkpoint to negative regulation of sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "label": "Edge from regulation of mitotic spindle checkpoint to negative regulation of mitotic sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "label": "Edge from regulation of mitotic spindle checkpoint to negative regulation of mitotic metaphase/anaphase transition",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from regulation of mitotic spindle checkpoint to negative regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "negative_regulation_of_chromosome_segregation",
+      "label": "Edge from regulation of mitotic spindle checkpoint to negative regulation of chromosome segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "Edge from regulation of mitotic spindle checkpoint to negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from regulation of mitotic spindle checkpoint to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from regulation of mitotic spindle checkpoint to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from regulation of mitotic spindle checkpoint to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from regulation of mitotic spindle checkpoint to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_spindle_checkpoint",
+      "target": "chromosome_separation",
+      "label": "Edge from regulation of mitotic spindle checkpoint to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "spindle_assembly_checkpoint_signaling",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to spindle assembly checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "mitotic_spindle_checkpoint_signaling",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to mitotic spindle checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "spindle_checkpoint_signaling",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to spindle checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_sister_chromatid_segregation",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to negative regulation of sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to negative regulation of mitotic sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to negative regulation of mitotic metaphase/anaphase transition",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to negative regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_chromosome_segregation",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to negative regulation of chromosome segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_assembly_checkpoint_signaling",
+      "target": "chromosome_separation",
+      "label": "Edge from mitotic spindle assembly checkpoint signaling to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "mitotic_spindle_checkpoint_signaling",
+      "label": "Edge from spindle assembly checkpoint signaling to mitotic spindle checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "spindle_checkpoint_signaling",
+      "label": "Edge from spindle assembly checkpoint signaling to spindle checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_sister_chromatid_segregation",
+      "label": "Edge from spindle assembly checkpoint signaling to negative regulation of sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "label": "Edge from spindle assembly checkpoint signaling to negative regulation of mitotic sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "label": "Edge from spindle assembly checkpoint signaling to negative regulation of mitotic metaphase/anaphase transition",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from spindle assembly checkpoint signaling to negative regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_chromosome_segregation",
+      "label": "Edge from spindle assembly checkpoint signaling to negative regulation of chromosome segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "Edge from spindle assembly checkpoint signaling to negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from spindle assembly checkpoint signaling to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from spindle assembly checkpoint signaling to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from spindle assembly checkpoint signaling to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from spindle assembly checkpoint signaling to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_assembly_checkpoint_signaling",
+      "target": "chromosome_separation",
+      "label": "Edge from spindle assembly checkpoint signaling to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "spindle_checkpoint_signaling",
+      "label": "Edge from mitotic spindle checkpoint signaling to spindle checkpoint signaling",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_sister_chromatid_segregation",
+      "label": "Edge from mitotic spindle checkpoint signaling to negative regulation of sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "label": "Edge from mitotic spindle checkpoint signaling to negative regulation of mitotic sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "label": "Edge from mitotic spindle checkpoint signaling to negative regulation of mitotic metaphase/anaphase transition",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from mitotic spindle checkpoint signaling to negative regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_chromosome_segregation",
+      "label": "Edge from mitotic spindle checkpoint signaling to negative regulation of chromosome segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "Edge from mitotic spindle checkpoint signaling to negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from mitotic spindle checkpoint signaling to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from mitotic spindle checkpoint signaling to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from mitotic spindle checkpoint signaling to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from mitotic spindle checkpoint signaling to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_spindle_checkpoint_signaling",
+      "target": "chromosome_separation",
+      "label": "Edge from mitotic spindle checkpoint signaling to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_sister_chromatid_segregation",
+      "label": "Edge from spindle checkpoint signaling to negative regulation of sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "label": "Edge from spindle checkpoint signaling to negative regulation of mitotic sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "label": "Edge from spindle checkpoint signaling to negative regulation of mitotic metaphase/anaphase transition",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from spindle checkpoint signaling to negative regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_chromosome_segregation",
+      "label": "Edge from spindle checkpoint signaling to negative regulation of chromosome segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "Edge from spindle checkpoint signaling to negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from spindle checkpoint signaling to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_checkpoint_signaling",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from spindle checkpoint signaling to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_checkpoint_signaling",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from spindle checkpoint signaling to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_checkpoint_signaling",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from spindle checkpoint signaling to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "spindle_checkpoint_signaling",
+      "target": "chromosome_separation",
+      "label": "Edge from spindle checkpoint signaling to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_sister_chromatid_segregation",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "label": "Edge from negative regulation of sister chromatid segregation to negative regulation of mitotic sister chromatid segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_sister_chromatid_segregation",
+      "target": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "label": "Edge from negative regulation of sister chromatid segregation to negative regulation of mitotic metaphase/anaphase transition",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_sister_chromatid_segregation",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of sister chromatid segregation to negative regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_sister_chromatid_segregation",
+      "target": "negative_regulation_of_chromosome_segregation",
+      "label": "Edge from negative regulation of sister chromatid segregation to negative regulation of chromosome segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_sister_chromatid_segregation",
+      "target": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "Edge from negative regulation of sister chromatid segregation to negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_sister_chromatid_segregation",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from negative regulation of sister chromatid segregation to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_sister_chromatid_segregation",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of sister chromatid segregation to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_sister_chromatid_segregation",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of sister chromatid segregation to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_sister_chromatid_segregation",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from negative regulation of sister chromatid segregation to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_sister_chromatid_segregation",
+      "target": "chromosome_separation",
+      "label": "Edge from negative regulation of sister chromatid segregation to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "target": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "label": "Edge from negative regulation of mitotic sister chromatid segregation to negative regulation of mitotic metaphase/anaphase transition",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of mitotic sister chromatid segregation to negative regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "target": "negative_regulation_of_chromosome_segregation",
+      "label": "Edge from negative regulation of mitotic sister chromatid segregation to negative regulation of chromosome segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "target": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "Edge from negative regulation of mitotic sister chromatid segregation to negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from negative regulation of mitotic sister chromatid segregation to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of mitotic sister chromatid segregation to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of mitotic sister chromatid segregation to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from negative regulation of mitotic sister chromatid segregation to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_segregation",
+      "target": "chromosome_separation",
+      "label": "Edge from negative regulation of mitotic sister chromatid segregation to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "target": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of mitotic metaphase/anaphase transition to negative regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "target": "negative_regulation_of_chromosome_segregation",
+      "label": "Edge from negative regulation of mitotic metaphase/anaphase transition to negative regulation of chromosome segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "target": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "Edge from negative regulation of mitotic metaphase/anaphase transition to negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from negative regulation of mitotic metaphase/anaphase transition to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of mitotic metaphase/anaphase transition to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of mitotic metaphase/anaphase transition to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from negative regulation of mitotic metaphase/anaphase transition to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_metaphase_anaphase_transition",
+      "target": "chromosome_separation",
+      "label": "Edge from negative regulation of mitotic metaphase/anaphase transition to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "target": "negative_regulation_of_chromosome_segregation",
+      "label": "Edge from negative regulation of mitotic sister chromatid separation to negative regulation of chromosome segregation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "target": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "Edge from negative regulation of mitotic sister chromatid separation to negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from negative regulation of mitotic sister chromatid separation to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of mitotic sister chromatid separation to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of mitotic sister chromatid separation to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from negative regulation of mitotic sister chromatid separation to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_sister_chromatid_separation",
+      "target": "chromosome_separation",
+      "label": "Edge from negative regulation of mitotic sister chromatid separation to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_chromosome_segregation",
+      "target": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "label": "Edge from negative regulation of chromosome segregation to negative regulation of metaphase/anaphase transition of cell cycle",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_chromosome_segregation",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from negative regulation of chromosome segregation to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_chromosome_segregation",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of chromosome segregation to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_chromosome_segregation",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of chromosome segregation to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_chromosome_segregation",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from negative regulation of chromosome segregation to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_chromosome_segregation",
+      "target": "chromosome_separation",
+      "label": "Edge from negative regulation of chromosome segregation to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "target": "negative_regulation_of_chromosome_separation",
+      "label": "Edge from negative regulation of metaphase/anaphase transition of cell cycle to negative regulation of chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of metaphase/anaphase transition of cell cycle to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of metaphase/anaphase transition of cell cycle to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from negative regulation of metaphase/anaphase transition of cell cycle to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_metaphase_anaphase_transition_of_cell_cycle",
+      "target": "chromosome_separation",
+      "label": "Edge from negative regulation of metaphase/anaphase transition of cell cycle to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_chromosome_separation",
+      "target": "regulation_of_mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of chromosome separation to regulation of mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_chromosome_separation",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from negative regulation of chromosome separation to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_chromosome_separation",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from negative regulation of chromosome separation to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_chromosome_separation",
+      "target": "chromosome_separation",
+      "label": "Edge from negative regulation of chromosome separation to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_sister_chromatid_separation",
+      "target": "mitotic_sister_chromatid_separation",
+      "label": "Edge from regulation of mitotic sister chromatid separation to mitotic sister chromatid separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_sister_chromatid_separation",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from regulation of mitotic sister chromatid separation to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "regulation_of_mitotic_sister_chromatid_separation",
+      "target": "chromosome_separation",
+      "label": "Edge from regulation of mitotic sister chromatid separation to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_sister_chromatid_separation",
+      "target": "negative_regulation_of_mitotic_nuclear_division",
+      "label": "Edge from mitotic sister chromatid separation to negative regulation of mitotic nuclear division",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "mitotic_sister_chromatid_separation",
+      "target": "chromosome_separation",
+      "label": "Edge from mitotic sister chromatid separation to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_mitotic_nuclear_division",
+      "target": "chromosome_separation",
+      "label": "Edge from negative regulation of mitotic nuclear division to chromosome separation",
+      "degree": 10
+    },
+    "classes": "genesis"
+  }
+]

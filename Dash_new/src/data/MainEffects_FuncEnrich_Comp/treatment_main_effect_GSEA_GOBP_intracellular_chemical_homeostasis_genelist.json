@@ -1,0 +1,446 @@
+[
+  {
+    "Gene": "CXCL12",
+    "padj": 5.5246e-81,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "SOX4",
+    "padj": 1.0961e-56,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "MT2A",
+    "padj": 1.8733e-47,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "CACNB2",
+    "padj": 2.7242e-43,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "KLF15",
+    "padj": 4.0041e-40,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "STEAP2",
+    "padj": 1.024e-26,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "FOXO1",
+    "padj": 5.7829e-24,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "MT1E",
+    "padj": 3.297e-21,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "STEAP4",
+    "padj": 2.9626e-19,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "ANXA6",
+    "padj": 8.9707e-19,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "HMOX1",
+    "padj": 1.899e-17,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "MT1X",
+    "padj": 2.1242e-16,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "IRS2",
+    "padj": 4.293e-14,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "STC1",
+    "padj": 5.4294e-12,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "TRPC6",
+    "padj": 5.7952e-12,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "TRPA1",
+    "padj": 6.583e-12,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "SLC39A10",
+    "padj": 2.0663e-11,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "ANK2",
+    "padj": 3.3789e-10,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "PIK3R1",
+    "padj": 7.1081e-09,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "SLC4A7",
+    "padj": 7.3793e-09,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "ORMDL1",
+    "padj": 4.9402e-08,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "ATP2A2",
+    "padj": 9.4112e-08,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "DMD",
+    "padj": 4.4908e-07,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "HERPUD1",
+    "padj": 6.4443e-07,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "GCLM",
+    "padj": 7.9126e-07,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "SLC7A11",
+    "padj": 1.4934e-06,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "BDKRB1",
+    "padj": 1.5908e-06,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "RAF1",
+    "padj": 2.1301e-06,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "PKD2",
+    "padj": 3.3468e-06,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "COX11",
+    "padj": 6.0706e-06,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "GLS",
+    "padj": 6.1322e-06,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "GPR68",
+    "padj": 6.5393e-06,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "CCL11",
+    "padj": 0,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "PRKAA1",
+    "padj": 0,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "STIM2",
+    "padj": 0,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "ATP1A2",
+    "padj": 0.0001,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "KCNJ2",
+    "padj": 0.0001,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "CLIC2",
+    "padj": 0.0001,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "ADCY8",
+    "padj": 0.0001,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "P2RX7",
+    "padj": 0.0001,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "FTL",
+    "padj": 0.0001,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "CLIC4",
+    "padj": 0.0001,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "ENPP1",
+    "padj": 0.0001,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "SLC8A1",
+    "padj": 0.0002,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "MT1M",
+    "padj": 0.0002,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "PRKCE",
+    "padj": 0.0003,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "CAV1",
+    "padj": 0.0005,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "NADK",
+    "padj": 0.0005,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "SRF",
+    "padj": 0.0006,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "TGM2",
+    "padj": 0.001,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "MYC",
+    "padj": 0.002,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "WNT5A",
+    "padj": 0.0023,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "UBASH3B",
+    "padj": 0.0024,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "SIDT2",
+    "padj": 0.0026,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "DDIT3",
+    "padj": 0.003,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "SLC39A13",
+    "padj": 0.003,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "LRRC8D",
+    "padj": 0.0034,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "WFS1",
+    "padj": 0.0037,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "TMEM165",
+    "padj": 0.0043,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "PRKD1",
+    "padj": 0.0052,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "STC2",
+    "padj": 0.0064,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "PLCB1",
+    "padj": 0.0067,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "ADRA2A",
+    "padj": 0.0097,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "CAV2",
+    "padj": 0.0108,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "SLC4A4",
+    "padj": 0.0149,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "TRPM4",
+    "padj": 0.0152,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "SLC26A6",
+    "padj": 0.0157,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "DMPK",
+    "padj": 0.0192,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "CACNA1C",
+    "padj": 0.0197,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "GAS6",
+    "padj": 0.0303,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "STXBP4",
+    "padj": 0.0317,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "SLC9A7",
+    "padj": 0.0364,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "ZBED6",
+    "padj": 0.0384,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  },
+  {
+    "Gene": "HIF1A",
+    "padj": 0.0416,
+    "ID": "GO:0055082",
+    "Term": "intracellular chemical homeostasis"
+  }
+]

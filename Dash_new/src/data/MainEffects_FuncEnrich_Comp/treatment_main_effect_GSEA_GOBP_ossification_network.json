@@ -1,0 +1,4109 @@
+[
+  {
+    "data": {
+      "id": "ossification",
+      "label": "ossification",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "skeletal_system_development",
+      "label": "skeletal system development",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "negative_regulation_of_cell_differentiation",
+      "label": "negative regulation of cell differentiation",
+      "degree": 40
+    },
+    "classes": "genesis"
+  },
+  {
+    "data": {
+      "id": "ZBTB16",
+      "label": "ZBTB16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TMT1A",
+      "label": "TMT1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL1A1",
+      "label": "COL1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SORT1",
+      "label": "SORT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FSTL3",
+      "label": "FSTL3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DHRS3",
+      "label": "DHRS3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IGSF10",
+      "label": "IGSF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITGA11",
+      "label": "ITGA11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CEBPD",
+      "label": "CEBPD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL11A1",
+      "label": "COL11A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FBN2",
+      "label": "FBN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPM6B",
+      "label": "GPM6B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZHX3",
+      "label": "ZHX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STC1",
+      "label": "STC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TMEM119",
+      "label": "TMEM119",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TWIST2",
+      "label": "TWIST2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNFAIP6",
+      "label": "TNFAIP6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LOC102724560",
+      "label": "LOC102724560",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TENT5A",
+      "label": "TENT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PLXNB1",
+      "label": "PLXNB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TPM4",
+      "label": "TPM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PKDCC",
+      "label": "PKDCC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTN",
+      "label": "PTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RASSF2",
+      "label": "RASSF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNC",
+      "label": "TNC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CREB3L1",
+      "label": "CREB3L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EXT1",
+      "label": "EXT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HGF",
+      "label": "HGF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "S1PR1",
+      "label": "S1PR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CRIM1",
+      "label": "CRIM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DCHS1",
+      "label": "DCHS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL1A2",
+      "label": "COL1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RBPJ",
+      "label": "RBPJ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCN2",
+      "label": "CCN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CBS",
+      "label": "CBS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "P2RX7",
+      "label": "P2RX7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ENPP1",
+      "label": "ENPP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAT",
+      "label": "CAT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SLC8A1",
+      "label": "SLC8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RRAS2",
+      "label": "RRAS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PPARG",
+      "label": "PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CDK6",
+      "label": "CDK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KAZALD1",
+      "label": "KAZALD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HDAC7",
+      "label": "HDAC7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LEP",
+      "label": "LEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "WNT5A",
+      "label": "WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDLIM7",
+      "label": "PDLIM7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IL6R",
+      "label": "IL6R",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GDF5",
+      "label": "GDF5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CHRDL2",
+      "label": "CHRDL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKD1",
+      "label": "PRKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMO",
+      "label": "SMO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RBMX",
+      "label": "RBMX",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMAD1",
+      "label": "SMAD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LGR4",
+      "label": "LGR4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOX9",
+      "label": "SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CYP24A1",
+      "label": "CYP24A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EGR2",
+      "label": "EGR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GLI2",
+      "label": "GLI2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IARS1",
+      "label": "IARS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TRPM4",
+      "label": "TRPM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FAM20C",
+      "label": "FAM20C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IL6",
+      "label": "IL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RFLNB",
+      "label": "RFLNB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RSPO2",
+      "label": "RSPO2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IGF2",
+      "label": "IGF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MGP",
+      "label": "MGP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HIF1A",
+      "label": "HIF1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DNAI3",
+      "label": "DNAI3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTGS2",
+      "label": "PTGS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTCH1",
+      "label": "PTCH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LOX",
+      "label": "LOX",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GREM1",
+      "label": "GREM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CTHRC1",
+      "label": "CTHRC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCN1",
+      "label": "CCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FERMT2",
+      "label": "FERMT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NAB1",
+      "label": "NAB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FGFR2",
+      "label": "FGFR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "OSR1",
+      "label": "OSR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CHRDL1",
+      "label": "CHRDL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VEGFC",
+      "label": "VEGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTPN11",
+      "label": "PTPN11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MDK",
+      "label": "MDK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SNAI2",
+      "label": "SNAI2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GLI3",
+      "label": "GLI3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AXIN2",
+      "label": "AXIN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SMAD3",
+      "label": "SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VCAN",
+      "label": "VCAN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TMEM64",
+      "label": "TMEM64",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "OSR2",
+      "label": "OSR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GDF10",
+      "label": "GDF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCN4",
+      "label": "CCN4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GIT1",
+      "label": "GIT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SFRP2",
+      "label": "SFRP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SBDS",
+      "label": "SBDS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FHL2",
+      "label": "FHL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LRRC17",
+      "label": "LRRC17",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FST",
+      "label": "FST",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TNFRSF11B",
+      "label": "TNFRSF11B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCN3",
+      "label": "CCN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANXA6",
+      "label": "ANXA6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CITED2",
+      "label": "CITED2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFBR2",
+      "label": "TGFBR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BNC2",
+      "label": "BNC2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANXA2",
+      "label": "ANXA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NPR3",
+      "label": "NPR3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SULF2",
+      "label": "SULF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "OGN",
+      "label": "OGN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL3A1",
+      "label": "COL3A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRRX1",
+      "label": "PRRX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDGFC",
+      "label": "PDGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GPR68",
+      "label": "GPR68",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MTHFD1L",
+      "label": "MTHFD1L",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TRIM45",
+      "label": "TRIM45",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ACVRL1",
+      "label": "ACVRL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TSKU",
+      "label": "TSKU",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITGB8",
+      "label": "ITGB8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LOXL2",
+      "label": "LOXL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PRKG2",
+      "label": "PRKG2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HAPLN1",
+      "label": "HAPLN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SRF",
+      "label": "SRF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TYMS",
+      "label": "TYMS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZFAND5",
+      "label": "ZFAND5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGM2",
+      "label": "TGM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFB2",
+      "label": "TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SERPINH1",
+      "label": "SERPINH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL18A1",
+      "label": "COL18A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL27A1",
+      "label": "COL27A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TLE5",
+      "label": "TLE5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAF",
+      "label": "MAF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HAPLN3",
+      "label": "HAPLN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BGN",
+      "label": "BGN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SFRP4",
+      "label": "SFRP4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PKD1",
+      "label": "PKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZEB1",
+      "label": "ZEB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ENG",
+      "label": "ENG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TBX3",
+      "label": "TBX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TIMP1",
+      "label": "TIMP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "AKAP13",
+      "label": "AKAP13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFBI",
+      "label": "TGFBI",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SULF1",
+      "label": "SULF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SH3PXD2B",
+      "label": "SH3PXD2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CREB3L2",
+      "label": "CREB3L2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDGFRA",
+      "label": "PDGFRA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PSEN1",
+      "label": "PSEN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TIPARP",
+      "label": "TIPARP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "INSIG1",
+      "label": "INSIG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EYA1",
+      "label": "EYA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOX4",
+      "label": "SOX4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FOXO1",
+      "label": "FOXO1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DAAM2",
+      "label": "DAAM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "VEGFA",
+      "label": "VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TSC22D1",
+      "label": "TSC22D1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EPHB2",
+      "label": "EPHB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LBH",
+      "label": "LBH",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PIK3R1",
+      "label": "PIK3R1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NF2",
+      "label": "NF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "KLF13",
+      "label": "KLF13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ULK2",
+      "label": "ULK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SEMA6D",
+      "label": "SEMA6D",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SEMA3A",
+      "label": "SEMA3A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TENT5C",
+      "label": "TENT5C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CDKN2B",
+      "label": "CDKN2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CCL11",
+      "label": "CCL11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FGF13",
+      "label": "FGF13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITPKB",
+      "label": "ITPKB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PDCD4",
+      "label": "PDCD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FGF10",
+      "label": "FGF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "COL5A1",
+      "label": "COL5A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BCL6",
+      "label": "BCL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "CAV1",
+      "label": "CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SHB",
+      "label": "SHB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MYC",
+      "label": "MYC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "UBASH3B",
+      "label": "UBASH3B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TGFB1I1",
+      "label": "TGFB1I1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "H4C15",
+      "label": "H4C15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZFP36L2",
+      "label": "ZFP36L2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DDIT3",
+      "label": "DDIT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NTN1",
+      "label": "NTN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SEMA5A",
+      "label": "SEMA5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "DUSP10",
+      "label": "DUSP10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZFP36L1",
+      "label": "ZFP36L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MEIS2",
+      "label": "MEIS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TRIB3",
+      "label": "TRIB3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SEMA3B",
+      "label": "SEMA3B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NFKBIA",
+      "label": "NFKBIA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "INHBA",
+      "label": "INHBA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "MAFB",
+      "label": "MAFB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STAT3",
+      "label": "STAT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOCS1",
+      "label": "SOCS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "IL17RD",
+      "label": "IL17RD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "BDNF",
+      "label": "BDNF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZBED6",
+      "label": "ZBED6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "STAT5B",
+      "label": "STAT5B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "PTEN",
+      "label": "PTEN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ANXA1",
+      "label": "ANXA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "LDB1",
+      "label": "LDB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NOTCH3",
+      "label": "NOTCH3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZFPM2",
+      "label": "ZFPM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FZD7",
+      "label": "FZD7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "GORASP1",
+      "label": "GORASP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NFATC4",
+      "label": "NFATC4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZFP36",
+      "label": "ZFP36",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZHX2",
+      "label": "ZHX2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOCS5",
+      "label": "SOCS5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TCTA",
+      "label": "TCTA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ID2",
+      "label": "ID2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SOD2",
+      "label": "SOD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TMEM131L",
+      "label": "TMEM131L",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TP53INP1",
+      "label": "TP53INP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TRIB2",
+      "label": "TRIB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "RUNX1",
+      "label": "RUNX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "TP53",
+      "label": "TP53",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ZBTB46",
+      "label": "ZBTB46",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ITGB1",
+      "label": "ITGB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SPRED2",
+      "label": "SPRED2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "FOXP1",
+      "label": "FOXP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "SEMA4C",
+      "label": "SEMA4C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "ADAMTS7",
+      "label": "ADAMTS7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "HDAC5",
+      "label": "HDAC5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "EPHA4",
+      "label": "EPHA4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "id": "NOTCH1",
+      "label": "NOTCH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "ZBTB16",
+      "label": "Edge from ossification to ZBTB16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "TMT1A",
+      "label": "Edge from ossification to TMT1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "COL1A1",
+      "label": "Edge from ossification to COL1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "SORT1",
+      "label": "Edge from ossification to SORT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "FSTL3",
+      "label": "Edge from ossification to FSTL3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "DHRS3",
+      "label": "Edge from ossification to DHRS3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "IGSF10",
+      "label": "Edge from ossification to IGSF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "ITGA11",
+      "label": "Edge from ossification to ITGA11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CEBPD",
+      "label": "Edge from ossification to CEBPD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "COL11A1",
+      "label": "Edge from ossification to COL11A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "FBN2",
+      "label": "Edge from ossification to FBN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "GPM6B",
+      "label": "Edge from ossification to GPM6B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "ZHX3",
+      "label": "Edge from ossification to ZHX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "STC1",
+      "label": "Edge from ossification to STC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "TMEM119",
+      "label": "Edge from ossification to TMEM119",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "TWIST2",
+      "label": "Edge from ossification to TWIST2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "TNFAIP6",
+      "label": "Edge from ossification to TNFAIP6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "LOC102724560",
+      "label": "Edge from ossification to LOC102724560",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "TENT5A",
+      "label": "Edge from ossification to TENT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "PLXNB1",
+      "label": "Edge from ossification to PLXNB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "TPM4",
+      "label": "Edge from ossification to TPM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "PKDCC",
+      "label": "Edge from ossification to PKDCC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "PTN",
+      "label": "Edge from ossification to PTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "RASSF2",
+      "label": "Edge from ossification to RASSF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "TNC",
+      "label": "Edge from ossification to TNC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CREB3L1",
+      "label": "Edge from ossification to CREB3L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "EXT1",
+      "label": "Edge from ossification to EXT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "HGF",
+      "label": "Edge from ossification to HGF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "S1PR1",
+      "label": "Edge from ossification to S1PR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CRIM1",
+      "label": "Edge from ossification to CRIM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "DCHS1",
+      "label": "Edge from ossification to DCHS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "COL1A2",
+      "label": "Edge from ossification to COL1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "RBPJ",
+      "label": "Edge from ossification to RBPJ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CCN2",
+      "label": "Edge from ossification to CCN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CBS",
+      "label": "Edge from ossification to CBS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "P2RX7",
+      "label": "Edge from ossification to P2RX7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "ENPP1",
+      "label": "Edge from ossification to ENPP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CAT",
+      "label": "Edge from ossification to CAT",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "SLC8A1",
+      "label": "Edge from ossification to SLC8A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "RRAS2",
+      "label": "Edge from ossification to RRAS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "PPARG",
+      "label": "Edge from ossification to PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CDK6",
+      "label": "Edge from ossification to CDK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "KAZALD1",
+      "label": "Edge from ossification to KAZALD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "HDAC7",
+      "label": "Edge from ossification to HDAC7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "LEP",
+      "label": "Edge from ossification to LEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "WNT5A",
+      "label": "Edge from ossification to WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "PDLIM7",
+      "label": "Edge from ossification to PDLIM7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "IL6R",
+      "label": "Edge from ossification to IL6R",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "GDF5",
+      "label": "Edge from ossification to GDF5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CHRDL2",
+      "label": "Edge from ossification to CHRDL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "PRKD1",
+      "label": "Edge from ossification to PRKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "SMO",
+      "label": "Edge from ossification to SMO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "RBMX",
+      "label": "Edge from ossification to RBMX",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "SMAD1",
+      "label": "Edge from ossification to SMAD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "LGR4",
+      "label": "Edge from ossification to LGR4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "SOX9",
+      "label": "Edge from ossification to SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CYP24A1",
+      "label": "Edge from ossification to CYP24A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "EGR2",
+      "label": "Edge from ossification to EGR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "GLI2",
+      "label": "Edge from ossification to GLI2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "IARS1",
+      "label": "Edge from ossification to IARS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "TRPM4",
+      "label": "Edge from ossification to TRPM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "FAM20C",
+      "label": "Edge from ossification to FAM20C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "IL6",
+      "label": "Edge from ossification to IL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "RFLNB",
+      "label": "Edge from ossification to RFLNB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "RSPO2",
+      "label": "Edge from ossification to RSPO2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "IGF2",
+      "label": "Edge from ossification to IGF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "MGP",
+      "label": "Edge from ossification to MGP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "HIF1A",
+      "label": "Edge from ossification to HIF1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "DNAI3",
+      "label": "Edge from ossification to DNAI3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "PTGS2",
+      "label": "Edge from ossification to PTGS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "PTCH1",
+      "label": "Edge from ossification to PTCH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "LOX",
+      "label": "Edge from ossification to LOX",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "GREM1",
+      "label": "Edge from ossification to GREM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CTHRC1",
+      "label": "Edge from ossification to CTHRC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CCN1",
+      "label": "Edge from ossification to CCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "FERMT2",
+      "label": "Edge from ossification to FERMT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "NAB1",
+      "label": "Edge from ossification to NAB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "FGFR2",
+      "label": "Edge from ossification to FGFR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "OSR1",
+      "label": "Edge from ossification to OSR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CHRDL1",
+      "label": "Edge from ossification to CHRDL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "VEGFC",
+      "label": "Edge from ossification to VEGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "PTPN11",
+      "label": "Edge from ossification to PTPN11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "MDK",
+      "label": "Edge from ossification to MDK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "SNAI2",
+      "label": "Edge from ossification to SNAI2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "GLI3",
+      "label": "Edge from ossification to GLI3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "AXIN2",
+      "label": "Edge from ossification to AXIN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "SMAD3",
+      "label": "Edge from ossification to SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "VCAN",
+      "label": "Edge from ossification to VCAN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "TMEM64",
+      "label": "Edge from ossification to TMEM64",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "OSR2",
+      "label": "Edge from ossification to OSR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "GDF10",
+      "label": "Edge from ossification to GDF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "CCN4",
+      "label": "Edge from ossification to CCN4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "GIT1",
+      "label": "Edge from ossification to GIT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "SFRP2",
+      "label": "Edge from ossification to SFRP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "SBDS",
+      "label": "Edge from ossification to SBDS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "FHL2",
+      "label": "Edge from ossification to FHL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "ZBTB16",
+      "label": "Edge from skeletal system development to ZBTB16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "LRRC17",
+      "label": "Edge from skeletal system development to LRRC17",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "COL1A1",
+      "label": "Edge from skeletal system development to COL1A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "FST",
+      "label": "Edge from skeletal system development to FST",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TNFRSF11B",
+      "label": "Edge from skeletal system development to TNFRSF11B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "DHRS3",
+      "label": "Edge from skeletal system development to DHRS3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "CCN3",
+      "label": "Edge from skeletal system development to CCN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "ANXA6",
+      "label": "Edge from skeletal system development to ANXA6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "CITED2",
+      "label": "Edge from skeletal system development to CITED2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TGFBR2",
+      "label": "Edge from skeletal system development to TGFBR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "COL11A1",
+      "label": "Edge from skeletal system development to COL11A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "FBN2",
+      "label": "Edge from skeletal system development to FBN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "STC1",
+      "label": "Edge from skeletal system development to STC1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "BNC2",
+      "label": "Edge from skeletal system development to BNC2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "ANXA2",
+      "label": "Edge from skeletal system development to ANXA2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TMEM119",
+      "label": "Edge from skeletal system development to TMEM119",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "LOC102724560",
+      "label": "Edge from skeletal system development to LOC102724560",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "PLXNB1",
+      "label": "Edge from skeletal system development to PLXNB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "NPR3",
+      "label": "Edge from skeletal system development to NPR3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "PKDCC",
+      "label": "Edge from skeletal system development to PKDCC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "SULF2",
+      "label": "Edge from skeletal system development to SULF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "OGN",
+      "label": "Edge from skeletal system development to OGN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "RASSF2",
+      "label": "Edge from skeletal system development to RASSF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "COL3A1",
+      "label": "Edge from skeletal system development to COL3A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "PRRX1",
+      "label": "Edge from skeletal system development to PRRX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "PDGFC",
+      "label": "Edge from skeletal system development to PDGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "GPR68",
+      "label": "Edge from skeletal system development to GPR68",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "EXT1",
+      "label": "Edge from skeletal system development to EXT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "MTHFD1L",
+      "label": "Edge from skeletal system development to MTHFD1L",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TRIM45",
+      "label": "Edge from skeletal system development to TRIM45",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "DCHS1",
+      "label": "Edge from skeletal system development to DCHS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "ACVRL1",
+      "label": "Edge from skeletal system development to ACVRL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "COL1A2",
+      "label": "Edge from skeletal system development to COL1A2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "CCN2",
+      "label": "Edge from skeletal system development to CCN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "CBS",
+      "label": "Edge from skeletal system development to CBS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "P2RX7",
+      "label": "Edge from skeletal system development to P2RX7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TSKU",
+      "label": "Edge from skeletal system development to TSKU",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "ITGB8",
+      "label": "Edge from skeletal system development to ITGB8",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "LOXL2",
+      "label": "Edge from skeletal system development to LOXL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "PRKG2",
+      "label": "Edge from skeletal system development to PRKG2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "HAPLN1",
+      "label": "Edge from skeletal system development to HAPLN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "SRF",
+      "label": "Edge from skeletal system development to SRF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TYMS",
+      "label": "Edge from skeletal system development to TYMS",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "ZFAND5",
+      "label": "Edge from skeletal system development to ZFAND5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "LEP",
+      "label": "Edge from skeletal system development to LEP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TGM2",
+      "label": "Edge from skeletal system development to TGM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TGFB2",
+      "label": "Edge from skeletal system development to TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "SERPINH1",
+      "label": "Edge from skeletal system development to SERPINH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "WNT5A",
+      "label": "Edge from skeletal system development to WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "GDF5",
+      "label": "Edge from skeletal system development to GDF5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "CHRDL2",
+      "label": "Edge from skeletal system development to CHRDL2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "COL18A1",
+      "label": "Edge from skeletal system development to COL18A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "SMAD1",
+      "label": "Edge from skeletal system development to SMAD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "SOX9",
+      "label": "Edge from skeletal system development to SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "COL27A1",
+      "label": "Edge from skeletal system development to COL27A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TLE5",
+      "label": "Edge from skeletal system development to TLE5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "MAF",
+      "label": "Edge from skeletal system development to MAF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "GLI2",
+      "label": "Edge from skeletal system development to GLI2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "HAPLN3",
+      "label": "Edge from skeletal system development to HAPLN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "BGN",
+      "label": "Edge from skeletal system development to BGN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "FAM20C",
+      "label": "Edge from skeletal system development to FAM20C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "SFRP4",
+      "label": "Edge from skeletal system development to SFRP4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "PKD1",
+      "label": "Edge from skeletal system development to PKD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "ZEB1",
+      "label": "Edge from skeletal system development to ZEB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "RFLNB",
+      "label": "Edge from skeletal system development to RFLNB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "RSPO2",
+      "label": "Edge from skeletal system development to RSPO2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "ENG",
+      "label": "Edge from skeletal system development to ENG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TBX3",
+      "label": "Edge from skeletal system development to TBX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "MGP",
+      "label": "Edge from skeletal system development to MGP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "HIF1A",
+      "label": "Edge from skeletal system development to HIF1A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TIMP1",
+      "label": "Edge from skeletal system development to TIMP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "AKAP13",
+      "label": "Edge from skeletal system development to AKAP13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "LOX",
+      "label": "Edge from skeletal system development to LOX",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "GREM1",
+      "label": "Edge from skeletal system development to GREM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TGFBI",
+      "label": "Edge from skeletal system development to TGFBI",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "CCN1",
+      "label": "Edge from skeletal system development to CCN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "SULF1",
+      "label": "Edge from skeletal system development to SULF1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "NAB1",
+      "label": "Edge from skeletal system development to NAB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "FGFR2",
+      "label": "Edge from skeletal system development to FGFR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "OSR1",
+      "label": "Edge from skeletal system development to OSR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "SH3PXD2B",
+      "label": "Edge from skeletal system development to SH3PXD2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "CREB3L2",
+      "label": "Edge from skeletal system development to CREB3L2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "PTPN11",
+      "label": "Edge from skeletal system development to PTPN11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "MDK",
+      "label": "Edge from skeletal system development to MDK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "PDGFRA",
+      "label": "Edge from skeletal system development to PDGFRA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "PSEN1",
+      "label": "Edge from skeletal system development to PSEN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "SNAI2",
+      "label": "Edge from skeletal system development to SNAI2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "TIPARP",
+      "label": "Edge from skeletal system development to TIPARP",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "GLI3",
+      "label": "Edge from skeletal system development to GLI3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "INSIG1",
+      "label": "Edge from skeletal system development to INSIG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "AXIN2",
+      "label": "Edge from skeletal system development to AXIN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "SMAD3",
+      "label": "Edge from skeletal system development to SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "VCAN",
+      "label": "Edge from skeletal system development to VCAN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "OSR2",
+      "label": "Edge from skeletal system development to OSR2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "GDF10",
+      "label": "Edge from skeletal system development to GDF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "CCN4",
+      "label": "Edge from skeletal system development to CCN4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "skeletal_system_development",
+      "target": "EYA1",
+      "label": "Edge from skeletal system development to EYA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ZBTB16",
+      "label": "Edge from negative regulation of cell differentiation to ZBTB16",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SOX4",
+      "label": "Edge from negative regulation of cell differentiation to SOX4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "LRRC17",
+      "label": "Edge from negative regulation of cell differentiation to LRRC17",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SORT1",
+      "label": "Edge from negative regulation of cell differentiation to SORT1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "FST",
+      "label": "Edge from negative regulation of cell differentiation to FST",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "FSTL3",
+      "label": "Edge from negative regulation of cell differentiation to FSTL3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "FOXO1",
+      "label": "Edge from negative regulation of cell differentiation to FOXO1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TNFRSF11B",
+      "label": "Edge from negative regulation of cell differentiation to TNFRSF11B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "CCN3",
+      "label": "Edge from negative regulation of cell differentiation to CCN3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "DAAM2",
+      "label": "Edge from negative regulation of cell differentiation to DAAM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "VEGFA",
+      "label": "Edge from negative regulation of cell differentiation to VEGFA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TSC22D1",
+      "label": "Edge from negative regulation of cell differentiation to TSC22D1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "EPHB2",
+      "label": "Edge from negative regulation of cell differentiation to EPHB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "LBH",
+      "label": "Edge from negative regulation of cell differentiation to LBH",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TMEM119",
+      "label": "Edge from negative regulation of cell differentiation to TMEM119",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TWIST2",
+      "label": "Edge from negative regulation of cell differentiation to TWIST2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TNFAIP6",
+      "label": "Edge from negative regulation of cell differentiation to TNFAIP6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "PIK3R1",
+      "label": "Edge from negative regulation of cell differentiation to PIK3R1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "NF2",
+      "label": "Edge from negative regulation of cell differentiation to NF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "KLF13",
+      "label": "Edge from negative regulation of cell differentiation to KLF13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ULK2",
+      "label": "Edge from negative regulation of cell differentiation to ULK2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "PTN",
+      "label": "Edge from negative regulation of cell differentiation to PTN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SEMA6D",
+      "label": "Edge from negative regulation of cell differentiation to SEMA6D",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SEMA3A",
+      "label": "Edge from negative regulation of cell differentiation to SEMA3A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "GPR68",
+      "label": "Edge from negative regulation of cell differentiation to GPR68",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TENT5C",
+      "label": "Edge from negative regulation of cell differentiation to TENT5C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "CDKN2B",
+      "label": "Edge from negative regulation of cell differentiation to CDKN2B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "CCL11",
+      "label": "Edge from negative regulation of cell differentiation to CCL11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "FGF13",
+      "label": "Edge from negative regulation of cell differentiation to FGF13",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "CRIM1",
+      "label": "Edge from negative regulation of cell differentiation to CRIM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ITPKB",
+      "label": "Edge from negative regulation of cell differentiation to ITPKB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ACVRL1",
+      "label": "Edge from negative regulation of cell differentiation to ACVRL1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "RBPJ",
+      "label": "Edge from negative regulation of cell differentiation to RBPJ",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TSKU",
+      "label": "Edge from negative regulation of cell differentiation to TSKU",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "PDCD4",
+      "label": "Edge from negative regulation of cell differentiation to PDCD4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ENPP1",
+      "label": "Edge from negative regulation of cell differentiation to ENPP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "FGF10",
+      "label": "Edge from negative regulation of cell differentiation to FGF10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "COL5A1",
+      "label": "Edge from negative regulation of cell differentiation to COL5A1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "PPARG",
+      "label": "Edge from negative regulation of cell differentiation to PPARG",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "CDK6",
+      "label": "Edge from negative regulation of cell differentiation to CDK6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "BCL6",
+      "label": "Edge from negative regulation of cell differentiation to BCL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "CAV1",
+      "label": "Edge from negative regulation of cell differentiation to CAV1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "HDAC7",
+      "label": "Edge from negative regulation of cell differentiation to HDAC7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SHB",
+      "label": "Edge from negative regulation of cell differentiation to SHB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TGFB2",
+      "label": "Edge from negative regulation of cell differentiation to TGFB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "MYC",
+      "label": "Edge from negative regulation of cell differentiation to MYC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "WNT5A",
+      "label": "Edge from negative regulation of cell differentiation to WNT5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "UBASH3B",
+      "label": "Edge from negative regulation of cell differentiation to UBASH3B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TGFB1I1",
+      "label": "Edge from negative regulation of cell differentiation to TGFB1I1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "H4C15",
+      "label": "Edge from negative regulation of cell differentiation to H4C15",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ZFP36L2",
+      "label": "Edge from negative regulation of cell differentiation to ZFP36L2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "DDIT3",
+      "label": "Edge from negative regulation of cell differentiation to DDIT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "GDF5",
+      "label": "Edge from negative regulation of cell differentiation to GDF5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "NTN1",
+      "label": "Edge from negative regulation of cell differentiation to NTN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SEMA5A",
+      "label": "Edge from negative regulation of cell differentiation to SEMA5A",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "DUSP10",
+      "label": "Edge from negative regulation of cell differentiation to DUSP10",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ZFP36L1",
+      "label": "Edge from negative regulation of cell differentiation to ZFP36L1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "MEIS2",
+      "label": "Edge from negative regulation of cell differentiation to MEIS2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SMO",
+      "label": "Edge from negative regulation of cell differentiation to SMO",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TRIB3",
+      "label": "Edge from negative regulation of cell differentiation to TRIB3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SMAD1",
+      "label": "Edge from negative regulation of cell differentiation to SMAD1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SEMA3B",
+      "label": "Edge from negative regulation of cell differentiation to SEMA3B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "NFKBIA",
+      "label": "Edge from negative regulation of cell differentiation to NFKBIA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SOX9",
+      "label": "Edge from negative regulation of cell differentiation to SOX9",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "INHBA",
+      "label": "Edge from negative regulation of cell differentiation to INHBA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "MAFB",
+      "label": "Edge from negative regulation of cell differentiation to MAFB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TRPM4",
+      "label": "Edge from negative regulation of cell differentiation to TRPM4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "STAT3",
+      "label": "Edge from negative regulation of cell differentiation to STAT3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SOCS1",
+      "label": "Edge from negative regulation of cell differentiation to SOCS1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "IL17RD",
+      "label": "Edge from negative regulation of cell differentiation to IL17RD",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "IL6",
+      "label": "Edge from negative regulation of cell differentiation to IL6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ZEB1",
+      "label": "Edge from negative regulation of cell differentiation to ZEB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "RFLNB",
+      "label": "Edge from negative regulation of cell differentiation to RFLNB",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TBX3",
+      "label": "Edge from negative regulation of cell differentiation to TBX3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "IGF2",
+      "label": "Edge from negative regulation of cell differentiation to IGF2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "BDNF",
+      "label": "Edge from negative regulation of cell differentiation to BDNF",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ZBED6",
+      "label": "Edge from negative regulation of cell differentiation to ZBED6",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "STAT5B",
+      "label": "Edge from negative regulation of cell differentiation to STAT5B",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "PTCH1",
+      "label": "Edge from negative regulation of cell differentiation to PTCH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "PTEN",
+      "label": "Edge from negative regulation of cell differentiation to PTEN",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "GREM1",
+      "label": "Edge from negative regulation of cell differentiation to GREM1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ANXA1",
+      "label": "Edge from negative regulation of cell differentiation to ANXA1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "LDB1",
+      "label": "Edge from negative regulation of cell differentiation to LDB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "FERMT2",
+      "label": "Edge from negative regulation of cell differentiation to FERMT2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "NOTCH3",
+      "label": "Edge from negative regulation of cell differentiation to NOTCH3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "OSR1",
+      "label": "Edge from negative regulation of cell differentiation to OSR1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ZFPM2",
+      "label": "Edge from negative regulation of cell differentiation to ZFPM2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "VEGFC",
+      "label": "Edge from negative regulation of cell differentiation to VEGFC",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "FZD7",
+      "label": "Edge from negative regulation of cell differentiation to FZD7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "PTPN11",
+      "label": "Edge from negative regulation of cell differentiation to PTPN11",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "GORASP1",
+      "label": "Edge from negative regulation of cell differentiation to GORASP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "NFATC4",
+      "label": "Edge from negative regulation of cell differentiation to NFATC4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ZFP36",
+      "label": "Edge from negative regulation of cell differentiation to ZFP36",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "MDK",
+      "label": "Edge from negative regulation of cell differentiation to MDK",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "PSEN1",
+      "label": "Edge from negative regulation of cell differentiation to PSEN1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ZHX2",
+      "label": "Edge from negative regulation of cell differentiation to ZHX2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SOCS5",
+      "label": "Edge from negative regulation of cell differentiation to SOCS5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TCTA",
+      "label": "Edge from negative regulation of cell differentiation to TCTA",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SNAI2",
+      "label": "Edge from negative regulation of cell differentiation to SNAI2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "GLI3",
+      "label": "Edge from negative regulation of cell differentiation to GLI3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "INSIG1",
+      "label": "Edge from negative regulation of cell differentiation to INSIG1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "AXIN2",
+      "label": "Edge from negative regulation of cell differentiation to AXIN2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SMAD3",
+      "label": "Edge from negative regulation of cell differentiation to SMAD3",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TMEM64",
+      "label": "Edge from negative regulation of cell differentiation to TMEM64",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "CCN4",
+      "label": "Edge from negative regulation of cell differentiation to CCN4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ID2",
+      "label": "Edge from negative regulation of cell differentiation to ID2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SFRP2",
+      "label": "Edge from negative regulation of cell differentiation to SFRP2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SOD2",
+      "label": "Edge from negative regulation of cell differentiation to SOD2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TMEM131L",
+      "label": "Edge from negative regulation of cell differentiation to TMEM131L",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TP53INP1",
+      "label": "Edge from negative regulation of cell differentiation to TP53INP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TRIB2",
+      "label": "Edge from negative regulation of cell differentiation to TRIB2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "RUNX1",
+      "label": "Edge from negative regulation of cell differentiation to RUNX1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "TP53",
+      "label": "Edge from negative regulation of cell differentiation to TP53",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ZBTB46",
+      "label": "Edge from negative regulation of cell differentiation to ZBTB46",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ITGB1",
+      "label": "Edge from negative regulation of cell differentiation to ITGB1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SPRED2",
+      "label": "Edge from negative regulation of cell differentiation to SPRED2",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "FOXP1",
+      "label": "Edge from negative regulation of cell differentiation to FOXP1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "SEMA4C",
+      "label": "Edge from negative regulation of cell differentiation to SEMA4C",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "ADAMTS7",
+      "label": "Edge from negative regulation of cell differentiation to ADAMTS7",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "HDAC5",
+      "label": "Edge from negative regulation of cell differentiation to HDAC5",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "EPHA4",
+      "label": "Edge from negative regulation of cell differentiation to EPHA4",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "negative_regulation_of_cell_differentiation",
+      "target": "NOTCH1",
+      "label": "Edge from negative regulation of cell differentiation to NOTCH1",
+      "degree": 10
+    }
+  },
+  {
+    "data": {
+      "source": "ossification",
+      "target": "skeletal_system_development",
+      "label": "Edge from ossification to skeletal system development",
+      "degree": 10
+    },
+    "classes": "genesis"
+  }
+]
