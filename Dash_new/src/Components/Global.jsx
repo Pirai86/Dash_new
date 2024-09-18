@@ -18,6 +18,10 @@ export const GlobalContext = createContext();
 
 export const GlobalProvider = ({ children }) => {
 
+  const[isNavHomeActivated, setisNavHomeActivated] = useState(true);
+  const[isNavTeamActivated, setisNavTeamActivated] = useState(false);
+  const[isNavFavActivated, setisNavFavActivated] = useState(false);
+
   const [jwt, setjwt] = useState(null);
   const [globalExperimentID, setglobalExperimentID] = useState("");
   const [isGotoExperimentClicked, setisGotoExperimentClicked] = useState(false);
@@ -189,6 +193,10 @@ export const GlobalProvider = ({ children }) => {
         settotalProjects,
         totalExperiments,
         settotalExperiments,
+        isNavHomeActivated, setisNavHomeActivated,
+        isNavTeamActivated, setisNavTeamActivated,
+        isNavFavActivated, setisNavFavActivated,
+
 
         ExpSetup_QualitySummary_Data, setExpSetup_QualitySummary_Data,
         ExpSetup_QualitySummary_Control_Data, setExpSetup_QualitySummary_Control_Data,
