@@ -1,0 +1,128 @@
+.NewProjectPage{
+    position: absolute;
+    background: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.NewProjectContainer{
+    padding: 30px;
+    width: 450px;
+    height: 430px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CreateNewProject-Text{
+    font-weight: bold;
+}
+
+.NewProjectContainer-Content{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+}
+
+.NewProjectName-NewProjectDesc{
+    margin-top: 1em;
+    /* border: 1px solid black; */
+    padding: 20px;
+    height: 290px;
+    border-radius: 10px;
+    background-color: #f3f5fb;
+    position: relative;
+}
+
+.NewProjectName-NewProjectDesc > p{
+    font-size: .75rem;
+    color: #616267;
+    font-weight: bold;
+}
+
+.NewProjectName-NewProjectDesc > input{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: .7em;
+    font-size: .688rem;
+    font-weight: bold;
+    padding-left: 1em;
+    color: #9194a3;
+}
+
+.NewProjectName-NewProjectDesc > textarea{
+    width: 100% !important;
+    /* max-width: 100%; */
+    height: 150px;
+    /* max-height: 200px; */
+    border-radius: 20px;
+    border: none;
+    margin-top: .7em;
+    font-size: .688rem;
+    padding: 15px;
+    padding-left: 1em;
+    color: #9194a3;
+    font-weight: bold;
+    resize: none;
+}
+
+.ProjectName-Input.EmptyProjTitle{
+    border: 1px solid red;
+}
+
+.NewProj-Desc{
+    margin-top: 2em;
+}
+
+.Cancel-Create-NewProject{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 100%;
+    height: 56px;
+    margin-top: .5em;
+}
+
+.CancelProjCreation,
+.ProjCreation{
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .75rem;
+}
+
+.CancelProjCreation:hover,
+.ProjCreation:hover{
+    cursor: pointer;
+}
+
+.CancelProjCreation{
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+.ProjCreation{
+    background-image: linear-gradient(var(--pink), var(--pink-alternate));
+    box-shadow: 0 10px 10px -10px var(--pink);
+    color: white;
+}
+
+.Project-Name-Err{
+    position: absolute;
+    color: red !important;
+    position: absolute;
+    right: 2em;
+    top: 6.5em;
+    /* margin-top: .5em;
+    margin-left: 1em; */
+    font-weight: bold !important;
+}

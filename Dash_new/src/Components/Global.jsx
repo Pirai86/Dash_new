@@ -38,14 +38,19 @@ export const GlobalProvider = ({ children }) => {
   const [totalProjects, settotalProjects] = useState(0);
   const [totalExperiments, settotalExperiments] = useState(0);
 
+  const [totalExp, settotalExp] = useState(0);
+  const [remainingExp, setremainingExp] = useState(0);
+
   const [projectsName, setprojectsName] = useState([]);
   const [projectsID, setprojectsID] = useState([]);
   const [projectsDesc, setprojectsDesc] = useState([]);
   const [CreatedON, setCreatedON] = useState([]);
   const [LastModifiedON, setLastModifiedON] = useState([]);
+  const [projectsIsDemo, setprojectsIsDemo] = useState([]);
 
   const [experimentsName, setexperimentsName] = useState([]);
   const [experimentsID, setexperimentsID] = useState([]);
+  const [experimentsStatus, setexperimentsStatus] = useState([]);
   const [experimentsDesc, setexperimentsDesc] = useState([]);
   const [ExpCreatedON, setExpCreatedON] = useState([]);
   const [ExpLastModifiedON, setExpLastModifiedON] = useState([]);
@@ -182,6 +187,15 @@ export const GlobalProvider = ({ children }) => {
     setExpLastModifiedON((prevArray) => [...prevArray, value]);
   };
 
+  const appendToprojectsIsDemo = (value) => {
+    setprojectsIsDemo((prevArray) => [...prevArray, value]);
+  };
+
+  const appendToexperimentsStatus = (value) => {
+    setexperimentsStatus((prevArray) => [...prevArray, value]);
+  };
+
+
   return (
     <GlobalContext.Provider
       value={{
@@ -196,6 +210,11 @@ export const GlobalProvider = ({ children }) => {
         isNavHomeActivated, setisNavHomeActivated,
         isNavTeamActivated, setisNavTeamActivated,
         isNavFavActivated, setisNavFavActivated,
+        experimentsStatus, setexperimentsStatus,
+        appendToexperimentsStatus,
+
+        totalExp, settotalExp,
+        remainingExp, setremainingExp,
 
 
         ExpSetup_QualitySummary_Data, setExpSetup_QualitySummary_Data,
@@ -309,6 +328,7 @@ export const GlobalProvider = ({ children }) => {
         ExpCreatedON,
         setExpCreatedON,
         appendToExpCreatedON,
+        projectsIsDemo, setprojectsIsDemo, appendToprojectsIsDemo,
 
         LastModifiedON,
         setLastModifiedON,

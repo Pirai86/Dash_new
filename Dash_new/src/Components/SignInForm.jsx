@@ -11,7 +11,7 @@ import { BACKEND_API_URL } from "./Login";
 export function SignInForm({ showForm }) {
   const { setjwt } = useContext(GlobalContext);
   const { setuserfullName, settotalProjects, setisGotoExperimentClicked } = useContext(GlobalContext);
-  const { appendToprojectsName, appendToprojectsID, appendToprojectsDesc, appendToCreatedON, appendToLastModifiedON } = useContext(GlobalContext);
+  const { appendToprojectsName, appendToprojectsID, appendToprojectsDesc, appendToCreatedON, appendToLastModifiedON, appendToprojectsIsDemo } = useContext(GlobalContext);
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -55,6 +55,7 @@ export function SignInForm({ showForm }) {
                 appendToprojectsDesc(project.project_notes);
                 appendToCreatedON(project.created_on);
                 appendToLastModifiedON(project.last_modified);
+                appendToprojectsIsDemo(project.is_demo);
               });
 
               navigate("/home");
