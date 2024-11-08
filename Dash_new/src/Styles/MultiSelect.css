@@ -1,0 +1,9 @@
+/* MultiSelect.css */
+.multi-select-option {
+  display: flex;
+  align-items: center;
+}
+
+.multi-select-option input[type="checkbox"] {
+  margin-right: 5px;
+}

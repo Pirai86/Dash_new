@@ -50,6 +50,11 @@ import Right_Arrow_Header from "../assets/right-arrow-header.png";
 
 import { faSleigh } from "@fortawesome/free-solid-svg-icons";
 
+import ExpSetup_QualitySummary_Comp from "./1.ExpSetup/1.ExpSetup_QualitySummary/ExpSetup_QualitySummary_Comp";
+import ExpSetup_QualitySummary_Control_Comp from "./1.ExpSetup/1.ExpSetup_QualitySummary/ExpSetup_QualitySummary_Control_Comp";
+
+import DropDownComboBox from "../Components/DropDownComboBox";
+
 
 const BACKEND_API_URL = import.meta.env.VITE_BACKEND_API_URL;
 
@@ -61,13 +66,15 @@ function Projects_Page() {
 
   const {
     jwt, userfullName,
-    isNavHomeActivated, setisNavHomeActivated,
+    isNavHomeActivated, setisNavHomeActivated,setglobalExperimentID,
     isNavTeamActivated, setisNavTeamActivated,
     isNavFavActivated, setisNavFavActivated,
     projectsName, totalProjects, projectsDesc, CreatedON, LastModifiedON, projectsID, totalExperiments, experimentsName, experimentsDesc, experimentsID,
     setexperimentsName, setexperimentsDesc, setexperimentsID, setExpCreatedON, setExpLastModifiedON, settotalExperiments,
     appendToexperimentsName, appendToexperimentsID, appendToexperimentsDesc, appendToExpCreatedON, appendToExpLastModifiedON, appendToexperimentsStatus,
-    globalProjID, set_globalProjID, globalProjCardIndex, set_globalProjCardIndex, experimentsStatus, setexperimentsStatus, isGotoExperimentClicked, setisGotoExperimentClicked
+    globalProjID, set_globalProjID, globalProjCardIndex, set_globalProjCardIndex, experimentsStatus, setexperimentsStatus, isGotoExperimentClicked, setisGotoExperimentClicked,
+    setExpSetup_QualitySummary_Data, setExpSetup_QualitySummary_Control_Data, setExpSetup_QualitySummary_xcat, setExpSetup_QualitySummary_ycat,
+    setisQualitySummaryEmpty,
   } = useContext(GlobalContext);
 
   const {
@@ -118,6 +125,9 @@ function Projects_Page() {
   const [WholeGenomeSelected, setWholeGenomeSelected] = useState(false);
   const [ProjectBoxClick, setProjectBoxClick] = useState(false);
 
+  const [EditQCClicked, setEditQCClicked] = useState(false);
+  const [NotesQCClicked, setNotesQCClicked] = useState(false);
+
   const [ProjNameForInfo, setProjNameForInfo] = useState("");
   const [ProjDescForInfo, setProjDescForInfo] = useState("");
   const [ProjCreatedForInfo, setProjCreatedForInfo] = useState("");
@@ -130,6 +140,9 @@ function Projects_Page() {
   const [ExpCategory_ComparisonClicked, setExpCategory_ComparisonClicked] = useState(false);
   const [ExpCategory_MainEffectsClicked, setExpCategory_MainEffectsClicked] = useState(false);
   const [ExpCategory_DataQualityClicked, setExpCategory_DataQualityClicked] = useState(false);
+
+  const [QualitySummaryClicked, setQualitySummaryClicked] = useState(false);
+  const [MetadataClicked, setMetadataClicked] = useState(false);
 
   const highlightedColumns = [1, 2];
   const highlightedColors = ["#e0e4f4", "#d4edda"];
@@ -433,7 +446,6 @@ function Projects_Page() {
     switch (sectionName) {
       case "Home":
         setisNavHomeActivated(true);
-        console.log("CLick")
         break;
       case "Team":
         setisNavTeamActivated(true);
@@ -455,9 +467,16 @@ function Projects_Page() {
     setExpCategory_MainEffectsClicked(false);
     setExpCategory_DataQualityClicked(false);
 
+    setQualitySummaryClicked(false);
+    setMetadataClicked(false);
+
+    setNotesQCClicked(false);
+
     switch (Category) {
       case "Exp-Setup":
         setExpCategory_ExpSetupClicked(true);
+        setQualitySummaryClicked(true);
+        setNotesQCClicked(true);
         break;
       case "Samples":
         setExpCategory_SamplesClicked(true);
@@ -568,8 +587,52 @@ function Projects_Page() {
     console.log("Exp ID : ", experimentsID[index]);
 
     setSelectedExpTitle(experimentsName[index]);
+    setQualitySummaryClicked(true);
+    setNotesQCClicked(true);
 
     setisGotoExperimentClicked(true);
+    setglobalExperimentID(experimentsID[index]);
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "expt_setup/quality_summary?expt_id=" +
+        experimentsID[index],
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+        }
+      )
+      .then((response) => {
+        // Handle successful response
+        setisQualitySummaryEmpty(false);
+
+        setExpSetup_QualitySummary_Data(null);
+        setExpSetup_QualitySummary_Control_Data(null);
+        setExpSetup_QualitySummary_xcat(null);
+        setExpSetup_QualitySummary_ycat(null);
+
+        setExpSetup_QualitySummary_Data(response.data.data);
+        setExpSetup_QualitySummary_Control_Data(response.data.data);
+        setExpSetup_QualitySummary_xcat(response.data.xcats);
+        setExpSetup_QualitySummary_ycat(response.data.ycats);
+
+        console.log("Data", response.data.data);
+        console.log("Xcat", response.data.xcats);
+        console.log("YCta", response.data.ycats);
+      })
+      .catch((error) => {
+        if (error.response.status === 404) {
+          setisQualitySummaryEmpty(true);
+        }
+
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+        
+      })
 
   }
 
@@ -692,6 +755,35 @@ function Projects_Page() {
     }
   }
 
+  const ActivateExp_SubCategory = (SubCategory) => {
+
+    setQualitySummaryClicked(false);
+    setMetadataClicked(false);
+
+    setNotesQCClicked(false);
+
+    switch (SubCategory) {
+      case "QualitySummary":
+        setQualitySummaryClicked(true);
+        setNotesQCClicked(true);
+        break;
+      case "Metadata":
+        setMetadataClicked(true);
+        break;
+      default:
+        break;
+    }
+
+  }
+
+  const handleEditClick = () => {
+    setEditQCClicked(!EditQCClicked);
+  }
+
+  const handleNotesClick = () => {
+    setNotesQCClicked(!NotesQCClicked)
+  }
+
   return (
     <div className="background">
 
@@ -762,6 +854,7 @@ function Projects_Page() {
       <div className="bg-main-container">
 
         {/*************************************************  Navigation Bar *****************************************************/}
+
         <div className={`navbar ${isGotoExperimentClicked ? "GoToExp" : ""}`}>
           <div className="company-logo">
             <img className={`company-logo-img ${isGotoExperimentClicked ? "GoToExp" : ""} `} src={CompanyLogo_Img} alt="" />
@@ -814,7 +907,10 @@ function Projects_Page() {
                 {Array.from({ length: totalProjects < 5 ? totalProjects : 5 }, (_, i) => (
                   <div className="navbar-project" key={i} onClick={() => handleGotoProject(i)}>
                     <div className="logo-text">
-                      <img className="project-logo-img" src={Project_Icon} alt="" />
+                      <div className="project-logo-container">
+                        <img className={`project-logo-img ${isGotoExperimentClicked ? "GoToExp" : ""}`} src={Project_Icon} alt="" />
+
+                      </div>
                       <div className={`nav-text ${isGotoExperimentClicked ? "GoToExp" : ""}`}>
                         <p>{projectsName[i]}</p>
                       </div>
@@ -846,9 +942,9 @@ function Projects_Page() {
 
         <div className={`Exp-Main-Category-Container ${isGotoExperimentClicked ? "GoToExp" : ""}`}>
           <div className="Exp-Main-Category-Content">
-            <div className="text">
+            {/* <div className="text">
               <p>Experiment Categories</p>
-            </div>
+            </div> */}
             <div className="title">
 
               <div className="Experiment-Setup">
@@ -916,7 +1012,7 @@ function Projects_Page() {
         {/*************************************************  Experiment Main Categoryies Container End *****************************************************/}
 
         {/*************************************************  Main Content *****************************************************/}
-        <div className="main-content-container">
+        <div className={`main-content-container ${isGotoExperimentClicked ? "GoToExp" : ""}`}>
           <div className="content-topbar">
             <div className="Welcome-message">
               <p className={`${isGotoProjectClicked ? "d-no" : ""}`}>Welcome to GrepBio</p>
@@ -952,10 +1048,10 @@ function Projects_Page() {
             <div className="Exp-SubCategory-Container">
               <div className="Exp-SubCategory">
                 <div className={`ExpSetup-SubCategory-ExpSetup-Container ${ExpCategory_ExpSetupClicked ? "" : "d-no"}`}>
-                  <div className="">
+                  <div className={`Exp-SubCategory-list ${QualitySummaryClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("QualitySummary")}>
                     <p>Quality Summary</p>
                   </div>
-                  <div className="">
+                  <div className={`Exp-SubCategory-list ${MetadataClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("Metadata")}>
                     <p>Metadata</p>
                   </div>
                   <div className="line-ExpSubCategory-ExpSetup"></div>
@@ -977,13 +1073,74 @@ function Projects_Page() {
                 </div>
               </div>
             </div>
+
+            <div className="Exp-VisualRep-Container">
+
+              {/* ******************************************************* QualitySummaryClicked ****************************************************/}
+
+              <div className={`container ${QualitySummaryClicked ? "clicked" : ""} ${EditQCClicked ? "noscroll" : ""} ${NotesQCClicked ? "" : "noscroll"}`}>
+
+                <div className={`Notes-Container ${NotesQCClicked ? "clicked" : ""}`}>
+                  <div className="Note-Header-Container">
+                    <div className="Notes">
+                      <p>Information about Visual Representation</p>
+                    </div>
+                    <div className="line-Notes"></div>
+                    {/* <div className="Close-NotesContainer" onClick={() => handleNotesClick()}>
+                      <img className="FrontArrow-img" src={LeftArrow} alt="" />
+                    </div> */}
+                  </div>
+                  <div className="Notes-Content-Container">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nulla eligendi assumenda, veritatis odio quaerat possimus
+                      itaque provident non molestias sequi veniam voluptatum at explicabo cum similique nesciunt. Ad, quaerat facere? Aut sunt enim ea maxime dolores
+                      facilis harum autem adipisci, placeat aliquam quae aliquid. Vero sequi soluta iure voluptates quis veritatis necessitatibus obcaecati cumque quas aspernatur
+                      autem vel amet, error enim placeat. Itaque laudantium explicabo a similique, dolorum inventore totam? Praesentium a maxime harum tempore aperiam itaque! Quia
+                      voluptate recusandae sapiente, atque autem ullam commodi ex sunt est. Repellat nihil unde, sequi in accusantium alias asperiores ullam provident ducimus.</p>
+                  </div>
+                </div>
+                <ExpSetup_QualitySummary_Comp />
+
+                {/* ******************************************************* Notes ****************************************************/}
+                <div className="Notes-Btn" onClick={() => handleNotesClick()}>
+                  <p className={`${NotesQCClicked ? "" : "d-no"}`}>Hide Notes</p>
+                  <p className={`${NotesQCClicked ? "d-no" : ""}`}>Show Notes</p>
+                </div>
+
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+                {/* ******************************************************* Edit ****************************************************/}
+
+                <div className="Edit-Analysis-Btn" onClick={() => handleEditClick()}>
+                  <p>Edit Analysis</p>
+                </div>
+                <div className={`Edit-Container ${EditQCClicked ? "clicked" : ""}`}>
+                  <div className="Edit-Header-Container" >
+                    <div className="Edit-Analysis">
+                      <p>Edit Analysis</p>
+                    </div>
+                    <div className="line-Edit-Analysis"></div>
+                    <div className="Close-EditContainer" onClick={() => handleEditClick()}>
+                      <img className="FrontArrow-img" src={LeftArrow} alt="" />
+                    </div>
+                  </div>
+                  <div className="Edit-Content-Container">
+                    <ExpSetup_QualitySummary_Control_Comp />
+                  </div>
+                </div>
+
+                {/* ******************************************************* Edit ****************************************************/}
+              </div>
+
+              {/* ******************************************************* QualitySummaryClicked ****************************************************/}
+            </div>
           </div>
 
           {/* ************************************************** Content MiddleBar Inside Experiment Page ************************************************** */}
 
           {/* ************************************************** Content MiddleBar Experiment Page ************************************************** */}
 
-          <div className={`content-middlebar-exp ${isGotoProjectClicked ? "transform" : ""}`}>
+          <div className={`content-middlebar-exp ${isGotoProjectClicked ? "transform" : ""} ${isGotoExperimentClicked ? "d-no" : ""}`}>
 
             {/* *********************************************************** Experiment Type Container ***************************************************/}
 

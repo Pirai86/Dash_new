@@ -79,10 +79,24 @@
   border-radius: 20px;
   box-shadow: 0px 0px 10px 1px #d7dbe1;
   transition: all 600ms ease-in-out;
+  position: relative;
 }
 
 .navbar.GoToExp{
   width: 4.5em;
+}
+
+.compressed-navbar{
+  width: 4.5em;
+  height: 95vh;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 1px #d7dbe1;
+  transition: all 600ms ease-in-out;
+  border: 1px solid black;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
 }
 
 .navbar .navbar-contents .nav-text{
@@ -216,6 +230,11 @@
 {
   width: 22px;
   height: 22px;
+}
+
+.project-logo-container{
+  /* border: 1px solid black; */
+  position: relative;
 }
 
 
@@ -352,6 +371,11 @@
   width: calc(100% - 19em);
   height: 95vh;
   position: relative;
+  transition: all 600ms ease-in-out;
+}
+
+.main-content-container.GoToExp{
+  width: calc(100% - 15em);
 }
 
 .content-topbar{

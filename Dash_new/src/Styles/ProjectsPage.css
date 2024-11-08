@@ -2,8 +2,44 @@
   pointer-events: none;
 }
 
+.noscroll{
+  overflow: hidden !important;
+}
+
 .pinkColor{
   color: var(--pink);
+}
+
+.ReactMultiSelect-container .text{
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.Exp-SubCategory-list{
+  /* border: 1px solid black; */
+  width: max-content;
+  position: relative;
+  color: #8386a0;
+}
+
+.Exp-SubCategory-list.clicked{
+
+  color: #000000;
+}
+
+.Exp-SubCategory-list:hover{
+  cursor: pointer;
+}
+
+
+.Exp-SubCategory-list.clicked::after{
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #5156bc;
+  position: absolute;
+  left: 0;
+  top: 1.5em;
 }
 
 .GoToProjBtn{
@@ -461,7 +497,7 @@
 }
 
 .content-middlebar-gotoexp{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background-color: #e9edf2;
   z-index: 200;
 }
@@ -476,8 +512,142 @@
   justify-content: space-between;
 }
 
-.Exp-SubCategory-Container{
+.Exp-VisualRep-Container{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 81.7vh;
+}
+
+.Exp-VisualRep-Container .container{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  /* border: 1px solid green; */
+  transform: translateX(100%);
+  transition: all 350ms ease-in-out;
+  padding: 10px 0px 0px 0px;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.Exp-VisualRep-Container .container.clicked{
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0%);
+}
+
+.Edit-Container{
   /* border: 1px solid black; */
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: white;
+  box-shadow: 0px 0px 10px 1px #d7dbe1;
+  transform: translateX(100%);
+  border-radius: 10px;
+  z-index: 200;
+  padding: 25px;
+  padding-top: 0px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+.Edit-Container.clicked{
+  transform: translateX(0%);
+  visibility: visible;
+  opacity: 1;
+}
+
+.Notes-Comp{
+  border: 1px solid black;
+  width: 100%;
+  height: min-content;
+}
+
+.Edit-Header-Container,
+.Note-Header-Container{
+  width: 100%;
+  height: 65px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Edit-Content-Container{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 90%;
+  background-color: #F3F5FB;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Notes-Container{
+  width: 100%;
+  height: 0%;
+  /* border: 1px solid black; */
+  /* background-color: #dbe1eb; */
+  /* box-shadow: 0px 0px 10px 1px #d7dbe1; */
+  transform: translateY(-200%);
+  padding: 0px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+.Notes-Container.clicked{
+  /* width: 100%; */
+  height: min-content;
+  transform: translateY(0%);
+  visibility: visible;
+  opacity: 1;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  padding: 25px;
+  padding-top: 0px;
+}
+
+.Notes-Container.clicked .Notes-Content-Container{
+  width: 100%;
+  height: min-content;
+  padding: 20px 10px;
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  line-height: 35px;
+  font-size: 16px;
+  transform: translateY(0%);
+  opacity: 1;
+  visibility: visible;
+  transition: all 600ms ease-in-out;
+}
+
+.Notes-Container .Notes-Content-Container{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-100%);
+}
+
+.Notes-Container.clicked .Note-Header-Container{
+  transform: translateY(0%);
+  opacity: 1;
+  visibility: visible;
+  transition: all 600ms ease-in-out;
+}
+
+.Notes-Container .Note-Header-Container{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-100%);
 }
 
 .Exp-Type
@@ -520,6 +690,7 @@
   width: max-content;
 }
 
+
 .ExpTypeCheckImg{
   width: 18px;
   height: 18px;
@@ -559,11 +730,34 @@
   width: 75%;
 }
 
+.line-Edit-Analysis{
+  border-top: .1px solid var(--nav-logo-color);
+  width: 45%;
+}
+
+.line-Notes{
+  border-top: 3px solid #5156bc;
+  width: 73%;
+}
+
+.Edit-Analysis,
+.Notes{
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: .7px;
+}
+
 
 .BackArrow-img,
 .BackArrow-img2{
   width: 16px;
   height: 16px;
+}
+
+.FrontArrow-img{
+  width: 16px;
+  height: 16px;
+  transform: rotate(180deg);
 }
 
 .BackArrow-img{
@@ -609,8 +803,22 @@
 }
 
 .BackToProjectsPage:hover,
-.BackToExptsPage:hover{
+.BackToExptsPage:hover,
+.Close-EditContainer:hover,
+.Notes-Container:hover{
   cursor: pointer;
+}
+
+.Close-EditContainer,
+.Close-NotesContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e6e6e6;
+  overflow: hidden;
 }
 
 .Back-DeleteProj-Container,
@@ -625,7 +833,9 @@
 }
 
 .Delete-Proj-ExpPage,
-.Delete-Exp-ExpPage{
+.Delete-Exp-ExpPage,
+.Edit-Analysis-Btn,
+.Notes-Btn{
   background-color: white;
   display: flex;
   align-items: center;
@@ -643,8 +853,24 @@
   width: 150px;
 }
 
+.Edit-Analysis-Btn{
+  position: absolute;
+  right: 4em;
+  top: .5em;
+  width: 100px;
+}
+
+.Notes-Btn{
+  position: absolute;
+  right: 13em;
+  top: .5em;
+  width: 100px;
+}
+
 .Delete-Proj-ExpPage:hover,
-.Delete-Exp-ExpPage:hover{
+.Delete-Exp-ExpPage:hover,
+.Edit-Analysis-Btn:hover,
+.Notes-Btn:hover{
   cursor: pointer;
 }
 
@@ -794,11 +1020,14 @@
   padding: 60px 20px;
   visibility: hidden;
   opacity: 0;
+  /* margin-right: 4em; */
   transition: all 600ms ease-in-out;
+  position: absolute;
+  left: 7.5em;
 }
 
 .Exp-Main-Category-Container.GoToExp{
-  width: 180px;
+  width: 120px;
   transform: translateX(0%);
   visibility: visible;
   opacity: 1;
@@ -808,6 +1037,7 @@
   /* border: 1px solid black; */
   width: 100%;
   height: 100%;
+  margin-top: 2.5ƒem;
 }
 
 .Exp-Main-Category-Content .text{
