@@ -1,5 +1,6 @@
 .disable{
   pointer-events: none;
+  color: #e249fa;
 }
 
 .noscroll{
@@ -10,9 +11,30 @@
   color: var(--pink);
 }
 
-.ReactMultiSelect-container .text{
+.ReactMultiSelect-container .text,
+.Samples_BoxPlot_Control_Container .text{
   font-size: 13px;
   font-weight: bold;
+  position: relative;
+}
+
+.ReactMultiSelect-container .text::before,
+.Samples_BoxPlot_Control_Container .text::before{
+  content: "";
+  /* border: 1px solid black; */
+  background-color: #5156bc;
+  position: absolute;
+  left: -.5em;
+  top: -.1em;
+  width: 3px;
+  height: 15px;
+}
+
+.custom-modebar .modebar {
+  top: 0px !important; 
+  right: 25px !important; 
+  left: auto !important;
+  bottom: auto !important;
 }
 
 .Exp-SubCategory-list{
@@ -59,12 +81,15 @@
 }
 
 .Right-Arrow-Header{
-  width: 18px;
-  height: 18px;
+  width: 22.5px;
+  height: 22.5px;
 }
 
 .SelectedExpTitle{
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1.2px;
 }
 
 .Project-Text-Container{
@@ -518,23 +543,42 @@
   height: 81.7vh;
 }
 
-.Exp-VisualRep-Container .container{
+.Exp-VisualRep-Container .container
+{
   width: 100%;
   height: 100%;
   opacity: 0;
   visibility: hidden;
   /* border: 1px solid green; */
   transform: translateX(100%);
-  transition: all 350ms ease-in-out;
+  transition: all 600ms ease-in-out;
   padding: 10px 0px 0px 0px;
   position: relative;
   overflow-y: scroll;
   overflow-x: hidden;
+  position: absolute;
+  /* left: 0; */
+  /* top: 3.5em; */
 }
 
-.Exp-VisualRep-Container .container.clicked{
+.Component-Container{
+  /* border: 1px solid violet; */
   width: 100%;
+}
+
+.Comp.setMargin{
+  margin-top: 3em;
+}
+
+.setMarginAlternate{
+  margin-top: 3em;
   height: 100%;
+}
+
+.Exp-VisualRep-Container .container.clicked
+{
+  width: 100%;
+  height: 94%;
   opacity: 1;
   visibility: visible;
   transform: translateX(0%);
@@ -542,7 +586,7 @@
 
 .Edit-Container{
   /* border: 1px solid black; */
-  width: 25%;
+  width: 325px;
   height: 100%;
   position: absolute;
   right: 0;
@@ -586,7 +630,7 @@
   width: 100%;
   height: 90%;
   background-color: #F3F5FB;
-  padding: 20px;
+  padding: 25px;
   border-radius: 10px;
 }
 
@@ -623,8 +667,8 @@
   padding: 20px 10px;
   border-radius: 10px;
   /* border: 1px solid black; */
-  line-height: 35px;
-  font-size: 16px;
+  line-height: 24px;
+  font-size: 14px;
   transform: translateY(0%);
   opacity: 1;
   visibility: visible;
@@ -669,7 +713,7 @@
   width: 100%;
 }
 
-.ExpSetup-SubCategory-ExpSetup-Container {
+.SubCategory-Container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -678,7 +722,7 @@
   /* border: 1px solid red; */
 }
 
-.ExpSetup-SubCategory-ExpSetup-Container > div:not(:first-child)
+.SubCategory-Container > div:not(:first-child)
 {
   margin-left: 3em;
 }
@@ -730,13 +774,19 @@
   width: 75%;
 }
 
+.line-ExpSubCategory-Samples{
+  border-top: .1px solid var(--nav-logo-color);
+  width: 55%;
+}
+
 .line-Edit-Analysis{
   border-top: .1px solid var(--nav-logo-color);
   width: 45%;
 }
 
 .line-Notes{
-  border-top: 3px solid #5156bc;
+  /* border-top: 3px solid #5156bc; */
+  border-top: 3px solid #BD4BBB;
   width: 73%;
 }
 
@@ -804,8 +854,7 @@
 
 .BackToProjectsPage:hover,
 .BackToExptsPage:hover,
-.Close-EditContainer:hover,
-.Notes-Container:hover{
+.Close-EditContainer:hover{
   cursor: pointer;
 }
 
@@ -835,7 +884,8 @@
 .Delete-Proj-ExpPage,
 .Delete-Exp-ExpPage,
 .Edit-Analysis-Btn,
-.Notes-Btn{
+.Notes-Btn,
+.Notes-Btn-Alternate{
   background-color: white;
   display: flex;
   align-items: center;
@@ -855,14 +905,21 @@
 
 .Edit-Analysis-Btn{
   position: absolute;
-  right: 4em;
+  right: 0em;
   top: .5em;
   width: 100px;
 }
 
 .Notes-Btn{
   position: absolute;
-  right: 13em;
+  right: 9em;
+  top: .5em;
+  width: 100px;
+}
+
+.Notes-Btn-Alternate{
+  position: absolute;
+  right: 0em;
   top: .5em;
   width: 100px;
 }
@@ -870,7 +927,8 @@
 .Delete-Proj-ExpPage:hover,
 .Delete-Exp-ExpPage:hover,
 .Edit-Analysis-Btn:hover,
-.Notes-Btn:hover{
+.Notes-Btn:hover,
+.Notes-Btn-Alternate:hover{
   cursor: pointer;
 }
 

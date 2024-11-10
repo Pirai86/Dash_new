@@ -6,7 +6,7 @@ import SortUp from "../assets/triangle-up.png";
 import SortDown from "../assets/triangle-down.png";
 import * as XLSX from "xlsx";
 
-function Table({ dataTable, filterColor,highlightedColumns, highlightedColors, resultName, width, height, maxHeight, filterDisplay, sortingDisplay, displayFooter, rowHeight, colHeaderColor, entriesOptions,tableFontSize,paddingLeftRight }) {
+function Table({ dataTable, showCheckBox, filterColor, colWidth, highlightedColumns, highlightedColors, resultName, width, height, maxHeight, filterDisplay, sortingDisplay, displayFooter, rowHeight, colHeaderColor, entriesOptions, tableFontSize, paddingLeftRight }) {
     const [CurrentPage, setCurrentPage] = useState(1);
 
     const [DisplayEntries, setDisplayEntries] = useState(entriesOptions[0]);
@@ -14,6 +14,8 @@ function Table({ dataTable, filterColor,highlightedColumns, highlightedColors, r
     const [TableRows, setTableRows] = useState(dataTable.data);
     const [visibleRows, setVisibleRows] = useState([]);
     const [fadingOut, setFadingOut] = useState(false);
+
+    const [IsHovered, setIsHovered] = useState(false);
 
     // State for sorting
     const [sortColumn, setSortColumn] = useState(null);
@@ -36,10 +38,14 @@ function Table({ dataTable, filterColor,highlightedColumns, highlightedColors, r
 
 
     useEffect(() => {
-        // Update TableRows whenever dataTable.data changes
         setTableRows(dataTable.data);
-    }, [dataTable.data]);
-    
+        setTableColumns(dataTable.columnNames);
+        console.log("TableColumns:", dataTable.columnNames);
+        console.log("TableRows:", dataTable.data);
+        console.log("Col Width : ", colWidth)
+    }, [dataTable.data, dataTable.columnNames, colWidth]);
+
+
 
     // Update visible rows based on current page, display entries, and filters
     useEffect(() => {
@@ -249,13 +255,13 @@ function Table({ dataTable, filterColor,highlightedColumns, highlightedColors, r
                 </div>
                 <div className="Horizontal-Container">
                     <div className="Horizontal-Line">
-                        <div className="Horizontal-Inline"></div>
+                        <div className="Horizontal-Inline" style={{ backgroundColor: colHeaderColor }}></div>
                     </div>
                 </div>
                 <div className="Table-contents">
-                    <div className="Column-Header" style={{ backgroundColor: colHeaderColor, paddingLeft:paddingLeftRight, paddingRight:paddingLeftRight }}>
-                        <div className="d-no">
-                            <div className="Column-CheckBox">
+                    <div className="Column-Header" style={{ width: `${colWidth}px` }}>
+                        <div className="" style={{display: showCheckBox ? "" : "none"}}>
+                            <div className="Column-CheckBox" style={{ backgroundColor: colHeaderColor }}>
                                 <input
                                     type="checkbox"
                                     className="row-checkbox"
@@ -266,7 +272,7 @@ function Table({ dataTable, filterColor,highlightedColumns, highlightedColors, r
                         </div>
 
                         {TableColumns.map((Column, index) => (
-                            <div key={index} className="Column-Name">
+                            <div key={index} className="Column-Name" style={{ backgroundColor: colHeaderColor }}>
                                 {Column}
                                 <div className={`Arrows ${sortingDisplay ? '' : 'd-no'}`}>
                                     <div className="Arrows-container">
@@ -289,10 +295,16 @@ function Table({ dataTable, filterColor,highlightedColumns, highlightedColors, r
                     </div>
 
                     <div className={`Col-Filter-Continer ${filterDisplay ? "" : "d-no"}`}>
-                        <div className={`Column-Filter`} style={{backgroundColor:filterColor ? filterColor : ""}}>
-                            <div className="Column-CheckBox-Space d-no"></div>
+                        <div className={`Column-Filter`} style={{ width: `${colWidth}px` }}>
+
+                            <div className="" style={{display: showCheckBox ? "" : "none"}}>
+                                <div className="CheckBox-Space" style={{ backgroundColor: filterColor ? filterColor : "" }}>
+                                    
+                                </div>
+                            </div>
+
                             {TableColumns.map((Column, index) => (
-                                <div key={index} className="Column-Name">
+                                <div key={index} className="Column-Name" style={{ backgroundColor: filterColor ? filterColor : "" }}>
                                     <div className="TableFilter">
                                         <input
                                             className="TableFilterInput"
@@ -307,7 +319,7 @@ function Table({ dataTable, filterColor,highlightedColumns, highlightedColors, r
                         </div>
                     </div>
 
-                    <div className="Rows" style={{ height: height, maxHeight:maxHeight }}>
+                    <div className="Rows" style={{ height: height, maxHeight: maxHeight, width: `${colWidth}px` }}>
                         {visibleRows.map((row, rowIndex) => {
                             const fullIndex = (CurrentPage - 1) * DisplayEntries + rowIndex;  // Full index of the row in the entire dataset
                             return (
@@ -315,9 +327,9 @@ function Table({ dataTable, filterColor,highlightedColumns, highlightedColors, r
                                     key={rowIndex}
                                     className={`Row-Container ${fadingOut ? "fade-out" : ""} ${selectedRows[fullIndex] ? "highlighted-row" : ""}`}
                                     onClick={() => handleRowSelect(rowIndex)}  // Use rowIndex to track selection
-                                    style={{ height: rowHeight, paddingLeft:paddingLeftRight, paddingRight:paddingLeftRight }}
+                                    style={{ height: rowHeight, paddingLeft: paddingLeftRight, paddingRight: paddingLeftRight, width: colWidth }}
                                 >
-                                    <div className="d-no">
+                                    <div className="" style={{display: showCheckBox ? "" : "none"}}>
                                         <div className="CheckBox-Container">
                                             <input
                                                 type="checkbox"
@@ -328,23 +340,27 @@ function Table({ dataTable, filterColor,highlightedColumns, highlightedColors, r
                                         </div>
                                     </div>
 
+                                    {TableColumns.map((column, colIndex) => {
+                                        const isHighlighted = highlightedColumns && highlightedColumns.includes(colIndex);
+                                        const highlightColor = isHighlighted
+                                            ? highlightedColors[highlightedColumns.indexOf(colIndex)]
+                                            : "";
 
-                                    {TableColumns.map((column, colIndex) => (
-                                        <p
-                                            key={colIndex}
-                                            className="Row"
-                                            style={{
-                                                backgroundColor:
-                                                    highlightedColumns.includes(colIndex) && highlightedColors[highlightedColumns.indexOf(colIndex)]
-                                                        ? highlightedColors[highlightedColumns.indexOf(colIndex)]
-                                                        : "",
-                                                fontSize: tableFontSize
-                                                
-                                            }}
-                                        >
-                                            {row[column]}
-                                        </p>
-                                    ))}
+                                        return (
+                                            <p
+                                                key={colIndex}
+                                                className="Row"
+                                                style={{
+                                                    backgroundColor: highlightColor,
+                                                    fontSize: tableFontSize,
+                                                }}
+                                            >
+                                                {/* {row[column]} */}
+                                                {row[column] && row[column].length > 27 ? `${row[column].slice(0, 27)}...` : row[column]}
+                                            </p>
+                                        );
+                                    })}
+
                                 </div>
                             );
                         })}
@@ -354,9 +370,22 @@ function Table({ dataTable, filterColor,highlightedColumns, highlightedColors, r
             </div>
             <div className={`Table-footer ${displayFooter ? "" : "d-no"}`}>
                 <div className="Tablecontainer">
-                    <div className="Download-Btn">
-                        <p className={`DownloadAll ${DownloadSelected ? "d-no" : ""}`} onClick={handleDownloadAll}>Download All</p>
-                        <p className={`DownloadSelected ${DownloadSelected ? "" : "d-no"}`} onClick={handleDownloadSelected}>Download Selected</p>
+                    <div className={`Download-Btn`}
+                        onMouseEnter={() => setIsHovered(true)}
+                        onMouseLeave={() => setIsHovered(false)}
+                        style={{
+                            border: IsHovered ? `1px solid ${colHeaderColor}` : ""
+                        }}>
+                        <p className={`DownloadAll ${DownloadSelected ? "d-no" : ""}`}
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                            style={{ color: IsHovered ? `${colHeaderColor}` : "" }}
+                            onClick={handleDownloadAll}>Download All</p>
+                        <p className={`DownloadSelected ${DownloadSelected ? "" : "d-no"}`}
+                            onMouseEnter={() => setIsHovered(true)}
+                            onMouseLeave={() => setIsHovered(false)}
+                            style={{ color: IsHovered ? `${colHeaderColor}` : "" }}
+                            onClick={handleDownloadSelected}>Download Selected</p>
                     </div>
                     <div className={`Page-Number ${showPagination ? "" : "d-no"}`}>
                         <img className="Page-Left-Img" src={PageLeft} alt="" onClick={handleLeftPageClick} />
@@ -376,6 +405,7 @@ function Table({ dataTable, filterColor,highlightedColumns, highlightedColors, r
                                     <p
                                         key={pageNumber}
                                         onClick={() => handlePageClick(pageNumber)}
+
                                         className={CurrentPage === pageNumber ? "active-page" : ""}
                                     >
                                         {pageNumber}

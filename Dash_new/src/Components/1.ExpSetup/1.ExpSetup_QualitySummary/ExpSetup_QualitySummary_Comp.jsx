@@ -1,33 +1,70 @@
 import React, { useState, useEffect, useContext } from "react";
 import ReactApexChart from "react-apexcharts";
-import Image_Info from "../../../ImageInfo/QualitySummary_Info";
 import { GlobalContext } from "../../Global";
-import Info_Icon from "../../../assets/Info_Icon.svg";
+import "../../../Styles/ExpSetup_QualitySummary_Comp.css";
+import InfoImg from "../../../assets/info.png";
 import QualitySummary_Info from "../../../ImageInfo/QualitySummary_Info";
+import InfoClose from "../../../assets/infoClose.png";
 
 const ExpSetup_QualitySummary_Comp = ({ ActivateSection, ...props }) => {
 
-    const { ExpSetup_QualitySummary_Data, setExpSetup_QualitySummary_Data } = useContext(GlobalContext);
-    const [isNormInfoVisible, setIsNormInfoVisible] = useState(false);
+    const { ExpSetup_QualitySummary_Data, setExpSetup_QualitySummary_Data, ExpSetup_QualitySummary_ColLength, ExpSetup_QualitySummary_RowLength } = useContext(GlobalContext);
 
-    const handleNormCancelIconClick = () => {
-        setIsNormInfoVisible(false);
-    };
 
-    const handleNormImageInfoIconClick = () => {
-        setIsNormInfoVisible(true);
-    };
+    const [CalcHeight, setCalcHeight] = useState(0);
+    const [CalcWidth, setCalcWidth] = useState(0);
+
+    const [InfoClicked, setInfoClicked] = useState(false);
+
+    useEffect(() => {
+
+        const setCalcHeightFunc = () => {
+            let height = (ExpSetup_QualitySummary_RowLength * 3) + 24;
+            return height > 100 ? 100 : height;
+        }
+
+        setCalcHeight(setCalcHeightFunc());
+
+        console.log("Height after calc", CalcHeight);
+    }, [ExpSetup_QualitySummary_RowLength])
+
+    useEffect(() => {
+
+        const setCalcWidthFunc = () => {
+            let width = (ExpSetup_QualitySummary_ColLength * 4.12);
+            return width > 100 ? 100 : width;
+        }
+
+        setCalcWidth(setCalcWidthFunc());
+
+        console.log("Width after calc", CalcWidth);
+    }, [ExpSetup_QualitySummary_ColLength])
 
     useEffect(() => {
         setExpSetup_QualitySummary_Data(ExpSetup_QualitySummary_Data);
     }, [ExpSetup_QualitySummary_Data]);
+
+    const handleInfoClick = (Action) => {
+        setInfoClicked(false);
+
+        switch (Action) {
+            case "Open":
+                setInfoClicked(true);
+                break;
+            case "Close":
+                setInfoClicked(false);
+                break;
+            default:
+                break;
+        }
+    }
 
     const options = {
         chart: {
             redrawOnParentResize: true,
             type: "heatmap",
             height: "100%",
-            width:"100%"
+            width: "100%"
         },
         grid: { padding: { top: 0, bottom: 0 } },
         plotOptions: {
@@ -42,7 +79,8 @@ const ExpSetup_QualitySummary_Comp = ({ ActivateSection, ...props }) => {
                             from: 0.71,
                             to: 1.0,
                             name: "Pass",
-                            color: "#bfc9d9",
+                            // color: "#bfc9d9",
+                            color: "#14b469",
                         },
                         {
                             from: 0.41,
@@ -120,7 +158,15 @@ const ExpSetup_QualitySummary_Comp = ({ ActivateSection, ...props }) => {
     };
 
     return (
-        
+        <div
+            className=""
+            style={{
+                width: `${CalcWidth}%`,
+                height: `${CalcHeight}%`,
+                margin: "auto",
+                position: "relative"
+            }}
+        >
             <ReactApexChart
                 options={options}
                 series={ExpSetup_QualitySummary_Data}
@@ -128,7 +174,22 @@ const ExpSetup_QualitySummary_Comp = ({ ActivateSection, ...props }) => {
                 height="100%"
                 width="100%"
             />
-        
+            <div className={`InfoImg-Container`} onClick={() => handleInfoClick("Open")}>
+                <img className="InfoImg" src={InfoImg} alt="" />
+            </div>
+
+            <div className={`Info-Container-75 ${InfoClicked ? "clicked" : ""}`}>
+                <div className="">
+                    <QualitySummary_Info />
+                </div>
+            </div>
+            <div className={`Top-Space ${InfoClicked ? "clicked" : ""}`}>
+
+            </div>
+            <div className={`Info-Close-Btn ${InfoClicked ? "" : "d-no"}`} onClick={() => handleInfoClick("Close")}>
+                <img className="InfoCloseImg" src={InfoClose} alt="" />
+            </div>
+        </div>
     );
 };
 

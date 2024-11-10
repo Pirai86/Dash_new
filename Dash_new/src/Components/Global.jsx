@@ -75,12 +75,15 @@ export const GlobalProvider = ({ children }) => {
 
   //Experiment Setup
   const [ExpSetup_QualitySummary_Data, setExpSetup_QualitySummary_Data] = useState(master_heatmap_data);
+  const [ExpSetup_QualitySummary_RowLength, setExpSetup_QualitySummary_RowLength] = useState(0);
+  const [ExpSetup_QualitySummary_ColLength, setExpSetup_QualitySummary_ColLength] = useState(0);
   const [ExpSetup_QualitySummary_Control_Data, setExpSetup_QualitySummary_Control_Data] = useState(master_heatmap_data);
   const [ExpSetup_QualitySummary_xcat, setExpSetup_QualitySummary_xcat] = useState(qc_summary_data.xcats);
   const [ExpSetup_QualitySummary_ycat, setExpSetup_QualitySummary_ycat] = useState(qc_summary_data.ycats);
   
   var [ExpSetup_Metadata_Data, setExpSetup_Metadata_Data] = useState(null);
   var [ExpSetup_Metadata_Covariate, setExpSetup_Metadata_Covariate] = useState(null);
+  var [ExpSetup_Metadata_ColHeader, setExpSetup_Metadata_ColHeader] = useState(null);
 
   //Samples
   const [Samples_CountsNormalisation_Control_DataSelection, setSamples_CountsNormalisation_Control_DataSelection] = useState("");
@@ -218,6 +221,8 @@ export const GlobalProvider = ({ children }) => {
 
 
         ExpSetup_QualitySummary_Data, setExpSetup_QualitySummary_Data,
+        ExpSetup_QualitySummary_RowLength, setExpSetup_QualitySummary_RowLength,
+        ExpSetup_QualitySummary_ColLength, setExpSetup_QualitySummary_ColLength,
         ExpSetup_QualitySummary_Control_Data, setExpSetup_QualitySummary_Control_Data,
         ExpSetup_QualitySummary_xcat, setExpSetup_QualitySummary_xcat,
         ExpSetup_QualitySummary_ycat, setExpSetup_QualitySummary_ycat,
@@ -225,6 +230,7 @@ export const GlobalProvider = ({ children }) => {
         setExpSetup_Metadata_Data,
         ExpSetup_Metadata_Covariate,
         setExpSetup_Metadata_Covariate,
+        ExpSetup_Metadata_ColHeader, setExpSetup_Metadata_ColHeader,
         factorChoice,
         setFactorChoice,
         Samples_CorrelationHeatmap_Data,

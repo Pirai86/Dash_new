@@ -1,16 +1,32 @@
 .ImageInfo_Style{
-    padding:10px;
+    padding: 40px 50px;
     line-height:25px;
+    font-size: 14px;
 }
 
-.ImageInfo_heading{
-    color:#0578A6;
-    font-weight:600;
+.margin-T1{
+    margin-top: 1em;
 }
 
-a{
-    
-    color:#0578A6;
-
-    
+.ImageInfo_Style .Heading,
+.ImageInfo_Style .Heading-Alternate{
+    color: #8386a0;
+    position: relative;
+    font-size: 16px;
 }
+
+.ImageInfo_Style .Heading::before,
+.ImageInfo_Style .Heading-Alternate::before{
+    content: "";
+    position: absolute;
+    left: -.5em;
+    top: 0;
+    background-color: #5156bc;;
+    width: 5px;
+    height: 25px;
+}
+
+.ImageInfo_Style .Heading-Alternate::before{
+    background-color: var(--pink) !important;
+}
+

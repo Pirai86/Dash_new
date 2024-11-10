@@ -1,0 +1,64 @@
+
+.Samples_CountsNormalisation_Radio_Comp{
+    margin-top: 5px;
+}
+
+.background-white{
+  /* border: 1px solid black; */
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    font-weight: 500;
+    /* border: 1px solid black; */
+    margin-bottom: .7em;
+  }
+
+  label:nth-child(1){
+    margin-top: 1em;
+  }
+  
+  label span {
+    display: inline-flex;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    transition: all 200ms ease-in-out;
+    padding: 7px 10px;
+  }
+  
+  label span:hover,
+  input[type="radio"]:checked + span {
+    background-color: #bcc0fb;
+  }
+
+  input[type="radio"]{
+    display: none;
+  }
+  
+  label span:before {
+    content: "";
+    background-color: #ffffff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: all 200ms ease-in-out;
+    box-shadow: inset 0 0 0 1px #0578A6;
+  }
+  
+  input[type="radio"]:checked + span:before {
+    box-shadow: inset 0 0 0 3px #5156bc;
+    display: inline-block;
+  }
+
+  

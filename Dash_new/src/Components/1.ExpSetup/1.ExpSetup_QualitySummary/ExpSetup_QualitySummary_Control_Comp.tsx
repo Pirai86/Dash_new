@@ -65,10 +65,10 @@ export default function ExpSetup_QualitySummary_Control_Comp() {
     <Container fluid="md" className="ReactMultiSelect-container">
       <Row>
         <Col>
-          <Row style={{marginBottom:".5em"}}>
-            <p className="text">Rows : </p>
+          <Row style={{marginBottom:".7em"}}>
+            <p className="text">Rows</p>
           </Row>
-          <Row style={{marginBottom:"1em"}}>
+          <Row style={{marginBottom:"2em"}}>
             <MultiSelect
               key="example_id"
               options={ExpSetup_QualitySummary_ycat}
@@ -78,8 +78,8 @@ export default function ExpSetup_QualitySummary_Control_Comp() {
               menuPlacement={"bottom"}
             />
           </Row>
-          <Row style={{marginBottom:".5em"}}>
-            <p className="text">Columns : </p>
+          <Row style={{marginBottom:".7em"}}>
+            <p className="text">Columns</p>
           </Row>
           <Row style={{marginBottom:"1em"}}>
             <MultiSelect

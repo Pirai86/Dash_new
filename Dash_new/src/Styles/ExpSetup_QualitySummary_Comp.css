@@ -1,0 +1,107 @@
+.InfoImg-Container {
+    position: absolute;
+    right: 2.5em;
+    top: 0.15em;
+}
+
+.InfoImg-Container-Samples{
+    position: absolute;
+    right: .5em;
+    top: 0.7em;
+}
+
+.InfoImg-Container:hover,
+.InfoImg-Container-Samples:hover {
+    cursor: pointer;
+}
+
+.InfoImg {
+    width: 20px;
+    height: 20px;
+}
+
+.Info-Container,
+.Info-Container-50,
+.Info-Container-75 {
+    width: 100%;
+    height: 100%;
+    background-color: #f7fafe;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 200;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: all 400ms ease-in-out;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+.Info-Container-75{
+    width: 75%;
+}
+
+.Info-Container-50{
+    width: 50%;
+}
+
+.Info-Container.clicked,
+.Info-Container-50.clicked,
+.Info-Container-75.clicked {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0%);
+}
+
+.Top-Space,
+.Top-Space-100{
+    width: 75%;
+    height: 25px;
+    position: absolute;
+    right: 0em;
+    top: 0em;
+    z-index: 200; 
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: all 400ms ease-in-out;
+    border-radius: 10px;
+    background-color: #f7fafe;
+}
+
+.Top-Space-100{
+    width: 100% !important;
+}
+
+.Top-Space.clicked,
+.Top-Space-100.clicked{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0%);
+}
+
+.Info-Close-Btn {
+    position: absolute; /* Keep fixed to stay in place */
+    right: 2.4em;
+    top: 0em;
+    z-index: 200; 
+}
+
+.Info-Close-Btn-Samples {
+    position: absolute; /* Keep fixed to stay in place */
+    right: .5em;
+    top: 0.7em;
+    z-index: 200; 
+}
+
+.Info-Close-Btn:hover,
+.Info-Close-Btn-Samples:hover {
+    cursor: pointer;
+}
+
+.InfoCloseImg {
+    width: 20px;
+    height: 20px;
+}
+

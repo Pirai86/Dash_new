@@ -52,8 +52,15 @@ import { faSleigh } from "@fortawesome/free-solid-svg-icons";
 
 import ExpSetup_QualitySummary_Comp from "./1.ExpSetup/1.ExpSetup_QualitySummary/ExpSetup_QualitySummary_Comp";
 import ExpSetup_QualitySummary_Control_Comp from "./1.ExpSetup/1.ExpSetup_QualitySummary/ExpSetup_QualitySummary_Control_Comp";
+import ExpSetup_MetaData_Comp from "./1.ExpSetup/2.ExpSetup_Metadata/ExpSetup_MetaData_Comp";
+
+import Samples_CountsNormalisation_Comp from "./2.Samples/1.Samples_CountsNormalisation/Samples_CountsNormalisation_Comp";
+import Samples_CountsNormalisation_Control_Comp from "./2.Samples/1.Samples_CountsNormalisation/Samples_CountsNormalisation_Control_Comp";
 
 import DropDownComboBox from "../Components/DropDownComboBox";
+
+import ExpSetup_QualitySummary_Notes from "../Notes/1.Exp_Setup/1.ExpSetup_QualitySummary_Notes";
+
 
 
 const BACKEND_API_URL = import.meta.env.VITE_BACKEND_API_URL;
@@ -66,7 +73,7 @@ function Projects_Page() {
 
   const {
     jwt, userfullName,
-    isNavHomeActivated, setisNavHomeActivated,setglobalExperimentID,
+    isNavHomeActivated, setisNavHomeActivated, setglobalExperimentID,
     isNavTeamActivated, setisNavTeamActivated,
     isNavFavActivated, setisNavFavActivated,
     projectsName, totalProjects, projectsDesc, CreatedON, LastModifiedON, projectsID, totalExperiments, experimentsName, experimentsDesc, experimentsID,
@@ -74,7 +81,11 @@ function Projects_Page() {
     appendToexperimentsName, appendToexperimentsID, appendToexperimentsDesc, appendToExpCreatedON, appendToExpLastModifiedON, appendToexperimentsStatus,
     globalProjID, set_globalProjID, globalProjCardIndex, set_globalProjCardIndex, experimentsStatus, setexperimentsStatus, isGotoExperimentClicked, setisGotoExperimentClicked,
     setExpSetup_QualitySummary_Data, setExpSetup_QualitySummary_Control_Data, setExpSetup_QualitySummary_xcat, setExpSetup_QualitySummary_ycat,
-    setisQualitySummaryEmpty,
+    setExpSetup_Metadata_Data, setExpSetup_Metadata_Covariate,
+    ExpSetup_Metadata_ColHeader, setExpSetup_Metadata_ColHeader,
+    setSamples_CountsNormalisation_Control_DataList, setSamples_CountsNormalisation_Control_DataSelection, setisCountsNormalisationEmpty,
+    setisQualitySummaryEmpty, setisMetadataEmpty,
+    setExpSetup_QualitySummary_RowLength, setExpSetup_QualitySummary_ColLength,
   } = useContext(GlobalContext);
 
   const {
@@ -125,8 +136,14 @@ function Projects_Page() {
   const [WholeGenomeSelected, setWholeGenomeSelected] = useState(false);
   const [ProjectBoxClick, setProjectBoxClick] = useState(false);
 
+  const [TableColHeaderLength_Metadata, setTableColHeaderLength_Metadata] = useState(0);
+
   const [EditQCClicked, setEditQCClicked] = useState(false);
+  const [EditCountsNormalisationClicked, setEditCountsNormalisationClicked] = useState(false);
+
   const [NotesQCClicked, setNotesQCClicked] = useState(false);
+  const [NotesMetadataClicked, setNotesMetadataClicked] = useState(false);
+  const [NotesCountsNormalisationClicked, setNotesCountsNormalisationClicked] = useState(false);
 
   const [ProjNameForInfo, setProjNameForInfo] = useState("");
   const [ProjDescForInfo, setProjDescForInfo] = useState("");
@@ -144,11 +161,16 @@ function Projects_Page() {
   const [QualitySummaryClicked, setQualitySummaryClicked] = useState(false);
   const [MetadataClicked, setMetadataClicked] = useState(false);
 
+  const [CountsNormalisationClicked, setCountsNormalisationClicked] = useState(false);
+  const [CorrelationHeatmapClicked, setCorrelationHeatmapClicked] = useState(false);
+  const [PCAClicked, setPCAClicked] = useState(false);
+  const [SampleSetClicked, setSampleSetClicked] = useState(false);
+
   const highlightedColumns = [1, 2];
   const highlightedColors = ["#e0e4f4", "#d4edda"];
   const tableWidth = '350px';
   const tableHeight = '140px';
-  const maxHeight = "140px";
+  const maxHeight = "130px";
   const rowHeight = "40px";
   const colHeaderColor = "#ff5a1f";
   const resultName = "Experiments";
@@ -162,8 +184,15 @@ function Projects_Page() {
     "data": []
   });
 
+  const [MetadataTabledata, setMetadataTabledata] = useState({
+    "columnNames": [],
+    "data": []
+  })
+
   // Pass the entries array as a prop
   const entriesOptions = [30];
+
+  const entriesOptions2 = [2, 4];
 
 
   useEffect(() => {
@@ -470,7 +499,13 @@ function Projects_Page() {
     setQualitySummaryClicked(false);
     setMetadataClicked(false);
 
+    setCountsNormalisationClicked(false);
+    setCorrelationHeatmapClicked(false);
+    setPCAClicked(false);
+    setSampleSetClicked(false);
+
     setNotesQCClicked(false);
+    setNotesCountsNormalisationClicked(false);
 
     switch (Category) {
       case "Exp-Setup":
@@ -480,6 +515,8 @@ function Projects_Page() {
         break;
       case "Samples":
         setExpCategory_SamplesClicked(true);
+        setCountsNormalisationClicked(true);
+        setNotesCountsNormalisationClicked(true);
         break;
       case "Expression":
         setExpCategory_ExpressionClicked(true);
@@ -587,12 +624,30 @@ function Projects_Page() {
     console.log("Exp ID : ", experimentsID[index]);
 
     setSelectedExpTitle(experimentsName[index]);
+    setExpCategory_ExpSetupClicked(true);
+    setExpCategory_SamplesClicked(false);
+    setExpCategory_ExpressionClicked(false);
+    setExpCategory_ComparisonClicked(false);
+    setExpCategory_MainEffectsClicked(false);
+    setExpCategory_DataQualityClicked(false);
+
     setQualitySummaryClicked(true);
     setNotesQCClicked(true);
+
+    setMetadataClicked(false);
+    setNotesMetadataClicked(false);
+
+    setCountsNormalisationClicked(false);
+    setNotesCountsNormalisationClicked(false);
+
+    setCorrelationHeatmapClicked(false);
+    setPCAClicked(false);
+    setSampleSetClicked(false);
 
     setisGotoExperimentClicked(true);
     setglobalExperimentID(experimentsID[index]);
 
+    ////////////////////////////////////////////////////////////////////////////// Quality Summary Axios ///////////////////////////////////////////////////////////////////////////
     axios
       .get(
         BACKEND_API_URL +
@@ -618,9 +673,13 @@ function Projects_Page() {
         setExpSetup_QualitySummary_xcat(response.data.xcats);
         setExpSetup_QualitySummary_ycat(response.data.ycats);
 
-        console.log("Data", response.data.data);
-        console.log("Xcat", response.data.xcats);
-        console.log("YCta", response.data.ycats);
+        // console.log("Data", response.data.data);
+        // console.log("Data Length", response.data.data.length);
+        setExpSetup_QualitySummary_RowLength(response.data.data.length);
+        // console.log("Xcat", response.data.xcats);
+        // console.log("Xcat Length", response.data.xcats.length);
+        setExpSetup_QualitySummary_ColLength(response.data.xcats.length);
+        // console.log("YCta", response.data.ycats);
       })
       .catch((error) => {
         if (error.response.status === 404) {
@@ -631,7 +690,83 @@ function Projects_Page() {
           //console.log("Unauthorized access - possible invalid token");
           navigate("/login");
         }
-        
+
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Metdata Axios ///////////////////////////////////////////////////////////////////////////
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "expt_setup/metadata_file_contents?expt_id=" +
+        experimentsID[index],
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+        }
+      )
+      .then((response) => {
+        setisMetadataEmpty(false);
+        // Handle successful response
+        setExpSetup_Metadata_Data(response.data.file_contents);
+        setExpSetup_Metadata_Covariate(response.data.all_covariates);
+        setExpSetup_Metadata_ColHeader(response.data.file_headers);
+
+
+
+        setMetadataTabledata(() => ({
+          "data": response.data.file_contents,
+          "columnNames": response.data.file_headers
+        }));
+
+        console.log("Updated MetadataTabledata:", {
+          "data": response.data.file_contents,
+          "columnNames": response.data.file_headers
+        });
+
+
+        setTableColHeaderLength_Metadata(response.data.file_headers.length);
+        console.log("Headers data: ", response.data.file_headers.length);
+
+        console.log("Metadata data : ", response.data.file_contents);
+        console.log("Covariates : ", response.data.all_covariates);
+      })
+      .catch((error) => {
+        if (error.response.status === 404) {
+          setisMetadataEmpty(true);
+        }
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Counts Normalisation Axios ///////////////////////////////////////////////////////////////////////////
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "samples/count_normalisation_categories?expt_id=" +
+        experimentsID[index],
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+        }
+      )
+      .then((response) => {
+        // Handle successful response
+        setSamples_CountsNormalisation_Control_DataList(response.data.category_names);
+        setSamples_CountsNormalisation_Control_DataSelection(response.data.category_names[0]);
+        setisCountsNormalisationEmpty(false);
+      })
+      .catch((error) => {
+        setisCountsNormalisationEmpty(true);
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
       })
 
   }
@@ -760,7 +895,14 @@ function Projects_Page() {
     setQualitySummaryClicked(false);
     setMetadataClicked(false);
 
+    setCountsNormalisationClicked(false);
+    setCorrelationHeatmapClicked(false);
+    setPCAClicked(false);
+    setSampleSetClicked(false);
+
     setNotesQCClicked(false);
+    setNotesMetadataClicked(false);
+    setNotesCountsNormalisationClicked(false);
 
     switch (SubCategory) {
       case "QualitySummary":
@@ -769,6 +911,20 @@ function Projects_Page() {
         break;
       case "Metadata":
         setMetadataClicked(true);
+        setNotesMetadataClicked(true);
+        break;
+      case "Counts_Normalisation":
+        setCountsNormalisationClicked(true);
+        setNotesCountsNormalisationClicked(true);
+        break;
+      case "Correlation_Heatmap":
+        setCorrelationHeatmapClicked(true);
+        break;
+      case "PCA":
+        setPCAClicked(true);
+        break;
+      case "Sample_Set":
+        setSampleSetClicked(true);
         break;
       default:
         break;
@@ -776,12 +932,34 @@ function Projects_Page() {
 
   }
 
-  const handleEditClick = () => {
-    setEditQCClicked(!EditQCClicked);
+  const handleEditClick = (Edit) => {
+    switch (Edit) {
+      case "QC":
+        setEditQCClicked(!EditQCClicked);
+        break;
+      case "Counts_Normalisation":
+        setEditCountsNormalisationClicked(!EditCountsNormalisationClicked);
+        break;
+      default:
+        break;
+    }
   }
 
-  const handleNotesClick = () => {
-    setNotesQCClicked(!NotesQCClicked)
+  const handleNotesClick = (Notes) => {
+
+    switch (Notes) {
+      case "QC":
+        setNotesQCClicked(!NotesQCClicked);
+        break;
+      case "Metadata":
+        setNotesMetadataClicked(!NotesMetadataClicked);
+        break;
+      case "Counts_Normalisation":
+        setNotesCountsNormalisationClicked(!NotesCountsNormalisationClicked);
+        break;
+      default:
+        break;
+    }
   }
 
   return (
@@ -1047,7 +1225,7 @@ function Projects_Page() {
           <div className={`content-middlebar-gotoexp ${isGotoExperimentClicked ? "transform" : ""}`}>
             <div className="Exp-SubCategory-Container">
               <div className="Exp-SubCategory">
-                <div className={`ExpSetup-SubCategory-ExpSetup-Container ${ExpCategory_ExpSetupClicked ? "" : "d-no"}`}>
+                <div className={`SubCategory-Container ${ExpCategory_ExpSetupClicked ? "" : "d-no"}`}>
                   <div className={`Exp-SubCategory-list ${QualitySummaryClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("QualitySummary")}>
                     <p>Quality Summary</p>
                   </div>
@@ -1057,6 +1235,21 @@ function Projects_Page() {
                   <div className="line-ExpSubCategory-ExpSetup"></div>
                 </div>
 
+                <div className={`SubCategory-Container ${ExpCategory_SamplesClicked ? "" : "d-no"}`}>
+                  <div className={`Exp-SubCategory-list ${CountsNormalisationClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("Counts_Normalisation")}>
+                    <p>Counts Normalisation</p>
+                  </div>
+                  <div className={`Exp-SubCategory-list ${CorrelationHeatmapClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("Correlation_Heatmap")}>
+                    <p>Correlation Heatmap</p>
+                  </div>
+                  <div className={`Exp-SubCategory-list ${PCAClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("PCA")}>
+                    <p>PCA</p>
+                  </div>
+                  <div className={`Exp-SubCategory-list ${SampleSetClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("Sample_Set")}>
+                    <p>Sample Set</p>
+                  </div>
+                  <div className="line-ExpSubCategory-Samples"></div>
+                </div>
 
               </div>
 
@@ -1086,22 +1279,21 @@ function Projects_Page() {
                       <p>Information about Visual Representation</p>
                     </div>
                     <div className="line-Notes"></div>
-                    {/* <div className="Close-NotesContainer" onClick={() => handleNotesClick()}>
-                      <img className="FrontArrow-img" src={LeftArrow} alt="" />
-                    </div> */}
                   </div>
                   <div className="Notes-Content-Container">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nulla eligendi assumenda, veritatis odio quaerat possimus
-                      itaque provident non molestias sequi veniam voluptatum at explicabo cum similique nesciunt. Ad, quaerat facere? Aut sunt enim ea maxime dolores
-                      facilis harum autem adipisci, placeat aliquam quae aliquid. Vero sequi soluta iure voluptates quis veritatis necessitatibus obcaecati cumque quas aspernatur
-                      autem vel amet, error enim placeat. Itaque laudantium explicabo a similique, dolorum inventore totam? Praesentium a maxime harum tempore aperiam itaque! Quia
-                      voluptate recusandae sapiente, atque autem ullam commodi ex sunt est. Repellat nihil unde, sequi in accusantium alias asperiores ullam provident ducimus.</p>
+                    <ExpSetup_QualitySummary_Notes />
                   </div>
                 </div>
-                <ExpSetup_QualitySummary_Comp />
+
+                <div className={`Comp ${NotesQCClicked ? "" : "setMargin"}`} style={{height:"100%"}}>
+                  <ExpSetup_QualitySummary_Comp />
+                </div>
+
+
+
 
                 {/* ******************************************************* Notes ****************************************************/}
-                <div className="Notes-Btn" onClick={() => handleNotesClick()}>
+                <div className="Notes-Btn" onClick={() => handleNotesClick("QC")}>
                   <p className={`${NotesQCClicked ? "" : "d-no"}`}>Hide Notes</p>
                   <p className={`${NotesQCClicked ? "d-no" : ""}`}>Show Notes</p>
                 </div>
@@ -1111,7 +1303,7 @@ function Projects_Page() {
 
                 {/* ******************************************************* Edit ****************************************************/}
 
-                <div className="Edit-Analysis-Btn" onClick={() => handleEditClick()}>
+                <div className="Edit-Analysis-Btn" onClick={() => handleEditClick("QC")}>
                   <p>Edit Analysis</p>
                 </div>
                 <div className={`Edit-Container ${EditQCClicked ? "clicked" : ""}`}>
@@ -1120,7 +1312,7 @@ function Projects_Page() {
                       <p>Edit Analysis</p>
                     </div>
                     <div className="line-Edit-Analysis"></div>
-                    <div className="Close-EditContainer" onClick={() => handleEditClick()}>
+                    <div className="Close-EditContainer" onClick={() => handleEditClick("QC")}>
                       <img className="FrontArrow-img" src={LeftArrow} alt="" />
                     </div>
                   </div>
@@ -1133,7 +1325,125 @@ function Projects_Page() {
               </div>
 
               {/* ******************************************************* QualitySummaryClicked ****************************************************/}
+
+              {/* ******************************************************* MetadataClicked ****************************************************/}
+
+              <div className={`container ${MetadataClicked ? "clicked" : ""}`}>
+
+                <div className={`Notes-Container ${NotesMetadataClicked ? "clicked" : ""}`}>
+                  <div className="Note-Header-Container">
+                    <div className="Notes">
+                      <p>Information about Visual Representation</p>
+                    </div>
+                    <div className="line-Notes"></div>
+                  </div>
+                  <div className="Notes-Content-Container">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nulla eligendi assumenda, veritatis odio quaerat possimus
+                      itaque provident non molestias sequi veniam voluptatum at explicabo cum similique nesciunt. Ad, quaerat facere? Aut sunt enim ea maxime dolores
+                      facilis harum autem adipisci, placeat aliquam quae aliquid. Vero sequi soluta iure voluptates quis veritatis necessitatibus obcaecati cumque quas aspernatur
+                      autem vel amet, error enim placeat. Itaque laudantium explicabo a similique, dolorum inventore totam? Praesentium a maxime harum tempore aperiam itaque! Quia
+                      voluptate recusandae sapiente, atque autem ullam commodi ex sunt est. Repellat nihil unde, sequi in accusantium alias asperiores ullam provident ducimus.</p>
+                  </div>
+                </div>
+
+                <div className={`Comp ${NotesMetadataClicked ? "" : "setMargin"}`}>
+
+                  <Table
+                    dataTable={MetadataTabledata}
+                    entriesOptions={entriesOptions}
+                    //highlightedColumns={highlightedColumns}
+                    //highlightedColors={highlightedColors}
+                    width={"100%"}
+                    height={"320px"}
+                    maxHeight={"700px"}
+                    filterDisplay={true}
+                    sortingDisplay={true}
+                    displayFooter={true}
+                    rowHeight={rowHeight}
+                    colHeaderColor={"#BD4BBB"}
+                    filterColor={"#eabdef"}
+                    resultName={"Samples"}
+                    tableFontSize={tableFontSize}
+                    colWidth={`${200 * TableColHeaderLength_Metadata}`}
+                    showCheckBox={true}
+
+                  //paddingLeftRight={paddingLeftRight}
+                  />
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+                <div className="Notes-Btn-Alternate" onClick={() => handleNotesClick("Metadata")}>
+                  <p className={`${NotesMetadataClicked ? "" : "d-no"}`}>Hide Notes</p>
+                  <p className={`${NotesMetadataClicked ? "d-no" : ""}`}>Show Notes</p>
+                </div>
+
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+              </div>
+
+              {/* ******************************************************* MetadataClicked ****************************************************/}
+
+              {/* ******************************************************* CountsNormalisationClicked ****************************************************/}
+
+              <div className={`container ${CountsNormalisationClicked ? "clicked" : ""} ${EditCountsNormalisationClicked ? "noscroll" : ""} ${NotesCountsNormalisationClicked ? "" : "noscroll"}`}>
+
+                <div className={`Notes-Container ${NotesCountsNormalisationClicked ? "clicked" : ""}`}>
+                  <div className="Note-Header-Container">
+                    <div className="Notes">
+                      <p>Information about Visual Representation</p>
+                    </div>
+                    <div className="line-Notes"></div>
+                  </div>
+                  <div className="Notes-Content-Container">
+                    <p>Counts Normlaisation Notes</p>
+                  </div>
+                </div>
+
+                <div className={`Comp ${NotesCountsNormalisationClicked ? "" : "setMargin"}`}>
+                  <Samples_CountsNormalisation_Comp />
+                </div>
+
+
+
+                {/* ******************************************************* Notes ****************************************************/}
+                <div className="Notes-Btn" onClick={() => handleNotesClick("Counts_Normalisation")}>
+                  <p className={`${NotesCountsNormalisationClicked ? "" : "d-no"}`}>Hide Notes</p>
+                  <p className={`${NotesCountsNormalisationClicked ? "d-no" : ""}`}>Show Notes</p>
+                </div>
+
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+                {/* ******************************************************* Edit ****************************************************/}
+
+                <div className="Edit-Analysis-Btn" onClick={() => handleEditClick("Counts_Normalisation")}>
+                  <p>Edit Analysis</p>
+                </div>
+                <div className={`Edit-Container ${EditCountsNormalisationClicked ? "clicked" : ""}`}>
+                  <div className="Edit-Header-Container" >
+                    <div className="Edit-Analysis">
+                      <p>Edit Analysis</p>
+                    </div>
+                    <div className="line-Edit-Analysis"></div>
+                    <div className="Close-EditContainer" onClick={() => handleEditClick("Counts_Normalisation")}>
+                      <img className="FrontArrow-img" src={LeftArrow} alt="" />
+                    </div>
+                  </div>
+                  <div className="Edit-Content-Container">
+                    <Samples_CountsNormalisation_Control_Comp />
+                  </div>
+                </div>
+
+                {/* ******************************************************* Edit ****************************************************/}
+
+              </div>
+
+              {/* ******************************************************* CountsNormalisationClicked ****************************************************/}
+
             </div>
+
+
           </div>
 
           {/* ************************************************** Content MiddleBar Inside Experiment Page ************************************************** */}
@@ -1471,7 +1781,9 @@ function Projects_Page() {
                             resultName={resultName}
                             tableFontSize={tableFontSize}
                             paddingLeftRight={paddingLeftRight}
-                          //filterColor={filterColor}
+                            //filterColor={filterColor}
+                            //colWidth = {`${200*TableColHeaderLength_Metadata}`}
+                            showCheckBox={false}
                           />
                         </div>
 

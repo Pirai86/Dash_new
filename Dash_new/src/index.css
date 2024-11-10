@@ -102,14 +102,12 @@
 .navbar .navbar-contents .nav-text{
   opacity: 1;
   visibility: visible;
-  transform: translateY(0vh);
-  transition: transform 1000ms ease-in-out;
+  transition: all 600ms ease-in-out;
 }
 
 .navbar.GoToExp .navbar-contents .nav-text.GoToExp{
   opacity: 0;
   visibility: hidden;
-  transform: translateY(100vh);
 }
 
 .company-logo{
@@ -310,14 +308,14 @@
   font-weight: bold;
   opacity: 1;
   visibility: visible;
-  transform: translateY(0vh);
+  /* transform: translateY(0vh); */
   transition: all 600ms ease-in-out;
 }
 
 .nav-project-title.GoToExp{
   opacity: 0;
   visibility: hidden;
-  transform: translateY(100vh);
+  /* transform: translateY(100vh); */
 }
 
 .nav-project-list-container{
