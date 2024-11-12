@@ -32,7 +32,7 @@ export function SignInForm({ showForm }) {
           setisGotoExperimentClicked(false);
           const token = result.data.access_token;
           setjwt(token);
-          console.log("JWT : ", result.data.access_token);
+          //console.log("JWT : ", result.data.access_token);
           localStorage.setItem('token', token);
           setErrorMessage(""); // Clear error message
 

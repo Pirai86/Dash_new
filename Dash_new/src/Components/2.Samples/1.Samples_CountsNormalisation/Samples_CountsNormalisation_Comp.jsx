@@ -150,7 +150,7 @@ const Samples_CountsNormalisation_Comp = ({ ActivateMetadata_ExpSetup }) => {
                         },
                       ]}
                       layout={{
-                        width: 425, // Set width as per your requirement
+                        width: 450, // Set width as per your requirement
                         height: 400, // Set height as per your requirement
                         margin: { l: 0, r: 0, t: 0, b: 0 }, // Remove margins (left, right, top, bottom)
                         images: [

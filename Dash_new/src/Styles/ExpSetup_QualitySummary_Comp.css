@@ -55,6 +55,7 @@
 }
 
 .Top-Space,
+.Top-Space-50,
 .Top-Space-100{
     width: 75%;
     height: 25px;
@@ -74,7 +75,12 @@
     width: 100% !important;
 }
 
+.Top-Space-50{
+    width: 50% !important;
+}
+
 .Top-Space.clicked,
+.Top-Space-50.clicked,
 .Top-Space-100.clicked{
     opacity: 1;
     visibility: visible;

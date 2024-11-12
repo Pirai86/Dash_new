@@ -1,7 +1,8 @@
 /* MultiSelect.css */
 .multi-select-option {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  /* justify-content: left; */
 }
 
 .multi-select-option input[type="checkbox"] {

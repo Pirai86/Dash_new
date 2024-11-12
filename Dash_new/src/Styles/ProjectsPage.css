@@ -3,6 +3,17 @@
   color: #e249fa;
 }
 
+.SampleSetOne,
+.SampleSetTwo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SampleSetTwo{
+  margin-top: 2em;
+}
+
 .noscroll{
   overflow: hidden !important;
 }
@@ -566,6 +577,7 @@
   width: 100%;
 }
 
+
 .Comp.setMargin{
   margin-top: 3em;
 }
@@ -664,10 +676,10 @@
 .Notes-Container.clicked .Notes-Content-Container{
   width: 100%;
   height: min-content;
-  padding: 20px 10px;
+  padding: 10px;
   border-radius: 10px;
   /* border: 1px solid black; */
-  line-height: 24px;
+  line-height: 27px;
   font-size: 14px;
   transform: translateY(0%);
   opacity: 1;

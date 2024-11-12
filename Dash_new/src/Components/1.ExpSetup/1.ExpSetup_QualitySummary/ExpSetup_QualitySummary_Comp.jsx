@@ -25,7 +25,7 @@ const ExpSetup_QualitySummary_Comp = ({ ActivateSection, ...props }) => {
 
         setCalcHeight(setCalcHeightFunc());
 
-        console.log("Height after calc", CalcHeight);
+        //console.log("Height after calc", CalcHeight);
     }, [ExpSetup_QualitySummary_RowLength])
 
     useEffect(() => {
@@ -37,7 +37,7 @@ const ExpSetup_QualitySummary_Comp = ({ ActivateSection, ...props }) => {
 
         setCalcWidth(setCalcWidthFunc());
 
-        console.log("Width after calc", CalcWidth);
+        //console.log("Width after calc", CalcWidth);
     }, [ExpSetup_QualitySummary_ColLength])
 
     useEffect(() => {

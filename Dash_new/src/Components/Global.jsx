@@ -80,6 +80,13 @@ export const GlobalProvider = ({ children }) => {
   const [ExpSetup_QualitySummary_Control_Data, setExpSetup_QualitySummary_Control_Data] = useState(master_heatmap_data);
   const [ExpSetup_QualitySummary_xcat, setExpSetup_QualitySummary_xcat] = useState(qc_summary_data.xcats);
   const [ExpSetup_QualitySummary_ycat, setExpSetup_QualitySummary_ycat] = useState(qc_summary_data.ycats);
+
+  const [ExpSetup_QualitySummary_Notes, setExpSetup_QualitySummary_Notes] = useState("");
+  const [ExpSetup_Metadata_Notes, setExpSetup_Metadata_Notes] = useState("");
+  const [Samples_CountsNormalisation_Notes, setSamples_CountsNormalisation_Notes] = useState("");
+  const [Samples_CorrelationHeatmap_Notes, setSamples_CorrelationHeatmap_Notes] = useState("");
+  const [Samples_PCA_Notes, setSamples_PCA_Notes] = useState("");
+  const [Samples_SampleSet_Notes, setSamples_SampleSet_Notes] = useState("");
   
   var [ExpSetup_Metadata_Data, setExpSetup_Metadata_Data] = useState(null);
   var [ExpSetup_Metadata_Covariate, setExpSetup_Metadata_Covariate] = useState(null);
@@ -226,6 +233,12 @@ export const GlobalProvider = ({ children }) => {
         ExpSetup_QualitySummary_Control_Data, setExpSetup_QualitySummary_Control_Data,
         ExpSetup_QualitySummary_xcat, setExpSetup_QualitySummary_xcat,
         ExpSetup_QualitySummary_ycat, setExpSetup_QualitySummary_ycat,
+        ExpSetup_QualitySummary_Notes, setExpSetup_QualitySummary_Notes,
+        ExpSetup_Metadata_Notes, setExpSetup_Metadata_Notes,
+        Samples_CountsNormalisation_Notes, setSamples_CountsNormalisation_Notes,
+        Samples_CorrelationHeatmap_Notes, setSamples_CorrelationHeatmap_Notes,
+        Samples_PCA_Notes, setSamples_PCA_Notes,
+        Samples_SampleSet_Notes, setSamples_SampleSet_Notes,
         ExpSetup_Metadata_Data,
         setExpSetup_Metadata_Data,
         ExpSetup_Metadata_Covariate,

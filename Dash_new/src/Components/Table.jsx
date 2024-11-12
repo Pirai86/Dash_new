@@ -40,9 +40,9 @@ function Table({ dataTable, showCheckBox, filterColor, colWidth, highlightedColu
     useEffect(() => {
         setTableRows(dataTable.data);
         setTableColumns(dataTable.columnNames);
-        console.log("TableColumns:", dataTable.columnNames);
-        console.log("TableRows:", dataTable.data);
-        console.log("Col Width : ", colWidth)
+        // console.log("TableColumns:", dataTable.columnNames);
+        // console.log("TableRows:", dataTable.data);
+        // console.log("Col Width : ", colWidth)
     }, [dataTable.data, dataTable.columnNames, colWidth]);
 
 
@@ -102,7 +102,7 @@ function Table({ dataTable, showCheckBox, filterColor, colWidth, highlightedColu
             const hasFilters = Object.values(newFilters).some((filterValue) => filterValue !== "");
 
             setIsFiltered(hasFilters);
-            console.log("IsFilter:", hasFilters);
+            //console.log("IsFilter:", hasFilters);
 
             return newFilters;
         });
@@ -128,7 +128,7 @@ function Table({ dataTable, showCheckBox, filterColor, colWidth, highlightedColu
     // Handle changing the number of displayed entries
     const handleDisplayEntriesChange = (value) => {
         if (value === "All") {
-            console.log("All Selected");
+            //console.log("All Selected");
             setDisplayEntries(TableRows.length);
         }
         else {
@@ -201,7 +201,7 @@ function Table({ dataTable, showCheckBox, filterColor, colWidth, highlightedColu
 
     // Function to download selected rows as an Excel file
     const handleDownloadSelected = () => {
-        console.log("Download Selected clicked");
+        //console.log("Download Selected clicked");
 
         let selectedRowsData = TableRows;
 
@@ -228,7 +228,7 @@ function Table({ dataTable, showCheckBox, filterColor, colWidth, highlightedColu
 
     // Function to download all rows as an Excel file
     const handleDownloadAll = () => {
-        console.log("Download all clicked");
+        //console.log("Download all clicked");
         const worksheet = XLSX.utils.json_to_sheet(TableRows);  // Convert all table rows to Excel format
         const workbook = XLSX.utils.book_new();  // Create a new Excel workbook
         XLSX.utils.book_append_sheet(workbook, worksheet, "All Data");  // Add worksheet to workbook
@@ -260,7 +260,7 @@ function Table({ dataTable, showCheckBox, filterColor, colWidth, highlightedColu
                 </div>
                 <div className="Table-contents">
                     <div className="Column-Header" style={{ width: `${colWidth}px` }}>
-                        <div className="" style={{display: showCheckBox ? "" : "none"}}>
+                        <div className="" style={{ display: showCheckBox ? "" : "none" }}>
                             <div className="Column-CheckBox" style={{ backgroundColor: colHeaderColor }}>
                                 <input
                                     type="checkbox"
@@ -297,9 +297,9 @@ function Table({ dataTable, showCheckBox, filterColor, colWidth, highlightedColu
                     <div className={`Col-Filter-Continer ${filterDisplay ? "" : "d-no"}`}>
                         <div className={`Column-Filter`} style={{ width: `${colWidth}px` }}>
 
-                            <div className="" style={{display: showCheckBox ? "" : "none"}}>
+                            <div className="" style={{ display: showCheckBox ? "" : "none" }}>
                                 <div className="CheckBox-Space" style={{ backgroundColor: filterColor ? filterColor : "" }}>
-                                    
+
                                 </div>
                             </div>
 
@@ -329,7 +329,7 @@ function Table({ dataTable, showCheckBox, filterColor, colWidth, highlightedColu
                                     onClick={() => handleRowSelect(rowIndex)}  // Use rowIndex to track selection
                                     style={{ height: rowHeight, paddingLeft: paddingLeftRight, paddingRight: paddingLeftRight, width: colWidth }}
                                 >
-                                    <div className="" style={{display: showCheckBox ? "" : "none"}}>
+                                    <div className="" style={{ display: showCheckBox ? "" : "none" }}>
                                         <div className="CheckBox-Container">
                                             <input
                                                 type="checkbox"

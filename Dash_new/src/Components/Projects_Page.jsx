@@ -52,15 +52,28 @@ import { faSleigh } from "@fortawesome/free-solid-svg-icons";
 
 import ExpSetup_QualitySummary_Comp from "./1.ExpSetup/1.ExpSetup_QualitySummary/ExpSetup_QualitySummary_Comp";
 import ExpSetup_QualitySummary_Control_Comp from "./1.ExpSetup/1.ExpSetup_QualitySummary/ExpSetup_QualitySummary_Control_Comp";
-import ExpSetup_MetaData_Comp from "./1.ExpSetup/2.ExpSetup_Metadata/ExpSetup_MetaData_Comp";
 
 import Samples_CountsNormalisation_Comp from "./2.Samples/1.Samples_CountsNormalisation/Samples_CountsNormalisation_Comp";
 import Samples_CountsNormalisation_Control_Comp from "./2.Samples/1.Samples_CountsNormalisation/Samples_CountsNormalisation_Control_Comp";
+import Samples_CorrelationHeatmap_Comp from "./2.Samples/2.Samples_CorrelationHeatmap/Samples_CorrelationHeatmap_Comp";
+import Samples_CorrelationHeatmap_Control_Comp from "./2.Samples/2.Samples_CorrelationHeatmap/Samples_CorrelationHeatmap_Control_Comp";
+import Samples_PCA_Comp from "./2.Samples/3.Samples_PCA/Samples_PCA_Comp";
+import Samples_PCA_Control_Comp from "./2.Samples/3.Samples_PCA/Samples_PCA_Control_Comp";
+import Samples_SampleSet_Comp from "./2.Samples/4.Samples_SampleSet/Samples_SampleSet_Comp";
 
 import DropDownComboBox from "../Components/DropDownComboBox";
 
-import ExpSetup_QualitySummary_Notes from "../Notes/1.Exp_Setup/1.ExpSetup_QualitySummary_Notes";
+import ExpSetup_QualitySummary_Notes_Comp from "../Notes/1.Exp_Setup/1.ExpSetup_QualitySummary_Notes_Comp";
+import ExpSetup_Metadata_Notes_Comp from "../Notes/1.Exp_Setup/2.ExpSetup_Metadata_Notes_Comp";
+import Samples_CountsNorm_Notes_Comp from "../Notes/2.Samples/1.Samples_CountsNorm_Notes_Comp";
+import Samples_CorrHeatmap_Notes_Comp from "../Notes/2.Samples/2.Samples_CorrHeatmap_Notes_Comp";
+import Samples_PCA_Notes_Comp from "../Notes/2.Samples/3.Samples_PCA_Notes_Comp";
+import Samples_SampleSet_Notes_Comp from "../Notes/2.Samples/4.Samples_SampleSet_Notes_Comp";
 
+import InfoImg from "../assets/info.png";
+import InfoClose from "../assets/infoClose.png";
+
+import Metadata_Info from "../ImageInfo/Metadata_Info";
 
 
 const BACKEND_API_URL = import.meta.env.VITE_BACKEND_API_URL;
@@ -70,22 +83,26 @@ function Projects_Page() {
 
   const containerRef = useRef(null);
   const navigate = useNavigate();
+  const [cache, setCache] = useState({});
 
   const {
     jwt, userfullName,
-    isNavHomeActivated, setisNavHomeActivated, setglobalExperimentID,
-    isNavTeamActivated, setisNavTeamActivated,
-    isNavFavActivated, setisNavFavActivated,
+    isNavHomeActivated, setisNavHomeActivated, setglobalExperimentID, globalExperimentID,
+    isNavTeamActivated, setisNavTeamActivated, setSamples_PCA_GroupChoice_List, setSamples_PCA_GroupChoice, setisPCAEmpty, setSamples_SampleSet_Heatmap_Data,
+    isNavFavActivated, setisNavFavActivated, setSamples_SampleSet_PCAImg, setisSampleSetEmpty, setSamples_SampleSet_NormReadCountsImg, setSamples_SampleSet_DendImg,
     projectsName, totalProjects, projectsDesc, CreatedON, LastModifiedON, projectsID, totalExperiments, experimentsName, experimentsDesc, experimentsID,
     setexperimentsName, setexperimentsDesc, setexperimentsID, setExpCreatedON, setExpLastModifiedON, settotalExperiments,
     appendToexperimentsName, appendToexperimentsID, appendToexperimentsDesc, appendToExpCreatedON, appendToExpLastModifiedON, appendToexperimentsStatus,
     globalProjID, set_globalProjID, globalProjCardIndex, set_globalProjCardIndex, experimentsStatus, setexperimentsStatus, isGotoExperimentClicked, setisGotoExperimentClicked,
     setExpSetup_QualitySummary_Data, setExpSetup_QualitySummary_Control_Data, setExpSetup_QualitySummary_xcat, setExpSetup_QualitySummary_ycat,
     setExpSetup_Metadata_Data, setExpSetup_Metadata_Covariate,
-    ExpSetup_Metadata_ColHeader, setExpSetup_Metadata_ColHeader,
+    ExpSetup_Metadata_ColHeader, setExpSetup_Metadata_ColHeader, setExpSetup_Metadata_Notes,
     setSamples_CountsNormalisation_Control_DataList, setSamples_CountsNormalisation_Control_DataSelection, setisCountsNormalisationEmpty,
     setisQualitySummaryEmpty, setisMetadataEmpty,
     setExpSetup_QualitySummary_RowLength, setExpSetup_QualitySummary_ColLength,
+    Samples_CorrelationHeatmap_CorrectionChoice, Samples_CorrelationHeatmap_GroupChoice, Samples_CorrelationHeatmap_GeneChoice, Samples_CorrelationHeatmap_LinkageChoice, Samples_CorrelationHeatmap_CutreedepthChoice,
+    isComparison_DiffExpEmpty, setSamples_CorrelationHeatmap_Data, setSamples_CorrelationHeatmap_DendData, setisCorrelationHeatmapEmpty,
+    setExpSetup_QualitySummary_Notes,
   } = useContext(GlobalContext);
 
   const {
@@ -140,10 +157,15 @@ function Projects_Page() {
 
   const [EditQCClicked, setEditQCClicked] = useState(false);
   const [EditCountsNormalisationClicked, setEditCountsNormalisationClicked] = useState(false);
+  const [EditCorrelationHeatmapClicked, setEditCorrelationHeatmapClicked] = useState(false);
+  const [EditPCAClicked, setEditPCAClicked] = useState(false);
 
   const [NotesQCClicked, setNotesQCClicked] = useState(false);
   const [NotesMetadataClicked, setNotesMetadataClicked] = useState(false);
   const [NotesCountsNormalisationClicked, setNotesCountsNormalisationClicked] = useState(false);
+  const [NotesCorrelationHeatmapClicked, setNotesCorrelationHeatmapClicked] = useState(false);
+  const [NotesPCAClicked, setNotesPCAClicked] = useState(false);
+  const [NotesSampleSetClicked, setNotesSampleSetClicked] = useState(false);
 
   const [ProjNameForInfo, setProjNameForInfo] = useState("");
   const [ProjDescForInfo, setProjDescForInfo] = useState("");
@@ -165,6 +187,8 @@ function Projects_Page() {
   const [CorrelationHeatmapClicked, setCorrelationHeatmapClicked] = useState(false);
   const [PCAClicked, setPCAClicked] = useState(false);
   const [SampleSetClicked, setSampleSetClicked] = useState(false);
+
+  const [MetadataTableInfoClicked, setMetadataTableInfoClicked] = useState(false);
 
   const highlightedColumns = [1, 2];
   const highlightedColors = ["#e0e4f4", "#d4edda"];
@@ -192,8 +216,136 @@ function Projects_Page() {
   // Pass the entries array as a prop
   const entriesOptions = [30];
 
-  const entriesOptions2 = [2, 4];
+  useEffect(() => {
+    if (isGotoExperimentClicked) {
+      postCorrelationHeatmap();
+      loadDendrogramData();
+    }
+    // // Only call handleExpDiscard if ExpDiscard is set
+    // if (ExpDiscard === 1) {
+    //   handleExpDiscard();
+    //   set_ExpDiscard(0);
+    // }
+  }, [
+    isGotoExperimentClicked,
+    Samples_CorrelationHeatmap_CorrectionChoice,
+    Samples_CorrelationHeatmap_GroupChoice,
+    Samples_CorrelationHeatmap_GeneChoice,
+    Samples_CorrelationHeatmap_LinkageChoice,
+    Samples_CorrelationHeatmap_CutreedepthChoice,
+    globalExperimentID,
+    jwt,
+    isComparison_DiffExpEmpty,
+  ]);
 
+  const postCorrelationHeatmap = async () => {
+    const cacheKey = `${Samples_CorrelationHeatmap_CorrectionChoice}-${Samples_CorrelationHeatmap_GroupChoice}-${Samples_CorrelationHeatmap_GeneChoice}-${Samples_CorrelationHeatmap_LinkageChoice}-${Samples_CorrelationHeatmap_CutreedepthChoice}-${globalExperimentID}`;
+    if (cache[cacheKey]) {
+      //console.log("Using cached data");
+      setSamples_CorrelationHeatmap_Data(cache[cacheKey]);
+    } else {
+      //console.log("Fetching data from backend");
+      try {
+        const data = await fetchCorrelationHeatmap();
+        setSamples_CorrelationHeatmap_Data(data);
+        setCache((prevCache) => ({
+          ...prevCache,
+          [cacheKey]: data,
+        }));
+      } catch (error) {
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      }
+    }
+  };
+
+  const fetchCorrelationHeatmap = async () => {
+    try {
+      const response = await axios
+        .post(
+          `${BACKEND_API_URL}samples/correlation_heatmap?expt_id=${globalExperimentID}`,
+          {
+            batch_correction: Samples_CorrelationHeatmap_CorrectionChoice,
+            annotation_rows: Samples_CorrelationHeatmap_GroupChoice,
+            top_var_genes: parseInt(Samples_CorrelationHeatmap_GeneChoice, 10),
+            dendro_linkage: Samples_CorrelationHeatmap_LinkageChoice,
+            dendro_cut_depth: parseFloat(Samples_CorrelationHeatmap_CutreedepthChoice, 10),
+          },
+          {
+            headers: {
+              Authorization: `Bearer ${jwt}`,
+              "Content-Type": "application/json",
+              accept: "application/json",
+            },
+          }
+        );
+      return response.data;
+    } catch (error) {
+      if (error.response.status === 401) {
+        //console.log("Unauthorized access - possible invalid token");
+        navigate("/login");
+      }
+    }
+  };
+
+  const loadDendrogramData = async () => {
+    const cacheKey = `dendrogram-${Samples_CorrelationHeatmap_CorrectionChoice}-${Samples_CorrelationHeatmap_GroupChoice}-${Samples_CorrelationHeatmap_GeneChoice}-${Samples_CorrelationHeatmap_LinkageChoice}-${Samples_CorrelationHeatmap_CutreedepthChoice}-${globalExperimentID}`;
+    if (cache[cacheKey]) {
+      //console.log("Using cached dendrogram data");
+      setSamples_CorrelationHeatmap_DendData(cache[cacheKey]);
+      setisCorrelationHeatmapEmpty(false);
+    } else {
+      //console.log("Fetching dendrogram data from backend");
+      try {
+        const imageBlob = await fetchDendrogramData();
+        const imageObjectURL = URL.createObjectURL(imageBlob);
+        setSamples_CorrelationHeatmap_DendData(imageObjectURL);
+        setCache((prevCache) => ({
+          ...prevCache,
+          [cacheKey]: imageObjectURL,
+        }));
+        setisCorrelationHeatmapEmpty(false);
+      } catch (error) {
+        setisCorrelationHeatmapEmpty(true);
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      }
+    }
+  };
+
+  const fetchDendrogramData = async () => {
+    try {
+      const response = await axios
+        .post(
+          `${BACKEND_API_URL}samples/correlation_dendrogram?expt_id=${globalExperimentID}`,
+          {
+            batch_correction: Samples_CorrelationHeatmap_CorrectionChoice,
+            annotation_rows: Samples_CorrelationHeatmap_GroupChoice,
+            top_var_genes: parseInt(Samples_CorrelationHeatmap_GeneChoice, 10),
+            dendro_linkage: Samples_CorrelationHeatmap_LinkageChoice,
+            dendro_cut_depth: parseFloat(Samples_CorrelationHeatmap_CutreedepthChoice, 10),
+          },
+          {
+            headers: {
+              Authorization: `Bearer ${jwt}`,
+              "Content-Type": "application/json",
+              accept: "application/json",
+            },
+            responseType: "blob",
+          }
+        );
+      return response.data;
+    } catch (error) {
+      if (error.response.status === 401) {
+        //console.log("Unauthorized access - possible invalid token");
+        navigate("/login");
+      }
+    }
+  };
 
   useEffect(() => {
     if (isFilterActivated) {
@@ -265,7 +417,7 @@ function Projects_Page() {
         )
         .then((response) => {
           // Handle successful response
-          console.log("Response data: for Creating new project", response);
+          //console.log("Response data: for Creating new project", response);
 
           axios
             .get(BACKEND_API_URL + "dashboard/projects", {
@@ -275,10 +427,10 @@ function Projects_Page() {
             })
             .then((response_success) => {
               // Handle successful response
-              console.log(
-                "Response data: Fetching all projects",
-                response_success
-              );
+              //  console.log (
+              //     "Response data: Fetching all projects",
+              //     response_success
+              //   );
 
               settotalProjects(response_success.data.n_projects);
               setprojectsName([]);
@@ -328,7 +480,7 @@ function Projects_Page() {
   const handleDeleteProject_Popup = (index) => {
     setDeleteDemoProj(false);
     if (index === "GlobalProj") {
-      console.log("Correct");
+      //console.log("Correct");
       axios
         .get(BACKEND_API_URL + "dashboard/project_info?proj_id=" + globalProjID, {
           headers: { Authorization: `Bearer ${jwt}` },
@@ -355,7 +507,7 @@ function Projects_Page() {
     }
 
     else {
-      console.log("Proj ID : ", projectsID[index]);
+      //console.log("Proj ID : ", projectsID[index]);
       set_globalProjID(projectsID[index]);
       axios
         .get(BACKEND_API_URL + "dashboard/project_info?proj_id=" + projectsID[index], {
@@ -363,7 +515,7 @@ function Projects_Page() {
           accept: "application/json"
         })
         .then((response) => {
-          console.log("Checking Popup : ", response.data.is_demo);
+          //console.log("Checking Popup : ", response.data.is_demo);
           if (response.data.is_demo === true) {
             setDeleteDemoProj(true);
             return;
@@ -392,7 +544,7 @@ function Projects_Page() {
   }
 
   const handleDeleteProject_yes = () => {
-    console.log("Checking in Deletion : ", globalProjID);
+    //console.log("Checking in Deletion : ", globalProjID);
     setProjectBoxClick(false);
     setisGotoExperimentClicked(false);
     if (globalProjID) {
@@ -410,14 +562,14 @@ function Projects_Page() {
         )
         .then((response) => {
           // Handle successful response
-          console.log("Proj Deleted!");
+          // console.log("Proj Deleted!");
           // Fetch updated projects list
           axios
             .get(BACKEND_API_URL + "dashboard/projects", {
               headers: { Authorization: `Bearer ${jwt}` },
             })
             .then((projectsResponse) => {
-              console.log("Project Update Response : ", projectsResponse)
+              //console.log("Project Update Response : ", projectsResponse)
               // Update the state with the new project details directly
               const updatedProjects = projectsResponse.data.projects;
 
@@ -506,6 +658,11 @@ function Projects_Page() {
 
     setNotesQCClicked(false);
     setNotesCountsNormalisationClicked(false);
+
+    setEditQCClicked(false);
+    setEditCorrelationHeatmapClicked(false);
+    setEditCountsNormalisationClicked(false);
+    setEditPCAClicked(false);
 
     switch (Category) {
       case "Exp-Setup":
@@ -633,16 +790,25 @@ function Projects_Page() {
 
     setQualitySummaryClicked(true);
     setNotesQCClicked(true);
+    setEditQCClicked(false);
 
     setMetadataClicked(false);
     setNotesMetadataClicked(false);
 
     setCountsNormalisationClicked(false);
     setNotesCountsNormalisationClicked(false);
+    setEditCountsNormalisationClicked(false);
 
     setCorrelationHeatmapClicked(false);
+    setNotesCorrelationHeatmapClicked(false);
+    setEditCorrelationHeatmapClicked(false);
+
     setPCAClicked(false);
+    setNotesPCAClicked(false);
+    setEditPCAClicked(false);
+
     setSampleSetClicked(false);
+    setNotesSampleSetClicked(false);
 
     setisGotoExperimentClicked(true);
     setglobalExperimentID(experimentsID[index]);
@@ -673,7 +839,8 @@ function Projects_Page() {
         setExpSetup_QualitySummary_xcat(response.data.xcats);
         setExpSetup_QualitySummary_ycat(response.data.ycats);
 
-        // console.log("Data", response.data.data);
+        //console.log("Notes", response.data.notes);
+        setExpSetup_QualitySummary_Notes(response.data.notes);
         // console.log("Data Length", response.data.data.length);
         setExpSetup_QualitySummary_RowLength(response.data.data.length);
         // console.log("Xcat", response.data.xcats);
@@ -712,25 +879,18 @@ function Projects_Page() {
         setExpSetup_Metadata_Data(response.data.file_contents);
         setExpSetup_Metadata_Covariate(response.data.all_covariates);
         setExpSetup_Metadata_ColHeader(response.data.file_headers);
-
-
+        setExpSetup_Metadata_Notes(response.data.notes);
 
         setMetadataTabledata(() => ({
           "data": response.data.file_contents,
           "columnNames": response.data.file_headers
         }));
 
-        console.log("Updated MetadataTabledata:", {
-          "data": response.data.file_contents,
-          "columnNames": response.data.file_headers
-        });
-
-
         setTableColHeaderLength_Metadata(response.data.file_headers.length);
-        console.log("Headers data: ", response.data.file_headers.length);
+        // console.log("Headers data: ", response.data.file_headers.length);
 
-        console.log("Metadata data : ", response.data.file_contents);
-        console.log("Covariates : ", response.data.all_covariates);
+        // console.log("Metadata data : ", response.data.file_contents);
+        // console.log("Covariates : ", response.data.all_covariates);
       })
       .catch((error) => {
         if (error.response.status === 404) {
@@ -769,6 +929,142 @@ function Projects_Page() {
         }
       })
 
+    ////////////////////////////////////////////////////////////////////////////// Sample Categories ///////////////////////////////////////////////////////////////////////////
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "samples/sample_categories?expt_id=" +
+        experimentsID[index],
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+        }
+      )
+      .then((response) => {
+        // Handle successful response
+        setSamples_PCA_GroupChoice_List(response.data.category_names);
+        setSamples_PCA_GroupChoice(response.data.category_names[0]);
+        setisPCAEmpty(false);
+      })
+      .catch((error) => {
+        setisPCAEmpty(true);
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Sample Set ///////////////////////////////////////////////////////////////////////////
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "samples/sample_set_plots?expt_id=" + experimentsID[index] + "&plot=sample_pca" + "&_=" + new Date().getTime(),
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+          responseType: "blob",
+        }
+      )
+      .then((response) => {
+        // Handle successful response
+        const imageBlob = response.data;
+        const imageObjectURL = URL.createObjectURL(imageBlob);
+        setSamples_SampleSet_PCAImg(imageObjectURL);
+        setisSampleSetEmpty(false);
+      })
+      .catch((error) => {
+        setisSampleSetEmpty(true);
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Sample Set ///////////////////////////////////////////////////////////////////////////
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "samples/sample_set_plots?expt_id=" +
+        experimentsID[index] +
+        "&plot=normalised_read_counts" +
+        "&_=" + new Date().getTime(), // Adding a timestamp to avoid caching
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+          responseType: "blob",
+        }
+      )
+      .then((response) => {
+        // Handle successful response
+        const imageBlob = response.data;
+        const imageObjectURL = URL.createObjectURL(imageBlob);
+        setSamples_SampleSet_NormReadCountsImg(imageObjectURL);
+      })
+      .catch((error) => {
+        if (error.response && error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Sample Set ///////////////////////////////////////////////////////////////////////////
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "samples/sample_set_plots?expt_id=" +
+        experimentsID[index] +
+        "&plot=similarity_dendrogram" +
+        "&_=" + new Date().getTime(),
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+          responseType: "blob",
+        }
+      )
+      .then((response) => {
+        // Handle successful response
+        const imageBlob = response.data;
+        const imageObjectURL = URL.createObjectURL(imageBlob);
+        setSamples_SampleSet_DendImg(imageObjectURL);
+      })
+      .catch((error) => {
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Sample Set ///////////////////////////////////////////////////////////////////////////
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "samples/sample_set_correlation_heatmap?expt_id=" +
+        experimentsID[index],
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+        }
+      )
+      .then((response) => {
+        // Handle successful response
+        setSamples_SampleSet_Heatmap_Data(response.data);
+      })
+      .catch((error) => {
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
   }
 
   const handleProjectBoxClick = (index) => {
@@ -903,6 +1199,14 @@ function Projects_Page() {
     setNotesQCClicked(false);
     setNotesMetadataClicked(false);
     setNotesCountsNormalisationClicked(false);
+    setNotesCorrelationHeatmapClicked(false);
+    setNotesPCAClicked(false);
+    setNotesSampleSetClicked(false);
+
+    setEditQCClicked(false);
+    setEditCountsNormalisationClicked(false);
+    setEditCorrelationHeatmapClicked(false);
+    setEditPCAClicked(false);
 
     switch (SubCategory) {
       case "QualitySummary":
@@ -919,12 +1223,17 @@ function Projects_Page() {
         break;
       case "Correlation_Heatmap":
         setCorrelationHeatmapClicked(true);
+        setNotesCorrelationHeatmapClicked(true);
+
         break;
       case "PCA":
         setPCAClicked(true);
+        setNotesPCAClicked(true);
+
         break;
       case "Sample_Set":
         setSampleSetClicked(true);
+        setNotesSampleSetClicked(true);
         break;
       default:
         break;
@@ -939,6 +1248,12 @@ function Projects_Page() {
         break;
       case "Counts_Normalisation":
         setEditCountsNormalisationClicked(!EditCountsNormalisationClicked);
+        break;
+      case "Correlation_Heatmap":
+        setEditCorrelationHeatmapClicked(!EditCorrelationHeatmapClicked);
+        break;
+      case "PCA":
+        setEditPCAClicked(!EditPCAClicked);
         break;
       default:
         break;
@@ -957,10 +1272,35 @@ function Projects_Page() {
       case "Counts_Normalisation":
         setNotesCountsNormalisationClicked(!NotesCountsNormalisationClicked);
         break;
+      case "Correlation_Heatmap":
+        setNotesCorrelationHeatmapClicked(!NotesCorrelationHeatmapClicked);
+        break;
+      case "PCA":
+        setNotesPCAClicked(!NotesPCAClicked);
+        break;
+      case "Sample_Set":
+        setNotesSampleSetClicked(!NotesSampleSetClicked);
+        break;
       default:
         break;
     }
   }
+
+  const handleMetadataTableInfoClick = (Action) => {
+    setMetadataTableInfoClicked(false);
+
+    switch (Action) {
+      case "Open":
+        setMetadataTableInfoClicked(true);
+        break;
+      case "Close":
+        setMetadataTableInfoClicked(false);
+        break;
+      default:
+        break;
+    }
+  }
+
 
   return (
     <div className="background">
@@ -1271,7 +1611,7 @@ function Projects_Page() {
 
               {/* ******************************************************* QualitySummaryClicked ****************************************************/}
 
-              <div className={`container ${QualitySummaryClicked ? "clicked" : ""} ${EditQCClicked ? "noscroll" : ""} ${NotesQCClicked ? "" : "noscroll"}`}>
+              <div className={`container ${QualitySummaryClicked ? "clicked" : ""}`}>
 
                 <div className={`Notes-Container ${NotesQCClicked ? "clicked" : ""}`}>
                   <div className="Note-Header-Container">
@@ -1281,16 +1621,13 @@ function Projects_Page() {
                     <div className="line-Notes"></div>
                   </div>
                   <div className="Notes-Content-Container">
-                    <ExpSetup_QualitySummary_Notes />
+                    <ExpSetup_QualitySummary_Notes_Comp />
                   </div>
                 </div>
 
-                <div className={`Comp ${NotesQCClicked ? "" : "setMargin"}`} style={{height:"100%"}}>
+                <div className={`Comp ${NotesQCClicked ? "" : "setMargin"}`} style={{ height: "100%" }}>
                   <ExpSetup_QualitySummary_Comp />
                 </div>
-
-
-
 
                 {/* ******************************************************* Notes ****************************************************/}
                 <div className="Notes-Btn" onClick={() => handleNotesClick("QC")}>
@@ -1305,20 +1642,6 @@ function Projects_Page() {
 
                 <div className="Edit-Analysis-Btn" onClick={() => handleEditClick("QC")}>
                   <p>Edit Analysis</p>
-                </div>
-                <div className={`Edit-Container ${EditQCClicked ? "clicked" : ""}`}>
-                  <div className="Edit-Header-Container" >
-                    <div className="Edit-Analysis">
-                      <p>Edit Analysis</p>
-                    </div>
-                    <div className="line-Edit-Analysis"></div>
-                    <div className="Close-EditContainer" onClick={() => handleEditClick("QC")}>
-                      <img className="FrontArrow-img" src={LeftArrow} alt="" />
-                    </div>
-                  </div>
-                  <div className="Edit-Content-Container">
-                    <ExpSetup_QualitySummary_Control_Comp />
-                  </div>
                 </div>
 
                 {/* ******************************************************* Edit ****************************************************/}
@@ -1338,15 +1661,11 @@ function Projects_Page() {
                     <div className="line-Notes"></div>
                   </div>
                   <div className="Notes-Content-Container">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus nulla eligendi assumenda, veritatis odio quaerat possimus
-                      itaque provident non molestias sequi veniam voluptatum at explicabo cum similique nesciunt. Ad, quaerat facere? Aut sunt enim ea maxime dolores
-                      facilis harum autem adipisci, placeat aliquam quae aliquid. Vero sequi soluta iure voluptates quis veritatis necessitatibus obcaecati cumque quas aspernatur
-                      autem vel amet, error enim placeat. Itaque laudantium explicabo a similique, dolorum inventore totam? Praesentium a maxime harum tempore aperiam itaque! Quia
-                      voluptate recusandae sapiente, atque autem ullam commodi ex sunt est. Repellat nihil unde, sequi in accusantium alias asperiores ullam provident ducimus.</p>
+                    <ExpSetup_Metadata_Notes_Comp />
                   </div>
                 </div>
 
-                <div className={`Comp ${NotesMetadataClicked ? "" : "setMargin"}`}>
+                <div className={`Comp ${NotesMetadataClicked ? "" : "setMargin"}`} style={{ position: "relative" }}>
 
                   <Table
                     dataTable={MetadataTabledata}
@@ -1366,9 +1685,26 @@ function Projects_Page() {
                     tableFontSize={tableFontSize}
                     colWidth={`${200 * TableColHeaderLength_Metadata}`}
                     showCheckBox={true}
-
                   //paddingLeftRight={paddingLeftRight}
                   />
+
+                  <div className={`InfoImg-Container-Samples`} onClick={() => handleMetadataTableInfoClick("Open")}>
+                    <img className="InfoImg" src={InfoImg} alt="" />
+                  </div>
+
+                  <div className={`Info-Container-50 ${MetadataTableInfoClicked ? "clicked" : ""}`}>
+                    <div className="">
+                      <Metadata_Info />
+                    </div>
+                  </div>
+                  <div className={`Top-Space-50 ${MetadataTableInfoClicked ? "clicked" : ""}`}>
+
+                  </div>
+                  <div className={`Info-Close-Btn-Samples ${MetadataTableInfoClicked ? "" : "d-no"}`} onClick={() => handleMetadataTableInfoClick("Close")}>
+                    <img className="InfoCloseImg" src={InfoClose} alt="" />
+                  </div>
+
+
                 </div>
 
                 {/* ******************************************************* Notes ****************************************************/}
@@ -1386,7 +1722,7 @@ function Projects_Page() {
 
               {/* ******************************************************* CountsNormalisationClicked ****************************************************/}
 
-              <div className={`container ${CountsNormalisationClicked ? "clicked" : ""} ${EditCountsNormalisationClicked ? "noscroll" : ""} ${NotesCountsNormalisationClicked ? "" : "noscroll"}`}>
+              <div className={`container ${CountsNormalisationClicked ? "clicked" : ""}`}>
 
                 <div className={`Notes-Container ${NotesCountsNormalisationClicked ? "clicked" : ""}`}>
                   <div className="Note-Header-Container">
@@ -1396,15 +1732,13 @@ function Projects_Page() {
                     <div className="line-Notes"></div>
                   </div>
                   <div className="Notes-Content-Container">
-                    <p>Counts Normlaisation Notes</p>
+                    <Samples_CountsNorm_Notes_Comp />
                   </div>
                 </div>
 
-                <div className={`Comp ${NotesCountsNormalisationClicked ? "" : "setMargin"}`}>
+                <div className={`Comp ${NotesCountsNormalisationClicked ? "" : "setMargin"}`} style={{ padding: "0px 20px 25px 20px" }}>
                   <Samples_CountsNormalisation_Comp />
                 </div>
-
-
 
                 {/* ******************************************************* Notes ****************************************************/}
                 <div className="Notes-Btn" onClick={() => handleNotesClick("Counts_Normalisation")}>
@@ -1420,26 +1754,193 @@ function Projects_Page() {
                 <div className="Edit-Analysis-Btn" onClick={() => handleEditClick("Counts_Normalisation")}>
                   <p>Edit Analysis</p>
                 </div>
-                <div className={`Edit-Container ${EditCountsNormalisationClicked ? "clicked" : ""}`}>
-                  <div className="Edit-Header-Container" >
-                    <div className="Edit-Analysis">
-                      <p>Edit Analysis</p>
-                    </div>
-                    <div className="line-Edit-Analysis"></div>
-                    <div className="Close-EditContainer" onClick={() => handleEditClick("Counts_Normalisation")}>
-                      <img className="FrontArrow-img" src={LeftArrow} alt="" />
-                    </div>
-                  </div>
-                  <div className="Edit-Content-Container">
-                    <Samples_CountsNormalisation_Control_Comp />
-                  </div>
-                </div>
 
                 {/* ******************************************************* Edit ****************************************************/}
 
               </div>
 
               {/* ******************************************************* CountsNormalisationClicked ****************************************************/}
+
+              {/* ******************************************************* CorrelationHeatmapClicked ****************************************************/}
+
+              <div className={`container ${CorrelationHeatmapClicked ? "clicked" : ""}`}>
+
+                <div className={`Notes-Container ${NotesCorrelationHeatmapClicked ? "clicked" : ""}`}>
+                  <div className="Note-Header-Container">
+                    <div className="Notes">
+                      <p>Information about Visual Representation</p>
+                    </div>
+                    <div className="line-Notes"></div>
+                  </div>
+                  <div className="Notes-Content-Container">
+                    <Samples_CorrHeatmap_Notes_Comp />
+                  </div>
+                </div>
+
+                <div className={`Comp ${NotesCorrelationHeatmapClicked ? "" : "setMargin"}`} style={{ padding: "0px 20px 25px 20px" }}>
+                  <Samples_CorrelationHeatmap_Comp />
+                </div>
+
+
+
+                {/* ******************************************************* Notes ****************************************************/}
+                <div className="Notes-Btn" onClick={() => handleNotesClick("Correlation_Heatmap")}>
+                  <p className={`${NotesCorrelationHeatmapClicked ? "" : "d-no"}`}>Hide Notes</p>
+                  <p className={`${NotesCorrelationHeatmapClicked ? "d-no" : ""}`}>Show Notes</p>
+                </div>
+
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+                {/* ******************************************************* Edit ****************************************************/}
+
+                <div className="Edit-Analysis-Btn" onClick={() => handleEditClick("Correlation_Heatmap")}>
+                  <p>Edit Analysis</p>
+                </div>
+
+                {/* ******************************************************* Edit ****************************************************/}
+
+              </div>
+
+              {/* ******************************************************* CorrelationHeatmapClicked ****************************************************/}
+
+              {/* ******************************************************* PCAClicked ****************************************************/}
+
+              <div className={`container ${PCAClicked ? "clicked" : ""}`}>
+
+                <div className={`Notes-Container ${NotesPCAClicked ? "clicked" : ""}`}>
+                  <div className="Note-Header-Container">
+                    <div className="Notes">
+                      <p>Information about Visual Representation</p>
+                    </div>
+                    <div className="line-Notes"></div>
+                  </div>
+                  <div className="Notes-Content-Container">
+                    <Samples_PCA_Notes_Comp />
+                  </div>
+                </div>
+
+                <div className={`Comp ${NotesPCAClicked ? "" : "setMargin"}`} style={{ padding: "0px 20px 25px 20px" }}>
+                  <Samples_PCA_Comp />
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+                <div className="Notes-Btn" onClick={() => handleNotesClick("PCA")}>
+                  <p className={`${NotesPCAClicked ? "" : "d-no"}`}>Hide Notes</p>
+                  <p className={`${NotesPCAClicked ? "d-no" : ""}`}>Show Notes</p>
+                </div>
+
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+                {/* ******************************************************* Edit ****************************************************/}
+
+                <div className="Edit-Analysis-Btn" onClick={() => handleEditClick("PCA")}>
+                  <p>Edit Analysis</p>
+                </div>
+
+                {/* ******************************************************* Edit ****************************************************/}
+
+              </div>
+
+              {/* ******************************************************* PCAClicked ****************************************************/}
+
+              {/* ******************************************************* SampleSetClicked ****************************************************/}
+
+              <div className={`container ${SampleSetClicked ? "clicked" : ""}`}>
+
+                <div className={`Notes-Container ${NotesSampleSetClicked ? "clicked" : ""}`}>
+                  <div className="Note-Header-Container">
+                    <div className="Notes">
+                      <p>Information about Visual Representation</p>
+                    </div>
+                    <div className="line-Notes"></div>
+                  </div>
+                  <div className="Notes-Content-Container">
+                    <Samples_SampleSet_Notes_Comp />
+                  </div>
+                </div>
+
+                <div className={`Comp ${NotesSampleSetClicked ? "" : "setMargin"}`} style={{padding: "0px 5px 25px 5px" }}>
+                  <Samples_SampleSet_Comp />
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+                <div className="Notes-Btn-Alternate" onClick={() => handleNotesClick("Sample_Set")}>
+                  <p className={`${NotesSampleSetClicked ? "" : "d-no"}`}>Hide Notes</p>
+                  <p className={`${NotesSampleSetClicked ? "d-no" : ""}`}>Show Notes</p>
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+              </div>
+
+              {/* ******************************************************* SampleSetClicked ****************************************************/}
+
+              {/* ******************************************************* Edit Container ****************************************************/}
+
+              <div className={`Edit-Container ${EditQCClicked ? "clicked" : ""}`}>
+                <div className="Edit-Header-Container" >
+                  <div className="Edit-Analysis">
+                    <p>Edit Analysis</p>
+                  </div>
+                  <div className="line-Edit-Analysis"></div>
+                  <div className="Close-EditContainer" onClick={() => handleEditClick("QC")}>
+                    <img className="FrontArrow-img" src={LeftArrow} alt="" />
+                  </div>
+                </div>
+                <div className="Edit-Content-Container">
+                  <ExpSetup_QualitySummary_Control_Comp />
+                </div>
+              </div>
+
+              <div className={`Edit-Container ${EditCountsNormalisationClicked ? "clicked" : ""}`}>
+                <div className="Edit-Header-Container" >
+                  <div className="Edit-Analysis">
+                    <p>Edit Analysis</p>
+                  </div>
+                  <div className="line-Edit-Analysis"></div>
+                  <div className="Close-EditContainer" onClick={() => handleEditClick("Counts_Normalisation")}>
+                    <img className="FrontArrow-img" src={LeftArrow} alt="" />
+                  </div>
+                </div>
+                <div className="Edit-Content-Container">
+                  <Samples_CountsNormalisation_Control_Comp />
+                </div>
+              </div>
+
+              <div className={`Edit-Container ${EditCorrelationHeatmapClicked ? "clicked" : ""}`}>
+                <div className="Edit-Header-Container" >
+                  <div className="Edit-Analysis">
+                    <p>Edit Analysis</p>
+                  </div>
+                  <div className="line-Edit-Analysis"></div>
+                  <div className="Close-EditContainer" onClick={() => handleEditClick("Correlation_Heatmap")}>
+                    <img className="FrontArrow-img" src={LeftArrow} alt="" />
+                  </div>
+                </div>
+                <div className="Edit-Content-Container">
+                  <Samples_CorrelationHeatmap_Control_Comp />
+                </div>
+              </div>
+
+              <div className={`Edit-Container ${EditPCAClicked ? "clicked" : ""}`}>
+                <div className="Edit-Header-Container" >
+                  <div className="Edit-Analysis">
+                    <p>Edit Analysis</p>
+                  </div>
+                  <div className="line-Edit-Analysis"></div>
+                  <div className="Close-EditContainer" onClick={() => handleEditClick("PCA")}>
+                    <img className="FrontArrow-img" src={LeftArrow} alt="" />
+                  </div>
+                </div>
+                <div className="Edit-Content-Container">
+                  <Samples_PCA_Control_Comp />
+                </div>
+              </div>
+
+              {/* ******************************************************* Edit Container ****************************************************/}
 
             </div>
 
