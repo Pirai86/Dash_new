@@ -87,6 +87,8 @@ export const GlobalProvider = ({ children }) => {
   const [Samples_CorrelationHeatmap_Notes, setSamples_CorrelationHeatmap_Notes] = useState("");
   const [Samples_PCA_Notes, setSamples_PCA_Notes] = useState("");
   const [Samples_SampleSet_Notes, setSamples_SampleSet_Notes] = useState("");
+  const [Expression_GeneExpression_Notes, setExpression_GeneExpression_Notes] = useState("");
+  const [Expression_ExpressionHeatmap_Notes, setExpression_ExpressionHeatmap_Notes] = useState("");
   
   var [ExpSetup_Metadata_Data, setExpSetup_Metadata_Data] = useState(null);
   var [ExpSetup_Metadata_Covariate, setExpSetup_Metadata_Covariate] = useState(null);
@@ -239,6 +241,8 @@ export const GlobalProvider = ({ children }) => {
         Samples_CorrelationHeatmap_Notes, setSamples_CorrelationHeatmap_Notes,
         Samples_PCA_Notes, setSamples_PCA_Notes,
         Samples_SampleSet_Notes, setSamples_SampleSet_Notes,
+        Expression_GeneExpression_Notes, setExpression_GeneExpression_Notes,
+        Expression_ExpressionHeatmap_Notes, setExpression_ExpressionHeatmap_Notes,
         ExpSetup_Metadata_Data,
         setExpSetup_Metadata_Data,
         ExpSetup_Metadata_Covariate,

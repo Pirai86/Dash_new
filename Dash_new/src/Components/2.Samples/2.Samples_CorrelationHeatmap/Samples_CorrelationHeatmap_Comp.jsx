@@ -27,8 +27,16 @@ function Samples_CorrelationHeatmap_Comp() {
       "zoomIn2d",
       "zoomOut2d",
       "autoScale2d",
-    ], // List of buttons to remover
+    ],
+    'toImageButtonOptions': {
+      'format': 'png',
+      'filename': 'Correlation_Heatmap',
+      'height': 1080,
+      'width': 1920,
+      'scale': 1 // Multiply title/legend/axis/canvas sizes by this factor
+    }
   };
+
 
   const updatedConfig = {
     ...((Samples_CorrelationHeatmap_Data || {})),

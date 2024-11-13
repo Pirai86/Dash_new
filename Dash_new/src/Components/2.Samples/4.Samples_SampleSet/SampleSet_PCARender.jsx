@@ -7,13 +7,20 @@ function SampleSet_PCARender() {
     const config = {
         displaylogo: false,
         modeBarButtonsToRemove: [
-            "select2d",
-            "lasso2d",
-            "zoomIn2d",
-            "zoomOut2d",
-            "autoScale2d",
-        ], // List of buttons to remove
-    };
+          "select2d",
+          "lasso2d",
+          "zoomIn2d",
+          "zoomOut2d",
+          "autoScale2d",
+        ],
+        'toImageButtonOptions': {
+          'format': 'png',
+          'filename': 'SampleSet_PCA_Final',
+          'height': 1080,
+          'width': 1920,
+          'scale': 1 // Multiply title/legend/axis/canvas sizes by this factor
+        }
+      };
 
     const { Samples_SampleSet_PCAImg } = useContext(GlobalContext);
 

@@ -46,7 +46,32 @@ function Samples_PCA_Comp() {
       "zoomIn2d",
       "zoomOut2d",
       "autoScale2d",
-    ], // List of buttons to remove
+    ],
+    'toImageButtonOptions': {
+      'format': 'png',
+      'filename': 'PCA',
+      'height': 1080,
+      'width': 1920,
+      'scale': 1 // Multiply title/legend/axis/canvas sizes by this factor
+    }
+  };
+
+  const config2 = {
+    displaylogo: false,
+    modeBarButtonsToRemove: [
+      "select2d",
+      "lasso2d",
+      "zoomIn2d",
+      "zoomOut2d",
+      "autoScale2d",
+    ],
+    'toImageButtonOptions': {
+      'format': 'png',
+      'filename': 'PCA_Significance',
+      'height': 1080,
+      'width': 1920,
+      'scale': 1 // Multiply title/legend/axis/canvas sizes by this factor
+    }
   };
 
   useEffect(() => {
@@ -291,7 +316,7 @@ function Samples_PCA_Comp() {
             <>
               <div className="custom-modebar">
                 <Plot
-                  config={config}
+                  config={config2}
                   ref={plotRef}
                   data={PCtestData.data}
                   layout={PCtestData.layout} // Ensure layout is passed correctly

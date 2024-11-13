@@ -3,9 +3,9 @@ import Plot from "react-plotly.js";
 import { GlobalContext } from "./Global";
 
 const ImagePlot = () => {
-  const { Samples_CorrelationHeatmap_DendData, setSamples_CorrelationHeatmap_DendData } = useContext(GlobalContext);
+  const { Samples_CorrelationHeatmap_DendData } = useContext(GlobalContext);
 
-  const config = {
+  const config2 = {
     displaylogo: false,
     modeBarButtonsToRemove: [
       "select2d",
@@ -13,13 +13,20 @@ const ImagePlot = () => {
       "zoomIn2d",
       "zoomOut2d",
       "autoScale2d",
-    ], // List of buttons to remover
+    ],
+    'toImageButtonOptions': {
+      'format': 'png',
+      'filename': 'Samples_Dendrogram',
+      'height': 1080,
+      'width': 1920,
+      'scale': 1 // Multiply title/legend/axis/canvas sizes by this factor
+    }
   };
 
   return (
     <div className="custom-modebar">
       <Plot
-        config={config}
+        config={config2}
         data={[
           {
             type: "scatter",

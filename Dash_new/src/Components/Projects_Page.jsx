@@ -60,6 +60,8 @@ import Samples_CorrelationHeatmap_Control_Comp from "./2.Samples/2.Samples_Corre
 import Samples_PCA_Comp from "./2.Samples/3.Samples_PCA/Samples_PCA_Comp";
 import Samples_PCA_Control_Comp from "./2.Samples/3.Samples_PCA/Samples_PCA_Control_Comp";
 import Samples_SampleSet_Comp from "./2.Samples/4.Samples_SampleSet/Samples_SampleSet_Comp";
+import Expression_GeneExpression_Comp from "./3.Expression/1.Expression_GeneExpression/Expression_GeneExpression_Comp";
+import Expression_ExpressionHeatmap_Comp from "./3.Expression/2.Expression_ExpressionHeatmap/Expression_ExpressionHeatmap_Comp";
 
 import DropDownComboBox from "../Components/DropDownComboBox";
 
@@ -69,6 +71,8 @@ import Samples_CountsNorm_Notes_Comp from "../Notes/2.Samples/1.Samples_CountsNo
 import Samples_CorrHeatmap_Notes_Comp from "../Notes/2.Samples/2.Samples_CorrHeatmap_Notes_Comp";
 import Samples_PCA_Notes_Comp from "../Notes/2.Samples/3.Samples_PCA_Notes_Comp";
 import Samples_SampleSet_Notes_Comp from "../Notes/2.Samples/4.Samples_SampleSet_Notes_Comp";
+import Expression_GeneExpression_Notes_Comp from "../Notes/3.Expression/1.Expression_GeneExpression_Notes_Comp";
+import Expression_ExpressionHeatmap_Notes_Comp from "../Notes/3.Expression/2.Expression_ExpressionHeatmap_Notes_Comp";
 
 import InfoImg from "../assets/info.png";
 import InfoClose from "../assets/infoClose.png";
@@ -88,7 +92,8 @@ function Projects_Page() {
   const {
     jwt, userfullName,
     isNavHomeActivated, setisNavHomeActivated, setglobalExperimentID, globalExperimentID,
-    isNavTeamActivated, setisNavTeamActivated, setSamples_PCA_GroupChoice_List, setSamples_PCA_GroupChoice, setisPCAEmpty, setSamples_SampleSet_Heatmap_Data,
+    isNavTeamActivated, setisNavTeamActivated, setSamples_PCA_GroupChoice_List, setSamples_PCA_GroupChoice, setisPCAEmpty, setSamples_SampleSet_Heatmap_Data, setisExpressionHeatmapEmpty,
+    setExpression_ExpressionHeatmap_Data, setisGeneExpressionEmpty, setExpression_GeneExpression_GeneNames, setExpression_GeneExpression_CategoryNames,
     isNavFavActivated, setisNavFavActivated, setSamples_SampleSet_PCAImg, setisSampleSetEmpty, setSamples_SampleSet_NormReadCountsImg, setSamples_SampleSet_DendImg,
     projectsName, totalProjects, projectsDesc, CreatedON, LastModifiedON, projectsID, totalExperiments, experimentsName, experimentsDesc, experimentsID,
     setexperimentsName, setexperimentsDesc, setexperimentsID, setExpCreatedON, setExpLastModifiedON, settotalExperiments,
@@ -166,6 +171,8 @@ function Projects_Page() {
   const [NotesCorrelationHeatmapClicked, setNotesCorrelationHeatmapClicked] = useState(false);
   const [NotesPCAClicked, setNotesPCAClicked] = useState(false);
   const [NotesSampleSetClicked, setNotesSampleSetClicked] = useState(false);
+  const [NotesGeneExpressionClicked, setNotesGeneExpressionClicked] = useState(false);
+  const [NotesExpressionHeatmapClicked, setNotesExpressionHeatmapClicked] = useState(false);
 
   const [ProjNameForInfo, setProjNameForInfo] = useState("");
   const [ProjDescForInfo, setProjDescForInfo] = useState("");
@@ -187,6 +194,8 @@ function Projects_Page() {
   const [CorrelationHeatmapClicked, setCorrelationHeatmapClicked] = useState(false);
   const [PCAClicked, setPCAClicked] = useState(false);
   const [SampleSetClicked, setSampleSetClicked] = useState(false);
+  const [GeneExpressionClicked, setGeneExpressionClicked] = useState(false);
+  const [ExpressionHeatmapClicked, setExpressionHeatmapClicked] = useState(false);
 
   const [MetadataTableInfoClicked, setMetadataTableInfoClicked] = useState(false);
 
@@ -221,11 +230,6 @@ function Projects_Page() {
       postCorrelationHeatmap();
       loadDendrogramData();
     }
-    // // Only call handleExpDiscard if ExpDiscard is set
-    // if (ExpDiscard === 1) {
-    //   handleExpDiscard();
-    //   set_ExpDiscard(0);
-    // }
   }, [
     isGotoExperimentClicked,
     Samples_CorrelationHeatmap_CorrectionChoice,
@@ -655,9 +659,12 @@ function Projects_Page() {
     setCorrelationHeatmapClicked(false);
     setPCAClicked(false);
     setSampleSetClicked(false);
+    setGeneExpressionClicked(false);
+    setExpressionHeatmapClicked(false);
 
     setNotesQCClicked(false);
     setNotesCountsNormalisationClicked(false);
+    setNotesGeneExpressionClicked(false);
 
     setEditQCClicked(false);
     setEditCorrelationHeatmapClicked(false);
@@ -677,6 +684,8 @@ function Projects_Page() {
         break;
       case "Expression":
         setExpCategory_ExpressionClicked(true);
+        setGeneExpressionClicked(true);
+        setNotesGeneExpressionClicked(true);
         break;
       case "Comparison":
         setExpCategory_ComparisonClicked(true);
@@ -809,6 +818,12 @@ function Projects_Page() {
 
     setSampleSetClicked(false);
     setNotesSampleSetClicked(false);
+
+    setGeneExpressionClicked(false);
+    setNotesGeneExpressionClicked(false);
+
+    setExpressionHeatmapClicked(false);
+    setNotesExpressionHeatmapClicked(false);
 
     setisGotoExperimentClicked(true);
     setglobalExperimentID(experimentsID[index]);
@@ -1065,6 +1080,60 @@ function Projects_Page() {
           navigate("/login");
         }
       })
+
+    ////////////////////////////////////////////////////////////////////////////// Expression Heatmap ///////////////////////////////////////////////////////////////////////////
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "expression/expression_heatmap?expt_id=" +
+        experimentsID[index],
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+        }
+      )
+      .then((response) => {
+        setisExpressionHeatmapEmpty(false);
+        // Handle successful response
+        setExpression_ExpressionHeatmap_Data(response.data);
+      })
+      .catch((error) => {
+        setisExpressionHeatmapEmpty(true);
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Gene Expression Options ///////////////////////////////////////////////////////////////////////////
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "expression/gene_expression_options?expt_id=" +
+        experimentsID[index],
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+        }
+      )
+      .then((response) => {
+        setisGeneExpressionEmpty(false);
+        // Handle successful response
+        setExpression_GeneExpression_GeneNames(response.data.genes);
+        setExpression_GeneExpression_CategoryNames(response.data.category_names);
+      })
+      .catch((error) => {
+        setisGeneExpressionEmpty(true);
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
   }
 
   const handleProjectBoxClick = (index) => {
@@ -1195,6 +1264,8 @@ function Projects_Page() {
     setCorrelationHeatmapClicked(false);
     setPCAClicked(false);
     setSampleSetClicked(false);
+    setGeneExpressionClicked(false);
+    setExpressionHeatmapClicked(false);
 
     setNotesQCClicked(false);
     setNotesMetadataClicked(false);
@@ -1202,6 +1273,8 @@ function Projects_Page() {
     setNotesCorrelationHeatmapClicked(false);
     setNotesPCAClicked(false);
     setNotesSampleSetClicked(false);
+    setNotesGeneExpressionClicked(false);
+    setNotesExpressionHeatmapClicked(false);
 
     setEditQCClicked(false);
     setEditCountsNormalisationClicked(false);
@@ -1224,16 +1297,22 @@ function Projects_Page() {
       case "Correlation_Heatmap":
         setCorrelationHeatmapClicked(true);
         setNotesCorrelationHeatmapClicked(true);
-
         break;
       case "PCA":
         setPCAClicked(true);
         setNotesPCAClicked(true);
-
         break;
       case "Sample_Set":
         setSampleSetClicked(true);
         setNotesSampleSetClicked(true);
+        break;
+      case "Gene_Expression":
+        setGeneExpressionClicked(true);
+        setNotesGeneExpressionClicked(true);
+        break;
+      case "Expression_Heatmap":
+        setExpressionHeatmapClicked(true);
+        setNotesExpressionHeatmapClicked(true);
         break;
       default:
         break;
@@ -1280,6 +1359,12 @@ function Projects_Page() {
         break;
       case "Sample_Set":
         setNotesSampleSetClicked(!NotesSampleSetClicked);
+        break;
+      case "Gene_Expression":
+        setNotesGeneExpressionClicked(!NotesGeneExpressionClicked);
+        break;
+      case "Expression_Heatmap":
+        setNotesExpressionHeatmapClicked(!NotesExpressionHeatmapClicked);
         break;
       default:
         break;
@@ -1591,6 +1676,16 @@ function Projects_Page() {
                   <div className="line-ExpSubCategory-Samples"></div>
                 </div>
 
+                <div className={`SubCategory-Container ${ExpCategory_ExpressionClicked ? "" : "d-no"}`}>
+                  <div className={`Exp-SubCategory-list ${GeneExpressionClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("Gene_Expression")}>
+                    <p>Gene Expression</p>
+                  </div>
+                  <div className={`Exp-SubCategory-list ${ExpressionHeatmapClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("Expression_Heatmap")}>
+                    <p>Expression Heatmap</p>
+                  </div>
+                  <div className="line-ExpSubCategory-Samples"></div>
+                </div>
+
               </div>
 
               {/* <div className="line-ExpSubCategory"></div> */}
@@ -1861,7 +1956,7 @@ function Projects_Page() {
                   </div>
                 </div>
 
-                <div className={`Comp ${NotesSampleSetClicked ? "" : "setMargin"}`} style={{padding: "0px 5px 25px 5px" }}>
+                <div className={`Comp ${NotesSampleSetClicked ? "" : "setMargin"}`} style={{ padding: "0px 5px 25px 5px" }}>
                   <Samples_SampleSet_Comp />
                 </div>
 
@@ -1877,6 +1972,72 @@ function Projects_Page() {
               </div>
 
               {/* ******************************************************* SampleSetClicked ****************************************************/}
+
+              {/* ******************************************************* GeneExpressionClicked ****************************************************/}
+
+              <div className={`container ${GeneExpressionClicked ? "clicked" : ""}`}>
+
+                <div className={`Notes-Container ${NotesGeneExpressionClicked ? "clicked" : ""}`}>
+                  <div className="Note-Header-Container">
+                    <div className="Notes">
+                      <p>Information about Visual Representation</p>
+                    </div>
+                    <div className="line-Notes"></div>
+                  </div>
+                  <div className="Notes-Content-Container">
+                    <Expression_GeneExpression_Notes_Comp />
+                  </div>
+                </div>
+
+                <div className={`Comp ${NotesGeneExpressionClicked ? "" : ""}`} style={{ padding: "0px 5px 25px 5px" }}>
+                  <Expression_GeneExpression_Comp />
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+                <div className="Notes-Btn-Alternate" onClick={() => handleNotesClick("Gene_Expression")}>
+                  <p className={`${NotesGeneExpressionClicked ? "" : "d-no"}`}>Hide Notes</p>
+                  <p className={`${NotesGeneExpressionClicked ? "d-no" : ""}`}>Show Notes</p>
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+              </div>
+
+              {/* ******************************************************* GeneExpressionClicked ****************************************************/}
+
+              {/* ******************************************************* ExpressionHeatmapClicked ****************************************************/}
+
+              <div className={`container ${ExpressionHeatmapClicked ? "clicked" : ""}`}>
+
+                <div className={`Notes-Container ${NotesExpressionHeatmapClicked ? "clicked" : ""}`}>
+                  <div className="Note-Header-Container">
+                    <div className="Notes">
+                      <p>Information about Visual Representation</p>
+                    </div>
+                    <div className="line-Notes"></div>
+                  </div>
+                  <div className="Notes-Content-Container">
+                    <Expression_ExpressionHeatmap_Notes_Comp />
+                  </div>
+                </div>
+
+                <div className={`Comp ${NotesExpressionHeatmapClicked ? "" : "setMargin"}`} style={{ padding: "0px 5px 25px 5px" }}>
+                  <Expression_ExpressionHeatmap_Comp />
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+                <div className="Notes-Btn-Alternate" onClick={() => handleNotesClick("Expression_Heatmap")}>
+                  <p className={`${NotesExpressionHeatmapClicked ? "" : "d-no"}`}>Hide Notes</p>
+                  <p className={`${NotesExpressionHeatmapClicked ? "d-no" : ""}`}>Show Notes</p>
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+              </div>
+
+              {/* ******************************************************* GeneExpressionClicked ****************************************************/}
 
               {/* ******************************************************* Edit Container ****************************************************/}
 

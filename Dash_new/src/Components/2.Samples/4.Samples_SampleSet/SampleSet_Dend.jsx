@@ -12,7 +12,14 @@ const SampleSet_Dend = () => {
       "zoomIn2d",
       "zoomOut2d",
       "autoScale2d",
-    ], // List of buttons to remove
+    ],
+    'toImageButtonOptions': {
+      'format': 'png',
+      'filename': 'SampleSet_Dendrogram_Final',
+      'height': 1080,
+      'width': 1920,
+      'scale': 1 // Multiply title/legend/axis/canvas sizes by this factor
+    }
   };
 
   

@@ -32,7 +32,32 @@ const Samples_CountsNormalisation_Comp = ({ ActivateMetadata_ExpSetup }) => {
       "zoomIn2d",
       "zoomOut2d",
       "autoScale2d",
-    ], // List of buttons to remover
+    ],
+    'toImageButtonOptions': {
+      'format': 'png',
+      'filename': 'Counts_Normalisation_Raw_Counts',
+      'height': 1080,
+      'width': 1920,
+      'scale': 1 // Multiply title/legend/axis/canvas sizes by this factor
+    }
+  };
+
+  const config2 = {
+    displaylogo: false,
+    modeBarButtonsToRemove: [
+      "select2d",
+      "lasso2d",
+      "zoomIn2d",
+      "zoomOut2d",
+      "autoScale2d",
+    ],
+    'toImageButtonOptions': {
+      'format': 'png',
+      'filename': 'Counts_Normalisation_Normalised_Counts',
+      'height': 1080,
+      'width': 1920,
+      'scale': 1 // Multiply title/legend/axis/canvas sizes by this factor
+    }
   };
 
   useEffect(() => {
@@ -132,125 +157,132 @@ const Samples_CountsNormalisation_Comp = ({ ActivateMetadata_ExpSetup }) => {
 
   return (
     <div className="Component-Container">
-      <Container fluid style={{ height: "auto" }}>
-        <Row style={{ height: "100%", display: "flex", alignItems: "center", justifyContent: "space-evenly" }}>
-          <Col style={{ width: "50%", display: "flex", alignItems: "center", justifyContent: "center" }}>
-            {rawReadCounts && (
-              <>
-                <div className="background-white" style={{ position: "relative" }}>
-                  <div className="custom-modebar">
-                    <Plot
-                      data={[
+
+      <div className="flex ai-c jc-se">
+        <div className="">
+          {rawReadCounts && (
+            <>
+              <div className="background-white" style={{ position: "relative"}}>
+                <div className="custom-modebar">
+                  <Plot
+                    data={[
+                      {
+                        type: "scatter",
+                        x: [0, 1],
+                        y: [0, 1],
+                        mode: "markers",
+                        marker: { opacity: 0 }, // Hide markers
+                      },
+                    ]}
+                    layout={{
+                      width: 450, 
+                      height: 400,
+                      //width: "40%",
+                      // height: 400,
+                      margin: { l: 0, r: 0, t: 0, b: 0 }, // Remove margins (left, right, top, bottom)
+                      images: [
                         {
-                          type: "scatter",
-                          x: [0, 1],
-                          y: [0, 1],
-                          mode: "markers",
-                          marker: { opacity: 0 }, // Hide markers
+                          source: rawReadCounts,
+                          xref: "x",
+                          yref: "y",
+                          x: 0,
+                          y: 5,
+                          sizex: 1,
+                          sizey: 5,
+                          sizing: "fit",
+                          opacity: 1,
+                          layer: "above",
                         },
-                      ]}
-                      layout={{
-                        width: 450, // Set width as per your requirement
-                        height: 400, // Set height as per your requirement
-                        margin: { l: 0, r: 0, t: 0, b: 0 }, // Remove margins (left, right, top, bottom)
-                        images: [
-                          {
-                            source: rawReadCounts,
-                            xref: "x",
-                            yref: "y",
-                            x: 0,
-                            y: 5,
-                            sizex: 1,
-                            sizey: 5,
-                            sizing: "fit",
-                            opacity: 1,
-                            layer: "above",
-                          },
-                        ],
-                        xaxis: { range: [0, 1], visible: false }, // Adjust range as per your requirement
-                        yaxis: { range: [0, 5], visible: false }, // Adjust range as per your requirement
-                      }}
-                      config={config} />
-                  </div>
+                      ],
+                      xaxis: { range: [0, 1], visible: false }, // Adjust range as per your requirement
+                      yaxis: { range: [0, 5], visible: false }, // Adjust range as per your requirement
+                    }}
+                    config={config} />
+                </div>
 
-                  <div className={`InfoImg-Container-Samples`} onClick={() => handleRawInfoClick("Open")}>
-                    <img className="InfoImg" src={InfoImg} alt="" />
-                  </div>
+                <div className={`InfoImg-Container-Samples`} onClick={() => handleRawInfoClick("Open")}>
+                  <img className="InfoImg" src={InfoImg} alt="" />
+                </div>
 
-                  <div className={`Info-Container ${InfoRawClicked ? "clicked" : ""}`}>
-                    <div className="">
-                      <CountNormalisationRaw_Info />
-                    </div>
-                  </div>
-                  <div className={`Top-Space-100 ${InfoRawClicked ? "clicked" : ""}`}>
-
-                  </div>
-                  <div className={`Info-Close-Btn-Samples ${InfoRawClicked ? "" : "d-no"}`} onClick={() => handleRawInfoClick("Close")}>
-                    <img className="InfoCloseImg" src={InfoClose} alt="" />
+                <div className={`Info-Container ${InfoRawClicked ? "clicked" : ""}`}>
+                  <div className="">
+                    <CountNormalisationRaw_Info />
                   </div>
                 </div>
-              </>
-            )}
-          </Col>
-          <Col className="" style={{ width: "50%", display: "flex", alignItems: "center", justifyContent: "center" }}>
-            {normReadCounts && (
-              <>
-                <div className="background-white" style={{ position: "relative" }}>
-                  <div className="custom-modebar">
-                    <Plot
-                      data={[
+                <div className={`Top-Space-100 ${InfoRawClicked ? "clicked" : ""}`}>
+
+                </div>
+                <div className={`Info-Close-Btn-Samples ${InfoRawClicked ? "" : "d-no"}`} onClick={() => handleRawInfoClick("Close")}>
+                  <img className="InfoCloseImg" src={InfoClose} alt="" />
+                </div>
+              </div>
+            </>
+          )}
+
+        </div>
+
+
+        <div className="" style={{marginLeft:"1em"}}>
+
+          {normReadCounts && (
+            <>
+              <div className="background-white" style={{ position: "relative"}}>
+                <div className="custom-modebar">
+                  <Plot
+                    data={[
+                      {
+                        type: "scatter",
+                        x: [0, 1],
+                        y: [0, 1],
+                        mode: "markers",
+                        marker: { opacity: 0 }, // Hide markers
+                      },
+                    ]}
+                    layout={{
+                      width: 425, 
+                      height: 400, 
+                      margin: { l: 0, r: 0, t: 0, b: 0 },
+                      images: [
                         {
-                          type: "scatter",
-                          x: [0, 1],
-                          y: [0, 1],
-                          mode: "markers",
-                          marker: { opacity: 0 }, // Hide markers
+                          source: normReadCounts,
+                          xref: "x",
+                          yref: "y",
+                          x: 0,
+                          y: 5,
+                          sizex: 1,
+                          sizey: 5,
+                          sizing: "fit",
+                          opacity: 1,
+                          layer: "above",
                         },
-                      ]}
-                      layout={{
-                        width: 425, // Set width as per your requirement
-                        height: 400, // Set height as per your requirement
-                        margin: { l: 0, r: 0, t: 0, b: 0 }, // Remove margins (left, right, top, bottom)
-                        images: [
-                          {
-                            source: normReadCounts,
-                            xref: "x",
-                            yref: "y",
-                            x: 0,
-                            y: 5,
-                            sizex: 1,
-                            sizey: 5,
-                            sizing: "fit",
-                            opacity: 1,
-                            layer: "above",
-                          },
-                        ],
-                        xaxis: { range: [0, 1], visible: false }, // Adjust range as per your requirement
-                        yaxis: { range: [0, 5], visible: false }, // Adjust range as per your requirement
-                      }}
-                      config={config} />
-                  </div>
-                  <div className={`InfoImg-Container-Samples`} onClick={() => handleNormInfoClick("Open")}>
-                    <img className="InfoImg" src={InfoImg} alt="" />
-                  </div>
+                      ],
+                      xaxis: { range: [0, 1], visible: false }, 
+                      yaxis: { range: [0, 5], visible: false },
+                    }}
+                    config={config2} />
+                </div>
+                <div className={`InfoImg-Container-Samples`} onClick={() => handleNormInfoClick("Open")}>
+                  <img className="InfoImg" src={InfoImg} alt="" />
+                </div>
 
-                  <div className={`Info-Container ${InfoNormClicked ? "clicked" : ""}`}>
-                    <div className="">
-                      <CountNormalisationNormalised_Info />
-                    </div>
-                  </div>
-                  <div className={`Top-Space-100 ${InfoNormClicked ? "clicked" : ""}`}>
-
-                  </div>
-                  <div className={`Info-Close-Btn-Samples ${InfoNormClicked ? "" : "d-no"}`} onClick={() => handleNormInfoClick("Close")}>
-                    <img className="InfoCloseImg" src={InfoClose} alt="" />
+                <div className={`Info-Container ${InfoNormClicked ? "clicked" : ""}`}>
+                  <div className="">
+                    <CountNormalisationNormalised_Info />
                   </div>
                 </div>
-              </>
-            )}
-          </Col>
-        </Row>
-      </Container>
+                <div className={`Top-Space-100 ${InfoNormClicked ? "clicked" : ""}`}>
+
+                </div>
+                <div className={`Info-Close-Btn-Samples ${InfoNormClicked ? "" : "d-no"}`} onClick={() => handleNormInfoClick("Close")}>
+                  <img className="InfoCloseImg" src={InfoClose} alt="" />
+                </div>
+              </div>
+            </>
+          )}
+
+        </div>
+      </div>
+
     </div>
   );
 };
