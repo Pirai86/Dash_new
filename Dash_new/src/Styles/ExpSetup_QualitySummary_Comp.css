@@ -21,6 +21,7 @@
 }
 
 .Info-Container,
+.Info-Container-25,
 .Info-Container-50,
 .Info-Container-75 {
     width: 100%;
@@ -46,7 +47,12 @@
     width: 50%;
 }
 
+.Info-Container-25{
+    width: 25%;
+}
+
 .Info-Container.clicked,
+.Info-Container-25.clicked,
 .Info-Container-50.clicked,
 .Info-Container-75.clicked {
     opacity: 1;
@@ -55,6 +61,7 @@
 }
 
 .Top-Space,
+.Top-Space-25,
 .Top-Space-50,
 .Top-Space-100{
     width: 75%;
@@ -77,6 +84,10 @@
 
 .Top-Space-50{
     width: 50% !important;
+}
+
+.Top-Space-25{
+    width: 25% !important;
 }
 
 .Top-Space.clicked,

@@ -147,14 +147,6 @@ const ExpSetup_QualitySummary_Comp = ({ ActivateSection, ...props }) => {
         stroke: {
             width: 1,
         },
-        // title: {
-        //     text: "Heatmap summary of data QC",
-        //     style: {
-        //         fontSize: "16px",
-        //         fontFamily: "Helvetica, Arial, sans-serif",
-        //         fontWeight: 200,
-        //     },
-        // },
     };
 
     return (

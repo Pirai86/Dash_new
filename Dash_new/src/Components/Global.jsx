@@ -7,6 +7,11 @@ import stats_data from "../data/rawDataStatistics/stats_data.json";
 import filtering_data from "../data/filtering/filtering_data.json";
 import choiceList_PCA from "../data/pca/choice_list.json";
 
+import featurecounts from "../data/sequenceQuality/featurecounts.json";
+import fastqscreen from "../data/sequenceQuality/fastqscreen.json";
+import staralignment from "../data/sequenceQuality/staralignment.json";
+import rsemmapping from "../data/sequenceQuality/rsemmapping.json";
+
 let master_heatmap_data = qc_summary_data.data;
 
 let correctionChoiceList = choiceList_PCA.correction_list;
@@ -89,6 +94,9 @@ export const GlobalProvider = ({ children }) => {
   const [Samples_SampleSet_Notes, setSamples_SampleSet_Notes] = useState("");
   const [Expression_GeneExpression_Notes, setExpression_GeneExpression_Notes] = useState("");
   const [Expression_ExpressionHeatmap_Notes, setExpression_ExpressionHeatmap_Notes] = useState("");
+
+
+  const [DataQuality_Filtering_Notes, setDataQuality_Filtering_Notes] = useState("");
   
   var [ExpSetup_Metadata_Data, setExpSetup_Metadata_Data] = useState(null);
   var [ExpSetup_Metadata_Covariate, setExpSetup_Metadata_Covariate] = useState(null);
@@ -158,6 +166,29 @@ export const GlobalProvider = ({ children }) => {
   const [DataQuality_SeqQuality_length_title, setDataQuality_SeqQuality_length_title] = useState("");
   const [DataQuality_SeqQuality_length_xaxis, setDataQuality_SeqQuality_length_xaxis] = useState("");
   const [DataQuality_SeqQuality_length_yaxis, setDataQuality_SeqQuality_length_yaxis] = useState("");
+
+  const [DataQuality_SeqQuality_featureCountsSeries, setDataQuality_SeqQuality_FeatureCountsSeries] = useState(featurecounts.series);
+  const [DataQuality_SeqQuality_featureCountsCategories, setDataQuality_SeqQuality_FeatureCountsCategories] = useState(featurecounts.categories);
+  const [DataQuality_SeqQuality_featureCountsColors, setDataQuality_SeqQuality_FeatureCountsColors] = useState(featurecounts.colors);
+
+  const [DataQuality_SeqQuality_fastqScreenSeries, setDataQuality_SeqQuality_FastqScreenSeries] = useState(fastqscreen.series);
+  const [DataQuality_SeqQuality_fastqScreenCategories, setDataQuality_SeqQuality_FastqScreenCategories] = useState(fastqscreen.categories);
+  const [DataQuality_SeqQuality_fastqScreenColors, setDataQuality_SeqQuality_FastqScreenColors] = useState(fastqscreen.colors);
+
+  const [DataQuality_SeqQuality_starAlignmentSeries, setDataQuality_SeqQuality_StarAlignmentSeries] = useState(staralignment.series);
+  const [DataQuality_SeqQuality_starAlignmentCategories, setDataQuality_SeqQuality_StarAlignmentCategories] = useState(staralignment.categories);
+  const [DataQuality_SeqQuality_starAlignmentColors, setDataQuality_SeqQuality_StarAlignmentColors] = useState(staralignment.colors);
+
+  const [DataQuality_SeqQuality_rsemMappingSeries, setDataQuality_SeqQuality_RsemMappingSeries] = useState(rsemmapping.series);
+  const [DataQuality_SeqQuality_rsemMappingCategories, setDataQuality_SeqQuality_RsemMappingCategories] = useState(rsemmapping.categories);
+  const [DataQuality_SeqQuality_rsemMappingColors, setDataQuality_SeqQuality_RsemMappingColors] = useState(rsemmapping.colors);
+
+  const [mappedSamples, setMappedSamples] = useState({});
+  const [globalfeaturecounts, setglobalfeaturecounts] = useState("");
+  const [globalstaralignment, setglobalstaralignment] = useState("");
+  const [globalrsemmapping, setglobalrsemmapping] = useState("");
+  const [globalfastqscreen, setglobalfastqscreen] = useState("");
+
 
   const appendToprojectsName = (value) => {
     setprojectsName((prevArray) => [...prevArray, value]);
@@ -243,6 +274,7 @@ export const GlobalProvider = ({ children }) => {
         Samples_SampleSet_Notes, setSamples_SampleSet_Notes,
         Expression_GeneExpression_Notes, setExpression_GeneExpression_Notes,
         Expression_ExpressionHeatmap_Notes, setExpression_ExpressionHeatmap_Notes,
+        DataQuality_Filtering_Notes, setDataQuality_Filtering_Notes,
         ExpSetup_Metadata_Data,
         setExpSetup_Metadata_Data,
         ExpSetup_Metadata_Covariate,
@@ -323,6 +355,23 @@ export const GlobalProvider = ({ children }) => {
         setDataQuality_SeqQuality_length_xaxis,
         DataQuality_SeqQuality_length_yaxis,
         setDataQuality_SeqQuality_length_yaxis,
+        DataQuality_SeqQuality_featureCountsSeries, setDataQuality_SeqQuality_FeatureCountsSeries,
+        DataQuality_SeqQuality_featureCountsCategories, setDataQuality_SeqQuality_FeatureCountsCategories,
+        DataQuality_SeqQuality_featureCountsColors, setDataQuality_SeqQuality_FeatureCountsColors,
+        DataQuality_SeqQuality_fastqScreenSeries, setDataQuality_SeqQuality_FastqScreenSeries,
+        DataQuality_SeqQuality_fastqScreenCategories, setDataQuality_SeqQuality_FastqScreenCategories,
+        DataQuality_SeqQuality_fastqScreenColors, setDataQuality_SeqQuality_FastqScreenColors,
+        DataQuality_SeqQuality_starAlignmentSeries, setDataQuality_SeqQuality_StarAlignmentSeries,
+        DataQuality_SeqQuality_starAlignmentCategories, setDataQuality_SeqQuality_StarAlignmentCategories,
+        DataQuality_SeqQuality_starAlignmentColors, setDataQuality_SeqQuality_StarAlignmentColors,
+        DataQuality_SeqQuality_rsemMappingSeries, setDataQuality_SeqQuality_RsemMappingSeries,
+        DataQuality_SeqQuality_rsemMappingCategories, setDataQuality_SeqQuality_RsemMappingCategories,
+        DataQuality_SeqQuality_rsemMappingColors, setDataQuality_SeqQuality_RsemMappingColors,
+        mappedSamples, setMappedSamples,
+        globalfeaturecounts, setglobalfeaturecounts,
+        globalstaralignment, setglobalstaralignment,
+        globalrsemmapping, setglobalrsemmapping,
+        globalfastqscreen, setglobalfastqscreen,
 
         projectsName,
         setprojectsName,

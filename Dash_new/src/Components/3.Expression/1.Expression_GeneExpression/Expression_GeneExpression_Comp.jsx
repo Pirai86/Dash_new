@@ -127,7 +127,7 @@ const Expression_GeneExpression_Comp = ({ selectedGene, selectedFactor }) => {
     if (selectedGene && selectedFactor) {
       const cacheKey = `${selectedGene}-${selectedFactor}`;
       return (
-        <div className="custom-modebar" style={{ padding: "20px" }}>
+        <div key={cacheKey} className="custom-modebar" style={{ padding: "20px" }}>
           <Plot
             config={config}
             data={plotData[cacheKey] || []}
@@ -162,7 +162,7 @@ const Expression_GeneExpression_Comp = ({ selectedGene, selectedFactor }) => {
     return selectedGenes.map((gene) => {
       const cacheKey = `${gene.value}-${selectedCategory}`;
       return (
-        <div className="background-white" style={{ position: "relative", backgroundColor: "#f7fafe" }}>
+        <div key={cacheKey} className="background-white" style={{ position: "relative", backgroundColor: "#f7fafe", marginTop: "2em" }}>
           <div className="custom-modebar" key={gene.value}>
             <Plot
               config={config}
@@ -193,7 +193,7 @@ const Expression_GeneExpression_Comp = ({ selectedGene, selectedFactor }) => {
             />
           </div>
 
-          <div className={`InfoImg-Container-Samples`} onClick={() => handleExpressionHeatmapInfoClick("Open")}>
+          {/* <div className={`InfoImg-Container-Samples`} onClick={() => handleExpressionHeatmapInfoClick("Open")}>
             <img className="InfoImg" src={InfoImg} alt="" />
           </div>
 
@@ -207,7 +207,7 @@ const Expression_GeneExpression_Comp = ({ selectedGene, selectedFactor }) => {
           </div>
           <div className={`Info-Close-Btn-Samples ${InfoExpressionHeatmapClicked ? "" : "d-no"}`} onClick={() => handleExpressionHeatmapInfoClick("Close")}>
             <img className="InfoCloseImg" src={InfoClose} alt="" />
-          </div>
+          </div> */}
 
         </div>
       );
@@ -219,9 +219,9 @@ const Expression_GeneExpression_Comp = ({ selectedGene, selectedFactor }) => {
 
       {!selectedGene && !selectedFactor && (
         <>
-          <div className="" style={{padding:"0px 25px"}}>
+          <div className="" style={{ padding: "0px 25px" }}>
             <div className="ImageInfo_Style" style={{ padding: "10px" }}>
-              <p className="Heading" style={{color:"black", fontSize:"14px", fontWeight:"bold"}}>Select Genes</p>
+              <p className="Heading" style={{ color: "black", fontSize: "14px", fontWeight: "bold" }}>Select Genes</p>
             </div>
 
             <br />
@@ -259,7 +259,7 @@ const Expression_GeneExpression_Comp = ({ selectedGene, selectedFactor }) => {
               />
             </div>
           </div>
-          
+
         </>
       )}
       <div style={{
@@ -267,9 +267,27 @@ const Expression_GeneExpression_Comp = ({ selectedGene, selectedFactor }) => {
         flexWrap: "wrap",
         alignItems: "center",
         justifyContent: "space-evenly",
-        marginTop: "3em"
+        marginTop: "1em",
+        position: "relative",
       }}>
         {renderPlots()}
+
+        <div className={`InfoImg-Container-Samples`} onClick={() => handleExpressionHeatmapInfoClick("Open")}>
+          <img className="InfoImg" src={InfoImg} alt="" />
+        </div>
+
+        <div className={`Info-Container ${InfoExpressionHeatmapClicked ? "clicked" : ""}`}>
+          <div className="">
+            <CountNormalisationRaw_Info />
+          </div>
+        </div>
+        <div className={`Top-Space-100 ${InfoExpressionHeatmapClicked ? "clicked" : ""}`}>
+
+        </div>
+        <div className={`Info-Close-Btn-Samples ${InfoExpressionHeatmapClicked ? "" : "d-no"}`} onClick={() => handleExpressionHeatmapInfoClick("Close")}>
+          <img className="InfoCloseImg" src={InfoClose} alt="" />
+        </div>
+
       </div>
     </div>
   );

@@ -52,7 +52,6 @@ import { faSleigh } from "@fortawesome/free-solid-svg-icons";
 
 import ExpSetup_QualitySummary_Comp from "./1.ExpSetup/1.ExpSetup_QualitySummary/ExpSetup_QualitySummary_Comp";
 import ExpSetup_QualitySummary_Control_Comp from "./1.ExpSetup/1.ExpSetup_QualitySummary/ExpSetup_QualitySummary_Control_Comp";
-
 import Samples_CountsNormalisation_Comp from "./2.Samples/1.Samples_CountsNormalisation/Samples_CountsNormalisation_Comp";
 import Samples_CountsNormalisation_Control_Comp from "./2.Samples/1.Samples_CountsNormalisation/Samples_CountsNormalisation_Control_Comp";
 import Samples_CorrelationHeatmap_Comp from "./2.Samples/2.Samples_CorrelationHeatmap/Samples_CorrelationHeatmap_Comp";
@@ -62,6 +61,8 @@ import Samples_PCA_Control_Comp from "./2.Samples/3.Samples_PCA/Samples_PCA_Cont
 import Samples_SampleSet_Comp from "./2.Samples/4.Samples_SampleSet/Samples_SampleSet_Comp";
 import Expression_GeneExpression_Comp from "./3.Expression/1.Expression_GeneExpression/Expression_GeneExpression_Comp";
 import Expression_ExpressionHeatmap_Comp from "./3.Expression/2.Expression_ExpressionHeatmap/Expression_ExpressionHeatmap_Comp";
+
+import DataQuality_SeqQuality_Comp from "./6.DataQuality/DataQuality_SeqQuality_Comp";
 
 import DropDownComboBox from "../Components/DropDownComboBox";
 
@@ -73,6 +74,10 @@ import Samples_PCA_Notes_Comp from "../Notes/2.Samples/3.Samples_PCA_Notes_Comp"
 import Samples_SampleSet_Notes_Comp from "../Notes/2.Samples/4.Samples_SampleSet_Notes_Comp";
 import Expression_GeneExpression_Notes_Comp from "../Notes/3.Expression/1.Expression_GeneExpression_Notes_Comp";
 import Expression_ExpressionHeatmap_Notes_Comp from "../Notes/3.Expression/2.Expression_ExpressionHeatmap_Notes_Comp";
+
+import DataQuality_Filtering_Notes_Comp from "../Notes/6.Data_Quality/1.DataQuality_Filtering_Notes_Comp";
+import DataQuality_DataStatistics_Notes_Comp from "../Notes/6.Data_Quality/2.DataQuality_DataStatistics_Notes_Comp";
+import DataQuality_SequenceQuality_Notes_Comp from "../Notes/6.Data_Quality/3.DataQuality_SequenceQuality_Notes_Comp";
 
 import InfoImg from "../assets/info.png";
 import InfoClose from "../assets/infoClose.png";
@@ -101,9 +106,22 @@ function Projects_Page() {
     globalProjID, set_globalProjID, globalProjCardIndex, set_globalProjCardIndex, experimentsStatus, setexperimentsStatus, isGotoExperimentClicked, setisGotoExperimentClicked,
     setExpSetup_QualitySummary_Data, setExpSetup_QualitySummary_Control_Data, setExpSetup_QualitySummary_xcat, setExpSetup_QualitySummary_ycat,
     setExpSetup_Metadata_Data, setExpSetup_Metadata_Covariate,
+    setisFilteringEmpty, setDataQuality_Filtering_Data,
+    setisDataStatsEmpty, setDataQuality_DataStatistics_Data,
+    setisSeqQualityEmpty, setDataQuality_SeqQuality_MeanQualityScores, setDataQuality_SeqQuality_MeanQualityScoresCopy, setDataQuality_SeqQuality_Mean_title,
+    setDataQuality_SeqQuality_Mean_xaxis, setDataQuality_SeqQuality_Mean_yaxis, setDataQuality_SeqQuality_Mean_ycats,
+    setDataQuality_SeqQuality_GcContent, setDataQuality_SeqQuality_GcContentCopy, setDataQuality_SeqQuality_gc_content_title,
+    setDataQuality_SeqQuality_gc_content_xaxis, setDataQuality_SeqQuality_gc_content_yaxis,
+    setDataQuality_SeqQuality_lengthData, setDataQuality_SeqQuality_lengthDataCopy, setDataQuality_SeqQuality_length_title,
+    setDataQuality_SeqQuality_length_xaxis, setDataQuality_SeqQuality_length_yaxis,
+    setMappedSamples, setglobalfeaturecounts, setDataQuality_SeqQuality_FeatureCountsSeries, setDataQuality_SeqQuality_FeatureCountsCategories,
+    setDataQuality_SeqQuality_FeatureCountsColors, setglobalstaralignment, setDataQuality_SeqQuality_StarAlignmentSeries,
+    setDataQuality_SeqQuality_StarAlignmentCategories, setDataQuality_SeqQuality_StarAlignmentColors,
+    setglobalrsemmapping, setDataQuality_SeqQuality_RsemMappingSeries, setDataQuality_SeqQuality_RsemMappingCategories, setDataQuality_SeqQuality_RsemMappingColors,
     ExpSetup_Metadata_ColHeader, setExpSetup_Metadata_ColHeader, setExpSetup_Metadata_Notes,
     setSamples_CountsNormalisation_Control_DataList, setSamples_CountsNormalisation_Control_DataSelection, setisCountsNormalisationEmpty,
     setisQualitySummaryEmpty, setisMetadataEmpty,
+    setglobalfastqscreen, setDataQuality_SeqQuality_FastqScreenSeries, setDataQuality_SeqQuality_FastqScreenCategories, setDataQuality_SeqQuality_FastqScreenColors,
     setExpSetup_QualitySummary_RowLength, setExpSetup_QualitySummary_ColLength,
     Samples_CorrelationHeatmap_CorrectionChoice, Samples_CorrelationHeatmap_GroupChoice, Samples_CorrelationHeatmap_GeneChoice, Samples_CorrelationHeatmap_LinkageChoice, Samples_CorrelationHeatmap_CutreedepthChoice,
     isComparison_DiffExpEmpty, setSamples_CorrelationHeatmap_Data, setSamples_CorrelationHeatmap_DendData, setisCorrelationHeatmapEmpty,
@@ -164,6 +182,7 @@ function Projects_Page() {
   const [EditCountsNormalisationClicked, setEditCountsNormalisationClicked] = useState(false);
   const [EditCorrelationHeatmapClicked, setEditCorrelationHeatmapClicked] = useState(false);
   const [EditPCAClicked, setEditPCAClicked] = useState(false);
+  const [EditSequenceQualityClicked, setEditSequenceQualityClicked] = useState(false);
 
   const [NotesQCClicked, setNotesQCClicked] = useState(false);
   const [NotesMetadataClicked, setNotesMetadataClicked] = useState(false);
@@ -173,6 +192,9 @@ function Projects_Page() {
   const [NotesSampleSetClicked, setNotesSampleSetClicked] = useState(false);
   const [NotesGeneExpressionClicked, setNotesGeneExpressionClicked] = useState(false);
   const [NotesExpressionHeatmapClicked, setNotesExpressionHeatmapClicked] = useState(false);
+  const [NotesFilteringClicked, setNotesFilteringClicked] = useState(false);
+  const [NotesDataStatisticsClicked, setNotesDataStatisticsClicked] = useState(false);
+  const [NotesSequenceQualityClicked, setNotesSequenceQualityClicked] = useState(false);
 
   const [ProjNameForInfo, setProjNameForInfo] = useState("");
   const [ProjDescForInfo, setProjDescForInfo] = useState("");
@@ -196,6 +218,9 @@ function Projects_Page() {
   const [SampleSetClicked, setSampleSetClicked] = useState(false);
   const [GeneExpressionClicked, setGeneExpressionClicked] = useState(false);
   const [ExpressionHeatmapClicked, setExpressionHeatmapClicked] = useState(false);
+  const [FilteringClicked, setFilteringClicked] = useState(false);
+  const [DataStatisticsClicked, setDataStatisticsClicked] = useState(false);
+  const [SequenceQualityClicked, setSequenceQualityClicked] = useState(false);
 
   const [MetadataTableInfoClicked, setMetadataTableInfoClicked] = useState(false);
 
@@ -661,15 +686,20 @@ function Projects_Page() {
     setSampleSetClicked(false);
     setGeneExpressionClicked(false);
     setExpressionHeatmapClicked(false);
+    setFilteringClicked(false);
+    setDataStatisticsClicked(false);
+    setSequenceQualityClicked(false);
 
     setNotesQCClicked(false);
     setNotesCountsNormalisationClicked(false);
     setNotesGeneExpressionClicked(false);
+    setNotesFilteringClicked(false);
 
     setEditQCClicked(false);
     setEditCorrelationHeatmapClicked(false);
     setEditCountsNormalisationClicked(false);
     setEditPCAClicked(false);
+    setEditSequenceQualityClicked(false);
 
     switch (Category) {
       case "Exp-Setup":
@@ -695,6 +725,8 @@ function Projects_Page() {
         break;
       case "Data-Quality":
         setExpCategory_DataQualityClicked(true);
+        setFilteringClicked(true);
+        setNotesFilteringClicked(true);
         break;
       default:
         break;
@@ -824,6 +856,16 @@ function Projects_Page() {
 
     setExpressionHeatmapClicked(false);
     setNotesExpressionHeatmapClicked(false);
+
+    setFilteringClicked(false);
+    setNotesFilteringClicked(false);
+
+    setDataStatisticsClicked(false);
+    setNotesDataStatisticsClicked(false);
+
+    setSequenceQualityClicked(false);
+    setNotesSequenceQualityClicked(false);
+    setEditSequenceQualityClicked(false);
 
     setisGotoExperimentClicked(true);
     setglobalExperimentID(experimentsID[index]);
@@ -1134,6 +1176,238 @@ function Projects_Page() {
         }
       })
 
+    ////////////////////////////////////////////////////////////////////////////// Filtering ///////////////////////////////////////////////////////////////////////////
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "data_quality/filtering?expt_id=" +
+        experimentsID[index],
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+        }
+      )
+      .then((response) => {
+        setisFilteringEmpty(false);
+        // Handle successful response
+        setDataQuality_Filtering_Data(response.data);
+        //DataQuality_Filtering_Data = response.data;
+        console.log("Data for filtering : ", response.data);
+      })
+      .catch((error) => {
+        setisFilteringEmpty(true);
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Data Statistics ///////////////////////////////////////////////////////////////////////////
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "data_quality/raw_data_statistics?expt_id=" +
+        experimentsID[index],
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+        }
+      )
+      .then((response) => {
+        setisDataStatsEmpty(false);
+        // Handle successful response
+        setDataQuality_DataStatistics_Data(null);
+        setDataQuality_DataStatistics_Data(response.data);
+        console.log("Data for Statistics : ", response.data);
+      })
+      .catch((error) => {
+        setisDataStatsEmpty(true);
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Seq Quality ///////////////////////////////////////////////////////////////////////////
+
+    axios
+      .get(
+        BACKEND_API_URL +
+        "data_quality/sequence_quality?expt_id=" +
+        experimentsID[index],
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+        }
+      )
+      .then((response) => {
+        setisSeqQualityEmpty(false);
+        // Handle successful response
+        setDataQuality_SeqQuality_MeanQualityScores(response.data.base_quality_score.data);
+        setDataQuality_SeqQuality_MeanQualityScoresCopy(response.data.base_quality_score.data);
+        setDataQuality_SeqQuality_Mean_title(
+          response.data.base_quality_score.title
+        );
+        setDataQuality_SeqQuality_Mean_xaxis(
+          response.data.base_quality_score.xaxislabel
+        );
+        setDataQuality_SeqQuality_Mean_yaxis(
+          response.data.base_quality_score.yaxislabel
+        );
+        setDataQuality_SeqQuality_Mean_ycats(
+          response.data.base_quality_score.ycats
+        );
+
+        setDataQuality_SeqQuality_GcContent(response.data.gc_content.data);
+        setDataQuality_SeqQuality_GcContentCopy(response.data.gc_content.data);
+        setDataQuality_SeqQuality_gc_content_title(response.data.gc_content.title);
+        setDataQuality_SeqQuality_gc_content_xaxis(response.data.gc_content.xaxislabel);
+        setDataQuality_SeqQuality_gc_content_yaxis(response.data.gc_content.yaxislabel);
+
+        setDataQuality_SeqQuality_lengthData(response.data.length_distribution.data);
+        setDataQuality_SeqQuality_lengthDataCopy(response.data.length_distribution.data);
+        setDataQuality_SeqQuality_length_title(response.data.length_distribution.title);
+        setDataQuality_SeqQuality_length_xaxis(response.data.length_distribution.xaxislabel);
+        setDataQuality_SeqQuality_length_yaxis(response.data.length_distribution.yaxislabel);
+      })
+      .catch((error) => {
+        setisSeqQualityEmpty(true);
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Seq Quality ///////////////////////////////////////////////////////////////////////////
+
+    axios.get(
+      `${BACKEND_API_URL}data_quality/mapped_samples?expt_id=` + experimentsID[index],
+      {
+        headers: {
+          Authorization: `Bearer ${jwt}`,
+        },
+      }
+    )
+      .then((response) => {
+        setMappedSamples(response.data);
+
+      })
+      .catch((error) => {
+        setisSeqQualityEmpty(true);
+
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Seq Quality ///////////////////////////////////////////////////////////////////////////
+
+    axios.get(
+      `${BACKEND_API_URL}data_quality/qc_stacked_bar_charts?expt_id=${experimentsID[index]}&plot=feature_counts`,
+      {
+        headers: {
+          Authorization: `Bearer ${jwt}`,
+        },
+      }
+    )
+      .then((response) => {
+        setglobalfeaturecounts(response.data);
+        setDataQuality_SeqQuality_FeatureCountsSeries(response.data.series);
+        setDataQuality_SeqQuality_FeatureCountsCategories(response.data.categories);
+        setDataQuality_SeqQuality_FeatureCountsColors(response.data.colors);
+      })
+      .catch((error) => {
+        setisSeqQualityEmpty(true);
+
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Seq Quality ///////////////////////////////////////////////////////////////////////////
+
+    axios.get(
+      `${BACKEND_API_URL}data_quality/qc_stacked_bar_charts?expt_id=${experimentsID[index]}&plot=STAR_alignment`,
+      {
+        headers: {
+          Authorization: `Bearer ${jwt}`,
+        },
+      }
+    )
+      .then((response) => {
+        setglobalstaralignment(response.data);
+        setDataQuality_SeqQuality_StarAlignmentSeries(response.data.series);
+        setDataQuality_SeqQuality_StarAlignmentCategories(response.data.categories);
+        setDataQuality_SeqQuality_StarAlignmentColors(response.data.colors);
+      })
+      .catch((error) => {
+        setisSeqQualityEmpty(true);
+
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Seq Quality ///////////////////////////////////////////////////////////////////////////
+
+    axios.get(
+      `${BACKEND_API_URL}data_quality/qc_stacked_bar_charts?expt_id=${experimentsID[index]}&plot=RSEM_mapping`,
+      {
+        headers: {
+          Authorization: `Bearer ${jwt}`,
+        },
+      }
+    )
+      .then((response) => {
+        setglobalrsemmapping(response.data);
+        setDataQuality_SeqQuality_RsemMappingSeries(response.data.series);
+        setDataQuality_SeqQuality_RsemMappingCategories(response.data.categories);
+        setDataQuality_SeqQuality_RsemMappingColors(response.data.colors);
+      })
+      .catch((error) => {
+        setisSeqQualityEmpty(true);
+
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+    ////////////////////////////////////////////////////////////////////////////// Seq Quality ///////////////////////////////////////////////////////////////////////////
+
+    axios.get(
+      `${BACKEND_API_URL}data_quality/qc_stacked_bar_charts?expt_id=${experimentsID[index]}&plot=FASTQScreen_alignment`,
+      {
+        headers: {
+          Authorization: `Bearer ${jwt}`,
+        },
+      }
+    )
+      .then((response) => {
+        setglobalfastqscreen(response.data);
+        setDataQuality_SeqQuality_FastqScreenSeries(response.data.series);
+        setDataQuality_SeqQuality_FastqScreenCategories(response.data.categories);
+        setDataQuality_SeqQuality_FastqScreenColors(response.data.colors);
+      })
+      .catch((error) => {
+        setisSeqQualityEmpty(true);
+
+        if (error.response.status === 401) {
+          //console.log("Unauthorized access - possible invalid token");
+          navigate("/login");
+        }
+      })
+
+
+
   }
 
   const handleProjectBoxClick = (index) => {
@@ -1266,6 +1540,9 @@ function Projects_Page() {
     setSampleSetClicked(false);
     setGeneExpressionClicked(false);
     setExpressionHeatmapClicked(false);
+    setFilteringClicked(false);
+    setDataStatisticsClicked(false);
+    setSequenceQualityClicked(false);
 
     setNotesQCClicked(false);
     setNotesMetadataClicked(false);
@@ -1275,11 +1552,15 @@ function Projects_Page() {
     setNotesSampleSetClicked(false);
     setNotesGeneExpressionClicked(false);
     setNotesExpressionHeatmapClicked(false);
+    setNotesFilteringClicked(false);
+    setNotesDataStatisticsClicked(false);
+    setNotesSequenceQualityClicked(false);
 
     setEditQCClicked(false);
     setEditCountsNormalisationClicked(false);
     setEditCorrelationHeatmapClicked(false);
     setEditPCAClicked(false);
+    setEditSequenceQualityClicked(false);
 
     switch (SubCategory) {
       case "QualitySummary":
@@ -1314,6 +1595,18 @@ function Projects_Page() {
         setExpressionHeatmapClicked(true);
         setNotesExpressionHeatmapClicked(true);
         break;
+      case "Filtering":
+        setFilteringClicked(true);
+        setNotesFilteringClicked(true);
+        break;
+      case "Data_Statistics":
+        setDataStatisticsClicked(true);
+        setNotesDataStatisticsClicked(true);
+        break;
+      case "Sequence_Quality":
+        setSequenceQualityClicked(true);
+        setNotesSequenceQualityClicked(true);
+        break;
       default:
         break;
     }
@@ -1333,6 +1626,9 @@ function Projects_Page() {
         break;
       case "PCA":
         setEditPCAClicked(!EditPCAClicked);
+        break;
+      case "Sequence_Quality":
+        setEditSequenceQualityClicked(!EditSequenceQualityClicked);
         break;
       default:
         break;
@@ -1365,6 +1661,15 @@ function Projects_Page() {
         break;
       case "Expression_Heatmap":
         setNotesExpressionHeatmapClicked(!NotesExpressionHeatmapClicked);
+        break;
+      case "Filtering":
+        setNotesFilteringClicked(!NotesFilteringClicked);
+        break;
+      case "Data_Statistics":
+        setNotesDataStatisticsClicked(!NotesDataStatisticsClicked);
+        break;
+      case "Sequence_Quality":
+        setNotesSequenceQualityClicked(!NotesSequenceQualityClicked);
         break;
       default:
         break;
@@ -1683,7 +1988,20 @@ function Projects_Page() {
                   <div className={`Exp-SubCategory-list ${ExpressionHeatmapClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("Expression_Heatmap")}>
                     <p>Expression Heatmap</p>
                   </div>
-                  <div className="line-ExpSubCategory-Samples"></div>
+                  <div className="line-ExpSubCategory-Expression"></div>
+                </div>
+
+                <div className={`SubCategory-Container ${ExpCategory_DataQualityClicked ? "" : "d-no"}`}>
+                  <div className={`Exp-SubCategory-list ${FilteringClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("Filtering")}>
+                    <p>Filtering</p>
+                  </div>
+                  <div className={`Exp-SubCategory-list ${DataStatisticsClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("Data_Statistics")}>
+                    <p>Data Statistics</p>
+                  </div>
+                  <div className={`Exp-SubCategory-list ${SequenceQualityClicked ? "clicked" : ""}`} onClick={() => ActivateExp_SubCategory("Sequence_Quality")}>
+                    <p>Sequence Quality</p>
+                  </div>
+                  <div className="line-ExpSubCategory-DataQuality"></div>
                 </div>
 
               </div>
@@ -2037,7 +2355,114 @@ function Projects_Page() {
 
               </div>
 
-              {/* ******************************************************* GeneExpressionClicked ****************************************************/}
+              {/* ******************************************************* ExpressionHeatmapClicked ****************************************************/}
+
+              {/* ******************************************************* FilteringClicked ****************************************************/}
+
+              <div className={`container ${FilteringClicked ? "clicked" : ""}`}>
+
+                <div className={`Notes-Container ${NotesFilteringClicked ? "clicked" : ""}`}>
+                  <div className="Note-Header-Container">
+                    <div className="Notes">
+                      <p>Information about Visual Representation</p>
+                    </div>
+                    <div className="line-Notes"></div>
+                  </div>
+                  <div className="Notes-Content-Container">
+                    <DataQuality_Filtering_Notes_Comp />
+                  </div>
+                </div>
+
+                <div className={`Comp ${NotesFilteringClicked ? "" : ""}`} style={{ padding: "0px 5px 25px 5px" }}>
+                  Filtering Component
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+                <div className="Notes-Btn-Alternate" onClick={() => handleNotesClick("Filtering")}>
+                  <p className={`${NotesFilteringClicked ? "" : "d-no"}`}>Hide Notes</p>
+                  <p className={`${NotesFilteringClicked ? "d-no" : ""}`}>Show Notes</p>
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+              </div>
+
+              {/* ******************************************************* FilteringClicked ****************************************************/}
+
+              {/* ******************************************************* DataStatisticsClicked ****************************************************/}
+
+              <div className={`container ${DataStatisticsClicked ? "clicked" : ""}`}>
+
+                <div className={`Notes-Container ${NotesDataStatisticsClicked ? "clicked" : ""}`}>
+                  <div className="Note-Header-Container">
+                    <div className="Notes">
+                      <p>Information about Visual Representation</p>
+                    </div>
+                    <div className="line-Notes"></div>
+                  </div>
+                  <div className="Notes-Content-Container">
+                    <DataQuality_DataStatistics_Notes_Comp />
+                  </div>
+                </div>
+
+                <div className={`Comp ${NotesDataStatisticsClicked ? "" : "setMargin"}`} style={{ padding: "0px 5px 25px 5px" }}>
+                  Data Statistics Component
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+                <div className="Notes-Btn-Alternate" onClick={() => handleNotesClick("Data_Statistics")}>
+                  <p className={`${NotesDataStatisticsClicked ? "" : "d-no"}`}>Hide Notes</p>
+                  <p className={`${NotesDataStatisticsClicked ? "d-no" : ""}`}>Show Notes</p>
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+              </div>
+
+              {/* ******************************************************* DataStatisticsClicked ****************************************************/}
+
+              {/* ******************************************************* SequenceQualityClicked ****************************************************/}
+
+              <div className={`container ${SequenceQualityClicked ? "clicked" : ""}`}>
+
+                <div className={`Notes-Container ${NotesSequenceQualityClicked ? "clicked" : ""}`}>
+                  <div className="Note-Header-Container">
+                    <div className="Notes">
+                      <p>Information about Visual Representation</p>
+                    </div>
+                    <div className="line-Notes"></div>
+                  </div>
+                  <div className="Notes-Content-Container">
+                    <DataQuality_SequenceQuality_Notes_Comp />
+                  </div>
+                </div>
+
+                <div className={`Comp ${NotesSequenceQualityClicked ? "" : "setMargin"}`} style={{ padding: "0px 20px 25px 20px" }}>
+                  <DataQuality_SeqQuality_Comp />
+                </div>
+
+                {/* ******************************************************* Notes ****************************************************/}
+                <div className="Notes-Btn" onClick={() => handleNotesClick("Sequence_Quality")}>
+                  <p className={`${NotesSequenceQualityClicked ? "" : "d-no"}`}>Hide Notes</p>
+                  <p className={`${NotesSequenceQualityClicked ? "d-no" : ""}`}>Show Notes</p>
+                </div>
+
+
+                {/* ******************************************************* Notes ****************************************************/}
+
+                {/* ******************************************************* Edit ****************************************************/}
+
+                <div className="Edit-Analysis-Btn" onClick={() => handleEditClick("Sequence_Quality")}>
+                  <p>Edit Analysis</p>
+                </div>
+
+                {/* ******************************************************* Edit ****************************************************/}
+
+              </div>
+
+              {/* ******************************************************* SequenceQualityClicked ****************************************************/}
 
               {/* ******************************************************* Edit Container ****************************************************/}
 
@@ -2098,6 +2523,21 @@ function Projects_Page() {
                 </div>
                 <div className="Edit-Content-Container">
                   <Samples_PCA_Control_Comp />
+                </div>
+              </div>
+
+              <div className={`Edit-Container ${EditSequenceQualityClicked ? "clicked" : ""}`}>
+                <div className="Edit-Header-Container" >
+                  <div className="Edit-Analysis">
+                    <p>Edit Analysis</p>
+                  </div>
+                  <div className="line-Edit-Analysis"></div>
+                  <div className="Close-EditContainer" onClick={() => handleEditClick("Sequence_Quality")}>
+                    <img className="FrontArrow-img" src={LeftArrow} alt="" />
+                  </div>
+                </div>
+                <div className="Edit-Content-Container">
+                  Edit Seq Quality
                 </div>
               </div>
 
